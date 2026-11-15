@@ -1,0 +1,941 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -90.1885,
+     38.6255
+    ]
+   },
+   "properties": {
+    "id": "L01",
+    "nom": "Saint-Louis : Joseph Robidoux, cordonnier venu de Montréal",
+    "debut": 1770.5,
+    "fin": 1771.6973,
+    "date_edtf": "1770/1771-09-12",
+    "precision": "circa",
+    "certitude": "approximative",
+    "categorie": "joseph1",
+    "description": "Joseph Robidoux, cordonnier né à Montréal vers 1720, arrive à Saint-Louis avec son fils vers 1770, quand le village de Laclède n'est encore qu'un poste de traite. Il y meurt le 12 septembre 1771. Son fils Joseph (II) devient l'un des traiteurs du poste ; c'est de lui que descendent les Robidoux de l'Ouest.",
+    "sources": "Billon, Annals of St. Louis in its Early Days (1886), p. 444 ; Houck, The Spanish Regime in Missouri (1909), vol. 2, p. 160.",
+    "note": "Houck date sa naissance de 1720, Billon de « vers 1720 » ; date d'arrivée approximative.",
+    "type": "lieu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -90.188,
+     38.6262
+    ]
+   },
+   "properties": {
+    "id": "L02",
+    "nom": "Saint-Louis : Joseph II dans la milice de 1780",
+    "debut": 1780.4003,
+    "fin": 1780.4003,
+    "date_edtf": "1780-05-26",
+    "precision": "jour",
+    "certitude": "approximative",
+    "categorie": "joseph2",
+    "description": "Né au Canada vers 1750 et arrivé à Saint-Louis en 1770, Joseph Robidoux (II) épouse en 1782 Catherine Rollet dit Laderoute, de Cahokia. Lors de l'attaque anglaise et indienne du 26 mai 1780, il est enrôlé dans la 2e compagnie de milice, où il est inscrit comme cordonnier né au Canada. La même année, il porte plainte contre des calomnies et obtient jugement.",
+    "sources": "Houck, The Spanish Regime in Missouri (1909), vol. 1, p. 184-188 ; Billon, Annals of St. Louis in its Early Days (1886), p. 175, 255 ; W. S. Wallace, « Antoine Robidoux », dans Hafen (dir.), French Fur Traders and Voyageurs in the American West (1995), p. 270 ; Houck, The Spanish Regime in Missouri (1909), vol. 2, p. 160.",
+    "note": "La date du 26 mai 1780 est celle de l'attaque ; le rôle de milice est dressé la même année.",
+    "type": "lieu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -90.19,
+     38.57
+    ]
+   },
+   "properties": {
+    "id": "L03",
+    "nom": "Cahokia : mariage avec Catherine Rollet",
+    "debut": 1782.5,
+    "fin": 1782.5,
+    "date_edtf": "1782",
+    "precision": "annee",
+    "certitude": "approximative",
+    "categorie": "joseph2",
+    "description": "En 1782, Joseph Robidoux (II) épouse Catherine Rollet dit Laderoute, de Cahokia, sur la rive illinoise du Mississippi. Ils auront dix enfants, dont Joseph III, Antoine, Louis, François, Isidore, Michel et Jules, qui porteront le nom de Robidoux de Saint-Joseph à Santa Fe et à la Californie.",
+    "sources": "W. S. Wallace, « Antoine Robidoux », dans Hafen (dir.), French Fur Traders and Voyageurs in the American West (1995), p. 270 ; Houck, The Spanish Regime in Missouri (1909), vol. 2, p. 160.",
+    "note": "Le lieu de la cérémonie n'est pas précisé : la famille Rollet est de Cahokia.",
+    "type": "lieu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -90.1856,
+     38.6219
+    ]
+   },
+   "properties": {
+    "id": "L04",
+    "nom": "Saint-Louis : naissance de Joseph III",
+    "debut": 1783.5849,
+    "fin": 1783.5849,
+    "date_edtf": "1783-08-02",
+    "precision": "jour",
+    "certitude": "approximative",
+    "categorie": "joseph3",
+    "description": "Joseph Robidoux (III), aîné de la famille et futur fondateur de Saint-Joseph, naît à Saint-Louis le 2 août 1783. Il hérite de son père la maison de l'angle des rues Main et Myrtle. À treize ans, il fait la traite avec les Indiens sous la direction de son père, puis passe plusieurs années à Michillimakinac.",
+    "sources": "Tassé, Les Canadiens de l'Ouest (1878), t. II, p. 121 ; Billon, Annals of St. Louis in its Early Days (1886), p. 312.",
+    "note": "Maison placée à l'angle des rues Main et Myrtle (aujourd'hui sous le parc de l'Arche) d'après Tassé ; Houck la situe entre Walnut et Elm.",
+    "type": "lieu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -90.189,
+     38.6268
+    ]
+   },
+   "properties": {
+    "id": "L05",
+    "nom": "Saint-Louis : la Compagnie du Missouri et la milice",
+    "debut": 1794.5,
+    "fin": 1800.5,
+    "date_edtf": "1794/1800",
+    "precision": "annee",
+    "certitude": "approximative",
+    "categorie": "joseph2",
+    "description": "En 1794, Joseph Robidoux (II) est membre de la Compagnie de commerce pour la découverte des nations du haut Missouri et caution de son directeur, Jacques Clamorgan, avec qui il entre plus tard en conflit. En 1799, il est lieutenant de milice et souscrit 50 piastres en peaux de chevreuil au don patriotique. En 1800, il signe la requête des marchands contre le monopole de la Compagnie.",
+    "sources": "Houck, The Spanish Regime in Missouri (1909), vol. 2, p. 131, 149-160, 269-270, 299 ; Houck, A History of Missouri (1908), vol. 1, p. 333-334.",
+    "note": "",
+    "type": "lieu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -90.322,
+     38.789
+    ]
+   },
+   "properties": {
+    "id": "L06",
+    "nom": "Florissant : naissance d'Antoine",
+    "debut": 1794.7301,
+    "fin": 1794.7301,
+    "date_edtf": "1794-09-24",
+    "precision": "jour",
+    "certitude": "certaine",
+    "categorie": "antoine",
+    "description": "Antoine Robidoux, septième des dix enfants de Joseph II et de Catherine Rollet, naît le 24 septembre 1794 dans la maison familiale de Florissant (Saint-Ferdinand), au nord de Saint-Louis. Tassé le fait naître à Saint-Louis le 29 août.",
+    "sources": "W. S. Wallace, « Antoine Robidoux », dans Hafen (dir.), French Fur Traders and Voyageurs in the American West (1995), p. 270 ; Tassé, Les Canadiens de l'Ouest (1878), t. II, p. 128.",
+    "note": "Date et lieu selon Wallace ; Tassé donne Saint-Louis, 29 août 1794.",
+    "type": "lieu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -90.1875,
+     38.6258
+    ]
+   },
+   "properties": {
+    "id": "L07",
+    "nom": "Saint-Louis : mort de Joseph II",
+    "debut": 1809.5,
+    "fin": 1809.5,
+    "date_edtf": "1809",
+    "precision": "annee",
+    "certitude": "approximative",
+    "categorie": "joseph2",
+    "description": "Joseph Robidoux (II) meurt à Saint-Louis en 1809. Sa veuve épouse Victor Lagoterie. L'aîné, Joseph III, reprend l'entreprise familiale de traite.",
+    "sources": "Houck, The Spanish Regime in Missouri (1909), vol. 2, p. 160 ; W. S. Wallace, « Antoine Robidoux », dans Hafen (dir.), French Fur Traders and Voyageurs in the American West (1995), p. 270.",
+    "note": "",
+    "type": "lieu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -90.1853,
+     38.6225
+    ]
+   },
+   "properties": {
+    "id": "L08",
+    "nom": "Saint-Louis : la première Chambre du territoire chez Robidoux",
+    "debut": 1812.9331,
+    "fin": 1812.9331,
+    "date_edtf": "1812-12-07",
+    "precision": "jour",
+    "certitude": "approximative",
+    "categorie": "joseph3",
+    "description": "Le 7 décembre 1812, la première Chambre des représentants du territoire du Missouri tient sa séance d'ouverture dans la maison de Joseph Robidoux. En 1817, il loue aux missionnaires baptistes Peck et Welch une pièce derrière son magasin pour une école et le prêche du dimanche.",
+    "sources": "Houck, A History of Missouri (1908), vol. 3, p. 2, 214 ; Tassé, Les Canadiens de l'Ouest (1878), t. II, p. 121.",
+    "note": "",
+    "type": "lieu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -90.192,
+     38.629
+    ]
+   },
+   "properties": {
+    "id": "L09",
+    "nom": "Saint-Louis : Antoine dans l'artillerie",
+    "debut": 1813.3082,
+    "fin": 1813.3685,
+    "date_edtf": "1813-04-23/1813-05",
+    "precision": "jour",
+    "certitude": "certaine",
+    "categorie": "antoine",
+    "description": "Pendant la guerre de 1812, Antoine Robidoux s'engage le 23 avril 1813 dans une compagnie d'artillerie et reçoit son congé honorable un mois plus tard.",
+    "sources": "W. S. Wallace, « Antoine Robidoux », dans Hafen (dir.), French Fur Traders and Voyageurs in the American West (1995), p. 270.",
+    "note": "",
+    "type": "lieu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -84.73,
+     45.86
+    ]
+   },
+   "properties": {
+    "id": "L10",
+    "nom": "Michillimakinac : l'apprentissage de Joseph III",
+    "debut": 1797.5,
+    "fin": 1799.5,
+    "date_edtf": "1797/1799",
+    "precision": "circa",
+    "certitude": "approximative",
+    "categorie": "joseph3",
+    "description": "Formé à la traite dès l'âge de treize ans, Joseph Robidoux (III) passe plusieurs années à Michillimakinac, au carrefour des grands lacs, avant de faire en 1799 son premier voyage sur le Missouri.",
+    "sources": "Tassé, Les Canadiens de l'Ouest (1878), t. II, p. 121.",
+    "note": "Durée et dates du séjour non précisées.",
+    "type": "lieu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -93.2,
+     39.38
+    ]
+   },
+   "properties": {
+    "id": "L11",
+    "nom": "Grand River (comté de Carroll) : le premier poste",
+    "debut": 1800.5,
+    "fin": 1800.5,
+    "date_edtf": "1800~",
+    "precision": "circa",
+    "certitude": "hypothetique",
+    "categorie": "joseph3",
+    "description": "Selon le Campbell Gazetteer cité par Tassé, Joseph Robidoux s'établit d'abord sur la Grand River, dans le comté de Carroll, à six milles d'un poste de Blondeau et de Chouteau. Houck rapporte qu'un Robidoux aurait bâti un fort à deux milles du site de Brunswick vers 1800.",
+    "sources": "Tassé, Les Canadiens de l'Ouest (1878), t. II, p. 122 ; Houck, A History of Missouri (1908), vol. 3, p. 143.",
+    "note": "Version concurrente de celle du Herald de Saint-Joseph (établissement aux Black Snake Hills en 1803).",
+    "type": "lieu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -94.849,
+     39.771
+    ]
+   },
+   "properties": {
+    "id": "L12",
+    "nom": "Black Snake Hills : le comptoir de Joseph Robidoux",
+    "debut": 1803.5,
+    "fin": 1843.5,
+    "date_edtf": "1803/1843",
+    "precision": "annee",
+    "certitude": "approximative",
+    "categorie": "joseph3",
+    "description": "Au pied des collines du Serpent-Noir, Joseph Robidoux tient un comptoir pour les Iowas, les Otos et les Sauks. Le 24 avril 1833, le prince Maximilien de Wied remarque son poste blanchi à la chaux. Le traité d'octobre 1836 lui accorde trois sections de terre en remboursement de ses avances aux Otos, aux Missouris, aux Omahas et aux Sioux Yanktons.",
+    "sources": "Tassé, Les Canadiens de l'Ouest (1878), t. II, p. 121-124 ; Chittenden, The American Fur Trade of the Far West (1902), vol. 2-3, p. 874.",
+    "note": "Date d'établissement discutée (1803 selon le Herald, vers 1826 selon Chittenden).",
+    "type": "lieu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -95.65,
+     40.4
+    ]
+   },
+   "properties": {
+    "id": "L13",
+    "nom": "Embouchure de la Nishnabotna",
+    "debut": 1819.5,
+    "fin": 1819.5,
+    "date_edtf": "1819",
+    "precision": "annee",
+    "certitude": "approximative",
+    "categorie": "joseph3",
+    "description": "En 1819, Joseph Robidoux fait la traite à l'embouchure de la Nishnabotna avec Papin et Berthold, en concurrence avec la Compagnie de fourrures du Missouri.",
+    "sources": "Chittenden, The American Fur Trade of the Far West (1902), vol. 1, p. 150 ; Houck, A History of Missouri (1908), vol. 2, p. 253.",
+    "note": "",
+    "type": "lieu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -96.01,
+     41.45
+    ]
+   },
+   "properties": {
+    "id": "L14",
+    "nom": "Council Bluffs : rivalité avec Cabanné",
+    "debut": 1823.5,
+    "fin": 1825.5,
+    "date_edtf": "1823/1825",
+    "precision": "annee",
+    "certitude": "approximative",
+    "categorie": "joseph3",
+    "description": "Autour de Council Bluffs, Joseph Robidoux mène la traite pour Berthold, Chouteau et Pratte. En 1824, Sylvestre Pratte congédie des engagés en affirmant que les montagnes sont réservées à Robidoux ; Cabanné, privé d'hommes, doit acheter un tiers de l'expédition mexicaine de Joseph Robidoux.",
+    "sources": "D. J. Weber, « Sylvestre S. Pratte », dans Hafen (dir.), French Fur Traders and Voyageurs in the American West (1995), p. 260.",
+    "note": "",
+    "type": "lieu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -94.846,
+     39.768
+    ]
+   },
+   "properties": {
+    "id": "L15",
+    "nom": "Saint-Joseph : la ville de Joseph Robidoux",
+    "debut": 1839.5356,
+    "fin": 1851.5,
+    "date_edtf": "1839-07-15/1851",
+    "precision": "jour",
+    "certitude": "certaine",
+    "categorie": "joseph3",
+    "description": "Le 15 juillet 1839, le premier tribunal de circuit du district siège dans la maison de Joseph Robidoux. En mai 1843, il obtient ses lettres patentes pour environ 160 acres et lotit la ville. En 1845, président du conseil des syndics, il fait incorporer le village de 600 habitants sous le nom de son patron, Saint-Joseph. La ville devient une étape majeure des émigrants vers l'Oregon et la Californie ; Robidoux y achète les fourrures des trappeurs de Taos et protège les familles de passage.",
+    "sources": "Tassé, Les Canadiens de l'Ouest (1878), t. II, p. 124-126 ; Cragin, Early Far West Notebooks (1902-1923), transcription dactylographiée, p. 257, 305.",
+    "note": "Le témoignage d'O. P. Wiggins recueilli par Cragin est à recouper.",
+    "type": "lieu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -94.844,
+     39.766
+    ]
+   },
+   "properties": {
+    "id": "L16",
+    "nom": "Saint-Joseph : mort de Joseph III",
+    "debut": 1868.403,
+    "fin": 1868.403,
+    "date_edtf": "1868-05-27",
+    "precision": "jour",
+    "certitude": "certaine",
+    "categorie": "joseph3",
+    "description": "Joseph Robidoux meurt à Saint-Joseph le 27 mai 1868, à 84 ans. Marié en 1808 à Eugénie Delisle, puis en 1812 à Angélique Vaudry, de Cahokia, il laisse notamment Jules-César, Belavoir, Félix, Edmond, Édouard et Sylvanie. En 1866, le Historical Magazine de New York l'avait salué comme le premier Blanc à pénétrer dans le haut Missouri.",
+    "sources": "Tassé, Les Canadiens de l'Ouest (1878), t. II, p. 126-127 ; Houck, The Spanish Regime in Missouri (1909), vol. 2, p. 160.",
+    "note": "",
+    "type": "lieu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -105.938,
+     35.688
+    ]
+   },
+   "properties": {
+    "id": "L17",
+    "nom": "Santa Fe : le magasin des frères Robidoux",
+    "debut": 1823.5384,
+    "fin": 1830.5,
+    "date_edtf": "1823-07-16/1830",
+    "precision": "jour",
+    "certitude": "certaine",
+    "categorie": "antoine",
+    "description": "Le 16 juillet 1823, une pétition de naturalisation d'Antonio et Luis Robidoux est datée de Santa Fe. En 1828, Antoine épouse Carmel Benavides, fille d'un capitaine espagnol, et devient Don Antonio Robidoux, citoyen mexicain, pour obtenir les licences de trappe réservées aux Mexicains. En 1830, il préside la junta del ayuntamiento de Santa Fe. Les Robidoux, amis du gouverneur Armijo, y tiennent magasin.",
+    "sources": "W. S. Wallace, « Antoine Robidoux », dans Hafen (dir.), French Fur Traders and Voyageurs in the American West (1995), p. 270-271 ; Cragin, Early Far West Notebooks (1902-1923), transcription dactylographiée, p. 138-141 ; A. Roy, « Sur la piste de Santa Fe », dans Frenette, Rivard et St-Hilaire (dir.), La francophonie nord-américaine (2012), p. 104.",
+    "note": "",
+    "type": "lieu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -105.573,
+     36.407
+    ]
+   },
+   "properties": {
+    "id": "L18",
+    "nom": "Taos : naturalisation et colonie étrangère",
+    "debut": 1829.4808,
+    "fin": 1840.5,
+    "date_edtf": "1829-06-25/1840",
+    "precision": "jour",
+    "certitude": "certaine",
+    "categorie": "louis",
+    "description": "Le 25 juin 1829, Antoine et Louis Robidoux sont naturalisés mexicains avec Charles Beaubien, Gervais Nolan et John Rowland. Louis vit entre Santa Fe et Taos ; avec Beaubien et Charles Bent, les Robidoux appartiennent à la colonie étrangère de Taos, en rivalité avec le parti du padre Martínez.",
+    "sources": "L. R. Murphy, « Charles Beaubien », dans Hafen (dir.), French Fur Traders and Voyageurs in the American West (1995), p. 33-34 ; Cragin, Early Far West Notebooks (1902-1923), transcription dactylographiée, p. 131.",
+    "note": "",
+    "type": "lieu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -105.576,
+     36.41
+    ]
+   },
+   "properties": {
+    "id": "L19",
+    "nom": "Taos : saisie des fourrures de François Robidoux",
+    "debut": 1826.1247,
+    "fin": 1826.8644,
+    "date_edtf": "1826-02/1826-11-12",
+    "precision": "mois",
+    "certitude": "certaine",
+    "categorie": "freres",
+    "description": "En 1826, l'alcalde de Taos saisit environ 630 livres de castor de Sylvestre Pratte et de François Robidoux, faute de citoyenneté mexicaine. À Santa Fe, ils obtiennent du gouverneur Narbona la levée de la saisie malgré la révocation de leurs licences. Cette perte décide Antoine à se faire naturaliser.",
+    "sources": "D. J. Weber, « Sylvestre S. Pratte », dans Hafen (dir.), French Fur Traders and Voyageurs in the American West (1995), p. 263 ; W. S. Wallace, « Antoine Robidoux », dans Hafen (dir.), French Fur Traders and Voyageurs in the American West (1995), p. 271.",
+    "note": "",
+    "type": "lieu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -110.0,
+     33.15
+    ]
+   },
+   "properties": {
+    "id": "L20",
+    "nom": "Gila : le massacre du parti de Michel Robidoux",
+    "debut": 1826.5,
+    "fin": 1826.5,
+    "date_edtf": "1826~",
+    "precision": "circa",
+    "certitude": "hypothetique",
+    "categorie": "freres",
+    "description": "À l'automne 1826, le gouverneur Narbona signale un parti de trappeurs conduit par Michel Robidoux et financé par Sylvestre Pratte sur la Gila. Seuls trois des vingt hommes survivent à une attaque indienne.",
+    "sources": "D. J. Weber, « Sylvestre S. Pratte », dans Hafen (dir.), French Fur Traders and Voyageurs in the American West (1995), p. 264.",
+    "note": "Lieu précis inconnu sur la Gila ; le récit de James O. Pattie est la source principale.",
+    "type": "lieu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -105.57,
+     36.404
+    ]
+   },
+   "properties": {
+    "id": "L21",
+    "nom": "Taos : François Robidoux part pour le pays ute",
+    "debut": 1827.2014,
+    "fin": 1827.2014,
+    "date_edtf": "1827-03",
+    "precision": "mois",
+    "certitude": "certaine",
+    "categorie": "freres",
+    "description": "En mars 1827, François Robidoux quitte Taos pour le pays ute avec un parti de trappeurs où figurent Baptiste Chalifoux et Maurice LeDuc.",
+    "sources": "J. Lecompte, « Jean-Baptiste Chalifoux », dans Hafen (dir.), French Fur Traders and Voyageurs in the American West (1995), p. 64.",
+    "note": "",
+    "type": "lieu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -108.074,
+     38.749
+    ]
+   },
+   "properties": {
+    "id": "L22",
+    "nom": "Fort Uncompahgre (fort Robidoux)",
+    "debut": 1828.5,
+    "fin": 1844.5,
+    "date_edtf": "1828/1844",
+    "precision": "annee",
+    "certitude": "approximative",
+    "categorie": "antoine",
+    "description": "Vers 1828, Antoine Robidoux bâtit un petit fort au confluent de la Gunnison et de l'Uncompahgre, près de l'actuelle Delta (Colorado) : le seul poste de traite du bassin de la Grand River, sur la route des trappeurs du Nouveau-Mexique vers la Green, Brown's Hole et plus tard Fort Bridger. Francisco Trujillo, qui y travaille pour Robidoux, est abattu par des Utes en relevant ses pièges. Les vestiges disparaissent dans les années 1880 ; une reconstitution existe depuis 1990.",
+    "sources": "W. S. Wallace, « Antoine Robidoux », dans Hafen (dir.), French Fur Traders and Voyageurs in the American West (1995), p. 272 ; Chittenden, The American Fur Trade of the Far West (1902), vol. 2-3, p. 506, 781-782 ; Cragin, Early Far West Notebooks (1902-1923), transcription dactylographiée, p. 83.",
+    "note": "Date de fondation incertaine (milieu des années 1820 selon Wallace, 1828 selon d'autres auteurs).",
+    "type": "lieu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -109.917,
+     40.46
+    ]
+   },
+   "properties": {
+    "id": "L23",
+    "nom": "Fort Uintah (fort Robidoux)",
+    "debut": 1832.5,
+    "fin": 1844.7883,
+    "date_edtf": "1832/1844-10",
+    "precision": "annee",
+    "certitude": "approximative",
+    "categorie": "antoine",
+    "description": "Au confluent de l'Uinta et du Whiterocks, Antoine Robidoux tient un second fort, où il rachète en 1832 le poste de Reed. On y traite avec les trappeurs de la Bear, de la Green et du Colorado et avec les Snakes et les Utes : chevaux, castors et peaux contre munitions, armes, tabac et perles. Rufus Sage y admire des peaux d'une blancheur de neige achetées pour quelques charges de poudre. En septembre 1902, Cragin y dessine le plan du « Old Ft. Robidoux ».",
+    "sources": "W. S. Wallace, « Antoine Robidoux », dans Hafen (dir.), French Fur Traders and Voyageurs in the American West (1995), p. 272 ; Chittenden, The American Fur Trade of the Far West (1902), vol. 2-3, p. 506 ; Cragin, Early Far West Notebooks (1902-1923), transcription dactylographiée, p. 51-55.",
+    "note": "",
+    "type": "lieu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -109.926,
+     40.47
+    ]
+   },
+   "properties": {
+    "id": "L24",
+    "nom": "Fort Uintah : les « pécheurs » du révérend Williams",
+    "debut": 1842.5356,
+    "fin": 1842.5685,
+    "date_edtf": "1842-07/1842-07-27",
+    "precision": "mois",
+    "certitude": "certaine",
+    "categorie": "antoine",
+    "description": "En juillet 1842, le méthodiste Joseph Williams attend Robidoux dix-huit jours au fort et s'indigne : on y achète et vend des femmes indiennes, et Robidoux emmène des femmes et des enfants indiens pour les vendre au Nouveau-Mexique. Williams prêche en vain. La caravane part le 27 juillet.",
+    "sources": "W. S. Wallace, « Antoine Robidoux », dans Hafen (dir.), French Fur Traders and Voyageurs in the American West (1995), p. 273.",
+    "note": "Récit très hostile, mais l'un des deux seuls témoignages directs sur les forts Robidoux.",
+    "type": "lieu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -106.7,
+     38.16
+    ]
+   },
+   "properties": {
+    "id": "L25",
+    "nom": "Col de Cochetopa : le chariot de Robidoux",
+    "debut": 1842.6342,
+    "fin": 1842.6342,
+    "date_edtf": "1842-08-20",
+    "precision": "jour",
+    "certitude": "approximative",
+    "categorie": "antoine",
+    "description": "Entre le 19 et le 21 août 1842, au col de Cochetopa, Robidoux retrouve et attelle le chariot qu'il y avait laissé l'année précédente : la preuve que des roues passaient déjà par cette piste au début des années 1840.",
+    "sources": "W. S. Wallace, « Antoine Robidoux », dans Hafen (dir.), French Fur Traders and Voyageurs in the American West (1995), p. 276.",
+    "note": "",
+    "type": "lieu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -108.55,
+     39.07
+    ]
+   },
+   "properties": {
+    "id": "L26",
+    "nom": "Grand Junction : Marcus Whitman traverse le Colorado",
+    "debut": 1842.8726,
+    "fin": 1842.8726,
+    "date_edtf": "1842-11",
+    "precision": "mois",
+    "certitude": "certaine",
+    "categorie": "antoine",
+    "description": "Vers le 1er novembre 1842, le missionnaire Marcus Whitman, parti de Waiilatpu pour Boston, arrive au fort Uintah avec Asa Lovejoy ; un guide de Robidoux les mène vers le fort de la Gunnison. Au confluent, Whitman se jette le premier dans le Colorado en crue avec son cheval et gagne la glace de l'autre rive.",
+    "sources": "W. S. Wallace, « Antoine Robidoux », dans Hafen (dir.), French Fur Traders and Voyageurs in the American West (1995), p. 279.",
+    "note": "",
+    "type": "lieu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -105.48,
+     37.73
+    ]
+   },
+   "properties": {
+    "id": "L27",
+    "nom": "Robidoux Pass (col Mosca)",
+    "debut": 1848.5,
+    "fin": 1853.5,
+    "date_edtf": "1848/1853",
+    "precision": "annee",
+    "certitude": "approximative",
+    "categorie": "antoine",
+    "description": "L'entrée orientale de la vallée de San Luis, aujourd'hui le col Mosca, s'appelait « Roubideau's Pass » dans le journal de l'expédition Gunnison en 1853 ; Frémont l'emprunte en 1848. Le nom rappelle la route des convois Robidoux vers les forts de l'Ouest.",
+    "sources": "W. S. Wallace, « Antoine Robidoux », dans Hafen (dir.), French Fur Traders and Voyageurs in the American West (1995), p. 280.",
+    "note": "Toponyme francophone disparu.",
+    "type": "lieu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -104.61,
+     38.27
+    ]
+   },
+   "properties": {
+    "id": "L28",
+    "nom": "Fort El Pueblo : Leonora, fille d'un Robidoux",
+    "debut": 1843.5,
+    "fin": 1844.5,
+    "date_edtf": "1843/1844",
+    "precision": "annee",
+    "certitude": "approximative",
+    "categorie": "famille",
+    "description": "Parmi les habitants du fort El Pueblo en 1843-1844 vit Leonora, trois ou quatre ans, aux cheveux très blonds, fille d'un Robidoux (probablement « le riche ») et de Rufina García.",
+    "sources": "Cragin, Early Far West Notebooks (1902-1923), transcription dactylographiée, p. 82, 84.",
+    "note": "",
+    "type": "lieu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -109.93,
+     40.475
+    ]
+   },
+   "properties": {
+    "id": "L29",
+    "nom": "Fort Uintah : le massacre de 1844",
+    "debut": 1844.7883,
+    "fin": 1844.7883,
+    "date_edtf": "1844-10",
+    "precision": "mois",
+    "certitude": "certaine",
+    "categorie": "antoine",
+    "description": "À l'automne 1844, les Utes, exaspérés par le « Taos Lightning » et la traite des captifs, attaquent le fort, tuent les hommes et emmènent les femmes. Le 20 octobre, Andrew Sublette écrit de Taos qu'un trappeur espagnol rescapé a trouvé cinq ou six Espagnols et un Américain tués. Le fort Uncompahgre est abandonné à la même époque.",
+    "sources": "W. S. Wallace, « Antoine Robidoux », dans Hafen (dir.), French Fur Traders and Voyageurs in the American West (1995), p. 281.",
+    "note": "",
+    "type": "lieu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -94.848,
+     39.77
+    ]
+   },
+   "properties": {
+    "id": "L30",
+    "nom": "Saint-Joseph : Antoine rejoint ses frères",
+    "debut": 1845.5,
+    "fin": 1845.5,
+    "date_edtf": "1845",
+    "precision": "annee",
+    "certitude": "certaine",
+    "categorie": "antoine",
+    "description": "Fin 1844 ou début 1845, Antoine Robidoux abandonne ses forts et s'installe à Saint-Joseph, la ville de son frère Joseph. Sa fille adoptive Carmelette y épouse Isadore Barada et meurt peu après la naissance d'Amanda. Tassé situe son installation près de ses frères dès 1840.",
+    "sources": "W. S. Wallace, « Antoine Robidoux », dans Hafen (dir.), French Fur Traders and Voyageurs in the American West (1995), p. 281 ; Tassé, Les Canadiens de l'Ouest (1878), t. II, p. 128-129.",
+    "note": "",
+    "type": "lieu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -94.85,
+     39.772
+    ]
+   },
+   "properties": {
+    "id": "L31",
+    "nom": "Saint-Joseph : Jules Robidoux",
+    "debut": 1843.5,
+    "fin": 1875.1548,
+    "date_edtf": "1843/1875-02-26",
+    "precision": "annee",
+    "certitude": "certaine",
+    "categorie": "jules",
+    "description": "Jules Robidoux, frère de Joseph, bâtit en 1843 la deuxième maison de la future ville de Saint-Joseph. En 1849, il passe au fort Laramie comme traiteur. Il assiste en septembre 1874 à l'assemblée des pionniers du Missouri et meurt à Saint-Joseph le 26 février 1875.",
+    "sources": "Tassé, Les Canadiens de l'Ouest (1878), t. II, p. 125-128 ; Cragin, Early Far West Notebooks (1902-1923), transcription dactylographiée, p. 224.",
+    "note": "",
+    "type": "lieu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -116.95,
+     33.09
+    ]
+   },
+   "properties": {
+    "id": "L32",
+    "nom": "San Pasqual : Antoine blessé d'un coup de lance",
+    "debut": 1846.9301,
+    "fin": 1846.9301,
+    "date_edtf": "1846-12-06",
+    "precision": "jour",
+    "certitude": "certaine",
+    "categorie": "antoine",
+    "description": "À la bataille de San Pasqual, le 6 décembre 1846, Antoine Robidoux reçoit un coup de lance dans le dos. Son frère Louis possède alors de grandes terres dans ce qui deviendra les comtés de San Bernardino, d'Orange et de Riverside.",
+    "sources": "W. S. Wallace, « Antoine Robidoux », dans Hafen (dir.), French Fur Traders and Voyageurs in the American West (1995), p. 281 ; Tassé, Les Canadiens de l'Ouest (1878), t. II, p. 128.",
+    "note": "",
+    "type": "lieu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -77.15,
+     -12.05
+    ]
+   },
+   "properties": {
+    "id": "L33",
+    "nom": "Callao : le retour par mer",
+    "debut": 1847.5,
+    "fin": 1848.5,
+    "date_edtf": "1847/1848",
+    "precision": "annee",
+    "certitude": "approximative",
+    "categorie": "antoine",
+    "description": "Souffrant de ses blessures, Antoine rentre par bateau « via le Pérou, la Jamaïque et d'autres lieux » jusqu'à La Nouvelle-Orléans, et en réclame le remboursement au Congrès.",
+    "sources": "W. S. Wallace, « Antoine Robidoux », dans Hafen (dir.), French Fur Traders and Voyageurs in the American West (1995), p. 282.",
+    "note": "Escale péruvienne placée au Callao.",
+    "type": "lieu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -117.43,
+     33.99
+    ]
+   },
+   "properties": {
+    "id": "L34",
+    "nom": "Rancho de Jurupa : Louis Robidoux",
+    "debut": 1846.5,
+    "fin": 1868.5,
+    "date_edtf": "1846/1868",
+    "precision": "annee",
+    "certitude": "approximative",
+    "categorie": "louis",
+    "description": "Louis Robidoux, frère de Joseph et d'Antoine, ancien commerçant de Santa Fe, devient ranchero en Californie au rancho de Jurupa, aujourd'hui Riverside. Il meurt en 1868. Le mont Rubidoux, à Riverside, porte encore son nom.",
+    "sources": "Cragin, Early Far West Notebooks (1902-1923), transcription dactylographiée, p. 131, 141 ; W. S. Wallace, « Antoine Robidoux », dans Hafen (dir.), French Fur Traders and Voyageurs in the American West (1995), p. 281.",
+    "note": "Le mont Rubidoux est signalé ici d'après la toponymie actuelle.",
+    "type": "lieu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -117.36,
+     34.04
+    ]
+   },
+   "properties": {
+    "id": "L35",
+    "nom": "Agua Mansa : la famille de Louis",
+    "debut": 1846.5,
+    "fin": 1868.5,
+    "date_edtf": "1846/1868",
+    "precision": "annee",
+    "certitude": "approximative",
+    "categorie": "louis",
+    "description": "La famille de Louis Robidoux vit près de l'ancienne mission espagnole d'Agua Mansa, entre Riverside et San Bernardino ; ses registres sont conservés à l'église catholique de San Bernardino.",
+    "sources": "Cragin, Early Far West Notebooks (1902-1923), transcription dactylographiée, p. 141.",
+    "note": "",
+    "type": "lieu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -104.558,
+     42.203
+    ]
+   },
+   "properties": {
+    "id": "L36",
+    "nom": "Fort Laramie : Jules Robidoux, traiteur",
+    "debut": 1849.5,
+    "fin": 1849.5,
+    "date_edtf": "1849",
+    "precision": "annee",
+    "certitude": "certaine",
+    "categorie": "jules",
+    "description": "Pendant l'hiver 1849, Josiah F. Smith, qui chasse pour le fort Laramie avec James Bordeaux, y voit passer Jules Robidoux, traiteur. Le fort Platte voisin est alors abandonné.",
+    "sources": "Cragin, Early Far West Notebooks (1902-1923), transcription dactylographiée, p. 224, 244-245.",
+    "note": "",
+    "type": "lieu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -103.75,
+     41.82
+    ]
+   },
+   "properties": {
+    "id": "L37",
+    "nom": "Col de Robidoux (Scotts Bluff)",
+    "debut": 1849.563,
+    "fin": 1852.5,
+    "date_edtf": "1849-07-25/1852",
+    "precision": "jour",
+    "certitude": "approximative",
+    "categorie": "famille",
+    "description": "Sur la route de l'Oregon, le col de Robidoux, à l'ouest de Scotts Bluff, porte le nom de la famille qui y tenait un poste de traite et une forge pour les émigrants. En juillet 1849, le poste de Fort Pierre que dirige Andrew Drips s'y installe d'abord, avant de descendre à huit milles au sud de Scotts Bluff (Fort John).",
+    "sources": "C. E. Hanson Jr., « Joseph Moncravie », dans Hafen (dir.), French Fur Traders and Voyageurs in the American West (1995), p. 233.",
+    "note": "Le membre de la famille qui tenait le poste du col n'est pas précisé dans la source utilisée.",
+    "type": "lieu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -94.843,
+     39.768
+    ]
+   },
+   "properties": {
+    "id": "L38",
+    "nom": "Saint-Joseph : mort d'Antoine",
+    "debut": 1860.6598,
+    "fin": 1860.6598,
+    "date_edtf": "1860-08-29",
+    "precision": "jour",
+    "certitude": "certaine",
+    "categorie": "antoine",
+    "description": "Antoine Robidoux passe ses cinq dernières années à Saint-Joseph, aidé par David Waldo pour réclamer une pension, et y meurt le 29 août 1860. La St. Joseph Gazette le croyait installé en Californie depuis des années.",
+    "sources": "W. S. Wallace, « Antoine Robidoux », dans Hafen (dir.), French Fur Traders and Voyageurs in the American West (1995), p. 282 ; Tassé, Les Canadiens de l'Ouest (1878), t. II, p. 129.",
+    "note": "Tassé donne le 29 avril 1860.",
+    "type": "lieu"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -105.936,
+     35.686
+    ]
+   },
+   "properties": {
+    "id": "L39",
+    "nom": "Santa Fe : quatre voyages et deux maires",
+    "debut": 1822.5,
+    "fin": 1829.5,
+    "date_edtf": "1822/1829",
+    "precision": "annee",
+    "certitude": "certaine",
+    "categorie": "freres",
+    "description": "Antoine, Michel et François Robidoux font quatre voyages de Saint-Louis à Santa Fe entre 1822 et 1825. Devenus citoyens mexicains en 1829, deux d'entre eux sont élus à la tête de la municipalité de Santa Fe.",
+    "sources": "A. Roy, « Sur la piste de Santa Fe », dans Frenette, Rivard et St-Hilaire (dir.), La francophonie nord-américaine (2012), p. 104.",
+    "note": "",
+    "type": "lieu"
+   }
+  }
+ ]
+}

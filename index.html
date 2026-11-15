@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Atlas géohistorique — La famille Robidoux (1720–1876)</title>
+  <meta name="author" content="Olivier J. Caron, Département de géographie, UQAM">
+  <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@5/dist/maplibre-gl.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&family=IM+Fell+English+SC&display=swap">
+  <link rel="stylesheet" href="css/style.css?v=1">
+</head>
+<body>
+  <header class="barre">
+    <img class="embleme" src="images/cavalier.svg" alt="" width="54" height="45">
+    <div class="titre">
+      <h1>Atlas Robidoux <span>1720–1876</span></h1>
+      <p class="projet">Une famille de traiteurs, de Montréal à la Californie</p>
+    </div>
+    <a class="lien-reseau" href="https://geolas2023.github.io/Atlas-Les-Canadiens-Fran-ais-de-l-Ouest/" title="Accueil du réseau : tous les atlas des francophones d'Amérique du Nord">⚜ Atlas de l'Amérique française</a>
+    <p class="credit"><a href="https://professeurs.uqam.ca/professeur/caron.olivier/" target="_blank" rel="noopener" title="Page de professeur, UQAM">Olivier J. Caron</a> · <a href="https://geo.uqam.ca/" target="_blank" rel="noopener" title="Département de géographie de l'UQAM">Département de géographie</a> <a href="https://uqam.ca" title="Université du Québec à Montréal"><img class="logo-uqam" src="images/uqam-logo.svg" alt="UQAM"></a></p>
+  </header>
+
+  <main class="contenu">
+    <div id="carte" aria-label="Carte interactive">
+      <!-- Habillage de la carte (parchemin, bords brûlés, coins, rose des vents) : décor seulement, ne capte pas les clics -->
+      <div class="parchemin" aria-hidden="true">
+        <span class="coin hg"></span><span class="coin hd"></span><span class="coin bg"></span><span class="coin bd"></span>
+        <img class="rose" src="images/rose-des-vents.svg" alt="">
+      </div>
+      <details id="legende-carte" class="legende-carte" open>
+        <summary>Légende</summary>
+        <h3>Lieux, par membre de la famille</h3>
+        <label><input type="checkbox" id="c-lieux" checked> Afficher</label>
+        <ul>
+          <li><i class="pt joseph1"></i> Joseph Ier (v. 1720-1771)</li>
+          <li><i class="pt joseph2"></i> Joseph II (v. 1750-1809)</li>
+          <li><i class="pt joseph3"></i> Joseph III (1783-1868)</li>
+          <li><i class="pt antoine"></i> Antoine (1794-1860)</li>
+          <li><i class="pt louis"></i> Louis (1796-1868)</li>
+          <li><i class="pt freres"></i> François et Michel</li>
+          <li><i class="pt jules"></i> Jules (m. 1875)</li>
+          <li><i class="pt famille"></i> la famille, le nom</li>
+          <li><i class="pt incertain"></i> localisation approximative</li>
+        </ul>
+        <h3>Routes</h3>
+        <label><input type="checkbox" id="c-trajets" checked> Afficher</label>
+        <ul>
+          <li><i class="ln terre"></i> à cheval, en convoi, en bateau</li>
+          <li><i class="ln hypo"></i> tracé hypothétique</li>
+        </ul>
+        <h3>Fond de carte</h3>
+        <div class="choix-fond" role="radiogroup" aria-label="Fond de carte">
+          <label><input type="radio" name="fond" value="plan" checked><i class="sw plan"></i> Plan</label>
+          <label><input type="radio" name="fond" value="parchemin"><i class="sw parchemin"></i> Parchemin ancien</label>
+          <label><input type="radio" name="fond" value="satellite"><i class="sw satellite"></i> Satellite</label>
+        </div>
+        <button type="button" id="btn-apropos" class="btn-apropos">À propos de l'atlas</button>
+      </details>
+    </div>
+    <aside id="panneau" aria-live="polite" aria-label="Journal de bord"></aside>
+  </main>
+
+  <footer class="timeline">
+    <button id="lecture" aria-label="Lecture">▶</button>
+    <label class="suivi" title="La carte suit les Robidoux : envol vers chaque lieu, le cavalier ou le canot parcourt chaque route"><input type="checkbox" id="suivi" checked> Suivre les Robidoux</label>
+    <label class="suivi" title="Vitesse de la visite animée">Vitesse
+      <select id="vitesse" aria-label="Vitesse de la visite">
+        <option value="1">×1</option>
+        <option value="2" selected>×2</option>
+        <option value="4">×4</option>
+      </select>
+    </label>
+    <div class="piste">
+      <input type="range" id="curseur" min="0" max="750" step="1" value="750" aria-label="Date affichée">
+      <div id="graduation" aria-hidden="true"></div>
+    </div>
+    <output id="date-affichee">Toutes les dates</output>
+  </footer>
+
+  <script src="https://unpkg.com/maplibre-gl@5/dist/maplibre-gl.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/topojson-client@3/dist/topojson-client.min.js"></script>
+  <script src="js/fonds.js?v=1"></script>
+  <script src="js/app.js?v=1"></script>
+  <script src="js/visite.js?v=1"></script>
+</body>
+</html>

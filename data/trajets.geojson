@@ -1,0 +1,437 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -90.19,
+      38.627
+     ],
+     [
+      -90.48,
+      38.84
+     ],
+     [
+      -91.2,
+      38.7
+     ],
+     [
+      -92.2,
+      38.95
+     ],
+     [
+      -92.73,
+      39.0
+     ],
+     [
+      -93.13,
+      39.42
+     ],
+     [
+      -93.8,
+      39.25
+     ],
+     [
+      -94.4,
+      39.12
+     ],
+     [
+      -94.6,
+      39.12
+     ],
+     [
+      -94.75,
+      39.3
+     ],
+     [
+      -94.9,
+      39.55
+     ],
+     [
+      -94.846,
+      39.768
+     ]
+    ]
+   },
+   "properties": {
+    "id": "T01",
+    "nom": "Remontée du Missouri vers les Black Snake Hills",
+    "debut": 1799.5,
+    "fin": 1803.5,
+    "date_edtf": "1799/1803",
+    "certitude": "approximative",
+    "mode": "fleuve",
+    "membre": "joseph3",
+    "description": "Joseph Robidoux fait en 1799 son premier voyage sur le Missouri. Selon le Herald de Saint-Joseph, il s'établit en 1803 au pied des collines du Serpent-Noir (Black Snake Hills) et y bâtit une cabane près de la rivière.",
+    "sources": "Tassé, Les Canadiens de l'Ouest (1878), t. II, p. 121.",
+    "note": "",
+    "type": "trajet"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -96.01,
+      41.45
+     ],
+     [
+      -95.9,
+      41.0
+     ],
+     [
+      -95.4,
+      40.0
+     ],
+     [
+      -94.6,
+      39.1
+     ],
+     [
+      -95.7,
+      38.8
+     ],
+     [
+      -97.0,
+      38.65
+     ],
+     [
+      -98.2,
+      38.4
+     ],
+     [
+      -99.3,
+      38.2
+     ],
+     [
+      -100.4,
+      37.8
+     ],
+     [
+      -101.5,
+      37.9
+     ],
+     [
+      -103.0,
+      37.6
+     ],
+     [
+      -104.5,
+      37.0
+     ],
+     [
+      -105.0,
+      36.6
+     ],
+     [
+      -105.573,
+      36.407
+     ]
+    ]
+   },
+   "properties": {
+    "id": "T02",
+    "nom": "Les convois Robidoux de Fort Atkinson à Taos",
+    "debut": 1824.7473,
+    "fin": 1825.6616,
+    "date_edtf": "1824-09-30/1825-08-30",
+    "certitude": "hypothetique",
+    "mode": "terre",
+    "membre": "antoine",
+    "description": "Le journal de James Kennerly, à Fort Atkinson, note le départ du « parti Robidoux » pour Santa Fe le 30 septembre 1824, son retour de Taos le 30 août 1825 et un nouveau départ le 14 septembre. Les frères Robidoux font quatre voyages à Santa Fe entre 1822 et 1825.",
+    "sources": "W. S. Wallace, « Antoine Robidoux », dans Hafen (dir.), French Fur Traders and Voyageurs in the American West (1995), p. 271 ; A. Roy, « Sur la piste de Santa Fe », dans Frenette, Rivard et St-Hilaire (dir.), La francophonie nord-américaine (2012), p. 104.",
+    "note": "Le chef du convoi n'est pas nommé (Antoine est le plus probable) ; la route suit la piste de Santa Fe.",
+    "type": "trajet"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -109.917,
+      40.46
+     ],
+     [
+      -109.5,
+      40.1
+     ],
+     [
+      -109.0,
+      39.6
+     ],
+     [
+      -108.6,
+      39.3
+     ],
+     [
+      -108.55,
+      39.07
+     ],
+     [
+      -108.3,
+      38.95
+     ],
+     [
+      -108.074,
+      38.749
+     ],
+     [
+      -107.6,
+      38.5
+     ],
+     [
+      -107.0,
+      38.4
+     ],
+     [
+      -106.7,
+      38.16
+     ],
+     [
+      -106.3,
+      37.9
+     ],
+     [
+      -105.9,
+      37.4
+     ],
+     [
+      -105.7,
+      36.9
+     ],
+     [
+      -105.573,
+      36.407
+     ]
+    ]
+   },
+   "properties": {
+    "id": "T03",
+    "nom": "Du fort Uintah à Taos avec Joseph Williams",
+    "debut": 1842.5685,
+    "fin": 1842.7055,
+    "date_edtf": "1842-07-27/1842-09",
+    "certitude": "approximative",
+    "mode": "terre",
+    "membre": "antoine",
+    "description": "La caravane d'Antoine Robidoux dort sous le Pictured Rock, franchit la Grand River, s'arrête au fort Uncompahgre, où Williams prêche le 14 août, puis gagne le col de Cochetopa : Robidoux y attelle le chariot qu'il avait laissé un an plus tôt, et mocassins et couvertures gèlent. Elle descend ensuite la vallée du rio Grande jusqu'à Taos.",
+    "sources": "W. S. Wallace, « Antoine Robidoux », dans Hafen (dir.), French Fur Traders and Voyageurs in the American West (1995), p. 274-276.",
+    "note": "",
+    "type": "trajet"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -105.573,
+      36.407
+     ],
+     [
+      -106.1,
+      36.9
+     ],
+     [
+      -106.9,
+      37.1
+     ],
+     [
+      -107.6,
+      37.3
+     ],
+     [
+      -108.0,
+      37.45
+     ],
+     [
+      -108.6,
+      37.9
+     ],
+     [
+      -108.9,
+      38.5
+     ],
+     [
+      -109.2,
+      39.2
+     ],
+     [
+      -109.5,
+      39.9
+     ],
+     [
+      -109.917,
+      40.46
+     ]
+    ]
+   },
+   "properties": {
+    "id": "T04",
+    "nom": "De Taos au fort Uintah avec Rufus Sage",
+    "debut": 1842.7658,
+    "fin": 1842.7986,
+    "date_edtf": "1842-10-07/1842-10-19",
+    "certitude": "hypothetique",
+    "mode": "terre",
+    "membre": "antoine",
+    "description": "Le 7 octobre 1842, Robidoux repart de Taos avec trois Français, cinq Espagnols et huit mulets chargés chacun de 250 livres ; Rufus Sage est du voyage. La caravane franchit la ligne de partage au sud des monts La Plata et atteint le fort Uintah six jours plus tard.",
+    "sources": "W. S. Wallace, « Antoine Robidoux », dans Hafen (dir.), French Fur Traders and Voyageurs in the American West (1995), p. 276-277.",
+    "note": "Wallace suppose une seconde piste par la Dolores, sans passer par le fort Uncompahgre ; tracé reconstitué.",
+    "type": "trajet"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -105.938,
+      35.687
+     ],
+     [
+      -106.6,
+      35.1
+     ],
+     [
+      -106.8,
+      34.0
+     ],
+     [
+      -107.2,
+      33.0
+     ],
+     [
+      -108.2,
+      32.8
+     ],
+     [
+      -109.3,
+      32.95
+     ],
+     [
+      -110.8,
+      32.9
+     ],
+     [
+      -112.0,
+      33.0
+     ],
+     [
+      -113.5,
+      32.8
+     ],
+     [
+      -114.6,
+      32.73
+     ],
+     [
+      -115.6,
+      32.8
+     ],
+     [
+      -116.4,
+      33.0
+     ],
+     [
+      -116.95,
+      33.09
+     ]
+    ]
+   },
+   "properties": {
+    "id": "T05",
+    "nom": "Avec Kearny, de Santa Fe à San Pasqual",
+    "debut": 1846.7329,
+    "fin": 1846.9301,
+    "date_edtf": "1846-09-25/1846-12-06",
+    "certitude": "approximative",
+    "mode": "terre",
+    "membre": "antoine",
+    "description": "Interprète du général Kearny pendant la guerre du Mexique, Antoine Robidoux suit l'armée de l'Ouest de Santa Fe en Californie par le rio Grande et la Gila.",
+    "sources": "W. S. Wallace, « Antoine Robidoux », dans Hafen (dir.), French Fur Traders and Voyageurs in the American West (1995), p. 281 ; Tassé, Les Canadiens de l'Ouest (1878), t. II, p. 128.",
+    "note": "Tracé reconstitué par la route de l'armée de Kearny.",
+    "type": "trajet"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -105.573,
+      36.407
+     ],
+     [
+      -106.5,
+      36.9
+     ],
+     [
+      -107.9,
+      37.3
+     ],
+     [
+      -109.5,
+      37.7
+     ],
+     [
+      -111.0,
+      38.3
+     ],
+     [
+      -112.5,
+      38.0
+     ],
+     [
+      -113.6,
+      37.3
+     ],
+     [
+      -114.6,
+      36.6
+     ],
+     [
+      -115.6,
+      35.6
+     ],
+     [
+      -116.8,
+      34.9
+     ],
+     [
+      -117.3,
+      34.4
+     ],
+     [
+      -117.43,
+      33.99
+     ]
+    ]
+   },
+   "properties": {
+    "id": "T06",
+    "nom": "Louis Robidoux quitte Taos pour la Californie",
+    "debut": 1844.5,
+    "fin": 1846.5,
+    "date_edtf": "1844/1846",
+    "certitude": "hypothetique",
+    "mode": "terre",
+    "membre": "louis",
+    "description": "Selon Rafael Chacón, Louis Robidoux quitte Taos pour la Californie ; il s'établit au rancho de Jurupa, sur le Santa Ana.",
+    "sources": "Cragin, Early Far West Notebooks (1902-1923), transcription dactylographiée, p. 131.",
+    "note": "Chacón date le départ de 1846 ; la route est celle de la Vieille piste espagnole, par hypothèse.",
+    "type": "trajet"
+   }
+  }
+ ]
+}

@@ -1,0 +1,257 @@
+/* =====================================================================
+   Atlas Robidoux — même habillage que l'Atlas Aubry
+   Bandeau et timeline brun foncé, fond de carte clair, légende en cartouche et journal de bord
+   sur parchemin (encre sépia, IM Fell English), accents ocre.
+   ===================================================================== */
+:root {
+  --encre: #3d2a17; --encre-pale: #6b4f2e; --sepia: #8a6a44; --rouge: #8b2e1f; --or: #c8903e;
+  --velin: #f1e4c4; --parchemin: #f4efe6; --parchemin-fonce: #e3cfa3; --bois: #3b3328; --bois-clair: #5a4d3c;
+  --grain: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='200' height='200'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.8' numOctaves='3' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 .35  0 0 0 0 .25  0 0 0 0 .12  0 0 0 .09 0'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>");
+  --taches: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='900' height='700'><filter id='t'><feTurbulence type='fractalNoise' baseFrequency='.006' numOctaves='4' seed='3'/><feColorMatrix values='0 0 0 0 .16  0 0 0 0 .30  0 0 0 0 .40  0 0 0 -1.6 .8'/></filter><rect width='100%' height='100%' filter='url(%23t)'/></svg>");
+  --fell: 'IM Fell English', Georgia, 'Times New Roman', serif;
+  --fell-sc: 'IM Fell English SC', 'IM Fell English', Georgia, serif;
+  --pirate: 'IM Fell English SC', 'IM Fell English', Georgia, serif;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; height: 100%; font-family: var(--fell); color: var(--encre); background: var(--bois); }
+body { display: grid; grid-template-rows: auto 1fr auto; }
+
+/* ---------- Bandeau ---------- */
+.barre { display: flex; align-items: center; gap: .7rem; padding: .35rem 1rem; color: var(--velin);
+  background: var(--bois) var(--grain); border-bottom: 3px double var(--or); }
+.barre h1 { font-family: var(--pirate); font-weight: normal; font-size: 1.9rem; margin: 0; letter-spacing: .04em; color: var(--or);
+  text-shadow: 0 1px 0 #000, 0 0 8px rgba(217, 180, 106, .25); }
+.barre h1 span { font-family: var(--fell); font-size: 1.05rem; color: var(--velin); opacity: .75; letter-spacing: .08em; }
+.barre .titre { display: flex; flex-direction: column; line-height: 1; }
+.barre .projet { margin: .15rem 0 0 .1rem; font-family: var(--fell); font-style: italic; font-size: .95rem; color: var(--velin); opacity: .85; letter-spacing: .03em; }
+.embleme { height: 45px; width: auto; filter: invert(88%) sepia(30%) saturate(500%) hue-rotate(350deg) brightness(.95); transform-origin: 50% 90%; }
+.embleme.tangue { animation: tangage 1.6s ease-in-out infinite alternate; }
+.credit { margin: 0 0 0 auto; font-size: .8rem; opacity: .7; letter-spacing: .03em; }
+.credit a { color: inherit; text-decoration: none; }
+.credit a:hover { text-decoration: underline; }
+.barre .lien-reseau { margin-left: auto; color: var(--or); text-decoration: none; font-size: .95rem; letter-spacing: .03em;
+  border: 1px solid var(--or); border-radius: 3px; padding: .15rem .6rem; white-space: nowrap; }
+.barre .lien-reseau:hover { background: var(--or); color: var(--bois); }
+.barre .lien-reseau + .credit { margin-left: .9rem; }
+.credit .logo-uqam { height: 1.4em; width: auto; vertical-align: -0.35em; margin-left: .35em; }
+@keyframes tangage { from { transform: rotate(-4deg) translateY(0); } to { transform: rotate(4deg) translateY(-2px); } }
+
+/* ---------- Carte et habillage ---------- */
+.contenu { display: grid; grid-template-columns: 1fr; min-height: 0; position: relative; }
+#carte { min-height: 0; position: relative; background: var(--parchemin); }
+.parchemin { position: absolute; inset: 0; pointer-events: none; z-index: 1; }
+/* grain du papier et taches d'humidité, mêlés à la carte */
+.parchemin::before { content: ''; position: absolute; inset: 0; background-image: var(--grain), var(--taches); background-size: 200px 200px, cover; mix-blend-mode: multiply; opacity: .9; }
+/* bords brûlés et cadre à double filet */
+.parchemin::after { content: ''; position: absolute; inset: 0; background: url('../images/bords-brules.svg') center / 100% 100% no-repeat; }
+.parchemin .coin { position: absolute; width: 64px; height: 64px; background: url('../images/coin.svg') center / contain no-repeat; opacity: .85; }
+.coin.hg { top: 18px; left: 20px; }
+.coin.hd { top: 18px; right: 20px; transform: scaleX(-1); }
+.coin.bg { bottom: 18px; left: 20px; transform: scaleY(-1); }
+.coin.bd { bottom: 18px; right: 20px; transform: scale(-1, -1); }
+.parchemin .rose { position: absolute; width: 92px; height: 92px; left: 40px; bottom: 50px; opacity: .85; mix-blend-mode: multiply; }
+/* hors du parchemin, l'habillage s'efface */
+body:not(.fond-parchemin) .parchemin::before, body:not(.fond-parchemin) .parchemin .rose { display: none; }
+/* contrôles de MapLibre au-dessus du décor, à l'intérieur des bords brûlés */
+#carte .maplibregl-ctrl-top-left, #carte .maplibregl-ctrl-top-right { top: 22px; }
+#carte .maplibregl-ctrl-top-left { left: 40px; }
+#carte .maplibregl-ctrl-top-right { right: 26px; }
+#carte .maplibregl-ctrl-bottom-left { left: 34px; bottom: 26px; }
+#carte .maplibregl-ctrl-bottom-right { right: 34px; bottom: 24px; }
+#carte .maplibregl-ctrl-group { background: var(--velin); border: 1px solid var(--encre-pale); box-shadow: 1px 2px 6px rgba(15, 30, 40, .4); }
+#carte .maplibregl-ctrl-scale { background: rgba(243, 230, 196, .85); border-color: var(--encre); color: var(--encre); font-family: var(--fell); }
+#carte .maplibregl-ctrl-attrib { background: rgba(243, 230, 196, .8); font-family: var(--fell); }
+
+/* ---------- Légende : cartouche ---------- */
+.legende-carte { max-height: calc(100vh - 260px); overflow-y: auto; width: 222px; padding: .55rem .8rem .7rem; font-size: .84rem;
+  background-color: var(--velin); background-image: var(--grain); color: var(--encre); font-family: var(--fell);
+  border: 3px double var(--encre-pale); outline: 1px solid var(--sepia); outline-offset: 3px; border-radius: 2px;
+  box-shadow: 2px 4px 12px rgba(15, 30, 40, .45); }
+.legende-carte summary { font-family: var(--pirate); font-size: 1.45rem; text-align: center; list-style: none; cursor: pointer; color: var(--rouge);
+  display: flex; align-items: center; justify-content: center; gap: .4rem; }
+.legende-carte summary::-webkit-details-marker { display: none; }
+.legende-carte summary::before, .legende-carte summary::after { content: ''; width: 30px; height: 25px; flex: none; background: url('../images/galion.svg') center / contain no-repeat; }
+.legende-carte summary::after { transform: scaleX(-1); }
+.legende-carte[open] summary { border-bottom: 1px solid var(--sepia); padding-bottom: .2rem; }
+.legende-carte:not([open]) { width: auto; }
+.legende-carte h3 { font-family: var(--fell-sc); font-weight: normal; font-size: .95rem; letter-spacing: .06em; color: var(--encre-pale);
+  margin: .65rem 0 .25rem; display: flex; align-items: center; gap: .4rem; }
+.legende-carte h3::before, .legende-carte h3::after { content: ''; flex: 1; border-top: 1px solid var(--sepia); opacity: .7; }
+.legende-carte ul { list-style: none; margin: .2rem 0 0; padding: 0; }
+.legende-carte li, .legende-carte label { display: flex; align-items: center; gap: .45rem; margin: .12rem 0; }
+.legende-carte label { cursor: pointer; }
+.legende-carte input { accent-color: var(--rouge); }
+.legende-carte .pt { width: 10px; height: 10px; border-radius: 50%; border: 2px solid; box-sizing: content-box; flex: none; margin-left: 3px; }
+.pt.combat { background: #8b2a17; border-color: #8b2a17; box-shadow: 0 0 0 2px var(--velin), 0 0 0 3px #8b2a17; }
+.pt.fondation { background: #3f5a2a; border-color: #3f5a2a; }
+.pt.decouverte { background: #2f4d63; border-color: #2f4d63; }
+.pt.port { background: #6b5a3c; border-color: #6b5a3c; }
+.pt.vie { background: #1f2f3a; border-color: #1f2f3a; }
+.pt.incertain { background: var(--velin); border-color: #43606e; border-width: 2.5px; }
+.legende-carte .ln { width: 28px; height: 0; flex: none; }
+.ln.mer { border-top: 2.5px dashed #8b2a17; }
+.ln.terre { border-top: 3px dotted #1f2f3a; }
+.ln.hypo { border-top: 2px dashed rgba(139, 42, 23, .55); }
+.choix-fond { display: grid; gap: .15rem; }
+.btn-apropos { width: 100%; margin-top: .7rem; font-family: var(--fell-sc); letter-spacing: .04em; font-size: .85rem; cursor: pointer;
+  background: var(--parchemin-fonce); color: var(--encre); border: 1px solid var(--encre-pale); border-radius: 2px; padding: .2rem .4rem;
+  box-shadow: inset 0 0 0 2px var(--velin), inset 0 0 0 3px rgba(67, 96, 110, .45); }
+.btn-apropos:hover { background: var(--rouge); color: var(--velin); }
+.legende-carte .sw { width: 14px; height: 14px; border: 1px solid var(--encre-pale); flex: none; }
+.sw.parchemin { background: linear-gradient(135deg, #c9dcdc 50%, #e4d3a8 50%); }
+.sw.plan { background: linear-gradient(135deg, #f2efe9 50%, #dfe6ee 50%); }
+.sw.satellite { background: linear-gradient(135deg, #4d6b3c 0%, #8a7f5a 55%, #2f4a63 100%); }
+
+/* ---------- Journal de bord (panneau) ---------- */
+/* Journal de bord en fenêtre flottante : n'apparaît qu'au clic sur un lieu ou une route */
+#panneau { position: absolute; z-index: 3; top: 26px; left: 88px; width: min(380px, calc(100% - 110px)); max-height: calc(100% - 90px);
+  border: 3px double var(--encre-pale); outline: 1px solid var(--sepia); outline-offset: 3px; border-radius: 2px;
+  box-shadow: 4px 8px 24px rgba(15, 30, 40, .55); display: none; }
+#panneau.ouvert { display: block; animation: deroule .22s ease-out; }
+@keyframes deroule { from { opacity: 0; transform: translateY(-8px) scale(.98); } to { opacity: 1; transform: none; } }
+#panneau .fermer { position: sticky; top: -1.3rem; float: right; margin: -.6rem -.9rem 0 .4rem; z-index: 1; width: 1.8rem; height: 1.8rem;
+  border: 1px solid var(--encre-pale); border-radius: 50%; background: var(--velin); color: var(--encre); font-size: 1rem; line-height: 1; cursor: pointer; }
+#panneau .fermer:hover { background: var(--rouge); color: var(--velin); border-color: var(--rouge); }
+#panneau { overflow-y: auto; padding: 1.3rem 1.5rem 1.5rem; font-size: 1.03rem; line-height: 1.5;
+  background-color: var(--velin);
+  background-image: var(--grain), radial-gradient(ellipse at 50% 40%, rgba(250, 252, 245, .6) 0%, rgba(250, 252, 245, 0) 60%),
+    radial-gradient(ellipse at center, rgba(0, 0, 0, 0) 55%, rgba(40, 70, 90, .32) 100%);
+}
+#panneau h2 { font-family: var(--pirate); font-weight: normal; font-size: 1.85rem; line-height: 1.1; text-align: center; color: var(--encre); margin: .1rem 0; }
+#panneau .chapitre { font-family: var(--fell-sc); text-align: center; color: var(--rouge); font-size: .88rem; letter-spacing: .05em; margin: 0 0 .3rem; }
+#panneau .entree-date { text-align: center; font-style: italic; color: var(--encre-pale); margin: 0 0 .3rem; }
+#panneau .filet { text-align: center; color: var(--sepia); margin: .2rem 0 .6rem; display: flex; align-items: center; gap: .6rem; font-size: 1rem; }
+#panneau .filet::before, #panneau .filet::after { content: ''; flex: 1; border-top: 1px solid var(--sepia); border-bottom: 1px solid var(--sepia); height: 2px; }
+#panneau .meta { text-align: center; margin: .3rem 0 .6rem; }
+#panneau .description::first-letter { font-family: var(--pirate); float: left; font-size: 3.3em; line-height: .8; padding: .05em .1em 0 0; color: var(--rouge); }
+#panneau p { margin: .5rem 0; }
+.badge { display: inline-block; font-family: var(--fell-sc); font-size: .8rem; color: var(--encre-pale); border: 1px solid var(--encre-pale); border-radius: 2px; padding: .02rem .45rem; margin: .1rem; letter-spacing: .03em; }
+.badge.certaine { color: #3f5a2a; border-color: #3f5a2a; }
+.badge.approximative { color: #8a5a14; border-color: #8a5a14; }
+.badge.hypothetique { color: var(--rouge); border-color: var(--rouge); }
+.badge.genre { background: var(--encre); color: var(--velin); border-color: var(--encre); }
+.badge.genre.combat { background: #8b2a17; border-color: #8b2a17; }
+.badge.genre.fondation { background: #3f5a2a; border-color: #3f5a2a; }
+.badge.genre.decouverte { background: #2f4d63; border-color: #2f4d63; }
+.badge.genre.mer, .badge.genre.cote { background: #8b2a17; border-color: #8b2a17; }
+#panneau .note { background: rgba(90, 120, 130, .13); border-left: 3px double var(--sepia); font-style: italic; font-size: .93rem; padding: .45rem .65rem; }
+#panneau .note strong { font-style: normal; font-family: var(--fell-sc); font-weight: normal; }
+#panneau .sources { border-top: 1px solid var(--sepia); margin-top: 1rem; padding-top: .5rem; font-size: .88rem; color: var(--encre-pale); }
+#panneau .sources strong { font-family: var(--fell-sc); font-weight: normal; }
+#panneau .avertissement { background: rgba(90, 120, 130, .1); border: 1px dashed var(--sepia); padding: .5rem; font-style: italic; font-size: .9rem; }
+
+/* ---------- Timeline ---------- */
+.timeline { display: flex; align-items: center; gap: .8rem; padding: .55rem 1rem .4rem; color: var(--velin); flex-wrap: wrap;
+  background: var(--bois) var(--grain); border-top: 3px double var(--or); }
+.timeline button { background: var(--rouge); border: 2px solid var(--or); color: var(--velin); width: 2.2rem; height: 2.2rem; border-radius: 50%; cursor: pointer; font-size: .95rem; }
+.suivi { font-size: .85rem; display: flex; align-items: center; gap: .3rem; cursor: pointer; white-space: nowrap; }
+.suivi input { accent-color: var(--or); }
+.suivi select { background: var(--velin); color: var(--encre); border: 0; border-radius: 2px; font: inherit; font-size: .8rem; padding: 0 .2rem; }
+.piste { flex: 1; min-width: 240px; position: relative; padding-bottom: 1.3rem; }
+.piste input[type=range] { -webkit-appearance: none; appearance: none; width: 100%; height: 18px; margin: 0; background: transparent; cursor: pointer; display: block; }
+.piste input[type=range]::-webkit-slider-runnable-track { height: 4px; background: repeating-linear-gradient(90deg, var(--or) 0 6px, transparent 6px 10px); border-radius: 2px; }
+.piste input[type=range]::-moz-range-track { height: 4px; background: repeating-linear-gradient(90deg, var(--or) 0 6px, transparent 6px 10px); }
+.piste input[type=range]::-webkit-slider-thumb { -webkit-appearance: none; width: 18px; height: 18px; margin-top: -7px; border-radius: 50%; background: var(--rouge); border: 2px solid var(--or); box-shadow: 0 0 0 2px var(--bois); }
+.piste input[type=range]::-moz-range-thumb { width: 14px; height: 14px; border-radius: 50%; background: var(--rouge); border: 2px solid var(--or); }
+#graduation { position: absolute; left: 0; right: 0; top: 16px; height: 1.3rem; }
+#graduation .trait { position: absolute; top: 0; width: 1px; height: 7px; background: #b8c9cc; transform: translateX(-50%); }
+#graduation .trait.mineur { height: 4px; opacity: .45; }
+#graduation .segment-compresse { position: absolute; top: -10px; height: 4px; background: repeating-linear-gradient(90deg, var(--velin) 0 2px, transparent 2px 5px); opacity: .5; }
+#graduation .trait.coupure { height: 12px; top: -4px; width: 2px; background: var(--or); transform: translateX(-50%) skewX(-20deg); }
+#graduation .annee { position: absolute; top: 7px; font-size: .74rem; transform: translateX(-50%); color: #dfe7e4; cursor: pointer; }
+#graduation .annee:hover { color: var(--or); }
+#date-affichee { min-width: 10rem; font-family: var(--pirate); font-size: 1.25rem; color: var(--or); }
+
+/* ---------- Navire de la visite animée ---------- */
+.marqueur-navire img { width: 58px; height: 48px; display: block; filter: drop-shadow(0 0 2px var(--velin)) drop-shadow(0 0 3px var(--velin)); animation: tangage 1.2s ease-in-out infinite alternate; transform-origin: 50% 90%; }
+.marqueur-navire.canot img { width: 62px; height: 36px; }
+.marqueur-navire.gauche img { animation-name: tangage-gauche; }
+@keyframes tangage-gauche { from { transform: scaleX(-1) rotate(-4deg); } to { transform: scaleX(-1) rotate(4deg) translateY(-2px); } }
+@media (prefers-reduced-motion: reduce) { .marqueur-navire img, .embleme.tangue { animation: none; } .marqueur-navire.gauche img { transform: scaleX(-1); } }
+
+@media (max-width: 760px) {
+  .credit { display: none; }
+  #panneau { top: auto; bottom: 12px; left: 12px; width: calc(100% - 24px); max-height: 55%; }
+  .parchemin .rose, .parchemin .coin { display: none; }
+  .legende-carte { width: 180px; }
+}
+
+
+/* =====================================================================
+   Gabarit de l'Atlas Aubry (surcharges)
+   ===================================================================== */
+html, body { font-family: Georgia, "Times New Roman", serif; color: #2b2620; background: #f4efe6; }
+.barre { background: #3b3328; color: #f4efe6; border-bottom: 0; padding: .5rem 1rem; gap: .6rem; }
+.barre h1 { font-family: Georgia, "Times New Roman", serif; font-size: 1.1rem; letter-spacing: .03em; color: #f4efe6; text-shadow: none; }
+.barre h1 span { font-family: inherit; font-size: inherit; color: inherit; opacity: .7; letter-spacing: 0; }
+.barre .projet { font-size: .78rem; opacity: .65; margin-top: .2rem; }
+.embleme { height: 34px; filter: invert(95%) sepia(10%) saturate(300%) hue-rotate(350deg); }
+.credit { font-size: .75rem; opacity: .6; }
+.barre .lien-reseau { color: #f4efe6; border: 1px solid #8a7a62; font-size: .85rem; }
+.barre .lien-reseau:hover { background: #c8903e; border-color: #c8903e; color: #fff; }
+
+/* carte à gauche, journal de bord fixe à droite (comme l'Atlas Aubry) */
+.contenu { grid-template-columns: 1fr 340px; }
+#carte { background: #f4efe6; }
+body:not(.fond-parchemin) .parchemin { display: none; }
+#carte .maplibregl-ctrl-top-left, #carte .maplibregl-ctrl-top-right { top: 0; }
+#carte .maplibregl-ctrl-top-left { left: 0; }
+#carte .maplibregl-ctrl-top-right { right: 0; }
+#carte .maplibregl-ctrl-bottom-left { left: 0; bottom: 0; }
+#carte .maplibregl-ctrl-bottom-right { right: 0; bottom: 0; }
+#carte .maplibregl-ctrl-group { background: #fff; border: 0; box-shadow: 0 0 0 2px rgba(0,0,0,.1); }
+
+.legende-carte { max-height: calc(100vh - 230px); border: 3px double var(--encre-pale); outline: 1px solid var(--sepia); outline-offset: 3px;
+  box-shadow: 2px 3px 10px rgba(60, 35, 10, .35); width: 220px; font-size: .82rem;
+  background-color: var(--velin); background-image: var(--grain), radial-gradient(ellipse at center, rgba(255, 248, 225, .55) 0%, rgba(255, 248, 225, 0) 60%),
+    radial-gradient(ellipse at center, rgba(0, 0, 0, 0) 55%, rgba(110, 70, 30, .22) 100%); }
+.legende-carte summary { font-family: var(--fell-sc); font-size: 1.15rem; letter-spacing: .08em; color: var(--encre); }
+.legende-carte summary::before, .legende-carte summary::after { width: 34px; height: 20px; background-image: url('../images/canot.svg'); }
+.legende-carte input { accent-color: var(--or); }
+.btn-apropos { box-shadow: none; background: #faf7f1; border-color: #b9ab92; font-family: var(--fell); }
+.btn-apropos:hover { background: var(--or); color: #fff; border-color: var(--or); }
+
+#panneau { position: static; display: block; width: auto; max-height: none; top: auto; left: auto; z-index: auto;
+  border: 0; border-left: 1px solid #d6cbb8; outline: 0; border-radius: 0; box-shadow: none; padding: 1rem 1.25rem; font-size: 1rem;
+  background-color: var(--velin); background-image: var(--grain), radial-gradient(ellipse at center, rgba(255, 248, 225, .55) 0%, rgba(255, 248, 225, 0) 60%),
+    radial-gradient(ellipse at center, rgba(0, 0, 0, 0) 55%, rgba(110, 70, 30, .22) 100%); }
+#panneau.ouvert { animation: none; }
+#panneau .fermer { position: static; float: right; margin: 0 0 .3rem .5rem; background: #faf7f1; }
+#panneau .fermer:hover { background: var(--or); border-color: var(--or); color: #fff; }
+#panneau h2 { font-family: var(--fell-sc); font-size: 1.4rem; text-align: left; }
+#panneau .chapitre { text-align: left; color: var(--rouge); }
+#panneau .entree-date, #panneau .meta { text-align: left; }
+#panneau .filet { justify-content: flex-start; }
+#panneau .description::first-letter { font-family: var(--fell); color: var(--rouge); }
+#panneau .note { background: #efe9dd; border-left: 3px solid #c8903e; font-style: normal; }
+#panneau .avertissement { background: #f3e3c3; border: 0; border-radius: 3px; font-style: normal; }
+
+.timeline { background: #3b3328; color: #f4efe6; border-top: 0; padding: .6rem 1rem; }
+.timeline button { background: #c8903e; border: 0; color: #fff; width: 2rem; height: 2rem; }
+.suivi input { accent-color: #c8903e; }
+.piste input[type=range]::-webkit-slider-runnable-track { background: #8a7a62; }
+.piste input[type=range]::-moz-range-track { background: #8a7a62; }
+.piste input[type=range]::-webkit-slider-thumb { width: 16px; height: 16px; margin-top: -6px; background: #c8903e; border: 2px solid #f4efe6; box-shadow: none; }
+.piste input[type=range]::-moz-range-thumb { background: #c8903e; border: 2px solid #f4efe6; }
+#graduation .trait { background: #c9bba3; }
+#graduation .segment-compresse { background: repeating-linear-gradient(90deg, #c8903e 0 3px, transparent 3px 6px); opacity: .55; }
+#graduation .annee { color: #e6dccb; font-family: system-ui, sans-serif; font-size: .7rem; }
+#graduation .annee:hover { color: #c8903e; }
+#date-affichee { font-family: Georgia, serif; font-weight: bold; font-size: 1rem; color: #f4efe6; }
+.marqueur-navire img { filter: drop-shadow(0 0 2px #fff) drop-shadow(0 0 3px #fff); }
+
+@media (max-width: 760px) {
+  .contenu { grid-template-columns: 1fr; grid-template-rows: 1fr 40%; }
+  #panneau { border-left: 0; border-top: 1px solid #d6cbb8; }
+}
+
+/* Membres de la famille Robidoux (couleurs de js/app.js) */
+.pt.joseph1 { background: #6b5a3c; border-color: #6b5a3c; }
+.pt.joseph2 { background: #3f5a2a; border-color: #3f5a2a; }
+.pt.joseph3 { background: #2f4d63; border-color: #2f4d63; }
+.pt.antoine { background: #9a3322; border-color: #9a3322; }
+.pt.louis { background: #7a4f1d; border-color: #7a4f1d; }
+.pt.freres { background: #5b3f6b; border-color: #5b3f6b; }
+.pt.jules { background: #1f2f3a; border-color: #1f2f3a; }
+.pt.famille { background: #43606e; border-color: #43606e; }
+.marqueur-navire.canot img[src$="cavalier.svg"] { width: 44px; }

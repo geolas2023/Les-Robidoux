@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 100" width="480" height="400">
+<title>Galion, à la manière d'une gravure</title>
+<g stroke="#2b1a0c" stroke-linejoin="round" stroke-linecap="round" fill="none">
+  <!-- mâts -->
+  <path d="M60 10 V74 M36 22 V76 M84 26 V74" stroke-width="2"/>
+  <path d="M60 6 l10 3 -10 3" fill="#8b2a17" stroke-width="1"/>
+  <path d="M36 18 l7 2 -7 2" fill="#8b2a17" stroke-width="1"/>
+  <!-- voiles gonflées -->
+  <g fill="#f3e6c4" stroke-width="1.4">
+    <path d="M47 16 Q60 13 73 16 Q76 25 73 32 Q60 29 47 32 Q44 25 47 16Z"/>
+    <path d="M44 36 Q60 32 76 36 Q80 47 76 56 Q60 52 44 56 Q40 47 44 36Z"/>
+    <path d="M27 27 Q36 25 45 27 Q47 34 45 40 Q36 38 27 40 Q25 34 27 27Z"/>
+    <path d="M26 44 Q36 42 46 44 Q48 52 46 59 Q36 57 26 59 Q24 52 26 44Z"/>
+    <path d="M86 30 L104 50 L86 58 Z"/>
+  </g>
+  <!-- hachures d'ombre des voiles -->
+  <g stroke-width=".6" opacity=".7">
+    <path d="M70 18 Q72 24 70 30 M67 18 Q69 24 67 30"/>
+    <path d="M73 38 Q76 46 73 54 M70 38 Q72 46 70 54 M67 38 Q69 46 67 54"/>
+    <path d="M42 29 Q44 34 42 38 M43 46 Q45 51 43 57"/>
+  </g>
+  <!-- haubans -->
+  <g stroke-width=".6" opacity=".8">
+    <path d="M60 12 L18 70 M60 12 L104 66 M36 22 L14 72 M84 28 L106 66 M60 30 L36 24"/>
+  </g>
+  <!-- coque -->
+  <path d="M10 66 L22 64 Q60 70 100 62 L110 58 L104 72 Q96 86 60 86 Q24 86 16 76 Z" fill="#6b4423" stroke-width="2"/>
+  <path d="M16 76 Q60 82 104 72" stroke="#f3e6c4" stroke-width="1.2" opacity=".8"/>
+  <path d="M14 70 Q60 76 106 66" stroke-width=".8"/>
+  <g fill="#2b1a0c" stroke="none"><rect x="30" y="73" width="4" height="3"/><rect x="44" y="75" width="4" height="3"/><rect x="58" y="75" width="4" height="3"/><rect x="72" y="74" width="4" height="3"/><rect x="86" y="72" width="4" height="3"/></g>
+  <!-- château arrière -->
+  <path d="M10 66 L8 56 L22 58 L22 64" fill="#6b4423" stroke-width="1.6"/>
+  <!-- vagues -->
+  <path d="M4 90 q6 -5 12 0 t12 0 t12 0 t12 0 t12 0 t12 0 t12 0 t12 0 t12 0" stroke-width="1.4"/>
+  <path d="M12 96 q5 -4 10 0 t10 0 t10 0 M70 96 q5 -4 10 0 t10 0 t10 0" stroke-width="1" opacity=".6"/>
+</g>
+</svg>
