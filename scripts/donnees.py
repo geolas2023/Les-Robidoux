@@ -81,6 +81,7 @@ def COM(fichier, legende):
             "lien": f"https://commons.wikimedia.org/wiki/File:{quote(nom)}", "legende": f"{legende} (Wikimedia Commons)"}
 GIT = "J. Gitlin, The Bourgeois Frontier: French Towns, French Traders, and American Expansion (New Haven, Yale University Press, 2010)"
 GIA = "C. A. Gianini, « Manuel Lisa, One of the Earliest Traders on the Missouri River », New Mexico Historical Review, vol. 2, n° 4 (octobre 1927), p. 323-333"
+PET = "C. E. Peterson, Colonial St. Louis: Building a Creole Capital (Saint-Louis, Missouri Historical Society, 1949)"
 PHG = "J. Lecompte, Pueblo, Hardscrabble, Greenhorn: The Upper Arkansas, 1832-1856 (Norman, University of Oklahoma Press, 1978)"
 def LOC(fichier, legende):
     return {"src": f"images/photos/{fichier}", "legende": legende}
@@ -863,6 +864,15 @@ L('L165', "Saint-Louis : Joseph hypothèque ses biens pour bâtir Blacksnake Hil
   "Écarté du Missouri par son contrat de 1828 avec la compagnie Pratte, Joseph Robidoux reparaît dès 1831 à Blacksnake Hills. Entre 1829 et 1834, avec sa femme Angélique Vaudry, il vend l'essentiel de ses biens immobiliers de Saint-Louis ; en 1834, le couple hypothèque ce qui reste à Pratte, Chouteau & Cie contre un prêt de 16 500 dollars, qui finance sans doute ses entreprises du Missouri et du Nouveau-Mexique et son poste de Blacksnake Hills. En 1833, il assure à Pierre Chouteau fils avoir « horreur » du whisky et en rejette l'usage sur son ancien associé Jean-Baptiste Roy ; un agent indien l'avait accusé en 1832 de vendre de jeunes Indiennes aux traiteurs.",
   f"{GIT}, p. 103, 107-108 (d'après Lewis, Robidoux Chronicles, et la correspondance Chouteau).",
   "Point placé au vieux Saint-Louis ; l'emplacement des biens hypothéqués n'est pas précisé.")
+
+L('L166', "Saint-Louis : une maison de rondins pour Joseph Robidoux, cordonnier arrivé de Montréal (1771)", -90.1885, 38.6255, '1771-04', 'mois', 'certaine', 'joseph1',
+  "Selon Peterson, les archives de Saint-Louis montrent qu'au printemps 1771 (l'acte est daté par erreur du 31 avril), le menuisier béarnais Jean-Baptiste Ortès s'engage à bâtir une maison pour Joseph Robidoux, cordonnier récemment arrivé de Montréal. La maison doit avoir trois pièces, en pièce sur pièce de cotonnier, de frêne ou de noyer. Le prix : cinq cents livres en castors ou en chevreuils, et trois paires de souliers.",
+  f"{PET}, p. 65 (PDF du Drive de l'auteur, dossier ST_LOUIS_HISTORY), d'après les St. Louis Recorded Archives.",
+  "Le père (Joseph Ier) meurt en septembre 1771 ; la maison peut avoir été destinée au père ou au fils, tous deux cordonniers. Point placé au vieux Saint-Louis.")
+L('L167', "Saint-Louis : la boulangerie de pierre et le moulin à huit chevaux de Joseph Robidoux (1802-1809)", -90.1885, 38.6255, '1802/1809', 'annee', 'certaine', 'joseph2',
+  "À la fin du régime espagnol, Joseph Robidoux (II) bâtit derrière sa grande maison de la Grande Rue Royale une boulangerie de pierre à deux étages. Il semble avoir eu des contrats de pain et de biscuits, faits avec la farine de son moulin. Ce moulin, mû par huit chevaux en 1802, était selon Peterson l'un des plus grands de son genre. L'inventaire dressé à sa mort en 1809 énumère le matériel de boulanger : pétrins, pelles de bois, balances, corbeilles et couvertures à pain.",
+  f"{PET}, p. 38 et 40 (PDF du Drive de l'auteur).",
+  "Point placé au vieux Saint-Louis ; lot exact sur la Grande Rue Royale à reprendre du plan des lots.")
 
 EXTRA = {
   'L128': [{"src": "images/documents/clark-1827-07-23-licence-antoine-robidoux-and-company.jpg", "legende": "Licence de William Clark à « Antoine Robidoux and Company », Saint-Louis, 23 juillet 1827 (dossier de l'auteur)"}],

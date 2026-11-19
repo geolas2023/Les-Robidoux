@@ -4412,6 +4412,56 @@
     "type": "lieu",
     "images": []
    }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -90.1885,
+     38.6255
+    ]
+   },
+   "properties": {
+    "id": "L166",
+    "nom": "Saint-Louis : une maison de rondins pour Joseph Robidoux, cordonnier arrivé de Montréal (1771)",
+    "debut": 1771.2863,
+    "fin": 1771.2863,
+    "date_edtf": "1771-04",
+    "precision": "mois",
+    "certitude": "certaine",
+    "categorie": "joseph1",
+    "description": "Selon Peterson, les archives de Saint-Louis montrent qu'au printemps 1771 (l'acte est daté par erreur du 31 avril), le menuisier béarnais Jean-Baptiste Ortès s'engage à bâtir une maison pour Joseph Robidoux, cordonnier récemment arrivé de Montréal. La maison doit avoir trois pièces, en pièce sur pièce de cotonnier, de frêne ou de noyer. Le prix : cinq cents livres en castors ou en chevreuils, et trois paires de souliers.",
+    "sources": "C. E. Peterson, Colonial St. Louis: Building a Creole Capital (Saint-Louis, Missouri Historical Society, 1949), p. 65 (PDF du Drive de l'auteur, dossier ST_LOUIS_HISTORY), d'après les St. Louis Recorded Archives.",
+    "note": "Le père (Joseph Ier) meurt en septembre 1771 ; la maison peut avoir été destinée au père ou au fils, tous deux cordonniers. Point placé au vieux Saint-Louis.",
+    "type": "lieu",
+    "images": []
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -90.1885,
+     38.6255
+    ]
+   },
+   "properties": {
+    "id": "L167",
+    "nom": "Saint-Louis : la boulangerie de pierre et le moulin à huit chevaux de Joseph Robidoux (1802-1809)",
+    "debut": 1802.5,
+    "fin": 1809.5,
+    "date_edtf": "1802/1809",
+    "precision": "annee",
+    "certitude": "certaine",
+    "categorie": "joseph2",
+    "description": "À la fin du régime espagnol, Joseph Robidoux (II) bâtit derrière sa grande maison de la Grande Rue Royale une boulangerie de pierre à deux étages. Il semble avoir eu des contrats de pain et de biscuits, faits avec la farine de son moulin. Ce moulin, mû par huit chevaux en 1802, était selon Peterson l'un des plus grands de son genre. L'inventaire dressé à sa mort en 1809 énumère le matériel de boulanger : pétrins, pelles de bois, balances, corbeilles et couvertures à pain.",
+    "sources": "C. E. Peterson, Colonial St. Louis: Building a Creole Capital (Saint-Louis, Missouri Historical Society, 1949), p. 38 et 40 (PDF du Drive de l'auteur).",
+    "note": "Point placé au vieux Saint-Louis ; lot exact sur la Grande Rue Royale à reprendre du plan des lots.",
+    "type": "lieu",
+    "images": []
+   }
   }
  ]
 }
