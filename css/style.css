@@ -276,3 +276,7 @@ body:not(.fond-parchemin) .parchemin { display: none; }
 .lb-nav:hover { background: rgba(241, 228, 196, .3); }
 .lb-nav[hidden] { display: none; }
 @media (max-width: 600px) { .lb-nav { width: 2rem; height: 3rem; font-size: 1.5rem; } }
+.barre .lien-reseau + .lien-reseau { margin-left: .5rem; }
+#panneau .lien-lettres { margin: .8rem 0; }
+#panneau .btn-sv { display: inline-block; background: var(--velin); border: 1px solid var(--sepia); border-radius: 3px; padding: .3rem .7rem; color: var(--encre); text-decoration: none; font-size: .92rem; }
+#panneau .btn-sv:hover { background: #ead9b9; }

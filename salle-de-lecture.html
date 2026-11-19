@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Salle de lecture — La famille Robidoux · Atlas Robidoux</title>
+<meta name="author" content="Olivier J. Caron, Département de géographie, UQAM">
+<link rel="icon" href="images/coureur-des-bois.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&family=IM+Fell+English+SC&display=swap">
+<style>
+* { box-sizing: border-box; }
+html, body { margin: 0; height: 100%; font-family: Georgia, "Times New Roman", serif; color: #2b2620; background: #f4efe6; }
+body { display: grid; grid-template-rows: auto 1fr; }
+.barre { display: flex; align-items: center; gap: 1rem; padding: .5rem 1rem; background: #3b3328; color: #f4efe6; flex-wrap: wrap; }
+.barre img { height: 40px; }
+.barre h1 { font-family: "IM Fell English", Georgia, serif; font-size: 1.25rem; margin: 0; font-weight: normal; letter-spacing: .02em; }
+.barre h1 span { opacity: .7; }
+.barre a { color: #f0d9a8; font-size: .9rem; }
+.barre .esp { flex: 1; }
+main { display: grid; grid-template-columns: 360px 1fr; min-height: 0; }
+#index { overflow-y: auto; border-right: 1px solid #d6cbb8; background: #faf7f1; }
+.filtres { position: sticky; top: 0; background: #efe9dd; padding: .7rem .8rem; border-bottom: 1px solid #d6cbb8; display: grid; gap: .4rem; z-index: 2; }
+.filtres label { font-size: .8rem; color: #6b604f; display: grid; gap: .15rem; }
+.filtres select, .filtres input[type=search] { width: 100%; min-width: 0; font: inherit; font-size: .9rem; padding: .2rem .3rem; border: 1px solid #c9bba3; border-radius: 3px; background: #fff; }
+.filtres .ligne { display: grid; grid-template-columns: minmax(0,1fr) minmax(0,1fr); gap: .4rem; }
+.filtres .compte { font-size: .8rem; color: #6b604f; }
+#liste { list-style: none; margin: 0; padding: 0; }
+#liste li.groupe { cursor: default; background: #e6dccb; font-family: "IM Fell English SC", Georgia, serif; font-size: .9rem; padding: .3rem .8rem; color: #4d4436; }
+#liste li.it { padding: .5rem .8rem; border-bottom: 1px solid #e6dccb; cursor: pointer; }
+#liste li.it:hover { background: #f3ecdf; }
+#liste li.actif { background: #ead9b9; }
+#liste .d { font-size: .78rem; color: #6b604f; display: flex; justify-content: space-between; gap: .5rem; }
+#liste .t { font-size: .92rem; margin-top: .1rem; }
+#liste .r { font-size: .8rem; color: #4d4436; margin-top: .15rem; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.pastille { font-size: .68rem; padding: 0 .35rem; border-radius: 3px; background: #e6dccb; white-space: nowrap; }
+.p-biographie { background: #e8d3cf; }
+.p-transcription { background: #cfe3c8; }
+.p-traduction { background: #dbe4ef; }
+.p-resume { background: #f3e3c3; }
+.p-fiche { background: #e0dbe9; }
+#lecteur { overflow-y: auto; padding: 1.2rem 1.6rem 3rem; }
+#lecteur h2 { font-family: "IM Fell English", Georgia, serif; font-weight: normal; font-size: 1.6rem; margin: 0 0 .3rem; }
+.meta { font-size: .9rem; color: #6b604f; margin: .15rem 0; }
+.grille { display: grid; grid-template-columns: minmax(240px, 400px) 1fr; gap: 1.5rem; margin-top: 1rem; align-items: start; }
+.grille.sans-image { grid-template-columns: 1fr; max-width: 52rem; }
+.facs figure { margin: 0 0 1rem; }
+.facs img { width: 100%; border: 1px solid #c9bba3; background: #fff; cursor: zoom-in; box-shadow: 0 2px 6px rgba(0,0,0,.12); }
+.facs figcaption { font-size: .78rem; color: #6b604f; margin-top: .25rem; }
+.resume { font-size: 1.02rem; font-style: italic; border-left: 3px solid #c8903e; padding: .2rem 0 .2rem .8rem; margin: 0 0 1rem; }
+.texte { font-size: 1.02rem; line-height: 1.6; }
+.texte p { margin: 0 0 .8rem; }
+.texte.document { font-family: "IM Fell English", Georgia, serif; font-size: 1.1rem; line-height: 1.55; white-space: pre-wrap; background: #fffdf8; border: 1px solid #e0d5c2; padding: 1rem 1.2rem; }
+.note { font-size: .88rem; background: #efe9dd; border-left: 3px solid #c8903e; padding: .45rem .7rem; margin-top: 1rem; }
+.sources { font-size: .85rem; color: #6b604f; border-top: 1px solid #d6cbb8; margin-top: 1rem; padding-top: .5rem; }
+.lieux { margin-top: .8rem; display: flex; flex-wrap: wrap; gap: .35rem; align-items: center; font-size: .85rem; }
+.lieux a { background: #faf7f1; border: 1px solid #b9ab92; border-radius: 3px; padding: .05rem .45rem; color: #3b3328; text-decoration: none; }
+.lieux a:hover { background: #ead9b9; }
+.nav { display: flex; justify-content: space-between; margin-top: 1.5rem; gap: 1rem; }
+.nav button { font: inherit; font-size: .9rem; background: #faf7f1; color: #3b3328; border: 1px solid #b9ab92; border-radius: 3px; padding: .25rem .7rem; cursor: pointer; }
+.nav button:disabled { opacity: .4; cursor: default; }
+.intro { max-width: 52rem; }
+.intro p { line-height: 1.55; }
+.avert { font-size: .85rem; background: #f3e3c3; padding: .5rem .7rem; border-radius: 3px; }
+.chiffres { display: flex; gap: 1.5rem; flex-wrap: wrap; margin: 1rem 0; }
+.chiffres div { font-size: .85rem; color: #6b604f; }
+.chiffres b { display: block; font-size: 1.6rem; color: #3b3328; font-family: "IM Fell English", Georgia, serif; font-weight: normal; }
+.arbre { font-family: "IM Fell English", Georgia, serif; white-space: pre; overflow-x: auto; background: #fffdf8; border: 1px solid #e0d5c2; padding: .8rem 1rem; font-size: .95rem; line-height: 1.45; }
+.lightbox { position: fixed; inset: 0; z-index: 1100; background: rgba(25, 18, 10, .88); display: flex; align-items: center; justify-content: center; padding: 1rem; }
+.lightbox[hidden] { display: none; }
+.lightbox img { max-width: 94vw; max-height: 86vh; background: #fff; border: 4px double #c8b48c; }
+.lightbox figcaption { color: #f1e4c4; font-style: italic; text-align: center; margin-top: .5rem; }
+.lightbox figure { margin: 0; display: flex; flex-direction: column; align-items: center; }
+.lightbox button { position: absolute; top: .6rem; right: .9rem; background: transparent; border: 0; color: #f1e4c4; font-size: 1.6rem; cursor: pointer; }
+@media (max-width: 800px) {
+  main { grid-template-columns: 1fr; grid-template-rows: 40vh 1fr; }
+  #index { border-right: 0; border-bottom: 1px solid #d6cbb8; }
+  .grille { grid-template-columns: 1fr; }
+}
+</style>
+</head>
+<body>
+<header class="barre">
+  <img src="images/coureur-des-bois-clair.svg" alt="">
+  <h1>Salle de lecture <span>· la famille Robidoux, 1720–1916</span></h1>
+  <span class="esp"></span>
+  <a href="index.html">← Retour à la carte</a>
+  <a href="https://geolas2023.github.io/Atlas-Les-Canadiens-Fran-ais-de-l-Ouest/">⚜ Atlas de l'Amérique française</a>
+</header>
+<main>
+  <nav id="index" aria-label="Index de la salle de lecture">
+    <div class="filtres">
+      <div class="ligne">
+        <label>Genre
+          <select id="f-type">
+            <option value="">Tout</option>
+            <option value="portrait">Portraits de famille</option>
+            <option value="document">Documents</option>
+            <option value="etude">Études du dossier</option>
+          </select>
+        </label>
+        <label>Personne
+          <select id="f-personne"><option value="">Toutes</option></select>
+        </label>
+      </div>
+      <label>Recherche <input type="search" id="f-texte" placeholder="Taos, Ioway, Kearny…"></label>
+      <span class="compte" id="compte"></span>
+    </div>
+    <ul id="liste"></ul>
+  </nav>
+  <article id="lecteur" aria-live="polite"></article>
+</main>
+<div id="lightbox" class="lightbox" hidden role="dialog" aria-modal="true" aria-label="Image agrandie">
+  <button type="button" id="lb-fermer" aria-label="Fermer">✕</button>
+  <figure><img id="lb-image" src="" alt=""><figcaption id="lb-legende"></figcaption></figure>
+</div>
+<script src="js/salle.js?v=1"></script>
+<script>
+const GENRES = { portrait: 'Portraits de famille', document: 'Documents', etude: 'Études du dossier' };
+const STATUTS = { biographie: 'biographie', transcription: 'transcription', traduction: 'traduction', resume: 'résumé', fiche: 'fiche' };
+const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+const tries = [...ITEMS].sort((a, b) => a.ordre - b.ordre);
+let visibles = tries, courant = null;
+let NOMS_LIEUX = {};
+Promise.all(['data/lieux.geojson', 'data/trajets.geojson'].map(u => fetch(u).then(r => r.json()).catch(() => null)))
+  .then(js => { js.forEach(j => j && j.features.forEach(f => NOMS_LIEUX[f.properties.id] = f.properties.nom)); if (courant) afficher(courant); });
+
+const personnes = [...new Set(ITEMS.flatMap(i => i.personnes || []))];
+const selP = document.getElementById('f-personne');
+personnes.forEach(p => selP.insertAdjacentHTML('beforeend', `<option>${esc(p)}</option>`));
+
+function filtrer() {
+  const t = document.getElementById('f-type').value, p = selP.value;
+  const q = document.getElementById('f-texte').value.trim().toLowerCase();
+  visibles = tries.filter(i => (!t || i.type === t) && (!p || (i.personnes || []).includes(p)) &&
+    (!q || [i.titre, i.resume, i.texte, i.sources, i.date].join(' ').toLowerCase().includes(q)));
+  document.getElementById('compte').textContent = `${visibles.length} entrée${visibles.length > 1 ? 's' : ''} sur ${ITEMS.length}`;
+  let html = '', g = null;
+  visibles.forEach(i => {
+    if (i.type !== g) { g = i.type; html += `<li class="groupe">${GENRES[g]}</li>`; }
+    html += `<li class="it${courant && courant.id === i.id ? ' actif' : ''}" data-id="${i.id}">
+      <div class="d"><span>${esc(i.date)}</span><span class="pastille p-${i.statut}">${STATUTS[i.statut]}</span></div>
+      <div class="t">${esc(i.titre)}</div><div class="r">${esc(i.resume)}</div></li>`;
+  });
+  document.getElementById('liste').innerHTML = html;
+  document.querySelectorAll('#liste li.it').forEach(li => li.addEventListener('click', () => ouvrir(li.dataset.id)));
+}
+function paragraphes(t) { return t.split(/\n\s*\n/).map(p => `<p>${esc(p).replace(/\n/g, '<br>')}</p>`).join(''); }
+function lienLieu(id) {
+  const cle = id.startsWith('T') ? 'trajet' : 'lieu';
+  return `<a href="index.html#${cle}=${id}" title="Ouvrir sur la carte">${esc(NOMS_LIEUX[id] || id)}</a>`;
+}
+function afficher(i) {
+  const im = i.images || [];
+  const corps = i.type === 'document' ? `<div class="texte document">${esc(i.texte)}</div>` : `<div class="texte">${paragraphes(i.texte)}</div>`;
+  const k = visibles.findIndex(v => v.id === i.id);
+  document.getElementById('lecteur').innerHTML = `
+    <h2>${esc(i.titre)}</h2>
+    <p class="meta">${esc(i.date)} · ${GENRES[i.type]} · <span class="pastille p-${i.statut}">${STATUTS[i.statut]}</span>${(i.personnes || []).length ? ' · ' + esc(i.personnes.join(', ')) : ''}</p>
+    <div class="grille${im.length ? '' : ' sans-image'}">
+      ${im.length ? `<div class="facs">${im.map((d, n) => `<figure><img src="${esc(d.src)}" alt="${esc(d.legende)}" data-n="${n}"><figcaption>${esc(d.legende)}</figcaption></figure>`).join('')}</div>` : ''}
+      <div>
+        <p class="resume">${esc(i.resume)}</p>
+        ${corps}
+        ${i.note ? `<p class="note"><strong>Note :</strong> ${esc(i.note)}</p>` : ''}
+        ${(i.lieux || []).length ? `<div class="lieux"><strong>Sur la carte :</strong> ${i.lieux.map(lienLieu).join('')}</div>` : ''}
+        <div class="sources"><strong>Sources :</strong> ${esc(i.sources)}</div>
+      </div>
+    </div>
+    <div class="nav">
+      <button type="button" id="prec" ${k <= 0 ? 'disabled' : ''}>‹ Précédent</button>
+      <button type="button" id="suiv" ${k < 0 || k >= visibles.length - 1 ? 'disabled' : ''}>Suivant ›</button>
+    </div>`;
+  document.querySelectorAll('.facs img').forEach(img => img.addEventListener('click', () => {
+    document.getElementById('lb-image').src = img.src; document.getElementById('lb-legende').textContent = img.alt;
+    document.getElementById('lightbox').hidden = false;
+  }));
+  document.getElementById('prec').addEventListener('click', () => ouvrir(visibles[k - 1].id));
+  document.getElementById('suiv').addEventListener('click', () => ouvrir(visibles[k + 1].id));
+  document.getElementById('lecteur').scrollTop = 0;
+}
+function ouvrir(id) {
+  courant = ITEMS.find(i => i.id === id);
+  if (!courant) return accueil();
+  history.replaceState(null, '', '#' + id);
+  filtrer();
+  if (!visibles.some(v => v.id === id)) { // entrée masquée par les filtres : on les remet à zéro
+    document.getElementById('f-type').value = ''; selP.value = ''; document.getElementById('f-texte').value = ''; filtrer();
+  }
+  afficher(courant);
+}
+function accueil() {
+  courant = null; history.replaceState(null, '', location.pathname); filtrer();
+  const n = t => ITEMS.filter(i => i.type === t).length;
+  document.getElementById('lecteur').innerHTML = `<div class="intro">
+    <h2>La famille Robidoux, de Montréal à la Californie</h2>
+    <p>Cette salle de lecture accompagne la carte. Elle réunit les portraits du père, de la mère, des six frères et de leurs proches, épouses néo-mexicaines, enfants autochtones et métis, esclaves et descendants, ainsi que les documents et les études du dossier de recherche de l'atlas. Chaque entrée renvoie aux lieux de la carte.</p>
+    <div class="chiffres"><div><b>${n('portrait')}</b>portraits</div><div><b>${n('document')}</b>documents</div><div><b>${n('etude')}</b>études</div></div>
+    <div class="arbre">Joseph Robidoux Ier (v. 1720-1771) ∞ Marianne Leblanc
+└─ Joseph Marie, dit Joseph II (1750-1809) ∞ 1782 Catherine Rollet dit Laderoute
+   ├─ Joseph III (1783-1868) ∞ Eugénie Delisle ; ∞ Angélique Vaudry
+   │    ├─ (d'une femme ioway) Mary Many Days (v. 1805-1884) ∞ White Cloud
+   │    ├─ Joseph E. (1806-v. 1888)
+   │    └─ Jules-César (1814-1875), Faraon, François, Félix, Edmond, Sylvanie, Charles
+   ├─ François (1788-1856 ?) ∞ Thérèse Bienvenu Delisle
+   ├─ Pierre Isidore (1791-1852)
+   ├─ Antoine (1794-1860) ∞ Carmel Benavides (1811-1888)
+   │    └─ (adoptée) Martina Anaya, dite Carmelette ∞ Isidore Barada
+   │         └─ Amanda Barada (1852-1916) ∞ Christian Stollsteimer
+   ├─ Louis (1796-1868) ∞ Guadalupe García ; ∞ Flavia Castillo
+   ├─ Michel (1798-1858) ∞ Susanne Vaudry
+   └─ Eulalie (1800), Marie Pélagie (1802)</div>
+    <p class="avert">Statut des textes : les documents du domaine public (actes, lettres de 1846 et de 1857, nécrologie de 1860, proclamation de 1868, inscriptions) sont transcrits ou traduits par l'auteur de l'atlas ; les études récentes sont résumées, sans reproduction. Les dates divergent souvent d'une source à l'autre : chaque entrée le signale.</p>
+    <p>Choisissez une entrée dans l'index, ou filtrez par genre, par personne ou par mot.</p></div>`;
+}
+['f-type', 'f-personne'].forEach(id => document.getElementById(id).addEventListener('change', filtrer));
+document.getElementById('f-texte').addEventListener('input', filtrer);
+document.getElementById('lb-fermer').addEventListener('click', () => document.getElementById('lightbox').hidden = true);
+document.getElementById('lightbox').addEventListener('click', e => { if (e.target.id === 'lightbox') e.currentTarget.hidden = true; });
+document.addEventListener('keydown', e => { if (e.key === 'Escape') document.getElementById('lightbox').hidden = true; });
+const h = location.hash.slice(1);
+h ? ouvrir(h) : accueil();
+window.addEventListener('hashchange', () => { const id = location.hash.slice(1); if (!courant || id !== courant.id) (id ? ouvrir(id) : accueil()); });
+</script>
+</body>
+</html>

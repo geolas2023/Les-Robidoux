@@ -635,6 +635,69 @@
     "type": "trajet",
     "images": []
    }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -84.73,
+      45.86
+     ],
+     [
+      -86.5,
+      44.5
+     ],
+     [
+      -87.6,
+      43.0
+     ],
+     [
+      -87.62,
+      41.88
+     ],
+     [
+      -88.2,
+      41.4
+     ],
+     [
+      -89.3,
+      41.1
+     ],
+     [
+      -89.6,
+      40.7
+     ],
+     [
+      -90.1,
+      39.8
+     ],
+     [
+      -90.43,
+      38.97
+     ],
+     [
+      -90.19,
+      38.627
+     ]
+    ]
+   },
+   "properties": {
+    "id": "T10",
+    "nom": "De Michillimakinac à l'Illinois",
+    "debut": 1808.5779,
+    "fin": 1808.7063,
+    "date_edtf": "1808-07-30/1808-09",
+    "certitude": "hypothetique",
+    "mode": "fleuve",
+    "membre": "joseph3",
+    "description": "Le 30 juillet 1808, Joseph Robidoux prend le commandement d'une barge partie de Michillimakinac pour la rivière des Illinois. En septembre, il engage son frère François comme hivernant sur le Missouri.",
+    "sources": "R. J. Willoughby, The Brothers Robidoux and the Opening of the American West (2012), p. 31.",
+    "note": "Route reconstituée par le lac Michigan, le portage de Chicago et l'Illinois.",
+    "type": "trajet",
+    "images": []
+   }
   }
  ]
 }

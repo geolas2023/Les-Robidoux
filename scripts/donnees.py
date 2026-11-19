@@ -40,6 +40,11 @@ STO = "Descendants of Johannes Stollsteimer, généalogie (2025), notice d'Amand
 FLC = "Fort Lewis College, Prospectus on Traditional Cultural Properties on the San Juan (Center of Southwest Studies)"
 FAG = "Find a Grave, mémorial 255125946 (Martina Anaya Barada)"
 NRHP = "National Register of Historic Places, n° 73001037 (Robidoux Row)"
+DRO = "Collection Drouin, baptême de Joseph Marie Robidoux, La Visitation du Sault-au-Récollet (Ancestry, coll. 1091, notice 14650221)"
+KEL = "C. Kelly, « Antoine Robidoux » [inscription de Westwater], Utah Historical Quarterly, vol. 6, n° 4 (oct. 1933), p. 115-116"
+WEB72 = "D. J. Weber (éd.), « Louis Robidoux: Two Letters from California, 1848 », Southern California Quarterly, vol. 54, n° 2 (1972)"
+CEN = "Recensements fédéraux des États-Unis (Ancestry)"
+OBI = "Nécrologie d'Antoine Robidoux, St. Joseph Gazette, reprise dans le Los Angeles Star, 29 septembre 1860"
 
 def dec(edtf):
     d = edtf.replace('~', '').replace('?', '')
@@ -76,6 +81,10 @@ IMAGES = {
   'L27': [COM("Birder, Mosca Pass Trail (22324011132).jpg", "Sentier du col Mosca, l'ancien « Roubideau's Pass » (NPS)")],
   'L32': [COM("Battle of San Pasqual Staff Ride Map 4.jpg", "Carte de la bataille de San Pasqual, 6 décembre 1846 (U.S. Army)")],
   'L36': [COM("Alfred Jacob Miller - Fort Laramie - Walters 37194049.jpg", "Alfred Jacob Miller, le fort Laramie en 1837 (Walters Art Museum, domaine public)")],
+  'L02': [LOC("saint-louis-maison-robidoux-elm-main.jpg", "Maison de pierre des Robidoux à Saint-Louis, angle des rues Main et Elm, datée de 1787 dans le dossier de l'auteur (photographie ancienne)")],
+  'L52': [LOC("nara-1871-cabane-fort-robidoux-embouchure-uinta.jpg", "« Green River. Cabin at Fort Robidoux, about opposite the mouth of the Uinta », stéréogramme de 1871 (National Archives, 517942)")],
+  'L67': [LOC("santa-fe-plaza-sud-ouest-1866.jpg", "Santa Fe, côté sud-ouest de la plaza, 1866 (photographie, dossier de l'auteur)"),
+          LOC("santa-fe-1882-vue-a-vol-d-oiseau.jpg", "Bird's Eye View of the City of Santa Fé, N.M., 1882 (J. J. Stoner) : la ville de la vente de 1879")],
   'L37': [COM("Robidoux Pass.jpg", "Le col de Robidoux, à l'ouest de Scotts Bluff"),
           COM("Scotts Bluff (Nebraska) 16-9-2014 17-56-19.JPG", "Scotts Bluff, repère de la piste de l'Oregon")],
 }
@@ -120,9 +129,9 @@ L('L06', "Florissant : naissance d'Antoine", -90.322, 38.789, '1794-09-24', 'jou
   "Antoine Robidoux, septième des dix enfants de Joseph II et de Catherine Rollet, naît le 24 septembre 1794 dans la maison familiale de Florissant (Saint-Ferdinand), au nord de Saint-Louis. Tassé le fait naître à Saint-Louis le 29 août.",
   f"{WAL}, p. 270 ; {TAS}, p. 128.",
   "Date et lieu selon Wallace ; Tassé donne Saint-Louis, 29 août 1794.")
-L('L07', "Saint-Louis : mort de Joseph II", -90.1875, 38.6258, '1809', 'annee', 'approximative', 'joseph2',
-  "Joseph Robidoux (II) meurt à Saint-Louis en 1809. Sa veuve épouse Victor Lagoterie. L'aîné, Joseph III, reprend l'entreprise familiale de traite.",
-  f"{HSR2}, p. 160 ; {WAL}, p. 270.")
+L('L07', "Saint-Louis : mort de Joseph II", -90.1875, 38.6258, '1809-03-17', 'jour', 'approximative', 'joseph2',
+  "Aveugle et malade depuis 1807, Joseph Robidoux (II) meurt à Saint-Louis le 17 mars 1809. Auguste Chouteau, exécuteur testamentaire, dresse l'inventaire le jour même avec Charles Sanguinet et François Valois ; il compte des esclaves domestiques. En mars 1810, sa veuve Catherine rachète à la succession la maison de pierre de l'angle des rues Main et Myrtle (1 425 dollars), puis, remariée à Victor Lagoterie en 1812, la revend à son fils aîné Joseph pour 2 500 dollars. Joseph III reprend l'entreprise familiale.",
+  f"{HSR2}, p. 160 ; {WAL}, p. 270 ; {WIL}, p. 32-34.")
 L('L08', "Saint-Louis : la première Chambre du territoire chez Robidoux", -90.1853, 38.6225, '1812-12-07', 'jour', 'approximative', 'joseph3',
   "Le 7 décembre 1812, la première Chambre des représentants du territoire du Missouri tient sa séance d'ouverture dans la maison de Joseph Robidoux. En 1817, il loue aux missionnaires baptistes Peck et Welch une pièce derrière son magasin pour une école et le prêche du dimanche.",
   f"{HH3}, p. 2, 214 ; {TAS}, p. 121.")
@@ -312,10 +321,11 @@ L('L49', "Santa Fe : le moulin de Louis sur la rivière", -105.9445, 35.6842, '1
   "En avril 1839, Louis Robidoux obtient de l'ayuntamiento le droit d'installer un moulin à grain sur la rivière Santa Fe ; un voisin et rival, Antonio Ortiz, s'en plaint, mais le conseil juge le moulin utile. Premier alcalde jusqu'au 1er janvier 1840, Louis vend le 20 mars 1841 sa maison, son magasin et son moulin à Roque Tudesqui, devant la montée de l'hostilité envers les Américains.",
   f"{WIL}, p. 149, 153.",
   "Emplacement du moulin sur la rivière non précisé.")
-L('L50', "Westwater : l'inscription d'Antoine", -109.13, 39.17, '1837-11-13', 'jour', 'approximative', 'antoine',
+L('L50', "Westwater : l'inscription d'Antoine", -109.16, 39.28, '1837-11-13', 'jour', 'approximative', 'antoine',
   "Sur la paroi de grès de la rive ouest du ruisseau Westwater, à huit kilomètres environ à l'ouest de la frontière Utah-Colorado, Antoine grave : « Antoine Robidoux passé ici le 13 Novembre 1837 pour etablire maison traitte a la Rv. vert ou wiyte ». « Wiyte » se lit Uinta ou White ; le 7 de 1837 pourrait être un 1. L'inscription surmonte un bouclier peint préhistorique et a été criblée de balles.",
-  f"{WIL}, p. 126-128 ; {UTB}.",
-  "Point placé au bas du canyon de Westwater ; l'inscription est un peu en amont sur la route du ruisseau.")
+  f"{WIL}, p. 126-128 ; {KEL} ; {UTB}.",
+  "Charles Kelly, qui la photographie en 1933, la situe près de l'embouchure du canyon de Westwater, au ranch Larsen (section 5, canton 18 sud, rang 24 est, comté de Grand), à 15 milles au nord-ouest de la gare de Westwater : Robidoux campait dans un abri sous roche et grava juste au sud de l'entrée. Point placé en conséquence.",
+  images=[LOC("westwater-inscription-antoine-robidoux-2001.jpg", "L'inscription d'Antoine Robidoux, ruisseau Westwater (Utah), photographiée en 2001 (dossier de l'auteur)")])
 L('L51', "Willow Creek : l'inscription de Louis", -109.70, 39.65, '1841-05-05', 'jour', 'hypothetique', 'louis',
   "Au printemps 1841, Louis Robidoux monte vérifier le fort Uintah, dont il est copropriétaire avec Antoine. Dans le bassin du Willow Creek, sur le plateau Tavaputs, il grave en espagnol qu'il est passé là le 5 mai 1841. Le Missouri Historical Society conserve une photographie de l'inscription prise le 22 septembre 1968.",
   f"{WIL}, p. 154 ; {MHS}.",
@@ -373,10 +383,10 @@ L('L64', "Black Snake Hills : naissance de Carmelete", -94.852, 39.769, '1830~',
   "Naissance au Missouri contestée ; le lieu exact (Saint-Joseph ou Saint-Louis) est inconnu.")
 L('L65', "Washington Township : chez les Barada", -94.850, 39.780, '1850-08-18', 'jour', 'approximative', 'proches',
   "Au recensement du 18 août 1850, Carmel Benavides vit chez Isadore et « Maltine » Barada, dans le canton de Washington (comté de Buchanan), inscrite comme « A. Robidoux », 38 ans, née au Mexique. Maltine est sans doute Martina Anaya, cousine de Carmel adoptée par le couple à Santa Fe, mariée à Isidore Barada en 1847 à Saint-Joseph.",
-  f"{LEV} ; {NPSC} ; {FAG}.")
+  f"{LEV} ; {NPSC} ; {FAG} ; {CEN}, 1850, canton de Washington, comté de Buchanan (Isadore Barada, v. 1808, Missouri ; Maltine Barada, v. 1829, Mexique ; Antoine, Adolph, Julius et Mary Barada, nés au Mexique).")
 L('L66', "Saint-Joseph : naissance d'Amanda Barada", -94.849, 39.766, '1852-06-26', 'jour', 'approximative', 'proches',
   "Amanda Maria Barada naît à Saint-Joseph le 26 juin 1852 ; sa mère meurt peu après. Antoine et Carmel l'élèvent et l'inscrivent dans le testament d'Antoine, qui fait de sa « bien-aimée Carmelletta » l'exécutrice de ses biens. Au recensement de 1860, Carmel vit dans le 3e quartier avec une fillette de neuf ans, « A. Barady ».",
-  f"{STO} ; {LEV} ; {FAG}.",
+  f"{STO} ; {LEV} ; {FAG} ; {CEN}, 1860, Saint-Joseph (A. Robidoux, femme, v. 1812, Nouveau-Mexique).",
   "La mère d'Amanda est nommée Carmelette dans la tradition familiale et Martina Anaya par Levine et Find a Grave.")
 T('T07', "Carmel et Amanda retournent à Santa Fe", [SJ, [-94.6, 39.1], [-95.7, 38.8], [-96.49, 38.66], [-98.2, 38.4], [-99.9, 37.9],
                           [-101.0, 37.6], [-102.2, 37.2], [-103.4, 36.6], [-104.5, 35.9], [-105.2, 35.6], SF],
@@ -389,7 +399,7 @@ L('L67', "Santa Fe : la maison Baca de la rue du Grenier", -105.9367, 35.6875, '
   f"{LEV} ; {STO}.")
 L('L68', "Conejos : Carmel chez les Stollsteimer", -106.0198, 37.0886, '1870-07-16', 'jour', 'certaine', 'proches',
   "Au recensement du 16 juillet 1870, Carmel, inscrite cette fois « Carmel Robidoux », 59 ans, née au Nouveau-Mexique, vit à Conejos (territoire du Colorado) chez Christian Stollsteimer, marchand, et Amanda, avec leurs deux premiers enfants. Le petit Carlos Alberto est baptisé à l'église de Guadalupe en 1868 avec Maria Carmel Roubidoux pour marraine.",
-  f"{LEV} ; {STO}.")
+  f"{LEV} ; {STO} ; {CEN}, 1870, Conejos (Chas F. Stollsteimer, v. 1843, Wurtemberg ; Amanda, v. 1851, Missouri ; Charles Albert, 1868 ; Ferdinand, 1869).")
 L('L69', "La Piedra : le ranch des Stollsteimer", -107.34, 37.13, '1880/1906', 'annee', 'approximative', 'proches',
   "Vers 1880, Christian Stollsteimer et Amanda Barada élèvent bétail et moutons au confluent de la Piedra et du ruisseau Stollsteimer, au lieu-dit Francé, au sud-ouest de Pagosa Springs ; la famille y bâtit une petite chapelle catholique pour les prêtres de passage. Agent des Utes du Sud et des Jicarillas, Christian perd son poste en 1888 pour malversations.",
   f"{FLC} ; {STO}.",
@@ -420,6 +430,99 @@ T('T09', "Louis monte au fort Uintah", [SF, [-106.3, 36.2], [-106.9, 36.8], [-10
   "Après avoir vendu ses biens de Santa Fe, Louis part au printemps 1841 vérifier les affaires du fort Uintah ; le 5 mai, il grave son passage dans le bassin du Willow Creek.",
   f"{WIL}, p. 153-154.",
   "Route reconstituée par la Vieille piste espagnole et la vallée de la Green.")
+
+# ================================================================== AJOUTS 2026 (II) : Willoughby intégral, lettres de Louis, Kelly 1933, Drouin
+# ------------------------------------------------------------------ Le père, Joseph II
+L('L73', "Sault-au-Récollet : baptême de Joseph Marie Robidoux", -73.6585, 45.5640, '1750-02-12', 'jour', 'certaine', 'joseph2',
+  "Joseph Marie Robidoux, le futur Joseph II, naît et est baptisé le 12 février 1750 à la Visitation-de-la-Bienheureuse-Vierge-Marie du Sault-au-Récollet, au nord de l'île de Montréal, fils de Joseph Robidoux et de Marianne Leblanc. C'est la racine montréalaise de toute la famille de l'Ouest : il part avec son père pour Saint-Louis en 1770-1771.",
+  f"{DRO} ; {WIL}, p. 2-3.",
+  "L'index d'Ancestry porte à tort 1736 comme date de baptême ; l'acte et la date de naissance donnent 1750.",
+  images=[{"src": "images/documents/drouin-1750-02-12-bapteme-joseph-marie-robidoux.jpg", "legende": "Registre de la Visitation du Sault-au-Récollet, 1750 : en marge, « B.5 joseph marie Robidoux » (collection Drouin, image Ancestry)"}])
+L('L74', "Rivière Des Moines : le poste du père", -91.43, 40.38, '1803-05', 'mois', 'hypothetique', 'joseph2',
+  "En mai 1803, malade et presque aveugle, Joseph II achète une part d'un poste au confluent de la Des Moines et du Mississippi, où la famille commerce avec des fournisseurs canadiens. Le jeune Joseph III en serait parti pour sa première remontée du Missouri.",
+  f"{WIL}, p. 23-25.",
+  "Emplacement exact du poste inconnu.")
+# ------------------------------------------------------------------ Joseph III
+L('L75', "Belle Fontaine : la licence du général Wilkinson", -90.207, 38.828, '1805-08-28/1806-08', 'jour', 'certaine', 'joseph3',
+  "Le 28 août 1805, le gouverneur James Wilkinson accorde une licence de traite à « Joseph Robidoux, Junior » ; il la renouvelle en août 1806. Wilkinson fait bâtir la même année le fort de Belle Fontaine, quatre milles au-dessus du confluent du Missouri et du Mississippi.",
+  f"{WIL}, p. 26-27.",
+  "La licence est délivrée à Saint-Louis ; le point marque le fort du gouverneur.")
+T('T10', "De Michillimakinac à l'Illinois", [[-84.73, 45.86], [-86.5, 44.5], [-87.6, 43.0], [-87.62, 41.88], [-88.2, 41.4], [-89.3, 41.1], [-89.6, 40.7], [-90.1, 39.8], [-90.43, 38.97], SL],
+  '1808-07-30/1808-09', 'hypothetique', 'fleuve', 'joseph3',
+  "Le 30 juillet 1808, Joseph Robidoux prend le commandement d'une barge partie de Michillimakinac pour la rivière des Illinois. En septembre, il engage son frère François comme hivernant sur le Missouri.",
+  f"{WIL}, p. 31.",
+  "Route reconstituée par le lac Michigan, le portage de Chicago et l'Illinois.")
+L('L76', "Bellevue : Roy & Robidoux contre Cabanné", -95.89, 41.137, '1826-08-16/1828-10', 'jour', 'certaine', 'joseph3',
+  "Le 16 août 1826, William Clark délivre à Joseph Robidoux une licence pour Bellevue, l'embouchure de la Papillion et les villages omahas, panis et poncas. Associé à Baptiste Roy en 1827-1828, il fait une concurrence ouverte à Jean-Pierre Cabanné, de la compagnie Pratte, qui l'accuse de vendre du whisky. En octobre 1828, la compagnie rachète ses marchandises 3 500 dollars et lui verse 1 000 dollars par an pour qu'il quitte le Missouri : il se retire à Saint-Louis, où il tient une boulangerie.",
+  f"{WIL}, p. 88-96, 100.")
+L('L77', "Grande Nemaha : le poste près de l'agence", -95.27, 39.86, '1847-07/1849', 'mois', 'hypothetique', 'joseph3',
+  "Joseph Robidoux tient un poste près de l'agence de la Grande Nemaha, à une journée à l'ouest de Saint-Joseph, où se fournissent les Ioways et les Sauks ; son commis Hardin y traite pour « Robidoux (Michel et François) » en 1847. En mai 1849, un émigrant croise le vieux Joseph près de la Big Nemaha, allant au-devant de ses mulets chargés de fourrures. Il vend le poste en 1849.",
+  f"{WIL}, p. 185-187, 194.",
+  "Emplacement placé à l'agence (près de l'actuelle Highland, Kansas).")
+L('L78', "Saint-Joseph : la mort de Charles", -94.8492, 39.7672, '1850-09-08', 'jour', 'certaine', 'joseph3',
+  "Le dimanche 8 septembre 1850, vers 23 heures, Charles, le benjamin de Joseph, rentré du collège, est tué d'une décharge de chevrotine tirée d'une fenêtre de la rue principale. Joseph accourt et accuse le propriétaire du magasin, Duncan MacDonald ; on craint un lynchage. Il ne se remet pas de ce deuil.",
+  f"{WIL}, p. 195.")
+L('L79', "Ruisseau Blacksnake : le mariage des eaux", -94.858, 39.776, '1859-02-22', 'jour', 'certaine', 'joseph3',
+  "Le 22 février 1859, le chemin de fer Hannibal & St. Joseph est inauguré : à l'embouchure du ruisseau Blacksnake, en présence de Joseph Robidoux, les officiels versent dans le Missouri des eaux de l'Atlantique, du lac Michigan et du Mississippi. Saint-Joseph devient le terminus occidental du réseau ferré américain.",
+  f"{WIL}, p. 203-204.")
+# ------------------------------------------------------------------ Antoine
+L('L80', "Franklin : la boutique d'Antoine", -92.73, 39.01, '1817/1829-07', 'annee', 'approximative', 'antoine',
+  "À l'été 1817, Antoine quitte Saint-Louis pour le comté de Howard et ouvre une boutique à Franklin, avec des marchandises de Joseph et de François (licence de 10 dollars). En mars 1819, il y traite avec Joseph ; les frères achètent un quart de section près de la ville, perdu dans la panique de 1819. Franklin est le point de départ de la piste de Santa Fe. En juillet 1829, Isidore y signale à Pierre Chouteau l'arrivée d'une barge de marchandises.",
+  f"{WIL}, p. 41, 48, 53, 96.")
+L('L81', "Taos : Lisa Romero et Maria Juana", -105.574, 36.4055, '1825/1826-01-30', 'annee', 'certaine', 'antoine',
+  "Au printemps 1825, Antoine noue une liaison avec Lisa Romero, de Taos ; leur fille Maria Juana est baptisée le 30 janvier 1826. Le 29 juin 1825, William Clark avait délivré à Antoine et à son frère Michel un passeport pour retraverser le Territoire indien vers le Mexique.",
+  f"{WIL}, p. 76.")
+L('L82', "Fort Bent : avec l'armée de l'Ouest", -103.43, 38.04, '1846-07-28/1846-08-01', 'jour', 'certaine', 'antoine',
+  "Interprète et guide de Kearny, Antoine arrive avec l'avant-garde au fort Bent le 28 juillet 1846. Il traduit les interrogatoires des prisonniers, puis, à Santa Fe, tous les discours de Kearny et le toast du général au banquet du 20 septembre, que note Susan Magoffin. Le 23 août, il écrit à B. F. Loan le récit de la prise de Santa Fe, publié par la Gazette de Saint-Joseph.",
+  f"{WIL}, p. 168-172.")
+L('L83', "Monterey : convalescence et congé", -121.894, 36.600, '1847-04/1847-11', 'mois', 'approximative', 'antoine',
+  "Blessé à la colonne vertébrale à San Pasqual, Antoine gagne San Diego, puis Monterey, sans doute à bord de la frégate Congress. Il s'y lie avec l'artiste Edward Kern et reçoit son congé en avril ou mai 1847. Sans argent, il écrit à Joseph, puis embarque en novembre sur la goélette Commodore Shubrick, « par le Pérou, la Jamaïque et d'autres lieux ».",
+  f"{WIL}, p. 174.")
+L('L84', "Washington : la pension d'Antoine", -77.009, 38.889, '1856-02/1856-08-23', 'mois', 'certaine', 'antoine',
+  "Presque aveugle, Antoine se rend à Washington au début de 1856 ; son représentant J. S. Phelps laisse un mot à Jefferson Davis. La loi H.R. 196 lui accorde une pension d'invalidité de 16,66 dollars par mois, signée par le président Pierce le 23 août 1856. Sa demande de remboursement du voyage de Californie (870 dollars) et sa terre de prime pour la guerre de 1812 n'aboutissent pas.",
+  f"{WIL}, p. 204-208.")
+# ------------------------------------------------------------------ Louis
+L('L85', "Santa Fe : les enfants de Louis et de Guadalupe García", -105.9378, 35.6862, '1835-08-12/1837-12-20', 'jour', 'certaine', 'louis',
+  "Catarina, l'aînée de Louis et de Guadalupe García, naît à Santa Fe le 12 août 1835, baptisée sous le prénom de sa grand-mère Catherine Rollet ; José Luis naît le 17 décembre 1837, baptisé par le curé José Francisco Leyba avec Dámaso et Carmelita López pour parrains. Louis sera premier alcalde de Santa Fe en 1839.",
+  f"{WEB72}, p. 106, 116 (registres de baptêmes de Santa Fe).")
+L('L86', "Rancho del Chino : Louis prisonnier", -117.686, 33.995, '1846-09-26/1847-01-10', 'jour', 'certaine', 'louis',
+  "Le 25 septembre 1846, dix-huit étrangers se réunissent chez Louis et chez son voisin Benjamin Wilson. Le lendemain, ils se retranchent au rancho del Chino d'Isaac Williams ; le 27, deux cents Californiens mettent le feu à la maison et ils se rendent. Prisonnier du général Flores, Louis échappe à la déportation vers Mexico et n'est libéré qu'à l'entrée des Américains à Los Angeles, le 10 janvier 1847. Il raconte tout à Manuel Alvarez dans sa lettre du 1er mai 1848, portée à Santa Fe par Kit Carson.",
+  f"{WEB72}, p. 107-109 ; {WIL}, p. 175-176.")
+L('L87', "San Bernardino : Louis au conseil du comté", -117.2898, 34.1083, '1853/1858', 'annee', 'certaine', 'louis',
+  "En 1853, Louis est élu superviseur du nouveau comté de San Bernardino et devient le premier président du conseil. Il s'entend avec les colons mormons jusqu'en 1856 et siège en 1858 au comité de construction de la nouvelle église catholique de San Bernardino.",
+  f"{WIL}, p. 199-201.")
+# ------------------------------------------------------------------ François, Michel, Isidore
+L('L88', "Saint-Louis : les mariages des frères", -90.1888, 38.6272, '1807/1825-06-22', 'annee', 'certaine', 'freres',
+  "En 1807, François épouse Thérèse Bienvenu Delisle, sœur jumelle d'Eugénie, la première femme de Joseph ; ils auront dix enfants entre 1809 et 1831. En septembre 1808, Joseph l'engage comme hivernant sur le Missouri. Le 22 juin 1825, Michel épouse Susanne Vaudry, sœur d'Angélique, la seconde femme de Joseph. En septembre 1830, Joseph, Isidore, François et leur sœur Pélagie signent la vente d'un terrain hérité du père.",
+  f"{WIL}, p. 30-31, 77, 97.")
+L('L89', "Ham's Fork : la brigade de Michel", -110.05, 41.75, '1830-08-23', 'jour', 'approximative', 'freres',
+  "Parti de Saint-Louis avec Fontenelle et Drips pour l'American Fur Company, Michel Robidoux commande l'une des trois brigades qui se partagent les terrains de chasse depuis Ham's Fork, affluent de la Green : à lui le nord, vers les sources de la Snake.",
+  f"{WIL}, p. 96-97.",
+  "Warren Ferris dit seulement « M. Robidoux » ; Willoughby identifie Michel par élimination.")
+L('L90', "Ogden's Hole : l'hiver de Michel", -111.85, 41.30, '1830-11/1831-03', 'mois', 'approximative', 'freres',
+  "Le détachement de Michel hiverne à Ogden's Hole, vingt milles au sud de Cache Valley, entre courses de chevaux et jeux. Il engage trois trappeurs iroquois libres, dont John Gray, avec qui il travaille jusqu'en 1835 ; Jean-Baptiste Charbonneau, le fils de Sacagawea, est de la brigade.",
+  f"{WIL}, p. 98.")
+L('L91', "La « rivière Malade » : Michel sur la Snake", -112.85, 42.78, '1831', 'annee', 'hypothetique', 'freres',
+  "Au printemps 1831, les trappeurs de Michel fouillent la Snake jusqu'à la Portneuf et aux chutes (American Falls). Maladie, soif, faim, attaques et rencontres avec la Compagnie de la Baie d'Hudson : selon J. H. Stevens, les castors de cette « Rivière Malade » rendent malades ceux qui les mangent. Michel rentre à Saint-Louis en juin 1831.",
+  f"{WIL}, p. 98-99.")
+L('L92', "Saint-Joseph : Michel Robidoux & Co.", -94.8478, 39.7688, '1845/1858-04', 'annee', 'certaine', 'freres',
+  "En 1845, tous les frères sauf Louis vivent ou commercent à Saint-Joseph. Isidore et Michel y sont associés jusqu'à la mort d'Isidore, sans testament, à l'été 1852 ; Michel, « associé survivant de Michel Robidoux & Co. », administre la succession avec une caution de 26 000 dollars. Resté lié au major Andrew Drips et au fort Laramie, Michel meurt en avril 1858, à soixante ans.",
+  f"{WIL}, p. 181, 194, 202.")
+L('L93', "Les Plaines : la mort de François", -98.98, 40.64, '1856~', 'circa', 'hypothetique', 'freres',
+  "Sans fortune, ayant tout cédé à Saint-Louis en 1850, François travaille sur la route de Saint-Joseph à Scotts Bluff, comme guide d'émigrants ou traiteur. Le comté de Buchanan ouvre sa succession en avril 1856 ; aucun journal ne publie sa mort et aucune tombe n'est connue. Une plaque au pied du monument de Joseph, à Mount Olivet, le dit mort sur les Grandes Plaines en 1857.",
+  f"{WIL}, p. 202.",
+  "Lieu de décès inconnu : point placé symboliquement sur la route de l'Oregon, près du fort Kearny.")
+# ------------------------------------------------------------------ La famille sur la route de l'Oregon
+L('L94', "Chimney Rock : deux « Rubidoos »", -103.348, 41.703, '1847-09', 'mois', 'approximative', 'famille',
+  "En septembre 1847, des Mormons revenant du Grand Lac Salé croisent deux « Rubidoos » qui chassent et traitent le bison près de Chimney Rock : sans doute Joseph E. ou ses cousins Antoine et Sellico.",
+  f"{WIL}, p. 183.")
+L('L95', "Ash Hollow : le « Robidou Fort »", -102.12, 41.29, '1848', 'annee', 'approximative', 'famille',
+  "En 1848, Joe Meek trouve à Ash Hollow un « Robidou Fort » tenu par un Français nommé Le Beau, sans doute un engagé de Joseph, près d'un village sioux. En juillet 1849, Joseph prend une licence de 5 000 dollars employant son frère François, son fils Joseph E. et ses neveux Antoine et Sellico ; en 1850, 12 000 dollars, avec Michel et Isidore.",
+  f"{WIL}, p. 187, 194.")
+L('L96', "Durango : l'ouverture de la réserve ute", -107.8801, 37.2753, '1899-05-03/1899-05-10', 'jour', 'certaine', 'proches',
+  "Le 3 mai 1899, la veille de l'ouverture de la réserve ute à la colonisation, Emma et Adela Stollsteimer, filles d'Amanda, la petite-fille adoptive d'Antoine Robidoux, prennent les troisième et quatrième places dans la file du bureau des terres de Durango, avec leur frère. Le 10 mai, les Stollsteimer déposent plus de 1 200 acres de demandes dans la vallée de la San Juan : la terre ute passe aux descendants des traiteurs.",
+  f"{STO} (journaux de Durango, 3 et 10 mai 1899).",
+  images=[LOC("durango-1899-ouverture-ute-strip-stollsteimer.jpg", "« Waiting for the opening of the Ute Strip » : premier rang, Phil Voight, Stollsteimer et deux sœurs (photo Conner, 1899, reproduite dans un ouvrage local ; dossier de l'auteur)")])
 
 os.makedirs('data', exist_ok=True)
 for nom, feats in (('lieux', LIEUX), ('trajets', TRAJETS)):
