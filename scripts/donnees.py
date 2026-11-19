@@ -45,6 +45,8 @@ KEL = "C. Kelly, « Antoine Robidoux » [inscription de Westwater], Utah Histori
 WEB72 = "D. J. Weber (éd.), « Louis Robidoux: Two Letters from California, 1848 », Southern California Quarterly, vol. 54, n° 2 (1972)"
 CEN = "Recensements fédéraux des États-Unis (Ancestry)"
 OBI = "Nécrologie d'Antoine Robidoux, St. Joseph Gazette, reprise dans le Los Angeles Star, 29 septembre 1860"
+OLD = "A. Oldham, « Stollsteimer Chronik » (2000), d'après le journal de Christian F. Stollsteimer, pages photographiées dans le dossier de l'auteur"
+MON = "I. Montroy, « Colonel C. T. Stollsteimer », d'après les souvenirs de Harry Stollsteimer (pages photographiées dans le dossier de l'auteur)"
 ROB = "O. M. Robidoux, Memorial to the Robidoux Brothers: A History of the Robidouxs in America (Kansas City, 1924), archive.org memorialtorobido00robi"
 BUC = "The History of Buchanan County, Missouri (St. Joseph, Union Historical Company, 1881)"
 AND = "A. T. Andreas (éd.), History of the State of Nebraska (1882), comté de Sarpy (transcription kancoll.org)"
@@ -408,8 +410,8 @@ L('L68', "Conejos : Carmel chez les Stollsteimer", -106.0198, 37.0886, '1870-07-
   "Au recensement du 16 juillet 1870, Carmel, inscrite cette fois « Carmel Robidoux », 59 ans, née au Nouveau-Mexique, vit à Conejos (territoire du Colorado) chez Christian Stollsteimer, marchand, et Amanda, avec leurs deux premiers enfants. Le petit Carlos Alberto est baptisé à l'église de Guadalupe en 1868 avec Maria Carmel Roubidoux pour marraine.",
   f"{LEV} ; {STO} ; {CEN}, 1870, Conejos (Chas F. Stollsteimer, v. 1843, Wurtemberg ; Amanda, v. 1851, Missouri ; Charles Albert, 1868 ; Ferdinand, 1869).")
 L('L69', "La Piedra : le ranch des Stollsteimer", -107.34, 37.13, '1880/1906', 'annee', 'approximative', 'proches',
-  "Vers 1880, Christian Stollsteimer et Amanda Barada élèvent bétail et moutons au confluent de la Piedra et du ruisseau Stollsteimer, au lieu-dit Francé, au sud-ouest de Pagosa Springs ; la famille y bâtit une petite chapelle catholique pour les prêtres de passage. Agent des Utes du Sud et des Jicarillas, Christian perd son poste en 1888 pour malversations.",
-  f"{FLC} ; {STO}.",
+  "Vers 1880, Christian Stollsteimer et Amanda Barada élèvent bétail et moutons au confluent de la Piedra et du ruisseau Stollsteimer, au lieu-dit Francé, au sud-ouest de Pagosa Springs ; la famille y bâtit une petite chapelle catholique pour les prêtres de passage. Agent des Utes du Sud et des Jicarillas, Christian perd son poste en 1888 pour malversations. À l'automne 1879, il s'installe « à douze milles à l'ouest de Pagosa Springs », tient une boucherie et fournit le bœuf du nouveau fort Lewis ; le 6 juillet 1896, il dépose au bureau des terres de Durango son certificat de homestead de 160 acres. Un jour, la bande de Charles Allison, capturée par le shérif, dîne chez Amanda ; elle demande au chef pourquoi il a épargné ses juments Navajo et Mariposa : « Je savais qu'elles étaient à vous, et je n'ai jamais rien volé à une femme. »",
+  f"{FLC} ; {STO} ; {OLD}, p. 52-53 ; {MON}, p. 57.",
   "Emplacement du lieu-dit Francé approximatif.")
 L('L70', "Pagosa Springs : la colline Robidoux", -107.0045, 37.2645, '1880/1911', 'annee', 'approximative', 'famille',
   "La colline au sud-est de Pagosa Springs s'appelait Robidoux Hill, en l'honneur d'Antoine, grand-père adoptif d'Amanda Stollsteimer, dont la famille vit dans le comté. Au début du XXe siècle, on y installe le réservoir de la ville : elle devient Reservoir Hill.",
@@ -621,6 +623,23 @@ L('L122', "Saint-Louis : la Council House de la rue Seconde", -90.1858, 38.6232,
 L('L123', "Saint-Louis : la souscription pour le collège", -90.1867, 38.6247, '1819-10-30', 'jour', 'certaine', 'freres',
   "Le 30 octobre 1819, l'évêque Dubourg réunit les chefs de famille catholiques de Saint-Louis pour fonder un collège près de la première église de brique. Auguste Chouteau, François Robidoux et Joseph Robidoux sont parmi les premiers signataires.",
   f"{ROB}, p. 115.")
+# ------------------------------------------------------------------ Les Stollsteimer d'après le journal de Christian
+L('L124', "Santa Fe : la demande en mariage chez Carmel", -105.9369, 35.6873, '1866-12-28/1867-04-21', 'jour', 'certaine', 'proches',
+  "Le lendemain de Noël 1866, Christian Stollsteimer, commis à Conejos, part à cheval pour Santa Fe avec le père Miguel Rolly, curé de Conejos. Ils vont porter des lettres « chez Mrs. Carmel Benavides de Ribidouse, la mère adoptive de la jeune fille » : Amanda, quatorze ans, vient s'asseoir avec eux, et Christian tombe amoureux. Le prêtre, faisant office de père, porte une demande écrite selon la coutume du Nouveau-Mexique. Le jour de l'An 1867, la maison de Carmel envoie du vin et des gâteaux au vicaire, mais la réponse, tournée avec toute la cérémonie espagnole, est un refus. En février, Christian revient avec un chariot de calicots, obtient un entretien et se fiance. Le mariage est célébré à Santa Fe le 21 avril 1867, jour de Pâques, par le frère Eguillon, avec José Cena et Isabel Baca pour parrains ; l'acte dit Amanda « fille légitime de feu Isidoro Barada et de feue Marina Anaya ». Carmel accompagne les mariés jusqu'à Conejos, sous la grêle, en traversant les rivières en canot.",
+  f"{OLD}, p. 48-50.",
+  "Le journal de Christian est le seul témoignage direct connu d'une visite chez Carmel. Les nécrologies et les souvenirs de Harry Stollsteimer datent le mariage du 21 avril 1869.")
+L('L125', "Embargo Creek : le ranch des Stollsteimer", -106.47, 37.70, '1872/1883-09-21', 'annee', 'approximative', 'proches',
+  "Vers 1872, Christian et Amanda achètent quatre cents acres et leurs droits d'eau sur l'Embargo Creek, près de Del Norte (comté de Rio Grande). Christian y bâtit une maison de quatre pièces, de rondins revêtus d'adobe ; y naissent Adela (1874), Delfina (1875) et Harry (1878). Associé à Ferdinand Meyer et à Rudolph Schmieding, il est aussi maître de poste de Del Norte. Le ranch est vendu le 21 septembre 1883.",
+  f"{OLD}, p. 51-52 ; {MON}, p. 57.",
+  "Emplacement placé sur le cours inférieur de l'Embargo Creek.")
+L('L126', "Ignacio : l'agence des Utes du Sud", -107.633, 37.117, '1885-01-13/1889', 'jour', 'certaine', 'proches',
+  "Le 13 janvier 1885, le président Arthur nomme Christian Stollsteimer agent des Indiens de l'agence des Utes du Sud ; Cleveland le reconduit et lui confie aussi les Apaches jicarillas de Dulce. Il autorise les Utes affamés à chasser hors de la réserve ; en juin 1885, des cowboys massacrent une famille de la bande de Crazy Jake près de Beaver Creek, et les Utes ripostent au ranch Gentner. En 1886, Stollsteimer accompagne une délégation ute à Washington. Amanda, qui parle anglais, français et espagnol, donne naissance à Stella à Durango le 31 janvier 1886.",
+  f"{OLD}, p. 51-54 ; {MON}, p. 57.",
+  "Point placé à l'agence d'Ignacio ; la famille habite alors Durango.")
+L('L127', "Pagosa Springs : la tombe de Christian Stollsteimer", -107.026, 37.272, '1906-04-13', 'jour', 'approximative', 'proches',
+  "Christian Stollsteimer meurt à Pagosa Springs le vendredi 13 avril 1906, quelques mois après son fils Fred, emporté par la typhoïde à Durango le 27 septembre 1905 ; il est enterré au cimetière Hill Top, sous une pierre gravée à la main de son blason. Amanda part ensuite pour Pasadena, près de ses enfants. Le ruisseau Nutria a été rebaptisé Stollsteimer Creek en son honneur.",
+  f"{OLD}, p. 54-55.",
+  "Coordonnées du cimetière approximatives.")
 
 os.makedirs('data', exist_ok=True)
 for nom, feats in (('lieux', LIEUX), ('trajets', TRAJETS)):

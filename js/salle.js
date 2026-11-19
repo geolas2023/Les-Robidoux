@@ -490,6 +490,20 @@ Enfants de Joseph III : Joseph E. (né vers 1801-1802, de son union avec Eugéni
   sources: `${ROB}, p. 222-223, 276-287 ; ${WIL}.`,
   lieux: ['L115', 'L73', 'L113', 'L114', 'L98'] },
 
+{ id: 'd-stollsteimer-journal', type: 'document', statut: 'resume', ordre: 116, date: 'décembre 1866 – avril 1867', titre: 'Le journal de Christian Stollsteimer : la demande en mariage chez Carmel',
+  personnes: ['Carmel Benavides', 'Amanda Barada'],
+  resume: "Le seul témoignage de première main connu sur la maison de Carmel à Santa Fe : le récit, dans son journal, du prétendant éconduit puis accepté.",
+  texte: `Christian Friedrich Stollsteimer (Echterdingen, Wurtemberg, 29 décembre 1842 – Pagosa Springs, 13 avril 1906) tenait un journal relié de cuir, frappé du blason familial, commencé en allemand puis poursuivi en anglais. Émigré à dix-sept ans (1860), passé par le Wisconsin, il gagne Saint-Joseph en 1863, suit à pied la route de la Platte jusqu'à Denver, puis devient commis du vivandier du fort Garland, à Costilla et à Conejos.
+
+À la fin de 1866, ayant entendu parler « d'une jeune fille convenable qui vivait à Santa Fe », il part le lendemain de Noël avec le père Miguel Rolly. Le lendemain de leur arrivée, ils se présentent « à la maison de Mrs. Carmel Benavides de Ribidouse, la mère adoptive de la jeune fille », pour remettre des lettres et apercevoir Amanda, qui vient s'asseoir avec eux ; il repart « passablement amoureux ». Le prêtre, faisant office de père, porte une demande écrite. Le jour de l'An 1867, du vin et des gâteaux arrivent de chez « Mrs. Robidouse » : bon signe, croit le père ; le soir, la réponse, tournée avec tant de cérémonie espagnole que le prêtre la comprend de travers, est un refus. Au départ, les dames de la maison, sur la galerie, saluent les cavaliers « avec un sourire malicieux ».
+
+Cinq semaines plus tard, Christian redescend à Santa Fe avec un chariot de calicots, écrit à la jeune fille et obtient une visite : il trouve une troupe d'amies qui prennent congé de « Miss Amanda » en retenant leurs rires. « Ce que je n'avais pu obtenir par une lettre de cérémonie, je l'obtins en plaidant » : ils se fiancent. Le mariage est célébré le 21 avril 1867, jour de Pâques, par le frère Eguillon ; Carmel accompagne le couple à Conejos.
+
+Les souvenirs du fils Harry, recueillis par Ila Montroy, ajoutent qu'Amanda parlait couramment anglais, français et espagnol, et qu'elle sermonna le bandit Charles Allison, venu dîner chez elle sous escorte du shérif.`,
+  note: "Le journal original appartient aux descendants ; Ann Oldham en a publié des extraits en 2000 (« Stollsteimer Chronik »). Les pages photographiées dans le dossier de l'auteur sont protégées : seules de brèves citations sont traduites ici.",
+  sources: "A. Oldham, « Stollsteimer Chronik » (2000), p. 46-55 ; I. Montroy, « Colonel C. T. Stollsteimer », p. 56-57 ; nécrologies d'Archuleta County (p. 227) ; pages photographiées dans le dossier de l'auteur (dossier Armanda_Maria_Baracha).",
+  lieux: ['L124', 'L67', 'L68', 'L125', 'L69', 'L126', 'L127', 'L72'] },
+
 { id: 'e-memorial-1924', type: 'etude', statut: 'fiche', ordre: 206, date: '1924', titre: 'O. M. Robidoux, Memorial to the Robidoux Brothers',
   personnes: ['Joseph III', 'Antoine', 'Louis', 'Michel', 'François', 'Isidore', 'Jules', 'Carmel Benavides'],
   resume: "Le livre de famille publié à Kansas City par Orral Messmore Robidoux, veuve d'un petit-fils de Joseph : une mine d'anecdotes, à manier avec précaution.",

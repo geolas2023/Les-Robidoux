@@ -1852,8 +1852,8 @@
     "precision": "annee",
     "certitude": "approximative",
     "categorie": "proches",
-    "description": "Vers 1880, Christian Stollsteimer et Amanda Barada élèvent bétail et moutons au confluent de la Piedra et du ruisseau Stollsteimer, au lieu-dit Francé, au sud-ouest de Pagosa Springs ; la famille y bâtit une petite chapelle catholique pour les prêtres de passage. Agent des Utes du Sud et des Jicarillas, Christian perd son poste en 1888 pour malversations.",
-    "sources": "Fort Lewis College, Prospectus on Traditional Cultural Properties on the San Juan (Center of Southwest Studies) ; Descendants of Johannes Stollsteimer, généalogie (2025), notice d'Amanda Maria Barada.",
+    "description": "Vers 1880, Christian Stollsteimer et Amanda Barada élèvent bétail et moutons au confluent de la Piedra et du ruisseau Stollsteimer, au lieu-dit Francé, au sud-ouest de Pagosa Springs ; la famille y bâtit une petite chapelle catholique pour les prêtres de passage. Agent des Utes du Sud et des Jicarillas, Christian perd son poste en 1888 pour malversations. À l'automne 1879, il s'installe « à douze milles à l'ouest de Pagosa Springs », tient une boucherie et fournit le bœuf du nouveau fort Lewis ; le 6 juillet 1896, il dépose au bureau des terres de Durango son certificat de homestead de 160 acres. Un jour, la bande de Charles Allison, capturée par le shérif, dîne chez Amanda ; elle demande au chef pourquoi il a épargné ses juments Navajo et Mariposa : « Je savais qu'elles étaient à vous, et je n'ai jamais rien volé à une femme. »",
+    "sources": "Fort Lewis College, Prospectus on Traditional Cultural Properties on the San Juan (Center of Southwest Studies) ; Descendants of Johannes Stollsteimer, généalogie (2025), notice d'Amanda Maria Barada ; A. Oldham, « Stollsteimer Chronik » (2000), d'après le journal de Christian F. Stollsteimer, pages photographiées dans le dossier de l'auteur, p. 52-53 ; I. Montroy, « Colonel C. T. Stollsteimer », d'après les souvenirs de Harry Stollsteimer (pages photographiées dans le dossier de l'auteur), p. 57.",
     "note": "Emplacement du lieu-dit Francé approximatif.",
     "type": "lieu",
     "images": []
@@ -2862,7 +2862,7 @@
     "precision": "annee",
     "certitude": "approximative",
     "categorie": "jules",
-    "description": "Jules ouvre d'abord un magasin à White Hall ; quand la localité est transportée à Savannah, chef-lieu du comté d'Andrew, il y déménage sa boutique et devient le premier marchand de Savannah, avant de s'établir à Saint-Joseph. Au printemps 1848, il va acheter ses marchandises à New York : trois mois de voyage par les rivières. C'est aussi à Savannah que se plaide en 1851 le procès du meurtrier de son frère Charles.",
+    "description": "Jules ouvre d'abord un magasin à White Hall ; quand la localité est transportée à Savannah, chef-lieu du comté d'Andrew, il y déménage sa boutique et devient le premier marchand de Savannah, avant de s'établir à Saint-Joseph. Au printemps 1848, il va acheter ses marchandises à New York : trois mois de voyage par les rivières. C'est aussi à Savannah, sur renvoi, que se plaide le procès du meurtrier de son frère Charles.",
     "sources": "O. M. Robidoux, Memorial to the Robidoux Brothers: A History of the Robidouxs in America (Kansas City, 1924), archive.org memorialtorobido00robi, p. 125, 225.",
     "note": "",
     "type": "lieu",
@@ -3215,6 +3215,106 @@
     "description": "Le 30 octobre 1819, l'évêque Dubourg réunit les chefs de famille catholiques de Saint-Louis pour fonder un collège près de la première église de brique. Auguste Chouteau, François Robidoux et Joseph Robidoux sont parmi les premiers signataires.",
     "sources": "O. M. Robidoux, Memorial to the Robidoux Brothers: A History of the Robidouxs in America (Kansas City, 1924), archive.org memorialtorobido00robi, p. 115.",
     "note": "",
+    "type": "lieu",
+    "images": []
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -105.9369,
+     35.6873
+    ]
+   },
+   "properties": {
+    "id": "L124",
+    "nom": "Santa Fe : la demande en mariage chez Carmel",
+    "debut": 1866.9904,
+    "fin": 1867.3027,
+    "date_edtf": "1866-12-28/1867-04-21",
+    "precision": "jour",
+    "certitude": "certaine",
+    "categorie": "proches",
+    "description": "Le lendemain de Noël 1866, Christian Stollsteimer, commis à Conejos, part à cheval pour Santa Fe avec le père Miguel Rolly, curé de Conejos. Ils vont porter des lettres « chez Mrs. Carmel Benavides de Ribidouse, la mère adoptive de la jeune fille » : Amanda, quatorze ans, vient s'asseoir avec eux, et Christian tombe amoureux. Le prêtre, faisant office de père, porte une demande écrite selon la coutume du Nouveau-Mexique. Le jour de l'An 1867, la maison de Carmel envoie du vin et des gâteaux au vicaire, mais la réponse, tournée avec toute la cérémonie espagnole, est un refus. En février, Christian revient avec un chariot de calicots, obtient un entretien et se fiance. Le mariage est célébré à Santa Fe le 21 avril 1867, jour de Pâques, par le frère Eguillon, avec José Cena et Isabel Baca pour parrains ; l'acte dit Amanda « fille légitime de feu Isidoro Barada et de feue Marina Anaya ». Carmel accompagne les mariés jusqu'à Conejos, sous la grêle, en traversant les rivières en canot.",
+    "sources": "A. Oldham, « Stollsteimer Chronik » (2000), d'après le journal de Christian F. Stollsteimer, pages photographiées dans le dossier de l'auteur, p. 48-50.",
+    "note": "Le journal de Christian est le seul témoignage direct connu d'une visite chez Carmel. Les nécrologies et les souvenirs de Harry Stollsteimer datent le mariage du 21 avril 1869.",
+    "type": "lieu",
+    "images": []
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -106.47,
+     37.7
+    ]
+   },
+   "properties": {
+    "id": "L125",
+    "nom": "Embargo Creek : le ranch des Stollsteimer",
+    "debut": 1872.5,
+    "fin": 1883.7219,
+    "date_edtf": "1872/1883-09-21",
+    "precision": "annee",
+    "certitude": "approximative",
+    "categorie": "proches",
+    "description": "Vers 1872, Christian et Amanda achètent quatre cents acres et leurs droits d'eau sur l'Embargo Creek, près de Del Norte (comté de Rio Grande). Christian y bâtit une maison de quatre pièces, de rondins revêtus d'adobe ; y naissent Adela (1874), Delfina (1875) et Harry (1878). Associé à Ferdinand Meyer et à Rudolph Schmieding, il est aussi maître de poste de Del Norte. Le ranch est vendu le 21 septembre 1883.",
+    "sources": "A. Oldham, « Stollsteimer Chronik » (2000), d'après le journal de Christian F. Stollsteimer, pages photographiées dans le dossier de l'auteur, p. 51-52 ; I. Montroy, « Colonel C. T. Stollsteimer », d'après les souvenirs de Harry Stollsteimer (pages photographiées dans le dossier de l'auteur), p. 57.",
+    "note": "Emplacement placé sur le cours inférieur de l'Embargo Creek.",
+    "type": "lieu",
+    "images": []
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -107.633,
+     37.117
+    ]
+   },
+   "properties": {
+    "id": "L126",
+    "nom": "Ignacio : l'agence des Utes du Sud",
+    "debut": 1885.0342,
+    "fin": 1889.5,
+    "date_edtf": "1885-01-13/1889",
+    "precision": "jour",
+    "certitude": "certaine",
+    "categorie": "proches",
+    "description": "Le 13 janvier 1885, le président Arthur nomme Christian Stollsteimer agent des Indiens de l'agence des Utes du Sud ; Cleveland le reconduit et lui confie aussi les Apaches jicarillas de Dulce. Il autorise les Utes affamés à chasser hors de la réserve ; en juin 1885, des cowboys massacrent une famille de la bande de Crazy Jake près de Beaver Creek, et les Utes ripostent au ranch Gentner. En 1886, Stollsteimer accompagne une délégation ute à Washington. Amanda, qui parle anglais, français et espagnol, donne naissance à Stella à Durango le 31 janvier 1886.",
+    "sources": "A. Oldham, « Stollsteimer Chronik » (2000), d'après le journal de Christian F. Stollsteimer, pages photographiées dans le dossier de l'auteur, p. 51-54 ; I. Montroy, « Colonel C. T. Stollsteimer », d'après les souvenirs de Harry Stollsteimer (pages photographiées dans le dossier de l'auteur), p. 57.",
+    "note": "Point placé à l'agence d'Ignacio ; la famille habite alors Durango.",
+    "type": "lieu",
+    "images": []
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -107.026,
+     37.272
+    ]
+   },
+   "properties": {
+    "id": "L127",
+    "nom": "Pagosa Springs : la tombe de Christian Stollsteimer",
+    "debut": 1906.2808,
+    "fin": 1906.2808,
+    "date_edtf": "1906-04-13",
+    "precision": "jour",
+    "certitude": "approximative",
+    "categorie": "proches",
+    "description": "Christian Stollsteimer meurt à Pagosa Springs le vendredi 13 avril 1906, quelques mois après son fils Fred, emporté par la typhoïde à Durango le 27 septembre 1905 ; il est enterré au cimetière Hill Top, sous une pierre gravée à la main de son blason. Amanda part ensuite pour Pasadena, près de ses enfants. Le ruisseau Nutria a été rebaptisé Stollsteimer Creek en son honneur.",
+    "sources": "A. Oldham, « Stollsteimer Chronik » (2000), d'après le journal de Christian F. Stollsteimer, pages photographiées dans le dossier de l'auteur, p. 54-55.",
+    "note": "Coordonnées du cimetière approximatives.",
     "type": "lieu",
     "images": []
    }
