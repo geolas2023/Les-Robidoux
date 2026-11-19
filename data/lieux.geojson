@@ -1392,6 +1392,18 @@
       "legende": "La falaise de grès du canyon Westwater, près de l'inscription (dossier de l'auteur)"
      },
      {
+      "src": "images/photos/westwater-inscription-et-bouclier-2017.jpg",
+      "legende": "L'inscription et, au pied du bloc, le bouclier peint préhistorique, octobre 2017 (dossier de l'auteur)"
+     },
+     {
+      "src": "images/photos/westwater-bouclier-peint-2017.jpg",
+      "legende": "Le bouclier peint, criblé d'impacts de balles, sous l'inscription d'Antoine (dossier de l'auteur, 2017)"
+     },
+     {
+      "src": "images/photos/westwater-falaise-2017.jpg",
+      "legende": "L'abri sous roche du ruisseau Westwater où campait Robidoux, vu du fond du canyon (dossier de l'auteur, 2017)"
+     },
+     {
       "src": "images/journaux/1912-02-23-times-independent-inscription-westwater.jpg",
       "legende": "The Times-Independent, 23 février 1912 (Newspapers.com)"
      }
@@ -3833,7 +3845,12 @@
     "sources": "O. M. Robidoux, Memorial to the Robidoux Brothers: A History of the Robidouxs in America (Kansas City, 1924), archive.org memorialtorobido00robi, p. 266 (Kansas City Post, 9 janvier 1915).",
     "note": "L'authenticité de la cabane est une tradition locale ; point au parc Krug.",
     "type": "lieu",
-    "images": []
+    "images": [
+     {
+      "src": "images/photos/saint-joseph-cabane-robidoux-oldest-house.jpg",
+      "legende": "« Oldest house, St. Joseph, built by the Indians for Jos. Robidoux » : la cabane conservée au parc Krug (photographie ancienne, dossier de l'auteur)"
+     }
+    ]
    }
   },
   {
@@ -4289,6 +4306,36 @@
     "note": "Point placé au village ; cimetière exact non vérifié.",
     "type": "lieu",
     "images": []
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -96.4265,
+     39.9116
+    ]
+   },
+   "properties": {
+    "id": "L162",
+    "nom": "Robidoux Creek (Kansas) : « M. Robidoux, trapper, 1841 »",
+    "debut": 1841.5,
+    "fin": 1841.5,
+    "date_edtf": "1841",
+    "precision": "annee",
+    "certitude": "hypothetique",
+    "categorie": "freres",
+    "description": "Une planche du dossier familial reproduit l'inscription « M. Robidoux trapper 1841 » et la situe sur le Robidoux Creek, « où Michel tenait un poste de traite avec les Indiens », juste en dessous du gué de Robidoux (Robidoux Crossing) qu'emprunta plus tard le Pony Express. Le Robidoux Creek (ou Vermillion) coupe la piste du Pony Express près de la station Guittard, dans le nord-est du comté de Marshall (Kansas).",
+    "sources": "Planche « Robidoux inscriptions » du dossier familial (dossier de l'auteur) ; National Park Service, « Saddle Up at Guittard », panneau de la piste du Pony Express (carte : Robidoux Creek et Pony Express Trail).",
+    "note": "Attribution à Michel et emplacement donnés par la planche familiale seulement, à vérifier. Point placé à la station Guittard, où la piste du Pony Express franchit le Robidoux Creek.",
+    "type": "lieu",
+    "images": [
+     {
+      "src": "images/documents/inscription-m-robidoux-trapper-1841.jpg",
+      "legende": "« M. Robidoux, trapper, 1841 » (planche du dossier familial)"
+     }
+    ]
    }
   }
  ]

@@ -840,10 +840,20 @@ PRESSE = {
           "Liberty Tribune, 25 mai 1855", None),
 }
 
+L('L162', "Robidoux Creek (Kansas) : « M. Robidoux, trapper, 1841 »", -96.4265, 39.9116, '1841', 'annee', 'hypothetique', 'freres',
+  "Une planche du dossier familial reproduit l'inscription « M. Robidoux trapper 1841 » et la situe sur le Robidoux Creek, « où Michel tenait un poste de traite avec les Indiens », juste en dessous du gué de Robidoux (Robidoux Crossing) qu'emprunta plus tard le Pony Express. Le Robidoux Creek (ou Vermillion) coupe la piste du Pony Express près de la station Guittard, dans le nord-est du comté de Marshall (Kansas).",
+  "Planche « Robidoux inscriptions » du dossier familial (dossier de l'auteur) ; National Park Service, « Saddle Up at Guittard », panneau de la piste du Pony Express (carte : Robidoux Creek et Pony Express Trail).",
+  "Attribution à Michel et emplacement donnés par la planche familiale seulement, à vérifier. Point placé à la station Guittard, où la piste du Pony Express franchit le Robidoux Creek.",
+  images=[{"src": "images/documents/inscription-m-robidoux-trapper-1841.jpg", "legende": "« M. Robidoux, trapper, 1841 » (planche du dossier familial)"}])
+
 EXTRA = {
   'L128': [{"src": "images/documents/clark-1827-07-23-licence-antoine-robidoux-and-company.jpg", "legende": "Licence de William Clark à « Antoine Robidoux and Company », Saint-Louis, 23 juillet 1827 (dossier de l'auteur)"}],
   'L50': [LOC("westwater-inscription-antoine-robidoux.jpg", "« Antoine Robidoux passé ici le 13 novembre 1837 pour établire maison traitte à la rv. Vert ou Wiyte » (dossier de l'auteur)"),
-          LOC("westwater-canyon-falaise.jpg", "La falaise de grès du canyon Westwater, près de l'inscription (dossier de l'auteur)")],
+          LOC("westwater-canyon-falaise.jpg", "La falaise de grès du canyon Westwater, près de l'inscription (dossier de l'auteur)"),
+          LOC("westwater-inscription-et-bouclier-2017.jpg", "L'inscription et, au pied du bloc, le bouclier peint préhistorique, octobre 2017 (dossier de l'auteur)"),
+          LOC("westwater-bouclier-peint-2017.jpg", "Le bouclier peint, criblé d'impacts de balles, sous l'inscription d'Antoine (dossier de l'auteur, 2017)"),
+          LOC("westwater-falaise-2017.jpg", "L'abri sous roche du ruisseau Westwater où campait Robidoux, vu du fond du canyon (dossier de l'auteur, 2017)")],
+  'L144': [LOC("saint-joseph-cabane-robidoux-oldest-house.jpg", "« Oldest house, St. Joseph, built by the Indians for Jos. Robidoux » : la cabane conservée au parc Krug (photographie ancienne, dossier de l'auteur)")],
   'L51': [LOC("willow-creek-inscription-louis-robidoux-1841.jpg", "« Louis Robidoux passo aqui el cuarto [?] de mayo de 1841 », Willow Creek ; photo de George E. Stewart reproduite par J. Nelson (2003), p. 35 (dossier de l'auteur)")],
   'L27': [LOC("col-robidoux-mosca-2010.jpg", "Le col Robidoux (Mosca), à 9 700 pieds ; photo de Gail Fisher, 6 décembre 2010 (dossier de l'auteur)")],
   'L34': [{"src": "images/documents/plan-rancho-jurupa.jpg", "legende": "Plan du rancho Jurupa confirmé à Louis Robidoux et al., levé pour le Surveyor General des États-Unis (années 1870) ; dossier de l'auteur"}],

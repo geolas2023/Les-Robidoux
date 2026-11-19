@@ -1,10 +1,10 @@
 // Page thématique « Les inscriptions » de l'Atlas Robidoux.
 // Les données viennent de data/lieux.geojson (généré par scripts/donnees.py) : une seule source pour la carte et la page.
 
-const IDS = ['L50', 'L51', 'L146', 'L147', 'L148', 'L149', 'L150', 'L151', 'L152', 'L153', 'L154'];
-const PERSONNE = { L50: 'antoine', L51: 'louis' }; // les autres : Denis Julien
+const IDS = ['L50', 'L51', 'L162', 'L146', 'L147', 'L148', 'L149', 'L150', 'L151', 'L152', 'L153', 'L154'];
+const PERSONNE = { L50: 'antoine', L51: 'louis', L162: 'louis' }; // les autres : Denis Julien
 const COULEUR = { antoine: '#9a3322', louis: '#7a4f1d', julien: '#2f4d63' };
-const NOM = { antoine: 'Antoine Robidoux', louis: 'Louis Robidoux', julien: 'Denis Julien' };
+const NOM = { antoine: 'Antoine Robidoux', louis: 'Louis ou Michel Robidoux', julien: 'Denis Julien' };
 const CERTITUDE = { certaine: 'position précise', approximative: 'position approximative', hypothetique: 'position hypothétique' };
 const MOIS = ['janvier', 'février', 'mars', 'avril', 'mai', 'juin', 'juillet', 'août', 'septembre', 'octobre', 'novembre', 'décembre'];
 
