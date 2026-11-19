@@ -10,7 +10,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&family=IM+Fell+English+SC&display=swap">
   <link rel="icon" href="images/coureur-des-bois.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="css/style.css?v=2">
+  <link rel="stylesheet" href="css/style.css?v=3">
 </head>
 <body>
   <header class="barre">
@@ -40,9 +40,10 @@
           <li><i class="pt joseph3"></i> Joseph III (1783-1868)</li>
           <li><i class="pt antoine"></i> Antoine (1794-1860)</li>
           <li><i class="pt louis"></i> Louis (1796-1868)</li>
-          <li><i class="pt freres"></i> François et Michel</li>
+          <li><i class="pt freres"></i> François, Michel et Isidore</li>
           <li><i class="pt jules"></i> Jules (m. 1875)</li>
           <li><i class="pt famille"></i> la famille, le nom</li>
+          <li><i class="pt proches"></i> épouses, alliés autochtones, descendants</li>
           <li><i class="pt incertain"></i> localisation approximative</li>
         </ul>
         <h3>Routes</h3>
@@ -80,10 +81,20 @@
     <output id="date-affichee">Toutes les dates</output>
   </footer>
 
+  <div id="lightbox" class="lightbox" hidden role="dialog" aria-modal="true" aria-label="Photo agrandie">
+    <button type="button" id="lb-fermer" class="lb-fermer" aria-label="Fermer">✕</button>
+    <button type="button" id="lb-prec" class="lb-nav lb-prec" aria-label="Photo précédente">‹</button>
+    <figure class="lb-cadre">
+      <img id="lb-image" src="" alt="">
+      <figcaption><span id="lb-legende"></span> <a id="lb-ouvrir" href="#" target="_blank" rel="noopener">Ouvrir en taille réelle ↗</a></figcaption>
+    </figure>
+    <button type="button" id="lb-suiv" class="lb-nav lb-suiv" aria-label="Photo suivante">›</button>
+  </div>
+
   <script src="https://unpkg.com/maplibre-gl@5/dist/maplibre-gl.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/topojson-client@3/dist/topojson-client.min.js"></script>
-  <script src="js/fonds.js?v=2"></script>
-  <script src="js/app.js?v=2"></script>
-  <script src="js/visite.js?v=2"></script>
+  <script src="js/fonds.js?v=3"></script>
+  <script src="js/app.js?v=3"></script>
+  <script src="js/visite.js?v=3"></script>
 </body>
 </html>

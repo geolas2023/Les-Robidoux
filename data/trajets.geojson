@@ -68,7 +68,8 @@
     "description": "Joseph Robidoux fait en 1799 son premier voyage sur le Missouri. Selon le Herald de Saint-Joseph, il s'établit en 1803 au pied des collines du Serpent-Noir (Black Snake Hills) et y bâtit une cabane près de la rivière.",
     "sources": "Tassé, Les Canadiens de l'Ouest (1878), t. II, p. 121.",
     "note": "",
-    "type": "trajet"
+    "type": "trajet",
+    "images": []
    }
   },
   {
@@ -146,7 +147,8 @@
     "description": "Le journal de James Kennerly, à Fort Atkinson, note le départ du « parti Robidoux » pour Santa Fe le 30 septembre 1824, son retour de Taos le 30 août 1825 et un nouveau départ le 14 septembre. Les frères Robidoux font quatre voyages à Santa Fe entre 1822 et 1825.",
     "sources": "W. S. Wallace, « Antoine Robidoux », dans Hafen (dir.), French Fur Traders and Voyageurs in the American West (1995), p. 271 ; A. Roy, « Sur la piste de Santa Fe », dans Frenette, Rivard et St-Hilaire (dir.), La francophonie nord-américaine (2012), p. 104.",
     "note": "Le chef du convoi n'est pas nommé (Antoine est le plus probable) ; la route suit la piste de Santa Fe.",
-    "type": "trajet"
+    "type": "trajet",
+    "images": []
    }
   },
   {
@@ -224,7 +226,8 @@
     "description": "La caravane d'Antoine Robidoux dort sous le Pictured Rock, franchit la Grand River, s'arrête au fort Uncompahgre, où Williams prêche le 14 août, puis gagne le col de Cochetopa : Robidoux y attelle le chariot qu'il avait laissé un an plus tôt, et mocassins et couvertures gèlent. Elle descend ensuite la vallée du rio Grande jusqu'à Taos.",
     "sources": "W. S. Wallace, « Antoine Robidoux », dans Hafen (dir.), French Fur Traders and Voyageurs in the American West (1995), p. 274-276.",
     "note": "",
-    "type": "trajet"
+    "type": "trajet",
+    "images": []
    }
   },
   {
@@ -286,7 +289,8 @@
     "description": "Le 7 octobre 1842, Robidoux repart de Taos avec trois Français, cinq Espagnols et huit mulets chargés chacun de 250 livres ; Rufus Sage est du voyage. La caravane franchit la ligne de partage au sud des monts La Plata et atteint le fort Uintah six jours plus tard.",
     "sources": "W. S. Wallace, « Antoine Robidoux », dans Hafen (dir.), French Fur Traders and Voyageurs in the American West (1995), p. 276-277.",
     "note": "Wallace suppose une seconde piste par la Dolores, sans passer par le fort Uncompahgre ; tracé reconstitué.",
-    "type": "trajet"
+    "type": "trajet",
+    "images": []
    }
   },
   {
@@ -360,7 +364,8 @@
     "description": "Interprète du général Kearny pendant la guerre du Mexique, Antoine Robidoux suit l'armée de l'Ouest de Santa Fe en Californie par le rio Grande et la Gila.",
     "sources": "W. S. Wallace, « Antoine Robidoux », dans Hafen (dir.), French Fur Traders and Voyageurs in the American West (1995), p. 281 ; Tassé, Les Canadiens de l'Ouest (1878), t. II, p. 128.",
     "note": "Tracé reconstitué par la route de l'armée de Kearny.",
-    "type": "trajet"
+    "type": "trajet",
+    "images": []
    }
   },
   {
@@ -430,7 +435,205 @@
     "description": "Selon Rafael Chacón, Louis Robidoux quitte Taos pour la Californie ; il s'établit au rancho de Jurupa, sur le Santa Ana.",
     "sources": "Cragin, Early Far West Notebooks (1902-1923), transcription dactylographiée, p. 131.",
     "note": "Chacón date le départ de 1846 ; la route est celle de la Vieille piste espagnole, par hypothèse.",
-    "type": "trajet"
+    "type": "trajet",
+    "images": []
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -94.846,
+      39.768
+     ],
+     [
+      -94.6,
+      39.1
+     ],
+     [
+      -95.7,
+      38.8
+     ],
+     [
+      -96.49,
+      38.66
+     ],
+     [
+      -98.2,
+      38.4
+     ],
+     [
+      -99.9,
+      37.9
+     ],
+     [
+      -101.0,
+      37.6
+     ],
+     [
+      -102.2,
+      37.2
+     ],
+     [
+      -103.4,
+      36.6
+     ],
+     [
+      -104.5,
+      35.9
+     ],
+     [
+      -105.2,
+      35.6
+     ],
+     [
+      -105.938,
+      35.687
+     ]
+    ]
+   },
+   "properties": {
+    "id": "T07",
+    "nom": "Carmel et Amanda retournent à Santa Fe",
+    "debut": 1860.7063,
+    "fin": 1862.5,
+    "date_edtf": "1860-09/1862",
+    "certitude": "hypothetique",
+    "mode": "terre",
+    "membre": "proches",
+    "description": "Après la mort d'Antoine, Carmel reprend seule la piste de Santa Fe avec sa petite-fille Amanda. Leur caravane aurait été attaquée par des Comanches dans les plaines du Kansas ; Levine n'a pu dater ni confirmer l'épisode.",
+    "sources": "F. Levine, « Desperately Seeking Carmel », El Palacio (été 2019) ; National Park Service, « Carmel Benavides » (2023).",
+    "note": "Date et route inconnues : tracé de la piste de Santa Fe par la route du Cimarron.",
+    "type": "trajet",
+    "images": []
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -108.074,
+      38.749
+     ],
+     [
+      -108.3,
+      38.95
+     ],
+     [
+      -108.55,
+      39.07
+     ],
+     [
+      -108.9,
+      39.12
+     ],
+     [
+      -109.13,
+      39.17
+     ],
+     [
+      -109.3,
+      39.55
+     ],
+     [
+      -109.55,
+      39.95
+     ],
+     [
+      -109.66,
+      40.07
+     ],
+     [
+      -109.917,
+      40.46
+     ]
+    ]
+   },
+   "properties": {
+    "id": "T08",
+    "nom": "D'un fort à l'autre par Westwater",
+    "debut": 1837.8726,
+    "fin": 1837.9548,
+    "date_edtf": "1837-11/1837-12",
+    "certitude": "hypothetique",
+    "mode": "terre",
+    "membre": "antoine",
+    "description": "Pour aller du fort de la Gunnison au fort Uintah (240 km à vol d'oiseau), Antoine descend la Gunnison jusqu'à l'actuelle Grand Junction, traverse les canyons des Book Cliffs, où il grave son nom à Westwater, puis le désert jusqu'à la White et la vallée de la Green. La route longue suit plutôt le tracé Smith de la Vieille piste espagnole.",
+    "sources": "R. J. Willoughby, The Brothers Robidoux and the Opening of the American West (2012), p. 131 ; B. Bartholomew, « Old Antoine Robidoux Left His Mark in Utah », History Blazer (août 1996).",
+    "note": "Tracé reconstitué.",
+    "type": "trajet",
+    "images": []
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      -105.938,
+      35.687
+     ],
+     [
+      -106.3,
+      36.2
+     ],
+     [
+      -106.9,
+      36.8
+     ],
+     [
+      -108.0,
+      37.45
+     ],
+     [
+      -108.9,
+      38.5
+     ],
+     [
+      -109.55,
+      38.99
+     ],
+     [
+      -110.15,
+      38.99
+     ],
+     [
+      -109.9,
+      39.4
+     ],
+     [
+      -109.7,
+      39.65
+     ],
+     [
+      -109.66,
+      40.07
+     ],
+     [
+      -109.917,
+      40.46
+     ]
+    ]
+   },
+   "properties": {
+    "id": "T09",
+    "nom": "Louis monte au fort Uintah",
+    "debut": 1841.2014,
+    "fin": 1841.3685,
+    "date_edtf": "1841-03/1841-05",
+    "certitude": "hypothetique",
+    "mode": "terre",
+    "membre": "louis",
+    "description": "Après avoir vendu ses biens de Santa Fe, Louis part au printemps 1841 vérifier les affaires du fort Uintah ; le 5 mai, il grave son passage dans le bassin du Willow Creek.",
+    "sources": "R. J. Willoughby, The Brothers Robidoux and the Opening of the American West (2012), p. 153-154.",
+    "note": "Route reconstituée par la Vieille piste espagnole et la vallée de la Green.",
+    "type": "trajet",
+    "images": []
    }
   }
  ]

@@ -24,6 +24,23 @@ HAN = f"C. E. Hanson Jr., « Joseph Moncravie », {FFT}"
 CRA = "Cragin, Early Far West Notebooks (1902-1923), transcription dactylographiée"
 AHQ = "A. Roy, « Sur la piste de Santa Fe », dans Frenette, Rivard et St-Hilaire (dir.), La francophonie nord-américaine (2012)"
 
+WIL = "R. J. Willoughby, The Brothers Robidoux and the Opening of the American West (2012)"
+LEV = "F. Levine, « Desperately Seeking Carmel », El Palacio (été 2019)"
+NPSC = "National Park Service, « Carmel Benavides » (2023)"
+NPSRP = "National Park Service, « Robidoux Pass » (2025)"
+UTB = "B. Bartholomew, « Old Antoine Robidoux Left His Mark in Utah », History Blazer (août 1996)"
+MHS = "Missouri Historical Society, Western Travel Collection, A1734-00001 (photographie de 1968)"
+OHP = "California Office of Historic Preservation, California Historical Landmarks"
+WLR = "« Louis Rubidoux », Wikipédia (d'après B. M. Read, Illustrated History of New Mexico, 1912, p. 449-452)"
+WJ4 = "« Joseph Robidoux IV », Wikipédia (d'après C. Rabideau et H. M. Lewis, Robidoux Chronicles, 2004)"
+WMM = "« Mary Many Days Robidoux », Wikipédia"
+WAM = "« Agua Mansa, California », Wikipédia (d'après Crafts et McGehee, Pioneer Days in the San Bernardino Valley, 1906)"
+PAG = "Pagosa Springs History Museum, « Robidoux Hill »"
+STO = "Descendants of Johannes Stollsteimer, généalogie (2025), notice d'Amanda Maria Barada"
+FLC = "Fort Lewis College, Prospectus on Traditional Cultural Properties on the San Juan (Center of Southwest Studies)"
+FAG = "Find a Grave, mémorial 255125946 (Martina Anaya Barada)"
+NRHP = "National Register of Historic Places, n° 73001037 (Robidoux Row)"
+
 def dec(edtf):
     d = edtf.replace('~', '').replace('?', '')
     p = [int(x) for x in d.split('-')]
@@ -33,18 +50,48 @@ def dec(edtf):
     n = 366 if j.year % 4 == 0 else 365
     return round(j.year + ((j - datetime.date(j.year, 1, 1)).days + 0.5) / n, 4)
 
+
+# ------------------------------------------------------------------ Photos (comme l'Atlas Aubry)
+# Images de Wikimedia Commons liées par Special:FilePath (licences libres : voir la page de chaque fichier) ;
+# images locales tirées du dossier ROBIDOUX_FAMILY de l'auteur (documents historiques du domaine public).
+from urllib.parse import quote
+def COM(fichier, legende):
+    nom = fichier.replace(' ', '_')
+    return {"src": f"https://commons.wikimedia.org/wiki/Special:FilePath/{quote(nom)}?width=1200",
+            "lien": f"https://commons.wikimedia.org/wiki/File:{quote(nom)}", "legende": f"{legende} (Wikimedia Commons)"}
+def LOC(fichier, legende):
+    return {"src": f"images/photos/{fichier}", "legende": legende}
+IMAGES = {
+  'L01': [COM("View of St. Louis from the Illinois shore - 1842 - DPLA - e4086a5fc6aaedd147830fbedfbaa7a1.jpg", "Saint-Louis vue de la rive illinoise, 1842")],
+  'L03': [COM("Old Cahokia Courthouse.JPG", "Cahokia : l'ancien palais de justice, maison à poteaux du village français, v. 1740")],
+  'L10': [COM("Fort Michilimackinac.jpg", "Fort Michilimackinac reconstitué (Mackinaw City)")],
+  'L14': [COM("Ft Atkinson west rampart.JPG", "Fort Atkinson (Nebraska) reconstitué : d'ici partent les convois Robidoux de 1824")],
+  'L15': [COM("Bird's eye view of the city of Saint Joseph, Missouri 1868. LOC 73693489.jpg", "Vue à vol d'oiseau de Saint-Joseph, 1868, l'année de la mort de Joseph (Library of Congress)")],
+  'L16': [COM("Bird's eye view of the city of Saint Joseph, Missouri 1868. LOC 73693489.jpg", "Saint-Joseph en 1868 (Library of Congress)")],
+  'L17': [LOC("santa-fe-plaza-cote-est-1866.jpg", "Santa Fe, côté est de la plaza, 1866 : la rue des marchands que fréquentaient Antoine et Louis (photographie, coll. de l'auteur)"),
+          COM("Santa fe nm 1846 47.jpg", "Santa Fe en 1846-1847")],
+  'L18': [COM("Taos plaza la fonda.jpg", "La plaza de Taos")],
+  'L22': [COM("Confluence of the Gunnison and Uncompahgre rivers.JPG", "Confluent de la Gunnison et de l'Uncompahgre, site du fort Robidoux près de Delta")],
+  'L25': [COM("Cochetopa Pass, Saguache County, Colorado, USA 03.jpg", "Col de Cochetopa (comté de Saguache)")],
+  'L27': [COM("Birder, Mosca Pass Trail (22324011132).jpg", "Sentier du col Mosca, l'ancien « Roubideau's Pass » (NPS)")],
+  'L32': [COM("Battle of San Pasqual Staff Ride Map 4.jpg", "Carte de la bataille de San Pasqual, 6 décembre 1846 (U.S. Army)")],
+  'L36': [COM("Alfred Jacob Miller - Fort Laramie - Walters 37194049.jpg", "Alfred Jacob Miller, le fort Laramie en 1837 (Walters Art Museum, domaine public)")],
+  'L37': [COM("Robidoux Pass.jpg", "Le col de Robidoux, à l'ouest de Scotts Bluff"),
+          COM("Scotts Bluff (Nebraska) 16-9-2014 17-56-19.JPG", "Scotts Bluff, repère de la piste de l'Oregon")],
+}
+
 LIEUX, TRAJETS = [], []
-def L(id, nom, lon, lat, edtf, precision, certitude, membre, description, sources, note=''):
+def L(id, nom, lon, lat, edtf, precision, certitude, membre, description, sources, note='', images=None):
     a, b = (edtf.split('/') + [None])[:2]
     LIEUX.append({"type": "Feature", "geometry": {"type": "Point", "coordinates": [lon, lat]},
                   "properties": {"id": id, "nom": nom, "debut": dec(a), "fin": dec(b or a), "date_edtf": edtf, "precision": precision,
                                  "certitude": certitude, "categorie": membre, "description": description, "sources": sources,
-                                 "note": note, "type": "lieu"}})
-def T(id, nom, coords, edtf, certitude, mode, membre, description, sources, note=''):
+                                 "note": note, "type": "lieu", "images": images or IMAGES.get(id, [])}})
+def T(id, nom, coords, edtf, certitude, mode, membre, description, sources, note='', images=None):
     a, b = edtf.split('/')
     TRAJETS.append({"type": "Feature", "geometry": {"type": "LineString", "coordinates": coords},
                     "properties": {"id": id, "nom": nom, "debut": dec(a), "fin": dec(b), "date_edtf": edtf, "certitude": certitude,
-                                   "mode": mode, "membre": membre, "description": description, "sources": sources, "note": note, "type": "trajet"}})
+                                   "mode": mode, "membre": membre, "description": description, "sources": sources, "note": note, "type": "trajet", "images": images or IMAGES.get(id, [])}})
 
 SL = [-90.19, 38.627]; SJ = [-94.846, 39.768]; SF = [-105.938, 35.687]; TAOS = [-105.573, 36.407]
 UNC = [-108.074, 38.749]; UIN = [-109.917, 40.46]
@@ -213,7 +260,7 @@ L('L35', "Agua Mansa : la famille de Louis", -117.36, 34.04, '1846/1868', 'annee
 L('L36', "Fort Laramie : Jules Robidoux, traiteur", -104.558, 42.203, '1849', 'annee', 'certaine', 'jules',
   "Pendant l'hiver 1849, Josiah F. Smith, qui chasse pour le fort Laramie avec James Bordeaux, y voit passer Jules Robidoux, traiteur. Le fort Platte voisin est alors abandonné.",
   f"{CRA}, p. 224, 244-245.")
-L('L37', "Col de Robidoux (Scotts Bluff)", -103.75, 41.82, '1849-07-25/1852', 'jour', 'approximative', 'famille',
+L('L37', "Col de Robidoux (Scotts Bluff)", -103.8515, 41.8142, '1849-07-25/1852', 'jour', 'approximative', 'famille',
   "Sur la route de l'Oregon, le col de Robidoux, à l'ouest de Scotts Bluff, porte le nom de la famille qui y tenait un poste de traite et une forge pour les émigrants. En juillet 1849, le poste de Fort Pierre que dirige Andrew Drips s'y installe d'abord, avant de descendre à huit milles au sud de Scotts Bluff (Fort John).",
   f"{HAN}, p. 233.",
   "Le membre de la famille qui tenait le poste du col n'est pas précisé dans la source utilisée.")
@@ -224,6 +271,155 @@ L('L38', "Saint-Joseph : mort d'Antoine", -94.843, 39.768, '1860-08-29', 'jour',
 L('L39', "Santa Fe : quatre voyages et deux maires", -105.936, 35.686, '1822/1829', 'annee', 'certaine', 'freres',
   "Antoine, Michel et François Robidoux font quatre voyages de Saint-Louis à Santa Fe entre 1822 et 1825. Devenus citoyens mexicains en 1829, deux d'entre eux sont élus à la tête de la municipalité de Santa Fe.",
   f"{AHQ}, p. 104.")
+
+# ================================================================== AJOUTS 2026 : sources nouvelles, frères, proches et descendants
+# ------------------------------------------------------------------ Joseph III et le Missouri
+L('L40', "Fort Dearborn (Chicago) : un poste pour le père", -87.6246, 41.8868, '1803', 'annee', 'hypothetique', 'joseph3',
+  "Selon la tradition familiale reprise par Clyde Rabideau, Joseph Robidoux (III) est envoyé en 1803 par son père organiser un poste de traite au fort Dearborn, à l'emplacement de Chicago, l'année même où il se serait établi aux Black Snake Hills selon le Herald de Saint-Joseph.",
+  f"{WJ4}.",
+  "Version non recoupée par Tassé ni par Houck, et difficile à concilier avec l'établissement au Missouri la même année.")
+L('L41', "Fort Leavenworth : le traité de la Platte Purchase", -94.922, 39.355, '1836', 'annee', 'approximative', 'joseph3',
+  "William Clark réunit les Ioways, les Missouris et les Sauks et Renards au fort Leavenworth : les nations cèdent environ deux millions d'acres, ce qui étend le Missouri jusqu'à la rivière et englobe les Black Snake Hills (comtés de Platte, Buchanan, Andrew, Nodaway, Atchison et Holt). Un témoin signe « H. Robidou, Jr. », sans doute Joseph E., le fils aîné. Le traité de 1836 avec les Otos, les Missouris, les Omahas et les Sioux Yanktons et Santees accorde à Joseph trois sections de terre pour ses crédits impayés, mais le Sénat ne ratifie pas l'article.",
+  f"{WIL}, p. 134-136.",
+  "Willoughby place la rencontre en septembre 1835 ; le traité de la Platte Purchase est généralement daté de 1836.")
+L('L42', "Sparta : le chef-lieu qui échappe à Robidoux", -94.80, 39.58, '1840-08/1846', 'mois', 'hypothetique', 'joseph3',
+  "La cour du comté de Buchanan siège d'abord en 1839 dans le salon de Joseph Robidoux, qui sert aussi de bureau de vote. En août 1840, elle choisit pourtant un site au centre du comté, Sparta, et y vote 6 000 dollars pour un palais de justice en 1842. Peu y est bâti : trois ans après la fondation de Saint-Joseph, le comté abandonne Sparta et fait de la ville de Robidoux son chef-lieu.",
+  f"{WIL}, p. 139, 142, 144.",
+  "Emplacement de Sparta, village disparu, approximatif.")
+L('L43', "Plattsburg : le bureau des terres", -94.448, 39.5656, '1843-05', 'mois', 'certaine', 'joseph3',
+  "En mai 1843, Joseph Robidoux monte à cheval pour gagner le bureau des terres de Plattsburg et y faire inscrire sa préemption, que des habitants du comté voulaient lui contester pour vendre le terrain au profit des bâtiments publics. Le bureau lui donne raison, raconte le St. Louis Reveille : le traiteur devient en quelques semaines propriétaire d'une ville.",
+  f"{WIL}, p. 142-143.")
+L('L44', "Saint-Louis : l'acte de naissance de Saint-Joseph", -90.1892, 38.6275, '1843-07-25/1843-07-26', 'jour', 'certaine', 'joseph3',
+  "Entre deux plans d'arpenteurs, Joseph choisit celui de Frederick W. Smith, aux rues étroites de 60 pieds, nommées d'après ses enfants (Faraon, Jules, Francis, Felix, Edmond, Charles, Sylvanie, Angelique, Messanie) : « vendre ma terre en lots, non la donner en rues ». Il signe le plan le 25 juillet 1843 ; le 26, le greffier de la cour des plaids communs de Saint-Louis l'enregistre, avec l'hypothèque de 6 372,57 dollars due à Pierre Chouteau fils.",
+  f"{WIL}, p. 143-144 ; {WJ4}.")
+L('L45', "Robidoux's Landing : moulin, bureau de poste et entrepôts", -94.8455, 39.7745, '1840/1842-02', 'annee', 'approximative', 'joseph3',
+  "Autour du comptoir, rebaptisé Robidoux's Landing, s'installent commis, médecins et artisans. En 1840, un bureau de poste ouvre aux Black Snake Hills avec Jules, le fils de Joseph, comme premier maître de poste. En 1841, Robidoux ouvre un moulin à farine sur la rive ouest du ruisseau Blacksnake ; en février 1842, la cour lui commande un entrepôt d'inspection du tabac au débarcadère, puis il en bâtit un pour le chanvre.",
+  f"{WIL}, p. 139-142.")
+L('L46', "Saint-Joseph : Robidoux Row", -94.8575, 39.7747, '1849/1868', 'annee', 'certaine', 'joseph3',
+  "Rangée de logements bâtie par Joseph Robidoux à la fin des années 1840 dans le nord de Saint-Joseph (219-225, rue Poulin) ; il y a lui-même habité. C'est l'un des rares bâtiments subsistants des débuts de la ville, aujourd'hui musée.",
+  f"{NRHP} ; « Robidoux Row », Wikipédia.")
+L('L47', "Saint-Joseph : le monument de Mount Olivet", -94.810, 39.735, '1914', 'annee', 'approximative', 'famille',
+  "Enterré d'abord au cimetière catholique Calvary, Joseph est transféré au cimetière Mount Olivet, où son petit-fils Louis lui élève en 1914 un monument de douze pieds. Au pied, des stèles rappellent Antoine, Michel et François, qui n'y reposent pas, et Angélique Vaudry, morte en 1857.",
+  f"{WIL}, p. 211 ; {WJ4}.",
+  "Coordonnées du cimetière approximatives ; Wikipédia date la réinhumation de 1908.")
+
+# ------------------------------------------------------------------ Antoine et Louis : Nouveau-Mexique, Utah, Missouri
+L('L48', "Mine du Cerro del Oro", -106.17, 35.32, '1834', 'annee', 'hypothetique', 'antoine',
+  "En 1834, Antoine Robidoux achète la mine du « Cerro del Oro », près de Santa Fe, à Dolores Jallono, Ignacio Ladrón de Guevara et Marcelino Abreu, devant l'alcalde Santiago Abreu. La région donne du cuivre ; l'or et l'argent restent incertains, et rien ne dit qu'il en ait tiré profit.",
+  f"{WIL}, p. 131-132.",
+  "Emplacement non précisé : placé dans les monts Ortiz, district aurifère le plus proche de Santa Fe.")
+L('L49', "Santa Fe : le moulin de Louis sur la rivière", -105.9445, 35.6842, '1839-04/1841-03-20', 'mois', 'approximative', 'louis',
+  "En avril 1839, Louis Robidoux obtient de l'ayuntamiento le droit d'installer un moulin à grain sur la rivière Santa Fe ; un voisin et rival, Antonio Ortiz, s'en plaint, mais le conseil juge le moulin utile. Premier alcalde jusqu'au 1er janvier 1840, Louis vend le 20 mars 1841 sa maison, son magasin et son moulin à Roque Tudesqui, devant la montée de l'hostilité envers les Américains.",
+  f"{WIL}, p. 149, 153.",
+  "Emplacement du moulin sur la rivière non précisé.")
+L('L50', "Westwater : l'inscription d'Antoine", -109.13, 39.17, '1837-11-13', 'jour', 'approximative', 'antoine',
+  "Sur la paroi de grès de la rive ouest du ruisseau Westwater, à huit kilomètres environ à l'ouest de la frontière Utah-Colorado, Antoine grave : « Antoine Robidoux passé ici le 13 Novembre 1837 pour etablire maison traitte a la Rv. vert ou wiyte ». « Wiyte » se lit Uinta ou White ; le 7 de 1837 pourrait être un 1. L'inscription surmonte un bouclier peint préhistorique et a été criblée de balles.",
+  f"{WIL}, p. 126-128 ; {UTB}.",
+  "Point placé au bas du canyon de Westwater ; l'inscription est un peu en amont sur la route du ruisseau.")
+L('L51', "Willow Creek : l'inscription de Louis", -109.70, 39.65, '1841-05-05', 'jour', 'hypothetique', 'louis',
+  "Au printemps 1841, Louis Robidoux monte vérifier le fort Uintah, dont il est copropriétaire avec Antoine. Dans le bassin du Willow Creek, sur le plateau Tavaputs, il grave en espagnol qu'il est passé là le 5 mai 1841. Le Missouri Historical Society conserve une photographie de l'inscription prise le 22 septembre 1968.",
+  f"{WIL}, p. 154 ; {MHS}.",
+  "Emplacement exact non publié : point placé dans le bassin du Willow Creek.")
+L('L52', "Embouchure de l'Uinta : le quartier d'hiver de Kit Carson", -109.66, 40.07, '1833-10/1834', 'mois', 'approximative', 'antoine',
+  "En octobre 1832 ou 1833, Kit Carson trouve « M. Robidoux » sur l'Uinta avec une vingtaine d'hommes qui trappent et commercent, puis hiverne à l'embouchure de la rivière. Un Indien de Californie du parti Robidoux s'enfuit avec six chevaux ; Robidoux demande à Carson de le poursuivre, et Carson le rattrape à 130 milles.",
+  f"{WIL}, p. 129.",
+  "Carson ne précise pas s'il s'agit d'Antoine ou de Louis.")
+L('L53', "Saint-Louis : cinq chariots de Jackson et Sublette", -90.1878, 38.6265, '1831-10/1831-11-28', 'mois', 'certaine', 'antoine',
+  "À l'automne 1831, Antoine quitte le fort de la Gunnison, passe voir son frère Joseph aux Black Snake Hills début octobre, puis règle ses comptes à Saint-Louis avec Jackson et Sublette, qui lui doivent 3 806,50 dollars. Le 28 novembre, il leur achète cinq chariots à 100 dollars pièce, signe du volume des marchandises qu'il fait passer jusqu'au versant ouest des Rocheuses.",
+  f"{WIL}, p. 125-126.")
+L('L54', "Weston : Antoine vante la Californie", -94.9013, 39.4111, '1840-11/1841', 'mois', 'approximative', 'antoine',
+  "À la fin de l'automne 1840, Antoine passe dans le nord-ouest du Missouri. À Weston, il décrit la Californie comme un paradis au printemps perpétuel : son récit pousse John Bidwell à fonder la Western Emigration Society, d'où part en mai 1841 la première caravane de chariots vers la Californie.",
+  f"{WIL}, p. 152-153 ; {UTB}.")
+L('L55', "Fort Laramie : Antoine et les Sublette", -104.555, 42.205, '1845-07-04', 'jour', 'certaine', 'antoine',
+  "Le 4 juillet 1845, après l'abandon de ses forts, Antoine Robidoux est au fort Laramie et y traite des affaires avec la famille Sublette.",
+  f"{WIL}, p. 166.")
+L('L56', "Santa Fe : Isidore et la pétition des marchands", -105.9372, 35.6866, '1835', 'annee', 'certaine', 'freres',
+  "Isidore Robidoux garde sa base à Saint-Louis mais commerce sur la piste de Santa Fe, pour ses frères ou à son compte. En 1835, avec Manuel Alvarez, Josiah Gregg, P. W. Thompson et L. L. Waldo, il signe une pétition demandant au ministre américain au Mexique, Powhatan Ellis, d'intervenir dans un différend fiscal avec l'assemblée locale.",
+  f"{WIL}, p. 132.")
+L('L57', "Col de Robidoux : le second poste de Carter Canyon", -103.80, 41.735, '1849/1851', 'annee', 'hypothetique', 'famille',
+  "Le poste du col de Robidoux, avec sa forge pour les émigrants, a été fondé par Joseph ou par Antoine ; Joseph E., fils aîné du fondateur de Saint-Joseph, est le candidat le plus probable. Un second poste Robidoux se trouvait dans le Carter Canyon. Après l'ouverture du col Mitchell en 1851, les postes tombent en désuétude ; Joseph E. serait retourné dans le nord du Kansas à la fin des années 1850.",
+  f"{NPSRP}.",
+  "Emplacement du poste de Carter Canyon non publié.")
+
+# ------------------------------------------------------------------ Louis en Californie
+L('L58', "Rancho San Jacinto y San Gorgonio", -116.98, 33.93, '1845', 'annee', 'hypothetique', 'louis',
+  "En 1845, un an après son arrivée en Californie, Louis Robidoux achète à James (Santiago) Johnson le rancho San Jacinto y San Gorgonio, à l'est de la vallée de San Bernardino.",
+  f"{WLR}.",
+  "Limites du rancho non cartographiées : point placé dans le col de San Gorgonio.")
+L('L59', "Jurupa : la maison de Louis Rubidoux", -117.40605, 33.99682, '1846/1868', 'annee', 'certaine', 'louis',
+  "Louis Robidoux achète en 1847 la part de Benjamin Wilson dans le rancho Jurupa (Wilson dit 1849). Il y devient l'un des plus riches éleveurs du sud de la Californie : clôtures, blé, vergers, vignes, chai. Alcalde dès août 1846, il est l'un des trois premiers superviseurs du comté de San Bernardino. Le site de sa maison est le California Historical Landmark n° 102 (5575, boulevard Mission, Jurupa Valley).",
+  f"{WIL}, p. 163-164 ; {OHP}, n° 102 ; {WLR}.",
+  images=[LOC("jurupa-maison-louis-rubidoux-v1869.jpg", "La maison de Louis Rubidoux à Jurupa, vers 1869 (California Historical Society, USC Digital Library)")])
+L('L60', "Jurupa : le moulin Rubidoux", -117.40646, 33.99526, '1846/1847', 'annee', 'certaine', 'louis',
+  "Sur le rancho Jurupa, Louis bâtit en 1846-1847 un moulin à grain à turbine hydraulique et deux paires de meules, sans doute le premier du sud de la Californie. Seul de son espèce dans la région, il répond à un besoin pressant. Le site est le California Historical Landmark n° 303 (5540, Molino Way).",
+  f"{WIL}, p. 164 ; {OHP}, n° 303.")
+L('L61', "Agua Mansa : la sépulture de Louis", -117.36389, 34.04194, '1868-09-24', 'jour', 'certaine', 'louis',
+  "Louis Robidoux meurt le 24 septembre 1868 près de Colton. Il repose au cimetière pionnier d'Agua Mansa, seul vestige du village néo-mexicain fondé en 1842-1845 sur le Santa Ana et emporté par la crue de 1862 ; il en serait la plus ancienne inhumation connue. Sa veuve, Guadalupe García, meurt en 1892. Le cimetière est le California Historical Landmark n° 121.",
+  f"{WLR} ; {WAM} ; {OHP}, n° 121.")
+L('L62', "Mont Rubidoux", -117.3918, 33.9822, '1868/1906', 'annee', 'certaine', 'famille',
+  "La colline qui domine Riverside porte le nom de Louis Rubidoux, comme la ville voisine de Rubidoux (aujourd'hui Jurupa Valley). En novembre 1869, la California Silk Center Association achète plus de 4 000 acres de l'ancien rancho : c'est le noyau de Riverside.",
+  f"{WLR}.",
+  images=[COM("MountRubidoux-1.JPG", "Le mont Rubidoux, Riverside"),
+          COM("Panoramic view of Riverside from Mount Rubidoux, ca.1906-1910 (CHS-5362).jpg", "Riverside vue du mont Rubidoux, vers 1906-1910 (California Historical Society)")])
+
+# ------------------------------------------------------------------ Les proches : épouses, alliés autochtones, descendants
+L('L63', "Pays ioway : Mary Many Days et White Cloud", -95.297, 39.976, '1805/1884-06-29', 'annee', 'hypothetique', 'proches',
+  "Mary Many Days (v. 1805-1884), fille de Joseph Robidoux (III) et d'une femme autochtone, épouse le chef ioway White Cloud. Pour l'historien Tanis Thorne, ce mariage illustre les réseaux de parenté qui lient alors les traiteurs indépendants de Saint-Louis aux familles dirigeantes autochtones : une lignée de chefs ioways en descend. Ses petits-fils James et Jefferson White Cloud deviennent chefs. Point placé sur la réserve ioway du nord-est du Kansas (White Cloud).",
+  f"{WMM} ; {WJ4}.",
+  "Lieu de vie non précisé par les sources consultées ; la mère est parfois dite shoshone.")
+L('L64', "Black Snake Hills : naissance de Carmelete", -94.852, 39.769, '1830~', 'circa', 'hypothetique', 'proches',
+  "Les registres du Missouri indiquent que Carmel Benavides donne naissance vers 1830 à une fille, Carmelete, peut-être au poste des Black Snake Hills. D'autres sources en font une orpheline adoptée à Santa Fe. On ne sait presque rien d'elle au-delà de sa naissance.",
+  f"{NPSC} ; « Women and the Santa Fe Trail », Legends of America.",
+  "Naissance au Missouri contestée ; le lieu exact (Saint-Joseph ou Saint-Louis) est inconnu.")
+L('L65', "Washington Township : chez les Barada", -94.850, 39.780, '1850-08-18', 'jour', 'approximative', 'proches',
+  "Au recensement du 18 août 1850, Carmel Benavides vit chez Isadore et « Maltine » Barada, dans le canton de Washington (comté de Buchanan), inscrite comme « A. Robidoux », 38 ans, née au Mexique. Maltine est sans doute Martina Anaya, cousine de Carmel adoptée par le couple à Santa Fe, mariée à Isidore Barada en 1847 à Saint-Joseph.",
+  f"{LEV} ; {NPSC} ; {FAG}.")
+L('L66', "Saint-Joseph : naissance d'Amanda Barada", -94.849, 39.766, '1852-06-26', 'jour', 'approximative', 'proches',
+  "Amanda Maria Barada naît à Saint-Joseph le 26 juin 1852 ; sa mère meurt peu après. Antoine et Carmel l'élèvent et l'inscrivent dans le testament d'Antoine, qui fait de sa « bien-aimée Carmelletta » l'exécutrice de ses biens. Au recensement de 1860, Carmel vit dans le 3e quartier avec une fillette de neuf ans, « A. Barady ».",
+  f"{STO} ; {LEV} ; {FAG}.",
+  "La mère d'Amanda est nommée Carmelette dans la tradition familiale et Martina Anaya par Levine et Find a Grave.")
+T('T07', "Carmel et Amanda retournent à Santa Fe", [SJ, [-94.6, 39.1], [-95.7, 38.8], [-96.49, 38.66], [-98.2, 38.4], [-99.9, 37.9],
+                          [-101.0, 37.6], [-102.2, 37.2], [-103.4, 36.6], [-104.5, 35.9], [-105.2, 35.6], SF],
+  '1860-09/1862', 'hypothetique', 'terre', 'proches',
+  "Après la mort d'Antoine, Carmel reprend seule la piste de Santa Fe avec sa petite-fille Amanda. Leur caravane aurait été attaquée par des Comanches dans les plaines du Kansas ; Levine n'a pu dater ni confirmer l'épisode.",
+  f"{LEV} ; {NPSC}.",
+  "Date et route inconnues : tracé de la piste de Santa Fe par la route du Cimarron.")
+L('L67', "Santa Fe : la maison Baca de la rue du Grenier", -105.9367, 35.6875, '1867-04-21/1879', 'jour', 'certaine', 'proches',
+  "Carmel Benavides hérite de sa mère la partie ouest de la vieille propriété des Baca, rue du Grenier (Calle del Granero), à l'est du palais des gouverneurs. Le 21 avril 1867, Amanda y épouse à Santa Fe Christian Stollsteimer, immigrant wurtembergeois. En 1879, Carmel vend la maison à l'ancien gouverneur L. Bradford Prince et signe l'acte d'une croix. Au 109 East Palace, la maison sera pendant la guerre le bureau secret du projet Manhattan.",
+  f"{LEV} ; {STO}.")
+L('L68', "Conejos : Carmel chez les Stollsteimer", -106.0198, 37.0886, '1870-07-16', 'jour', 'certaine', 'proches',
+  "Au recensement du 16 juillet 1870, Carmel, inscrite cette fois « Carmel Robidoux », 59 ans, née au Nouveau-Mexique, vit à Conejos (territoire du Colorado) chez Christian Stollsteimer, marchand, et Amanda, avec leurs deux premiers enfants. Le petit Carlos Alberto est baptisé à l'église de Guadalupe en 1868 avec Maria Carmel Roubidoux pour marraine.",
+  f"{LEV} ; {STO}.")
+L('L69', "La Piedra : le ranch des Stollsteimer", -107.34, 37.13, '1880/1906', 'annee', 'approximative', 'proches',
+  "Vers 1880, Christian Stollsteimer et Amanda Barada élèvent bétail et moutons au confluent de la Piedra et du ruisseau Stollsteimer, au lieu-dit Francé, au sud-ouest de Pagosa Springs ; la famille y bâtit une petite chapelle catholique pour les prêtres de passage. Agent des Utes du Sud et des Jicarillas, Christian perd son poste en 1888 pour malversations.",
+  f"{FLC} ; {STO}.",
+  "Emplacement du lieu-dit Francé approximatif.")
+L('L70', "Pagosa Springs : la colline Robidoux", -107.0045, 37.2645, '1880/1911', 'annee', 'approximative', 'famille',
+  "La colline au sud-est de Pagosa Springs s'appelait Robidoux Hill, en l'honneur d'Antoine, grand-père adoptif d'Amanda Stollsteimer, dont la famille vit dans le comté. Au début du XXe siècle, on y installe le réservoir de la ville : elle devient Reservoir Hill.",
+  f"{PAG}.",
+  "Toponyme francophone disparu.")
+L('L71', "Durango : la tombe de Carmel Benavides", -107.8705, 37.2895, '1888-01-29', 'jour', 'approximative', 'proches',
+  "Carmel Benavides meurt le 29 janvier 1888, en pionnière du comté de Conejos, et est inhumée au cimetière Greenmount de Durango, loin d'Antoine, enterré à Saint-Joseph. Ni Levine ni personne n'a retrouvé de lettre, de journal ou de déclaration d'elle : elle signait d'une croix.",
+  f"{LEV}.",
+  "Legends of America la fait mourir à Santa Fe ; coordonnées du cimetière approximatives.")
+L('L72', "Altadena : la tombe d'Amanda Stollsteimer", -118.1325, 34.1848, '1916-12-15', 'jour', 'approximative', 'proches',
+  "Amanda Stollsteimer, élevée par Antoine Robidoux, meurt d'un cancer le 15 décembre 1916 à Altadena, chez sa fille Stella, et repose au cimetière Mountain View. Le Pagosa Springs Sun salue l'une des premières pionnières du comté, mère de huit enfants. Dernière à avoir connu Antoine, elle est la personne la plus susceptible d'avoir raconté ses souvenirs au début du siècle.",
+  f"{STO}.",
+  "Coordonnées du cimetière approximatives.")
+
+# ------------------------------------------------------------------ Routes nouvelles
+T('T08', "D'un fort à l'autre par Westwater", [UNC, [-108.3, 38.95], [-108.55, 39.07], [-108.9, 39.12], [-109.13, 39.17], [-109.3, 39.55],
+                          [-109.55, 39.95], [-109.66, 40.07], UIN],
+  '1837-11/1837-12', 'hypothetique', 'terre', 'antoine',
+  "Pour aller du fort de la Gunnison au fort Uintah (240 km à vol d'oiseau), Antoine descend la Gunnison jusqu'à l'actuelle Grand Junction, traverse les canyons des Book Cliffs, où il grave son nom à Westwater, puis le désert jusqu'à la White et la vallée de la Green. La route longue suit plutôt le tracé Smith de la Vieille piste espagnole.",
+  f"{WIL}, p. 131 ; {UTB}.",
+  "Tracé reconstitué.")
+T('T09', "Louis monte au fort Uintah", [SF, [-106.3, 36.2], [-106.9, 36.8], [-108.0, 37.45], [-108.9, 38.5], [-109.55, 38.99], [-110.15, 38.99],
+                          [-109.9, 39.4], [-109.70, 39.65], [-109.66, 40.07], UIN],
+  '1841-03/1841-05', 'hypothetique', 'terre', 'louis',
+  "Après avoir vendu ses biens de Santa Fe, Louis part au printemps 1841 vérifier les affaires du fort Uintah ; le 5 mai, il grave son passage dans le bassin du Willow Creek.",
+  f"{WIL}, p. 153-154.",
+  "Route reconstituée par la Vieille piste espagnole et la vallée de la Green.")
 
 os.makedirs('data', exist_ok=True)
 for nom, feats in (('lieux', LIEUX), ('trajets', TRAJETS)):

@@ -48,10 +48,10 @@ new ResizeObserver(() => carte.resize()).observe(document.getElementById('carte'
 
 // Couleurs d'encre par membre de la famille
 const COULEURS = { joseph1: '#6b5a3c', joseph2: '#3f5a2a', joseph3: '#2f4d63', antoine: '#9a3322', louis: '#7a4f1d',
-                   freres: '#5b3f6b', jules: '#1f2f3a', famille: '#43606e' };
+                   freres: '#5b3f6b', jules: '#1f2f3a', famille: '#43606e', proches: '#8a6a12' };
 const couleurCategorie = ['match', ['get', 'categorie'], ...Object.entries(COULEURS).flat(), '#1f2f3a'];
 const NOMS_CATEGORIE = { joseph1: 'Joseph Ier', joseph2: 'Joseph II', joseph3: 'Joseph III', antoine: 'Antoine', louis: 'Louis',
-                         freres: 'François et Michel', jules: 'Jules', famille: 'la famille' };
+                         freres: 'François, Michel et Isidore', jules: 'Jules', famille: 'la famille', proches: 'épouses, alliés autochtones, descendants' };
 const NOMS_MODE = { mer: 'route maritime', cote: 'cabotage', terre: 'à cheval, en convoi', fleuve: 'en bateau sur le Missouri' };
 const ENCRE_MER = '#9a3322', ENCRE_TERRE = '#1f2f3a';
 const estMer = ['in', ['get', 'mode'], ['literal', ['mer', 'cote']]];
@@ -271,13 +271,54 @@ function afficherFiche(p, geom) {
       ${genre ? `<span class="badge genre ${echapper(estTrajet ? p.mode : p.categorie)}">${echapper(genre)}</span>` : ''}
       <span class="badge ${echapper(p.certitude)}">${echapper(NOMS_CERTITUDE[p.certitude] || p.certitude)}</span>
     </p>
+    ${galerie(p)}
     ${p.description ? `<p class="description">${echapper(p.description)}</p>` : ''}
     ${p.note ? `<p class="note"><strong>Note critique :</strong> ${echapper(p.note)}</p>` : ''}
     <div class="sources"><strong>Source :</strong> ${echapper(p.sources)}</div>`;
   panneau.querySelector('.fermer').addEventListener('click', fermerFiche);
+  imagesFiche = lireImages(p);
+  panneau.querySelectorAll('.vignette').forEach(b => b.addEventListener('click', () => ouvrirImage(Number(b.dataset.i))));
   panneau.classList.add('ouvert');
   panneau.scrollTop = 0;
 }
+
+// Photos et documents d'une fiche : vignettes cliquables (propriété « images » : liste de {src, legende, lien}), comme l'Atlas Aubry
+function lireImages(p) {
+  let im = p.images;
+  if (typeof im === 'string') { try { im = JSON.parse(im); } catch { im = []; } } // MapLibre sérialise les tableaux des propriétés cliquées
+  return Array.isArray(im) ? im : [];
+}
+function galerie(p) {
+  const im = lireImages(p);
+  if (!im.length) return '';
+  return `<div class="galerie">${im.map((d, i) =>
+    `<figure><button type="button" class="vignette" data-i="${i}" title="Agrandir"><img src="${echapper(d.src)}" alt="${echapper(d.legende || '')}" loading="lazy"></button>
+     <figcaption>${echapper(d.legende || '')}</figcaption></figure>`).join('')}</div>`;
+}
+let imagesFiche = [], imageCourante = 0;
+function ouvrirImage(i) {
+  imageCourante = (i + imagesFiche.length) % imagesFiche.length;
+  const d = imagesFiche[imageCourante];
+  document.getElementById('lb-image').src = d.src;
+  document.getElementById('lb-image').alt = d.legende || '';
+  document.getElementById('lb-legende').textContent = d.legende || '';
+  document.getElementById('lb-ouvrir').href = d.lien || d.src;
+  document.getElementById('lb-ouvrir').textContent = d.lien ? 'Page de l\'image et licence ↗' : 'Ouvrir en taille réelle ↗';
+  document.querySelectorAll('.lb-nav').forEach(b => b.hidden = imagesFiche.length < 2);
+  document.getElementById('lightbox').hidden = false;
+}
+function fermerImage() { document.getElementById('lightbox').hidden = true; }
+document.getElementById('lb-fermer').addEventListener('click', fermerImage);
+document.getElementById('lb-prec').addEventListener('click', () => ouvrirImage(imageCourante - 1));
+document.getElementById('lb-suiv').addEventListener('click', () => ouvrirImage(imageCourante + 1));
+document.getElementById('lightbox').addEventListener('click', e => { if (e.target.id === 'lightbox') fermerImage(); });
+document.addEventListener('keydown', e => {
+  if (document.getElementById('lightbox').hidden) return;
+  e.stopImmediatePropagation();
+  if (e.key === 'Escape') fermerImage();
+  if (e.key === 'ArrowLeft') ouvrirImage(imageCourante - 1);
+  if (e.key === 'ArrowRight') ouvrirImage(imageCourante + 1);
+}, true);
 // Texte d'introduction (bouton « À propos » de la légende)
 function afficherApropos() {
   if (carte.getLayer('trajet-actif')) carte.setFilter('trajet-actif', ['==', ['get', 'id'], '']);
@@ -286,10 +327,10 @@ function afficherApropos() {
     <button type="button" class="fermer" aria-label="Fermer" title="Fermer (Échap)">✕</button>
     <h2>Journal de bord</h2>
     <div class="filet" aria-hidden="true">✦</div>
-    <p class="description">Venu de Montréal vers 1770 avec son fils, le cordonnier Joseph Robidoux fait souche à Saint-Louis. Son fils Joseph II y devient traiteur ; ses petits-fils portent le nom de la famille sur toute la carte de l'Ouest : Joseph III fonde Saint-Joseph sur le Missouri, Antoine bâtit les forts Uncompahgre et Uintah et sert d'interprète à Kearny jusqu'en Californie, Louis devient ranchero à Jurupa (Riverside), François et Michel trappent sur la Gila et dans le pays ute, Jules trafique au fort Laramie.</p>
-    <p>Cliquez sur un lieu ou une route pour ouvrir son entrée du journal. La couleur de la pastille indique le membre de la famille. La timeline avance par année de 1720 à 1821, puis par mois de 1822 à 1875. Le bouton ▶ lance la visite : le cavalier ou le canot suit chaque route et la carte s'arrête à chaque étape.</p>
+    <p class="description">Venu de Montréal vers 1770 avec son fils, le cordonnier Joseph Robidoux fait souche à Saint-Louis. Son fils Joseph II y devient traiteur ; ses petits-fils portent le nom de la famille sur toute la carte de l'Ouest : Joseph III fonde Saint-Joseph sur le Missouri, Antoine bâtit les forts Uncompahgre et Uintah et sert d'interprète à Kearny jusqu'en Californie, Louis devient ranchero à Jurupa (Riverside), François et Michel trappent sur la Gila et dans le pays ute, Isidore commerce sur la piste de Santa Fe, Jules trafique au fort Laramie. La carte suit aussi leurs alliances : Carmel Benavides et sa petite-fille Amanda, de Santa Fe au Colorado ; Mary Many Days, fille de Joseph et épouse du chef ioway White Cloud.</p>
+    <p>Cliquez sur un lieu ou une route pour ouvrir son entrée du journal. La couleur de la pastille indique le membre de la famille. La timeline avance par année de 1720 à 1821, puis par mois de 1822 à 1875. Les vignettes photo s'agrandissent d'un clic. Le bouton ▶ lance la visite : le cavalier ou le canot suit chaque route et la carte s'arrête à chaque étape.</p>
     <p class="avertissement">Les sources se contredisent parfois (naissance et mort d'Antoine, date d'établissement aux Black Snake Hills) : chaque entrée le signale. Les routes sont reconstituées par les pistes connues ; le pointillé pâle signale un tracé hypothétique.</p>
-    <p class="avertissement">Sources principales : F. L. Billon, <em>Annals of St. Louis</em> (1886) ; L. Houck, <em>A History of Missouri</em> (1908) et <em>The Spanish Regime in Missouri</em> (1909) ; J. Tassé, <em>Les Canadiens de l'Ouest</em> (1878), t. II ; H. M. Chittenden, <em>The American Fur Trade of the Far West</em> (1902) ; L. R. Hafen (dir.), <em>French Fur Traders and Voyageurs in the American West</em> (1995) ; carnets de F. W. Cragin.</p>
+    <p class="avertissement">Sources principales : F. L. Billon, <em>Annals of St. Louis</em> (1886) ; L. Houck, <em>A History of Missouri</em> (1908) et <em>The Spanish Regime in Missouri</em> (1909) ; J. Tassé, <em>Les Canadiens de l'Ouest</em> (1878), t. II ; H. M. Chittenden, <em>The American Fur Trade of the Far West</em> (1902) ; L. R. Hafen (dir.), <em>French Fur Traders and Voyageurs in the American West</em> (1995) ; carnets de F. W. Cragin ; R. J. Willoughby, <em>The Brothers Robidoux and the Opening of the American West</em> (2012) ; F. Levine, « Desperately Seeking Carmel » (2019). Bibliographie complète dans le README du dépôt.</p>
     <div class="sources">Olivier J. Caron, Département de géographie, UQAM.</div>`;
   panneau.querySelector('.fermer').addEventListener('click', fermerFiche);
   panneau.classList.add('ouvert');

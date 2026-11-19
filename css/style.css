@@ -255,3 +255,24 @@ body:not(.fond-parchemin) .parchemin { display: none; }
 .pt.jules { background: #1f2f3a; border-color: #1f2f3a; }
 .pt.famille { background: #43606e; border-color: #43606e; }
 .marqueur-navire.canot img[src$="cavalier.svg"] { width: 44px; }
+
+.pt.proches { background: #8a6a12; border-color: #8a6a12; }
+
+/* ---------- Photos et documents : vignettes et visionneuse (comme l'Atlas Aubry) ---------- */
+#panneau .galerie { display: grid; grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); gap: .6rem; margin: .8rem 0; }
+#panneau .galerie figure { margin: 0; }
+#panneau .galerie figcaption { font-size: .78rem; line-height: 1.25; color: var(--encre-pale); margin-top: .25rem; font-style: italic; }
+#panneau .vignette { display: block; width: 100%; padding: 3px; background: var(--velin); border: 3px double var(--encre-pale, #6b5a3c); cursor: zoom-in; }
+#panneau .vignette img { display: block; width: 100%; height: 110px; object-fit: cover; border: 0; padding: 0; filter: sepia(.15); }
+#panneau .vignette:hover { border-color: #9a3322; }
+.lightbox { position: fixed; inset: 0; z-index: 1100; background: rgba(25, 18, 10, .88); display: flex; align-items: center; justify-content: center; gap: .5rem; padding: 1rem; }
+.lightbox[hidden] { display: none; }
+.lb-cadre { margin: 0; max-width: min(1100px, 88vw); max-height: 92vh; display: flex; flex-direction: column; align-items: center; }
+.lb-cadre img { max-width: 100%; max-height: 80vh; width: auto; object-fit: contain; background: #fff; border: 4px double #c8b48c; box-shadow: 0 6px 30px rgba(0,0,0,.6); }
+.lb-cadre figcaption { color: #f1e4c4; font-style: italic; text-align: center; margin-top: .6rem; font-size: .95rem; max-width: 900px; }
+.lb-cadre figcaption a { color: #e6c48f; font-style: normal; margin-left: .5rem; }
+.lb-fermer { position: absolute; top: .6rem; right: .9rem; background: transparent; border: 0; color: #f1e4c4; font-size: 1.6rem; cursor: pointer; }
+.lb-nav { background: rgba(241, 228, 196, .15); border: 1px solid #c8b48c; color: #f1e4c4; font-size: 2rem; width: 2.6rem; height: 3.6rem; cursor: pointer; border-radius: 3px; flex: none; }
+.lb-nav:hover { background: rgba(241, 228, 196, .3); }
+.lb-nav[hidden] { display: none; }
+@media (max-width: 600px) { .lb-nav { width: 2rem; height: 3rem; font-size: 1.5rem; } }
