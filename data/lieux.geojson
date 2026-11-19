@@ -1201,8 +1201,8 @@
     "precision": "jour",
     "certitude": "certaine",
     "categorie": "joseph3",
-    "description": "Entre deux plans d'arpenteurs, Joseph choisit celui de Frederick W. Smith, aux rues étroites de 60 pieds, nommées d'après ses enfants (Faraon, Jules, Francis, Felix, Edmond, Charles, Sylvanie, Angelique, Messanie) : « vendre ma terre en lots, non la donner en rues ». Il signe le plan le 25 juillet 1843 ; le 26, le greffier de la cour des plaids communs de Saint-Louis l'enregistre, avec l'hypothèque de 6 372,57 dollars due à Pierre Chouteau fils.",
-    "sources": "R. J. Willoughby, The Brothers Robidoux and the Opening of the American West (2012), p. 143-144 ; « Joseph Robidoux IV », Wikipédia (d'après C. Rabideau et H. M. Lewis, Robidoux Chronicles, 2004).",
+    "description": "Entre deux plans d'arpenteurs, Joseph choisit celui de Frederick W. Smith, aux rues étroites de 60 pieds, nommées d'après ses enfants (Faraon, Jules, Francis, Felix, Edmond, Charles, Sylvanie, Angelique, Messanie) : « vendre ma terre en lots, non la donner en rues ». Il signe le plan le 25 juillet 1843 ; le 26, le greffier de la cour des plaids communs de Saint-Louis l'enregistre, avec l'hypothèque de 6 372,57 dollars due à Pierre Chouteau fils. Le plan couvre le quart sud-ouest fractionnaire de la section 8 (T57N, R35O), soit 154,24 acres : levée de 185 pieds, lots de 40 pieds sur 140 ; il donne le demi-bloc 31 pour la place du marché, un quart du bloc 50 pour une église publique et le bloc 38 pour une école publique et une église catholique. Il est déposé chez le recorder du comté de Buchanan le 3 août 1843.",
+    "sources": "R. J. Willoughby, The Brothers Robidoux and the Opening of the American West (2012), p. 143-144 ; O. M. Robidoux, Memorial to the Robidoux Brothers: A History of the Robidouxs in America (Kansas City, 1924), archive.org memorialtorobido00robi, p. 142-145 ; « Joseph Robidoux IV », Wikipédia (d'après C. Rabideau et H. M. Lewis, Robidoux Chronicles, 2004).",
     "note": "",
     "type": "lieu",
     "images": []
@@ -1270,15 +1270,15 @@
    "properties": {
     "id": "L47",
     "nom": "Saint-Joseph : le monument de Mount Olivet",
-    "debut": 1914.5,
+    "debut": 1868.4057,
     "fin": 1914.5,
-    "date_edtf": "1914",
-    "precision": "annee",
+    "date_edtf": "1868-05-28/1914",
+    "precision": "jour",
     "certitude": "approximative",
     "categorie": "famille",
-    "description": "Enterré d'abord au cimetière catholique Calvary, Joseph est transféré au cimetière Mount Olivet, où son petit-fils Louis lui élève en 1914 un monument de douze pieds. Au pied, des stèles rappellent Antoine, Michel et François, qui n'y reposent pas, et Angélique Vaudry, morte en 1857.",
-    "sources": "R. J. Willoughby, The Brothers Robidoux and the Opening of the American West (2012), p. 211 ; « Joseph Robidoux IV », Wikipédia (d'après C. Rabideau et H. M. Lewis, Robidoux Chronicles, 2004).",
-    "note": "Coordonnées du cimetière approximatives ; Wikipédia date la réinhumation de 1908.",
+    "description": "Le 28 mai 1868, Joseph est inhumé au cimetière catholique du Calvaire, sur Garfield Avenue, devant 85 voitures et 50 cavaliers ; ses petits-fils Jules, Thomas, Napoléon et Louis escortent le corbillard. Le 15 août 1908, son petit-fils Louis fait exhumer Joseph, son fils Jules et son petit-fils Napoléon, qu'il reconnaît à leurs traits, et les transfère au nouveau cimetière Mount Olivet, sur Lovers' Lane (lot 111, bloc 1). En 1914, il y élève un monument de granit gris de douze pieds. Au pied, des stèles rappellent Antoine, Michel et François, qui n'y reposent pas, et Angélique Vaudry, morte en 1857.",
+    "sources": "O. M. Robidoux, Memorial to the Robidoux Brothers: A History of the Robidouxs in America (Kansas City, 1924), archive.org memorialtorobido00robi, p. 151-155, 271-272 ; R. J. Willoughby, The Brothers Robidoux and the Opening of the American West (2012), p. 211 ; « Joseph Robidoux IV », Wikipédia (d'après C. Rabideau et H. M. Lewis, Robidoux Chronicles, 2004).",
+    "note": "Coordonnées du cimetière approximatives.",
     "type": "lieu",
     "images": []
    }
@@ -1633,7 +1633,7 @@
     "precision": "annee",
     "certitude": "certaine",
     "categorie": "louis",
-    "description": "Sur le rancho Jurupa, Louis bâtit en 1846-1847 un moulin à grain à turbine hydraulique et deux paires de meules, sans doute le premier du sud de la Californie. Seul de son espèce dans la région, il répond à un besoin pressant. Le moulin fournit une farine rare aux colons et aux troupes américaines ; une crue l'emporte en 1862. Le site est le California Historical Landmark n° 303 (5540, Molino Way), signalé par la plaque n° 51 du comté de Riverside.",
+    "description": "Sur le rancho Jurupa, Louis bâtit en 1846-1847 un moulin à grain à turbine hydraulique et deux paires de meules, sans doute le premier du sud de la Californie. Seul de son espèce dans la région, il répond à un besoin pressant. Le moulin fournit une farine rare aux colons et aux troupes américaines : le 19 février 1847, le lieutenant Oman, du bataillon mormon, revient du ranch Robidoux avec « beaucoup de légumes et de vin », et le bataillon Frémont y achète 1 700 livres de farine ; une crue l'emporte en 1862. Le site est le California Historical Landmark n° 303 (5540, Molino Way), signalé par la plaque n° 51 du comté de Riverside.",
     "sources": "R. J. Willoughby, The Brothers Robidoux and the Opening of the American West (2012), p. 164 ; California Office of Historic Preservation, California Historical Landmarks, n° 303.",
     "note": "",
     "type": "lieu",
@@ -3724,22 +3724,97 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     -117.43,
-     34.31
+     -117.415,
+     34.0
     ]
    },
    "properties": {
     "id": "L142",
-    "nom": "Col du Cajon : un fort contre les razzias",
+    "nom": "Jurupa : un poste militaire contre les razzias",
     "debut": 1851.5,
-    "fin": 1853.5,
-    "date_edtf": "1851/1853",
+    "fin": 1854.5,
+    "date_edtf": "1851/1854",
     "precision": "annee",
-    "certitude": "hypothetique",
+    "certitude": "approximative",
     "categorie": "louis",
-    "description": "Louis Robidoux signale jusqu'à mille chevaux et bovins volés en trois mois par des pillards mojaves et autres. Il plaide pour un fort qui bloquerait le col du Cajon, à la tête de la vallée de la Santa Ana ; un poste de l'armée en adobe est bâti près de son ranch en 1851. Louis sert d'interprète au commandant lors d'une rencontre avec une bande d'Indiens de San Jacinto ; sa propre maison de Jurupa est percée de meurtrières.",
-    "sources": "R. J. Willoughby, The Brothers Robidoux and the Opening of the American West (2012), p. 198-199.",
-    "note": "Le point marque le col ; l'emplacement exact du poste militaire n'est pas précisé.",
+    "description": "Louis Robidoux signale jusqu'à mille chevaux et bovins volés en trois mois par des pillards mojaves et autres. Il plaide pour un fort qui bloquerait le col du Cajon, à la tête de la vallée de la Santa Ana ; un poste de l'armée en adobe est bâti près de son ranch en 1851. Louis sert d'interprète au commandant lors d'une rencontre avec une bande d'Indiens de San Jacinto ; sa propre maison de Jurupa est percée de meurtrières. Selon le Memorial, le capitaine Lovell et le colonel Smith tiennent garnison sur le Jurupa de 1852 à 1854.",
+    "sources": "R. J. Willoughby, The Brothers Robidoux and the Opening of the American West (2012), p. 198-199 ; O. M. Robidoux, Memorial to the Robidoux Brothers: A History of the Robidouxs in America (Kansas City, 1924), archive.org memorialtorobido00robi, p. 215.",
+    "note": "Emplacement exact du poste inconnu ; point placé sur le rancho.",
+    "type": "lieu",
+    "images": []
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -94.8434,
+     39.7556
+    ]
+   },
+   "properties": {
+    "id": "L143",
+    "nom": "Saint-Joseph : le départ du Pony Express",
+    "debut": 1860.2555,
+    "fin": 1860.2555,
+    "date_edtf": "1860-04-03",
+    "precision": "jour",
+    "certitude": "certaine",
+    "categorie": "famille",
+    "description": "Le 3 avril 1860, au coup de canon tiré du Patee House, le premier cavalier du Pony Express part des écuries de Pikes Peak, prend les dépêches au bureau de la rue Third, entre Felix et Edmond (deux rues baptisées d'après les fils de Joseph), puis traverse le Missouri par le bac du pied de la rue Jule, l'ancien Robidoux Landing, jusqu'à Elwood. Le courrier atteint San Francisco en dix jours.",
+    "sources": "O. M. Robidoux, Memorial to the Robidoux Brothers: A History of the Robidouxs in America (Kansas City, 1924), archive.org memorialtorobido00robi, p. 146-147.",
+    "note": "",
+    "type": "lieu",
+    "images": []
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -94.8235,
+     39.7925
+    ]
+   },
+   "properties": {
+    "id": "L144",
+    "nom": "Parc Krug : la cabane de Joseph",
+    "debut": 1915.0397,
+    "fin": 1915.0397,
+    "date_edtf": "1915-01",
+    "precision": "mois",
+    "certitude": "hypothetique",
+    "categorie": "joseph3",
+    "description": "En 1915, une cabane de rondins présentée comme la première maison de Saint-Joseph, bâtie pour Joseph Robidoux par des Indiens, est conservée au parc Krug. Des amis de Saint-Joseph font tailler dans l'un de ses rondins un porte-plume de chêne cerclé d'or, offert en janvier 1915 à son petit-fils Louis, à Kansas City.",
+    "sources": "O. M. Robidoux, Memorial to the Robidoux Brothers: A History of the Robidouxs in America (Kansas City, 1924), archive.org memorialtorobido00robi, p. 266 (Kansas City Post, 9 janvier 1915).",
+    "note": "L'authenticité de la cabane est une tradition locale ; point au parc Krug.",
+    "type": "lieu",
+    "images": []
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -94.5925,
+     39.064
+    ]
+   },
+   "properties": {
+    "id": "L145",
+    "nom": "Kansas City : Louis, le petit-fils",
+    "debut": 1883.5,
+    "fin": 1923.1,
+    "date_edtf": "1883/1923-02-06",
+    "precision": "annee",
+    "certitude": "certaine",
+    "categorie": "jules",
+    "description": "Louis Robidoux, fils de Jules et d'Elizabeth Barada, né à Saint-Joseph le 26 août 1855, débute dans les journaux de son père (Daily Commercial) puis s'installe en 1883 à Kansas City, où il fait fortune dans le commerce des vins puis l'immobilier. Avec sa femme Orral Messmore, il suit les pompiers de Kansas City à l'Exposition universelle de Paris (1900), visite La Havane (1911), Panama (1912), Riverside (1915) et Honolulu (1920). Il meurt le 6 février 1923 au 3518 Wyandotte Street et est inhumé à Morrill (Kansas) ; sa veuve publie l'année suivante le Memorial to the Robidoux Brothers.",
+    "sources": "O. M. Robidoux, Memorial to the Robidoux Brothers: A History of the Robidouxs in America (Kansas City, 1924), archive.org memorialtorobido00robi, p. 243-271.",
+    "note": "",
     "type": "lieu",
     "images": []
    }

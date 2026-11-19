@@ -310,18 +310,18 @@ L('L43', "Plattsburg : le bureau des terres", -94.448, 39.5656, '1843-05', 'mois
   "En mai 1843, Joseph Robidoux monte à cheval pour gagner le bureau des terres de Plattsburg et y faire inscrire sa préemption, que des habitants du comté voulaient lui contester pour vendre le terrain au profit des bâtiments publics. Le bureau lui donne raison, raconte le St. Louis Reveille : le traiteur devient en quelques semaines propriétaire d'une ville.",
   f"{WIL}, p. 142-143.")
 L('L44', "Saint-Louis : l'acte de naissance de Saint-Joseph", -90.1892, 38.6275, '1843-07-25/1843-07-26', 'jour', 'certaine', 'joseph3',
-  "Entre deux plans d'arpenteurs, Joseph choisit celui de Frederick W. Smith, aux rues étroites de 60 pieds, nommées d'après ses enfants (Faraon, Jules, Francis, Felix, Edmond, Charles, Sylvanie, Angelique, Messanie) : « vendre ma terre en lots, non la donner en rues ». Il signe le plan le 25 juillet 1843 ; le 26, le greffier de la cour des plaids communs de Saint-Louis l'enregistre, avec l'hypothèque de 6 372,57 dollars due à Pierre Chouteau fils.",
-  f"{WIL}, p. 143-144 ; {WJ4}.")
+  "Entre deux plans d'arpenteurs, Joseph choisit celui de Frederick W. Smith, aux rues étroites de 60 pieds, nommées d'après ses enfants (Faraon, Jules, Francis, Felix, Edmond, Charles, Sylvanie, Angelique, Messanie) : « vendre ma terre en lots, non la donner en rues ». Il signe le plan le 25 juillet 1843 ; le 26, le greffier de la cour des plaids communs de Saint-Louis l'enregistre, avec l'hypothèque de 6 372,57 dollars due à Pierre Chouteau fils. Le plan couvre le quart sud-ouest fractionnaire de la section 8 (T57N, R35O), soit 154,24 acres : levée de 185 pieds, lots de 40 pieds sur 140 ; il donne le demi-bloc 31 pour la place du marché, un quart du bloc 50 pour une église publique et le bloc 38 pour une école publique et une église catholique. Il est déposé chez le recorder du comté de Buchanan le 3 août 1843.",
+  f"{WIL}, p. 143-144 ; {ROB}, p. 142-145 ; {WJ4}.")
 L('L45', "Robidoux's Landing : moulin, bureau de poste et entrepôts", -94.8455, 39.7745, '1840/1842-02', 'annee', 'approximative', 'joseph3',
   "Autour du comptoir, rebaptisé Robidoux's Landing, s'installent commis, médecins et artisans. En 1840, un bureau de poste ouvre aux Black Snake Hills avec Jules, le fils de Joseph, comme premier maître de poste. En 1841, Robidoux ouvre un moulin à farine sur la rive ouest du ruisseau Blacksnake ; en février 1842, la cour lui commande un entrepôt d'inspection du tabac au débarcadère, puis il en bâtit un pour le chanvre.",
   f"{WIL}, p. 139-142.")
 L('L46', "Saint-Joseph : Robidoux Row", -94.8575, 39.7747, '1849/1868', 'annee', 'certaine', 'joseph3',
   "Rangée de logements bâtie par Joseph Robidoux à la fin des années 1840 dans le nord de Saint-Joseph (219-225, rue Poulin) ; il y a lui-même habité. C'est l'un des rares bâtiments subsistants des débuts de la ville, aujourd'hui musée.",
   f"{NRHP} ; « Robidoux Row », Wikipédia.")
-L('L47', "Saint-Joseph : le monument de Mount Olivet", -94.810, 39.735, '1914', 'annee', 'approximative', 'famille',
-  "Enterré d'abord au cimetière catholique Calvary, Joseph est transféré au cimetière Mount Olivet, où son petit-fils Louis lui élève en 1914 un monument de douze pieds. Au pied, des stèles rappellent Antoine, Michel et François, qui n'y reposent pas, et Angélique Vaudry, morte en 1857.",
-  f"{WIL}, p. 211 ; {WJ4}.",
-  "Coordonnées du cimetière approximatives ; Wikipédia date la réinhumation de 1908.")
+L('L47', "Saint-Joseph : le monument de Mount Olivet", -94.810, 39.735, '1868-05-28/1914', 'jour', 'approximative', 'famille',
+  "Le 28 mai 1868, Joseph est inhumé au cimetière catholique du Calvaire, sur Garfield Avenue, devant 85 voitures et 50 cavaliers ; ses petits-fils Jules, Thomas, Napoléon et Louis escortent le corbillard. Le 15 août 1908, son petit-fils Louis fait exhumer Joseph, son fils Jules et son petit-fils Napoléon, qu'il reconnaît à leurs traits, et les transfère au nouveau cimetière Mount Olivet, sur Lovers' Lane (lot 111, bloc 1). En 1914, il y élève un monument de granit gris de douze pieds. Au pied, des stèles rappellent Antoine, Michel et François, qui n'y reposent pas, et Angélique Vaudry, morte en 1857.",
+  f"{ROB}, p. 151-155, 271-272 ; {WIL}, p. 211 ; {WJ4}.",
+  "Coordonnées du cimetière approximatives.")
 
 # ------------------------------------------------------------------ Antoine et Louis : Nouveau-Mexique, Utah, Missouri
 L('L48', "Mine du Cerro del Oro", -106.17, 35.32, '1834', 'annee', 'hypothetique', 'antoine',
@@ -372,7 +372,7 @@ L('L59', "Jurupa : la maison de Louis Rubidoux", -117.40605, 33.99682, '1846/186
   f"{WIL}, p. 163-164 ; {OHP}, n° 102 ; {WLR}.",
   images=[LOC("jurupa-maison-louis-rubidoux-v1869.jpg", "La maison de Louis Rubidoux à Jurupa, vers 1869 (California Historical Society, USC Digital Library)")])
 L('L60', "Jurupa : le moulin Rubidoux", -117.40646, 33.99526, '1846/1847', 'annee', 'certaine', 'louis',
-  "Sur le rancho Jurupa, Louis bâtit en 1846-1847 un moulin à grain à turbine hydraulique et deux paires de meules, sans doute le premier du sud de la Californie. Seul de son espèce dans la région, il répond à un besoin pressant. Le moulin fournit une farine rare aux colons et aux troupes américaines ; une crue l'emporte en 1862. Le site est le California Historical Landmark n° 303 (5540, Molino Way), signalé par la plaque n° 51 du comté de Riverside.",
+  "Sur le rancho Jurupa, Louis bâtit en 1846-1847 un moulin à grain à turbine hydraulique et deux paires de meules, sans doute le premier du sud de la Californie. Seul de son espèce dans la région, il répond à un besoin pressant. Le moulin fournit une farine rare aux colons et aux troupes américaines : le 19 février 1847, le lieutenant Oman, du bataillon mormon, revient du ranch Robidoux avec « beaucoup de légumes et de vin », et le bataillon Frémont y achète 1 700 livres de farine ; une crue l'emporte en 1862. Le site est le California Historical Landmark n° 303 (5540, Molino Way), signalé par la plaque n° 51 du comté de Riverside.",
   f"{WIL}, p. 164 ; {OHP}, n° 303.")
 L('L61', "Agua Mansa : la sépulture de Louis", -117.36389, 34.04194, '1868-09-24', 'jour', 'certaine', 'louis',
   "Louis Robidoux meurt le 24 septembre 1868 près de Colton. Il repose au cimetière pionnier d'Agua Mansa, seul vestige du village néo-mexicain fondé en 1842-1845 sur le Santa Ana et emporté par la crue de 1862 ; il en serait la plus ancienne inhumation connue. Sa veuve, Guadalupe García, meurt en 1892. Le cimetière est le California Historical Landmark n° 121.",
@@ -696,10 +696,21 @@ L('L141', "Île de Campeche (Galveston) : la commande aux frères Laffite", -94.
   "Joseph Robidoux correspond avec Jean et Pierre Laffite, contrebandiers établis sur l'île de Campeche, près de Galveston. En avril 1818, il leur commande vingt esclaves mulâtres parlant français (dix hommes, dix jeunes femmes, plus des nourrissons), des miroirs, haches, couteaux, chaudrons, rubans de soie, couvertures, trois cents mousquets, poudre, balles, tabac, vermillon et sucre, pour 3 535 dollars payables à la livraison à Alexandria (Louisiane).",
   f"{WIL}, p. 41-42.",
   "On ignore si la commande fut livrée.")
-L('L142', "Col du Cajon : un fort contre les razzias", -117.43, 34.31, '1851/1853', 'annee', 'hypothetique', 'louis',
-  "Louis Robidoux signale jusqu'à mille chevaux et bovins volés en trois mois par des pillards mojaves et autres. Il plaide pour un fort qui bloquerait le col du Cajon, à la tête de la vallée de la Santa Ana ; un poste de l'armée en adobe est bâti près de son ranch en 1851. Louis sert d'interprète au commandant lors d'une rencontre avec une bande d'Indiens de San Jacinto ; sa propre maison de Jurupa est percée de meurtrières.",
-  f"{WIL}, p. 198-199.",
-  "Le point marque le col ; l'emplacement exact du poste militaire n'est pas précisé.")
+L('L142', "Jurupa : un poste militaire contre les razzias", -117.415, 34.000, '1851/1854', 'annee', 'approximative', 'louis',
+  "Louis Robidoux signale jusqu'à mille chevaux et bovins volés en trois mois par des pillards mojaves et autres. Il plaide pour un fort qui bloquerait le col du Cajon, à la tête de la vallée de la Santa Ana ; un poste de l'armée en adobe est bâti près de son ranch en 1851. Louis sert d'interprète au commandant lors d'une rencontre avec une bande d'Indiens de San Jacinto ; sa propre maison de Jurupa est percée de meurtrières. Selon le Memorial, le capitaine Lovell et le colonel Smith tiennent garnison sur le Jurupa de 1852 à 1854.",
+  f"{WIL}, p. 198-199 ; {ROB}, p. 215.",
+  "Emplacement exact du poste inconnu ; point placé sur le rancho.")
+
+L('L143', "Saint-Joseph : le départ du Pony Express", -94.8434, 39.7556, '1860-04-03', 'jour', 'certaine', 'famille',
+  "Le 3 avril 1860, au coup de canon tiré du Patee House, le premier cavalier du Pony Express part des écuries de Pikes Peak, prend les dépêches au bureau de la rue Third, entre Felix et Edmond (deux rues baptisées d'après les fils de Joseph), puis traverse le Missouri par le bac du pied de la rue Jule, l'ancien Robidoux Landing, jusqu'à Elwood. Le courrier atteint San Francisco en dix jours.",
+  f"{ROB}, p. 146-147.")
+L('L144', "Parc Krug : la cabane de Joseph", -94.8235, 39.7925, '1915-01', 'mois', 'hypothetique', 'joseph3',
+  "En 1915, une cabane de rondins présentée comme la première maison de Saint-Joseph, bâtie pour Joseph Robidoux par des Indiens, est conservée au parc Krug. Des amis de Saint-Joseph font tailler dans l'un de ses rondins un porte-plume de chêne cerclé d'or, offert en janvier 1915 à son petit-fils Louis, à Kansas City.",
+  f"{ROB}, p. 266 (Kansas City Post, 9 janvier 1915).",
+  "L'authenticité de la cabane est une tradition locale ; point au parc Krug.")
+L('L145', "Kansas City : Louis, le petit-fils", -94.5925, 39.0640, '1883/1923-02-06', 'annee', 'certaine', 'jules',
+  "Louis Robidoux, fils de Jules et d'Elizabeth Barada, né à Saint-Joseph le 26 août 1855, débute dans les journaux de son père (Daily Commercial) puis s'installe en 1883 à Kansas City, où il fait fortune dans le commerce des vins puis l'immobilier. Avec sa femme Orral Messmore, il suit les pompiers de Kansas City à l'Exposition universelle de Paris (1900), visite La Havane (1911), Panama (1912), Riverside (1915) et Honolulu (1920). Il meurt le 6 février 1923 au 3518 Wyandotte Street et est inhumé à Morrill (Kansas) ; sa veuve publie l'année suivante le Memorial to the Robidoux Brothers.",
+  f"{ROB}, p. 243-271.")
 
 EXTRA = {
   'L128': [{"src": "images/documents/clark-1827-07-23-licence-antoine-robidoux-and-company.jpg", "legende": "Licence de William Clark à « Antoine Robidoux and Company », Saint-Louis, 23 juillet 1827 (dossier de l'auteur)"}],

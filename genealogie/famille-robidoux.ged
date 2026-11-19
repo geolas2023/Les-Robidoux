@@ -106,6 +106,14 @@
 2 PLAC Saint-Joseph, Buchanan, Missouri, USA
 1 OCCU Traiteur de fourrures, fondateur de ville
 1 NOTE Fondateur de Saint-Joseph (Missouri). Né le 10 août 1783 selon la famille (2 août dans d'autres sources).
+1 BURI
+2 DATE 28 MAY 1868
+2 PLAC Cimetière du Calvaire (Garfield Avenue), Saint-Joseph, Missouri, USA
+1 BURI
+2 DATE 15 AUG 1908
+2 PLAC Cimetière Mount Olivet, Saint-Joseph, Missouri, USA
+2 NOTE Translation avec son fils Jules et son petit-fils Napoléon ; lot 111, bloc 1 ; monument de 1914.
+1 NOTE Laisse à sa mort sa sœur Pélagie Saucier (Saint-Joseph), ses fils Joseph E., Jules, Félix et Edmond, sa fille Mme F. A. Beauvais (Saint-Louis) et vingt-huit petits-enfants (Memorial, 1924, p. 151).
 1 FAMC @F5@
 1 FAMS @F6@
 1 FAMS @F7@
@@ -292,6 +300,7 @@
 1 BIRT
 2 DATE 8 MAY 1802
 2 PLAC Saint-Louis, Missouri, USA
+1 NOTE Vit encore à Saint-Joseph à la mort de son frère Joseph (mai 1868) ; trois enfants (deux fils, une fille).
 1 FAMC @F5@
 1 FAMS @F14@
 0 @I28@ INDI
@@ -339,6 +348,10 @@
 2 PLAC Saint-Joseph, Buchanan, Missouri, USA
 1 OCCU Marchand, juge de paix
 1 NOTE Premier passeur (1839) et premier maître de poste (1840) de Saint-Joseph ; juge de paix.
+1 BURI
+2 DATE 15 AUG 1908
+2 PLAC Cimetière Mount Olivet, Saint-Joseph, Missouri, USA
+2 NOTE Translation depuis le cimetière du Calvaire.
 1 FAMC @F7@
 1 FAMS @F16@
 0 @I32@ INDI
@@ -437,8 +450,8 @@
 1 FAMC @F7@
 1 FAMS @F20@
 0 @I41@ INDI
-1 NAME Gus /Beauvais/
-2 GIVN Gus
+1 NAME Francis A. /Beauvais/
+2 GIVN Francis A.
 2 SURN Beauvais
 1 SEX M
 1 FAMS @F20@
@@ -516,16 +529,31 @@
 1 BIRT
 2 DATE 1852
 2 PLAC Saint-Joseph, Buchanan, Missouri, USA
+1 BURI
+2 DATE 15 AUG 1908
+2 PLAC Cimetière Mount Olivet, Saint-Joseph, Missouri, USA
+2 NOTE Translation depuis le cimetière du Calvaire.
 1 FAMC @F16@
 0 @I50@ INDI
 1 NAME Louis /Robidoux/
 2 GIVN Louis
 2 SURN Robidoux
 1 SEX M
+1 OCCU Agent immobilier
 1 BIRT
-2 DATE 1855
+2 DATE 26 AUG 1855
 2 PLAC Saint-Joseph, Buchanan, Missouri, USA
 1 NOTE Petit-fils du fondateur ; époux d'Orral Messmore, autrice du Memorial (1924).
+1 DEAT
+2 DATE 6 FEB 1923
+2 PLAC 3518 Wyandotte Street, Kansas City, Missouri, USA
+1 BURI
+2 DATE 8 FEB 1923
+2 PLAC Morrill, Brown, Kansas, USA
+1 RESI
+2 DATE 1883
+2 PLAC Kansas City, Missouri, USA
+2 NOTE Marchand de vins et spiritueux, puis agent immobilier ; voyage à l'Exposition universelle de Paris (1900).
 1 FAMC @F16@
 1 FAMS @F22@
 0 @I51@ INDI
@@ -534,6 +562,7 @@
 2 SURN Messmore
 1 SEX F
 1 FAMS @F22@
+1 FAMC @F30@
 0 @I52@ INDI
 1 NAME Sylvania (Nina) /Robidoux/
 2 GIVN Sylvania (Nina)
@@ -543,6 +572,7 @@
 2 DATE 1857
 2 PLAC Saint-Joseph, Buchanan, Missouri, USA
 1 FAMC @F16@
+1 FAMS @F39@
 0 @I53@ INDI
 1 NAME Louise (Fenette) /Robidoux/
 2 GIVN Louise (Fenette)
@@ -551,7 +581,9 @@
 1 BIRT
 2 DATE 1860
 2 PLAC Saint-Joseph, Buchanan, Missouri, USA
+1 NOTE Trois filles, établies à Denver : Mmes Dorothy Wilson, Henrietta Boyles et Mabel Tappan (Memorial, 1924).
 1 FAMC @F16@
+1 FAMS @F40@
 0 @I54@ INDI
 1 NAME Maria Juana /Romero/
 2 GIVN Maria Juana
@@ -805,12 +837,15 @@
 1 SEX F
 1 NOTE Épouse Estudillo, de Riverside.
 1 FAMC @F12@
+1 FAMS @F42@
 0 @I84@ INDI
 1 NAME Frederic /Robidoux/
 2 GIVN Frederic
 2 SURN Robidoux
 1 SEX M
+1 NOTE De Riverside ; sept enfants, dont Mme George Graham (San Diego) et Melda, épouse d'Edward Patric White (Butte, Montana).
 1 FAMC @F12@
+1 FAMS @F41@
 0 @I85@ INDI
 1 NAME Abundo /Robidoux/
 2 GIVN Abundo
@@ -842,6 +877,325 @@
 2 PLAC Chicago, Illinois, USA
 1 NOTE Religieuse du Sacré-Cœur (« Madame Robidoux »).
 1 FAMC @F13@
+0 @I89@ INDI
+1 NAME Jasper /Messmore/
+2 GIVN Jasper
+2 SURN Messmore
+1 SEX M
+1 NOTE De Morrill, Kansas.
+1 FAMS @F30@
+0 @I90@ INDI
+1 NAME Harriet /Foster/
+2 GIVN Harriet
+2 SURN Foster
+1 SEX F
+1 FAMS @F30@
+0 @I91@ INDI
+1 NAME Jeanne Elvira /Robidoux/
+2 GIVN Jeanne Elvira
+2 SURN Robidoux
+1 SEX F
+1 BIRT
+2 DATE 28 FEB 1852
+2 PLAC Saint-Joseph, Buchanan, Missouri, USA
+1 FAMC @F19@
+1 FAMS @F31@
+0 @I92@ INDI
+1 NAME Eddie Sylvanie /Robidoux/
+2 GIVN Eddie Sylvanie
+2 SURN Robidoux
+1 SEX M
+1 BIRT
+2 DATE 1854
+2 PLAC Saint-Joseph, Buchanan, Missouri, USA
+1 DEAT
+2 DATE 1856
+2 PLAC Saint-Joseph, Buchanan, Missouri, USA
+1 FAMC @F19@
+0 @I93@ INDI
+1 NAME Ben E. /Robidoux/
+2 GIVN Ben E.
+2 SURN Robidoux
+1 SEX M
+1 BIRT
+2 DATE 31 OCT 1857
+2 PLAC Saint-Joseph, Buchanan, Missouri, USA
+1 FAMC @F19@
+1 FAMS @F33@
+0 @I94@ INDI
+1 NAME Charles Albert /Robidoux/
+2 GIVN Charles Albert
+2 SURN Robidoux
+1 SEX M
+1 BIRT
+2 DATE 21 NOV 1859
+2 PLAC Saint-Joseph, Buchanan, Missouri, USA
+1 DEAT
+2 DATE 1861
+2 PLAC Saint-Joseph, Buchanan, Missouri, USA
+1 FAMC @F19@
+0 @I95@ INDI
+1 NAME John A. /Wakefield/
+2 GIVN John A.
+2 SURN Wakefield
+1 SEX M
+1 NOTE D'Omaha, Nebraska.
+1 FAMS @F31@
+0 @I96@ INDI
+1 NAME Jeane Eleanor /Wakefield/
+2 GIVN Jeane Eleanor
+2 SURN Wakefield
+1 SEX F
+1 BIRT
+2 DATE 19 OCT 1882
+2 PLAC Saint-Joseph, Buchanan, Missouri, USA
+1 FAMC @F31@
+1 FAMS @F32@
+0 @I97@ INDI
+1 NAME Harry L. /Street/
+2 GIVN Harry L.
+2 SURN Street
+1 SEX M
+1 NOTE De Chicago ; famille établie à Winnetka, Illinois.
+1 FAMS @F32@
+0 @I98@ INDI
+1 NAME Edith Watee /Van Aernam/
+2 GIVN Edith Watee
+2 SURN Van Aernam
+1 SEX F
+1 FAMS @F33@
+0 @I99@ INDI
+1 NAME Agnes /Beauvais/
+2 GIVN Agnes
+2 SURN Beauvais
+1 SEX F
+1 NOTE Religieuse du Sacré-Cœur à Seattle.
+1 FAMC @F20@
+0 @I100@ INDI
+1 NAME (religieuse) /Beauvais/
+2 GIVN (religieuse)
+2 SURN Beauvais
+1 SEX F
+1 NOTE « Madame Beauvais », religieuse du Sacré-Cœur à Menlo Park (Californie).
+1 FAMC @F20@
+0 @I101@ INDI
+1 NAME Delia /Beauvais/
+2 GIVN Delia
+2 SURN Beauvais
+1 SEX F
+1 FAMC @F20@
+0 @I102@ INDI
+1 NAME Fannie /Beauvais/
+2 GIVN Fannie
+2 SURN Beauvais
+1 SEX F
+1 NOTE Mme Perry.
+1 FAMC @F20@
+0 @I103@ INDI
+1 NAME Addie /Beauvais/
+2 GIVN Addie
+2 SURN Beauvais
+1 SEX F
+1 NOTE Mme Ellis, de Saint-Joseph.
+1 FAMC @F20@
+0 @I104@ INDI
+1 NAME Charles /Beauvais/
+2 GIVN Charles
+2 SURN Beauvais
+1 SEX M
+1 FAMC @F20@
+0 @I105@ INDI
+1 NAME Cassius /Beauvais/
+2 GIVN Cassius
+2 SURN Beauvais
+1 SEX M
+1 NOTE De Saint-Louis.
+1 FAMC @F20@
+0 @I106@ INDI
+1 NAME Edwin Charles /Robidoux/
+2 GIVN Edwin Charles
+2 SURN Robidoux
+1 SEX M
+1 FAMC @F18@
+1 FAMS @F34@
+0 @I107@ INDI
+1 NAME Josephine A. /Robidoux/
+2 GIVN Josephine A.
+2 SURN Robidoux
+1 SEX F
+1 FAMC @F18@
+1 FAMS @F35@
+0 @I108@ INDI
+1 NAME Ella /Robidoux/
+2 GIVN Ella
+2 SURN Robidoux
+1 SEX F
+1 FAMC @F18@
+1 FAMS @F36@
+0 @I109@ INDI
+1 NAME Annie /George/
+2 GIVN Annie
+2 SURN George
+1 SEX F
+1 FAMS @F34@
+0 @I110@ INDI
+1 NAME Frank /Corby/
+2 GIVN Frank
+2 SURN Corby
+1 SEX M
+1 FAMS @F35@
+0 @I111@ INDI
+1 NAME James P. /Sweeney/
+2 GIVN James P.
+2 SURN Sweeney
+1 SEX M
+1 FAMS @F36@
+0 @I112@ INDI
+1 NAME Albert /Robidoux/
+2 GIVN Albert
+2 SURN Robidoux
+1 SEX M
+1 FAMC @F17@
+1 FAMS @F37@
+0 @I113@ INDI
+1 NAME Octavia /Robidoux/
+2 GIVN Octavia
+2 SURN Robidoux
+1 SEX F
+1 NOTE Fille de François B. Robidoux et de Rosine Guion.
+1 FAMC @F17@
+0 @I114@ INDI
+1 NAME Frank /Robidoux/
+2 GIVN Frank
+2 SURN Robidoux
+1 SEX M
+1 FAMC @F17@
+0 @I115@ INDI
+1 NAME Felix /Robidoux/
+2 GIVN Felix
+2 SURN Robidoux
+1 SEX M
+1 FAMC @F17@
+0 @I116@ INDI
+1 NAME Rosine /Robidoux/
+2 GIVN Rosine
+2 SURN Robidoux
+1 SEX F
+1 FAMC @F17@
+0 @I117@ INDI
+1 NAME Carmel /Robidoux/
+2 GIVN Carmel
+2 SURN Robidoux
+1 SEX F
+1 FAMC @F17@
+0 @I118@ INDI
+1 NAME Mary /Reilly/
+2 GIVN Mary
+2 SURN Reilly
+1 SEX F
+1 FAMS @F37@
+0 @I119@ INDI
+1 NAME Edward Joseph Reilly /Robidoux/
+2 GIVN Edward Joseph Reilly
+2 SURN Robidoux
+1 SEX M
+1 FAMC @F37@
+0 @I120@ INDI
+1 NAME Emma Adelaide /Thompson/
+2 GIVN Emma Adelaide
+2 SURN Thompson
+1 SEX F
+1 FAMC @F21@
+1 FAMS @F38@
+0 @I121@ INDI
+1 NAME J. F. /Hamaker/
+2 GIVN J. F.
+2 SURN Hamaker
+1 SEX M
+1 FAMS @F38@
+0 @I122@ INDI
+1 NAME Antonie /Loffing/
+2 GIVN Antonie
+2 SURN Loffing
+1 SEX M
+1 FAMS @F39@
+0 @I123@ INDI
+1 NAME Geraldine /Loffing/
+2 GIVN Geraldine
+2 SURN Loffing
+1 SEX F
+1 NOTE De Los Angeles.
+1 FAMC @F39@
+0 @I124@ INDI
+1 NAME Edward /Tappan/
+2 GIVN Edward
+2 SURN Tappan
+1 SEX M
+1 FAMS @F40@
+0 @I125@ INDI
+1 NAME Joseph /Kathrens/
+2 GIVN Joseph
+2 SURN Kathrens
+1 SEX M
+1 FAMC @F29@
+0 @I126@ INDI
+1 NAME Vaudry /Kathrens/
+2 GIVN Vaudry
+2 SURN Kathrens
+1 SEX M
+1 FAMC @F29@
+0 @I127@ INDI
+1 NAME R. D. /Kathrens/
+2 GIVN R. D.
+2 SURN Kathrens
+1 SEX M
+1 FAMC @F29@
+0 @I128@ INDI
+1 NAME William /Kathrens/
+2 GIVN William
+2 SURN Kathrens
+1 SEX M
+1 NOTE Épouse Anna Zang le 4 février 1891 à Kansas City.
+1 FAMC @F29@
+0 @I129@ INDI
+1 NAME Albert /Kathrens/
+2 GIVN Albert
+2 SURN Kathrens
+1 SEX M
+1 FAMC @F29@
+0 @I130@ INDI
+1 NAME Pilar /Trujillo/
+2 GIVN Pilar
+2 SURN Trujillo
+1 SEX F
+1 FAMS @F41@
+0 @I131@ INDI
+1 NAME (époux) /Estudillo/
+2 GIVN (époux)
+2 SURN Estudillo
+1 SEX M
+1 FAMS @F42@
+0 @I132@ INDI
+1 NAME Michel /Estudillo/
+2 GIVN Michel
+2 SURN Estudillo
+1 SEX M
+1 NOTE Avocat, ancien sénateur de Californie, de Riverside.
+1 FAMC @F42@
+0 @I133@ INDI
+1 NAME Adelaide /Estudillo/
+2 GIVN Adelaide
+2 SURN Estudillo
+1 SEX F
+1 NOTE Épouse d'Arthur Wright, avocat de Los Angeles.
+1 FAMC @F42@
+0 @I134@ INDI
+1 NAME Henrietta /Estudillo/
+2 GIVN Henrietta
+2 SURN Estudillo
+1 SEX F
+1 NOTE Épouse de Hugh J. Boyde, professeur à Portland.
+1 FAMC @F42@
 0 @F1@ FAM
 1 HUSB @I1@
 1 WIFE @I2@
@@ -976,26 +1330,50 @@
 0 @F17@ FAM
 1 HUSB @I34@
 1 WIFE @I35@
+1 CHIL @I113@
+1 CHIL @I112@
+1 CHIL @I114@
+1 CHIL @I115@
+1 CHIL @I116@
+1 CHIL @I117@
 0 @F18@ FAM
 1 HUSB @I36@
 1 WIFE @I37@
 1 MARR
 2 DATE 1842
+1 CHIL @I106@
+1 CHIL @I107@
+1 CHIL @I108@
 0 @F19@ FAM
 1 HUSB @I38@
 1 WIFE @I39@
 1 MARR
 2 DATE 1 JUN 1851
 2 PLAC Andrew, Missouri, USA
+1 CHIL @I91@
+1 CHIL @I92@
+1 CHIL @I93@
+1 CHIL @I94@
 0 @F20@ FAM
 1 HUSB @I41@
 1 WIFE @I40@
+1 MARR
+2 DATE 26 APR 1847
+2 PLAC Vieille cathédrale, Saint-Louis, Missouri, USA
+1 CHIL @I99@
+1 CHIL @I100@
+1 CHIL @I101@
+1 CHIL @I102@
+1 CHIL @I103@
+1 CHIL @I104@
+1 CHIL @I105@
 0 @F21@ FAM
 1 HUSB @I46@
 1 WIFE @I45@
 1 MARR
 2 DATE 11 SEP 1864
 2 PLAC Saint-Joseph, Buchanan, Missouri, USA
+1 CHIL @I120@
 0 @F22@ FAM
 1 HUSB @I50@
 1 WIFE @I51@
@@ -1044,5 +1422,74 @@
 0 @F29@ FAM
 1 HUSB @I87@
 1 WIFE @I86@
+1 CHIL @I125@
+1 CHIL @I126@
+1 CHIL @I127@
+1 CHIL @I128@
+1 CHIL @I129@
+0 @F30@ FAM
+1 HUSB @I89@
+1 WIFE @I90@
+1 CHIL @I51@
+0 @F31@ FAM
+1 HUSB @I95@
+1 WIFE @I91@
+1 CHIL @I96@
+1 MARR
+2 DATE 16 AUG 1881
+2 PLAC Saint-Joseph, Buchanan, Missouri, USA
+0 @F32@ FAM
+1 HUSB @I97@
+1 WIFE @I96@
+1 MARR
+2 DATE 20 FEB 1909
+0 @F33@ FAM
+1 HUSB @I93@
+1 WIFE @I98@
+1 MARR
+2 DATE 19 JAN 1887
+2 PLAC Omaha, Douglas, Nebraska, USA
+0 @F34@ FAM
+1 HUSB @I106@
+1 WIFE @I109@
+0 @F35@ FAM
+1 HUSB @I110@
+1 WIFE @I107@
+1 MARR
+2 PLAC Saint-Joseph, Buchanan, Missouri, USA
+0 @F36@ FAM
+1 HUSB @I111@
+1 WIFE @I108@
+0 @F37@ FAM
+1 HUSB @I112@
+1 WIFE @I118@
+1 CHIL @I119@
+1 MARR
+2 DATE 21 SEP 1886
+0 @F38@ FAM
+1 HUSB @I121@
+1 WIFE @I120@
+1 MARR
+2 DATE 14 JUL 1904
+0 @F39@ FAM
+1 HUSB @I122@
+1 WIFE @I52@
+1 CHIL @I123@
+1 MARR
+2 DATE 1883
+0 @F40@ FAM
+1 HUSB @I124@
+1 WIFE @I53@
+1 MARR
+2 DATE 1881
+0 @F41@ FAM
+1 HUSB @I84@
+1 WIFE @I130@
+0 @F42@ FAM
+1 HUSB @I131@
+1 WIFE @I83@
+1 CHIL @I132@
+1 CHIL @I133@
+1 CHIL @I134@
 0 @N1@ NOTE Sources : Atlas Robidoux ; R. J. Willoughby, The Brothers Robidoux (2012) ; O. M. Robidoux, Memorial to the Robidoux Brothers (1924) ; Billon (1886) ; collection Drouin ; recensements américains ; A. Oldham (2000).
 0 TRLR
