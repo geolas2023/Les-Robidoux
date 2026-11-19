@@ -79,6 +79,7 @@ def COM(fichier, legende):
     nom = fichier.replace(' ', '_')
     return {"src": f"https://commons.wikimedia.org/wiki/Special:FilePath/{quote(nom)}?width=1200",
             "lien": f"https://commons.wikimedia.org/wiki/File:{quote(nom)}", "legende": f"{legende} (Wikimedia Commons)"}
+PHG = "J. Lecompte, Pueblo, Hardscrabble, Greenhorn: The Upper Arkansas, 1832-1856 (Norman, University of Oklahoma Press, 1978)"
 def LOC(fichier, legende):
     return {"src": f"images/photos/{fichier}", "legende": legende}
 IMAGES = {
@@ -213,8 +214,8 @@ L('L21', "Taos : François Robidoux part pour le pays ute", -105.57, 36.404, '18
   f"{LEC}, p. 64.")
 L('L22', "Fort Uncompahgre (fort Robidoux)", -108.074, 38.749, '1828/1844', 'annee', 'approximative', 'antoine',
   "Vers 1828, Antoine Robidoux bâtit un petit fort au confluent de la Gunnison et de l'Uncompahgre, près de l'actuelle Delta (Colorado) : le seul poste de traite du bassin de la Grand River, sur la route des trappeurs du Nouveau-Mexique vers la Green, Brown's Hole et plus tard Fort Bridger. Francisco Trujillo, qui y travaille pour Robidoux, est abattu par des Utes en relevant ses pièges. Les vestiges disparaissent dans les années 1880 ; une reconstitution existe depuis 1990.",
-  f"{WAL}, p. 272 ; {CHI2}, p. 506, 781-782 ; {CRA}, p. 83.",
-  "Date de fondation incertaine (milieu des années 1820 selon Wallace, 1828 selon d'autres auteurs).")
+  f"{WAL}, p. 272 ; {CHI2}, p. 506, 781-782 ; {CRA}, p. 83 ; {PHG}, p. 136-138.",
+  "Selon Lecompte (1978), l'attaque a lieu fin septembre 1844, pendant la guerre déclenchée par le gouverneur Martínez : Trujillo est tué, sept Mexicains massacrés, les femmes indiennes du fort emmenées ; Calario Cortéz rejoint Taos à pied en quatorze jours. Date de fondation incertaine (milieu des années 1820 selon Wallace, 1828 selon d'autres auteurs).")
 L('L23', "Fort Uintah (fort Robidoux)", -109.917, 40.46, '1832/1844-10', 'annee', 'approximative', 'antoine',
   "Au confluent de l'Uinta et du Whiterocks, Antoine Robidoux tient un second fort, où il rachète en 1832 le poste de Reed. On y traite avec les trappeurs de la Bear, de la Green et du Colorado et avec les Snakes et les Utes : chevaux, castors et peaux contre munitions, armes, tabac et perles. Rufus Sage y admire des peaux d'une blancheur de neige achetées pour quelques charges de poudre. En septembre 1902, Cragin y dessine le plan du « Old Ft. Robidoux ».",
   f"{WAL}, p. 272 ; {CHI2}, p. 506 ; {CRA}, p. 51-55.")
@@ -845,6 +846,11 @@ L('L162', "Robidoux Creek (Kansas) : « M. Robidoux, trapper, 1841 »", -96.4265
   "Planche « Robidoux inscriptions » du dossier familial (dossier de l'auteur) ; National Park Service, « Saddle Up at Guittard », panneau de la piste du Pony Express (carte : Robidoux Creek et Pony Express Trail).",
   "Attribution à Michel et emplacement donnés par la planche familiale seulement, à vérifier. Point placé à la station Guittard, où la piste du Pony Express franchit le Robidoux Creek.",
   images=[{"src": "images/documents/inscription-m-robidoux-trapper-1841.jpg", "legende": "« M. Robidoux, trapper, 1841 » (planche du dossier familial)"}])
+
+L('L163', "Hardscrabble : les engagés de Robidoux réfugiés sur l'Arkansas (automne 1844)", -105.06, 38.36, '1844-10/1845', 'mois', 'approximative', 'antoine',
+  "Après l'attaque du fort Uncompahgre, les Utes épargnent le seul Américain et l'envoient dire à Antoine Robidoux, au fort Uintah, que ses pelleteries ne risquent rien. Terrifiés, sept Mexicains du fort Uintah volent mules, fusils et équipement et s'enfuient jusqu'à Hardscrabble, où Alexander Montgomerie recueille leur récit et alerte Taos. Les autorités mexicaines accusent Robidoux d'avoir vendu des fusils aux Utes. Parmi les engagés de Robidoux qui s'établissent ensuite dans les villages de l'Arkansas : Manuel Ruis, Esquípula Salasar (« Scapoodlar »), Manuel Pais, Miguel Ruibali, un esclave paiute nommé José et Felipe Archuleta.",
+  f"{PHG}, p. 137-138 et n. 26-28 (billet demandant à ces hommes de remettre les mules de Robidoux à « Mr. W. Subletz »).",
+  "Position approximative de l'établissement de Hardscrabble (1844-1848), sur le ruisseau du même nom près de son confluent avec l'Arkansas.")
 
 EXTRA = {
   'L128': [{"src": "images/documents/clark-1827-07-23-licence-antoine-robidoux-and-company.jpg", "legende": "Licence de William Clark à « Antoine Robidoux and Company », Saint-Louis, 23 juillet 1827 (dossier de l'auteur)"}],

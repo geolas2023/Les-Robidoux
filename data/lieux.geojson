@@ -610,8 +610,8 @@
     "certitude": "approximative",
     "categorie": "antoine",
     "description": "Vers 1828, Antoine Robidoux bâtit un petit fort au confluent de la Gunnison et de l'Uncompahgre, près de l'actuelle Delta (Colorado) : le seul poste de traite du bassin de la Grand River, sur la route des trappeurs du Nouveau-Mexique vers la Green, Brown's Hole et plus tard Fort Bridger. Francisco Trujillo, qui y travaille pour Robidoux, est abattu par des Utes en relevant ses pièges. Les vestiges disparaissent dans les années 1880 ; une reconstitution existe depuis 1990.",
-    "sources": "W. S. Wallace, « Antoine Robidoux », dans Hafen (dir.), French Fur Traders and Voyageurs in the American West (1995), p. 272 ; Chittenden, The American Fur Trade of the Far West (1902), vol. 2-3, p. 506, 781-782 ; Cragin, Early Far West Notebooks (1902-1923), transcription dactylographiée, p. 83.",
-    "note": "Date de fondation incertaine (milieu des années 1820 selon Wallace, 1828 selon d'autres auteurs).",
+    "sources": "W. S. Wallace, « Antoine Robidoux », dans Hafen (dir.), French Fur Traders and Voyageurs in the American West (1995), p. 272 ; Chittenden, The American Fur Trade of the Far West (1902), vol. 2-3, p. 506, 781-782 ; Cragin, Early Far West Notebooks (1902-1923), transcription dactylographiée, p. 83 ; J. Lecompte, Pueblo, Hardscrabble, Greenhorn: The Upper Arkansas, 1832-1856 (Norman, University of Oklahoma Press, 1978), p. 136-138.",
+    "note": "Selon Lecompte (1978), l'attaque a lieu fin septembre 1844, pendant la guerre déclenchée par le gouverneur Martínez : Trujillo est tué, sept Mexicains massacrés, les femmes indiennes du fort emmenées ; Calario Cortéz rejoint Taos à pied en quatorze jours. Date de fondation incertaine (milieu des années 1820 selon Wallace, 1828 selon d'autres auteurs).",
     "type": "lieu",
     "images": [
      {
@@ -4336,6 +4336,31 @@
       "legende": "« M. Robidoux, trapper, 1841 » (planche du dossier familial)"
      }
     ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -105.06,
+     38.36
+    ]
+   },
+   "properties": {
+    "id": "L163",
+    "nom": "Hardscrabble : les engagés de Robidoux réfugiés sur l'Arkansas (automne 1844)",
+    "debut": 1844.7883,
+    "fin": 1845.5,
+    "date_edtf": "1844-10/1845",
+    "precision": "mois",
+    "certitude": "approximative",
+    "categorie": "antoine",
+    "description": "Après l'attaque du fort Uncompahgre, les Utes épargnent le seul Américain et l'envoient dire à Antoine Robidoux, au fort Uintah, que ses pelleteries ne risquent rien. Terrifiés, sept Mexicains du fort Uintah volent mules, fusils et équipement et s'enfuient jusqu'à Hardscrabble, où Alexander Montgomerie recueille leur récit et alerte Taos. Les autorités mexicaines accusent Robidoux d'avoir vendu des fusils aux Utes. Parmi les engagés de Robidoux qui s'établissent ensuite dans les villages de l'Arkansas : Manuel Ruis, Esquípula Salasar (« Scapoodlar »), Manuel Pais, Miguel Ruibali, un esclave paiute nommé José et Felipe Archuleta.",
+    "sources": "J. Lecompte, Pueblo, Hardscrabble, Greenhorn: The Upper Arkansas, 1832-1856 (Norman, University of Oklahoma Press, 1978), p. 137-138 et n. 26-28 (billet demandant à ces hommes de remettre les mules de Robidoux à « Mr. W. Subletz »).",
+    "note": "Position approximative de l'établissement de Hardscrabble (1844-1848), sur le ruisseau du même nom près de son confluent avec l'Arkansas.",
+    "type": "lieu",
+    "images": []
    }
   }
  ]
