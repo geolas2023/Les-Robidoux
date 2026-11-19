@@ -155,7 +155,7 @@ carte.on('load', async () => {
 });
 
 function lireAncre() {
-  const m = decodeURIComponent(location.hash || '').match(/(?:lieu|trajet)=([LT]\d+)/);
+  const m = decodeURIComponent(location.hash || '').match(/(?:lieu|trajet)=([LT]\d+|R\d{4}-[a-z]+)/);
   if (!m || !window.DONNEES) return;
   const f = [...window.DONNEES.lieux.features, ...window.DONNEES.trajets.features].find(x => x.properties.id === m[1]);
   if (f) { afficherFiche(f.properties, f.geometry.type); zoomerSur(f); }
