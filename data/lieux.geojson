@@ -4462,6 +4462,31 @@
     "type": "lieu",
     "images": []
    }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -117.40646,
+     33.99526
+    ]
+   },
+   "properties": {
+    "id": "L168",
+    "nom": "Jurupa : l'évaluation fiscale de 1854 et le lotissement du rancho",
+    "debut": 1854.5,
+    "fin": 1854.5,
+    "date_edtf": "1854",
+    "precision": "annee",
+    "certitude": "certaine",
+    "categorie": "louis",
+    "description": "Selon Hornbeck, qui s'appuie sur les registres du comté de San Bernardino, Louis Robidoux est évalué en 1854 à 20 000 dollars. Le rôle compte le rancho Jurupa (environ 3 000 acres), celui de San Timoteo (640 acres), 1 200 moutons, quelque 450 bovins, une soixantaine de chevaux, sa maison et ses aménagements, ainsi qu'un billet de 3 000 dollars des évêques mormons Lyman et Rich, acheteurs du rancho San Bernardino en 1851. Les bancs de terre où s'élèvera Riverside ne sont pas évalués, jugés sans valeur. Lettré et polyglotte (il parle quatre langues), Louis est juge local et membre du premier conseil de surveillance du comté. Il est l'un des premiers en Californie à lotir son domaine pour le vendre à de petits fermiers à crédit. Un de ses hommes, Antonio Prieto, bâtit une maison au pied nord du mont Rubidoux.",
+    "sources": "R. Hornbeck, Roubidoux's Ranch in the 70's (Riverside, Press Printing Company, 1913), p. 81-88 (PDF du Drive de l'auteur, dossier ROBIDOUX_FAMILY).",
+    "note": "Hornbeck écrit en 1913 d'après des souvenirs et des auteurs antérieurs ; il fait arriver Louis en Californie en 1844, alors que les autres sources situent l'achat du rancho en 1847.",
+    "type": "lieu",
+    "images": []
+   }
   }
  ]
 }

@@ -82,6 +82,7 @@ def COM(fichier, legende):
 GIT = "J. Gitlin, The Bourgeois Frontier: French Towns, French Traders, and American Expansion (New Haven, Yale University Press, 2010)"
 GIA = "C. A. Gianini, « Manuel Lisa, One of the Earliest Traders on the Missouri River », New Mexico Historical Review, vol. 2, n° 4 (octobre 1927), p. 323-333"
 PET = "C. E. Peterson, Colonial St. Louis: Building a Creole Capital (Saint-Louis, Missouri Historical Society, 1949)"
+HOR = "R. Hornbeck, Roubidoux's Ranch in the 70's (Riverside, Press Printing Company, 1913)"
 PHG = "J. Lecompte, Pueblo, Hardscrabble, Greenhorn: The Upper Arkansas, 1832-1856 (Norman, University of Oklahoma Press, 1978)"
 def LOC(fichier, legende):
     return {"src": f"images/photos/{fichier}", "legende": legende}
@@ -873,6 +874,11 @@ L('L167', "Saint-Louis : la boulangerie de pierre et le moulin à huit chevaux d
   "À la fin du régime espagnol, Joseph Robidoux (II) bâtit derrière sa grande maison de la Grande Rue Royale une boulangerie de pierre à deux étages. Il semble avoir eu des contrats de pain et de biscuits, faits avec la farine de son moulin. Ce moulin, mû par huit chevaux en 1802, était selon Peterson l'un des plus grands de son genre. L'inventaire dressé à sa mort en 1809 énumère le matériel de boulanger : pétrins, pelles de bois, balances, corbeilles et couvertures à pain.",
   f"{PET}, p. 38 et 40 (PDF du Drive de l'auteur).",
   "Point placé au vieux Saint-Louis ; lot exact sur la Grande Rue Royale à reprendre du plan des lots.")
+
+L('L168', "Jurupa : l'évaluation fiscale de 1854 et le lotissement du rancho", -117.40646, 33.99526, '1854', 'annee', 'certaine', 'louis',
+  "Selon Hornbeck, qui s'appuie sur les registres du comté de San Bernardino, Louis Robidoux est évalué en 1854 à 20 000 dollars. Le rôle compte le rancho Jurupa (environ 3 000 acres), celui de San Timoteo (640 acres), 1 200 moutons, quelque 450 bovins, une soixantaine de chevaux, sa maison et ses aménagements, ainsi qu'un billet de 3 000 dollars des évêques mormons Lyman et Rich, acheteurs du rancho San Bernardino en 1851. Les bancs de terre où s'élèvera Riverside ne sont pas évalués, jugés sans valeur. Lettré et polyglotte (il parle quatre langues), Louis est juge local et membre du premier conseil de surveillance du comté. Il est l'un des premiers en Californie à lotir son domaine pour le vendre à de petits fermiers à crédit. Un de ses hommes, Antonio Prieto, bâtit une maison au pied nord du mont Rubidoux.",
+  f"{HOR}, p. 81-88 (PDF du Drive de l'auteur, dossier ROBIDOUX_FAMILY).",
+  "Hornbeck écrit en 1913 d'après des souvenirs et des auteurs antérieurs ; il fait arriver Louis en Californie en 1844, alors que les autres sources situent l'achat du rancho en 1847.")
 
 EXTRA = {
   'L128': [{"src": "images/documents/clark-1827-07-23-licence-antoine-robidoux-and-company.jpg", "legende": "Licence de William Clark à « Antoine Robidoux and Company », Saint-Louis, 23 juillet 1827 (dossier de l'auteur)"}],
