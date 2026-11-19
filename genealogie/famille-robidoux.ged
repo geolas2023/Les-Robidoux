@@ -117,6 +117,30 @@
 1 FAMC @F5@
 1 FAMS @F6@
 1 FAMS @F7@
+1 EVEN
+2 TYPE Presse
+2 DATE 21 MAY 1845
+2 PLAC Saint-Louis, Missouri, USA
+2 NOTE Vente de sa propriété de la rue Main, îlot 5 (Missouri Republican, 21 mai 1845)
+2 NOTE Source : Newspapers.com
+1 EVEN
+2 TYPE Presse
+2 DATE 18 OCT 1842
+2 PLAC Black Snake Hills, Missouri, USA
+2 NOTE Vol d'environ 4 000 $, retrouvés (Missouri Republican, 26 oct. 1842)
+2 NOTE Source : Newspapers.com
+1 EVEN
+2 TYPE Presse
+2 DATE FEB 1863
+2 PLAC Saint-Joseph, Missouri, USA
+2 NOTE Cas de conscience : 300 $ restitués par l'entremise d'un confesseur (Liberty Tribune, 3 avril 1863)
+2 NOTE Source : Newspapers.com
+1 EVEN
+2 TYPE Presse
+2 DATE 2 AUG 1866
+2 PLAC Saint-Joseph, Missouri, USA
+2 NOTE 82e anniversaire, le même jour que John Patee (Tri-Weekly Missouri Republican, 6 août 1866)
+2 NOTE Source : Newspapers.com
 0 @I12@ INDI
 1 NAME Eugénie /Delisle/
 2 GIVN Eugénie
@@ -220,6 +244,18 @@
 1 NOTE Traiteur du fort Uncompahgre et du fort Uintah ; interprète de Kearny, blessé à San Pasqual (6 déc. 1846).
 1 FAMC @F5@
 1 FAMS @F11@
+1 EVEN
+2 TYPE Presse
+2 DATE MAR 1845
+2 PLAC Fort Uncompahgre, Colorado, USA
+2 NOTE Destruction du fort Uintah ; refuge au fort Uncompahgre (Washington Union, 18 mars 1845)
+2 NOTE Source : Newspapers.com
+1 EVEN
+2 TYPE Presse
+2 DATE MAY 1845
+2 PLAC Independence, Missouri, USA
+2 NOTE Fausse rumeur de sa mort (Louisville Daily Courier, 1er mai 1845)
+2 NOTE Source : Newspapers.com
 0 @I21@ INDI
 1 NAME María del Carmel /Benavides/
 2 GIVN María del Carmel
@@ -248,6 +284,16 @@
 1 NOTE Premier alcalde de Santa Fe (1839), ranchero de Jurupa, premier président du conseil du comté de San Bernardino (1853). 31 juillet 1796 selon le Memorial.
 1 FAMC @F5@
 1 FAMS @F12@
+1 PROP
+2 DATE AUG 1860
+2 PLAC San Bernardino, California, USA
+2 NOTE Biens évalués à 14 000 $ (Los Angeles Star, 4 août 1860)
+2 NOTE Source : Newspapers.com
+1 PROP
+2 DATE 22 JUN 1867
+2 PLAC San Timoteo, California, USA
+2 NOTE Met en vente le rancho Robidoux de San Timoteo (San Bernardino Guardian)
+2 NOTE Source : Newspapers.com
 0 @I23@ INDI
 1 NAME Guadalupe /García/
 2 GIVN Guadalupe
@@ -270,6 +316,11 @@
 1 NOTE Chef de brigade de trappeurs (Gila 1826, Snake 1830-31) ; 8 août 1798 selon le Memorial.
 1 FAMC @F5@
 1 FAMS @F13@
+1 RESI
+2 DATE 1855
+2 PLAC Platte Nord, près de Fort Laramie, Wyoming, USA
+2 NOTE Poste de traite à soixante milles de Laramie (Liberty Tribune, 25 mai 1855)
+2 NOTE Source : Newspapers.com
 0 @I25@ INDI
 1 NAME Susanne /Vaudry/
 2 GIVN Susanne
@@ -354,6 +405,11 @@
 2 NOTE Translation depuis le cimetière du Calvaire.
 1 FAMC @F7@
 1 FAMS @F16@
+1 OCCU
+2 DATE 1858
+2 PLAC Comté de Buchanan, Missouri, USA
+2 NOTE Juge de paix 1858-1868 ; mort de consomption (St. Louis Globe-Democrat, 1er mars 1875)
+2 NOTE Source : Newspapers.com
 0 @I32@ INDI
 1 NAME Messanie /Robidoux/
 2 GIVN Messanie
@@ -468,6 +524,12 @@
 2 PLAC Saint-Joseph, Buchanan, Missouri, USA
 1 NOTE Tué d'un coup de fusil rue Main.
 1 FAMC @F7@
+1 EVEN
+2 TYPE Presse
+2 DATE 8 SEP 1850
+2 PLAC Saint-Joseph, Missouri, USA
+2 NOTE Tué d'un coup de fusil tiré du magasin MacDonald (Liberty Tribune, 20 sept. 1850)
+2 NOTE Source : Newspapers.com
 0 @I43@ INDI
 1 NAME Elizabeth (Isabel) /Barada/
 2 GIVN Elizabeth (Isabel)
@@ -477,6 +539,15 @@
 2 DATE 20 OCT 1820
 2 PLAC Carondelet, Missouri, USA
 1 FAMS @F16@
+1 DEAT
+2 DATE SEP 1904
+2 PLAC Denver, Colorado, USA
+2 NOTE Morte à 84 ans (St. Joseph Gazette, 28 sept. 1904)
+2 NOTE Source : Newspapers.com
+1 BURI
+2 DATE SEP 1904
+2 PLAC Cimetière Mount Olivet, Saint-Joseph, Missouri, USA
+2 NOTE Source : Newspapers.com
 0 @I44@ INDI
 1 NAME Julius C. Jr. /Robidoux/
 2 GIVN Julius C. Jr.
@@ -556,6 +627,11 @@
 2 NOTE Marchand de vins et spiritueux, puis agent immobilier ; voyage à l'Exposition universelle de Paris (1900).
 1 FAMC @F16@
 1 FAMS @F22@
+1 OCCU
+2 DATE 1883
+2 PLAC Kansas City, Missouri, USA
+2 NOTE Saloon avenue Union ; mort d'apoplexie (St. Joseph News-Press, 7 févr. 1923)
+2 NOTE Source : Newspapers.com
 0 @I51@ INDI
 1 NAME Orral /Messmore/
 2 GIVN Orral
@@ -721,6 +797,11 @@
 1 NOTE Élevée par Carmel Benavides ; parlait anglais, français et espagnol.
 1 FAMC @F27@
 1 FAMS @F28@
+1 RESI
+2 DATE 1916
+2 PLAC 1710 Las Lunas Street, Pasadena, California, USA
+2 NOTE Nécrologie (Pasadena Star-News, 14 déc. 1916) : morte le 13 décembre 1916 ; funérailles le 15 à St. Andrew's
+2 NOTE Source : Newspapers.com
 0 @I71@ INDI
 1 NAME Christian Friedrich /Stollsteimer/
 2 GIVN Christian Friedrich
