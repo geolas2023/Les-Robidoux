@@ -42,6 +42,8 @@ FAG = "Find a Grave, mémorial 255125946 (Martina Anaya Barada)"
 NRHP = "National Register of Historic Places, n° 73001037 (Robidoux Row)"
 DRO = "Collection Drouin, baptême de Joseph Marie Robidoux, La Visitation du Sault-au-Récollet (Ancestry, coll. 1091, notice 14650221)"
 KEL = "C. Kelly, « Antoine Robidoux » [inscription de Westwater], Utah Historical Quarterly, vol. 6, n° 4 (oct. 1933), p. 115-116"
+WEB71 = "D. J. Weber, The Taos Trappers: The Fur Trade in the Far Southwest, 1540-1846 (Norman, University of Oklahoma Press, 1971)"
+HAR15 = "J. Hardee, « \"Taos Trappers\" and the Demise of the Rocky Mountain Rendezvous », dans Proceedings of the 2015 Fur Trade Symposium: Bent's Fort and the Southern Fur Trade (La Junta, 2016)"
 WEB72 = "D. J. Weber (éd.), « Louis Robidoux: Two Letters from California, 1848 », Southern California Quarterly, vol. 54, n° 2 (1972)"
 CEN = "Recensements fédéraux des États-Unis (Ancestry)"
 OBI = "Nécrologie d'Antoine Robidoux, St. Joseph Gazette, reprise dans le Los Angeles Star, 29 septembre 1860"
@@ -670,7 +672,8 @@ L('L130', "Rivière Jordan : le guet-apens de Bad Gocha", -111.93, 40.55, '1824-
   "Participation d'Antoine probable mais non prouvée ; lieu du guet-apens approximatif.")
 L('L131', "Taos : la boutique de François et de Manuel Alvarez", -105.5735, 36.4075, '1824-11-25/1825-10', 'jour', 'certaine', 'freres',
   "Parti de Council Bluffs avec Louis, Michel, Isidore, Manuel Alvarez et Antoine Lamanche (papiers du gouverneur McNair, 3 septembre 1824, pour onze hommes), François arrive à Taos le 25 novembre 1824 ; Alvarez entre à son service. En janvier 1825, François assure à l'alcalde que ni lui ni ses hommes n'ont causé « aucun désordre ni scandale ». À l'automne 1825, l'agent du fisc Juan Bautista Vigil, envoyé par Sylvestre Pratte, saisit ses marchandises non déclarées et les enferme chez l'alcalde Severino Martínez ; François court à Santa Fe et règle cent pesos, dette d'une licence de trappe impayée.",
-  f"{WIL}, p. 69-72, 79.")
+  f"{WIL}, p. 69-72, 79 ; {WEB71}, ch. VI.",
+  "Weber donne une autre liste d'après la même lettre de McNair : François et Isidore Robidoux, Manuel Alvarez, Antonio LaMarche, José Martin, Joseph Gervais, Anastasio Lasalle, Charles Hotte, François Laroque, François Quenelle, Joseph Decary et Antoine Baucheam ; Cabanné, furieux que Joseph ait puisé dans l'entrepôt de Pratte, achète le tiers de l'entreprise, et le groupe part le 30 septembre.")
 L('L132', "Embouchure de la Kansas : la licence de Michel", -94.6150, 39.1170, '1825-10-08/1826', 'jour', 'certaine', 'freres',
   "Le 8 octobre 1825, William Clark délivre à Michel Robidoux une licence d'un an pour traiter à l'embouchure de la Kansas, sur le Grand Loup et la Républicaine, aux villages poncas et à Bellevue (caution de 1 000 dollars, capital de 2 450,26 dollars). Joseph s'en sert sans doute pour défier son employeur, Bernard Pratte & Cie, qui obtient une licence pour le même lieu le 5 décembre ; Michel la lui laisse en repartant au Nouveau-Mexique en 1826.",
   f"{WIL}, p. 80-81.")
@@ -879,6 +882,21 @@ L('L168', "Jurupa : l'évaluation fiscale de 1854 et le lotissement du rancho", 
   "Selon Hornbeck, qui s'appuie sur les registres du comté de San Bernardino, Louis Robidoux est évalué en 1854 à 20 000 dollars. Le rôle compte le rancho Jurupa (environ 3 000 acres), celui de San Timoteo (640 acres), 1 200 moutons, quelque 450 bovins, une soixantaine de chevaux, sa maison et ses aménagements, ainsi qu'un billet de 3 000 dollars des évêques mormons Lyman et Rich, acheteurs du rancho San Bernardino en 1851. Les bancs de terre où s'élèvera Riverside ne sont pas évalués, jugés sans valeur. Lettré et polyglotte (il parle quatre langues), Louis est juge local et membre du premier conseil de surveillance du comté. Il est l'un des premiers en Californie à lotir son domaine pour le vendre à de petits fermiers à crédit. Un de ses hommes, Antonio Prieto, bâtit une maison au pied nord du mont Rubidoux.",
   f"{HOR}, p. 81-88 (PDF du Drive de l'auteur, dossier ROBIDOUX_FAMILY).",
   "Hornbeck écrit en 1913 d'après des souvenirs et des auteurs antérieurs ; il fait arriver Louis en Californie en 1844, alors que les autres sources situent l'achat du rancho en 1847.")
+
+# ------------------------------------------------------------------ Weber (1971) et symposium de 2015 : compléments
+L('L169', "Taos : le gouverneur Chávez, Louis Robidoux et l'affaire Ewing Young (août 1831)", -105.5735, 36.4075, '1831-08', 'mois', 'certaine', 'louis',
+  "En août 1831, le gouverneur José Antonio Chávez écrit à Luis Robidoux : il s'étonne que l'alcalde de Taos n'ait pas emprisonné « l'étranger Joaquín Yon » (Ewing Young), dont « les crimes et l'impudence sont déjà insupportables », et lui demande de le faire arrêter et conduire à Santa Fe, où vivent les témoins et où la prison est plus sûre. Young ne sera jamais jugé avant de repartir pour la Californie.",
+  f"{WEB71}, ch. IX.")
+L('L170', "Santa Fe : Antoine regidor puis alcalde, et son magasin cambriolé (1829-1833)", -105.9378, 35.6870, '1829-12-20/1833', 'jour', 'certaine', 'antoine',
+  "Citoyen mexicain depuis juillet 1829, Antoine Robidoux est élu neuvième regidor de Santa Fe le 20 décembre 1829, puis sert comme troisième alcalde en 1833. L'ancien gouverneur Vizcarra conteste son élection en faisant valoir qu'il est naturalisé ; le gouverneur Chávez le juge éligible et transmet l'affaire à Mexico. Antoine tient un magasin bien pourvu, cambriolé deux années de suite (affaires du 4 décembre 1829 et du 28 mars 1831), approvisionné par la piste du Missouri, et expédie régulièrement des marchandises à Chihuahua.",
+  f"{WEB71}, ch. XI (Archivo General de la Nación, Gobernación, ramo I, n° 120 ; MANM).")
+L('L171', "Embouchure de l'Uintah : Antoine perd tout au jeu de mains (printemps 1840)", -109.75, 40.07, '1840-03~', 'circa', 'approximative', 'antoine',
+  "Selon Joe Meek, à l'hiver 1839-1840, près de l'embouchure de l'Uintah, lui et Robert Newell sont rejoints par Antoine Robidoux, venu de Santa Fe avec des marchandises pour la traite ; ils remontent ensemble la Green jusqu'à Ham's Fork. Passionné du jeu de mains, Robidoux aurait perdu au jeu ses marchandises, ses chevaux et même sa femme, et serait rentré à Santa Fe « plus pauvre que rien », endetté. À la même époque, tant de trappeurs se réunissent au fort Uintah qu'on parle du « rendez-vous de Robidoux ».",
+  f"{HAR15}, d'après F. F. Victor, The River of the West (1870).",
+  "Anecdote rapportée par Meek, sans autre source.")
+L('L172', "Santa Fe : les chefs utes, le gouverneur Martínez et les trappeurs de « Portelance » (septembre 1844)", -105.9378, 35.6870, '1844-09', 'mois', 'certaine', 'antoine',
+  "En 1844, des chefs utes viennent à Santa Fe demander des présents en compensation de morts causées, selon une version, par « un groupe de trappeurs espagnols sous PORTELANCE », un Français. Mécontents des cadeaux du gouverneur Mariano Martínez, ils l'attaquent ; ses gardes tuent huit Indiens. C'est en rentrant chez eux que les Utes s'en prennent au fort Uncompahgre d'Antoine Robidoux. Les autorités de Santa Fe soupçonnent d'ailleurs l'un des forts de Robidoux d'avoir fourni des armes aux Utes.",
+  f"{WEB71}, ch. XIII (d'après le Missouri Democrat, 17 sept. 1845, et la thèse de W. A. Minge, 1965).")
 
 # ------------------------------------------------------------------ Recensements (ménages relevés sur Ancestry)
 import sys as _sys; _sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
