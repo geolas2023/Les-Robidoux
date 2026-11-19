@@ -747,6 +747,10 @@
       "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Birder%2C_Mosca_Pass_Trail_%2822324011132%29.jpg?width=1200",
       "lien": "https://commons.wikimedia.org/wiki/File:Birder%2C_Mosca_Pass_Trail_%2822324011132%29.jpg",
       "legende": "Sentier du col Mosca, l'ancien « Roubideau's Pass » (NPS) (Wikimedia Commons)"
+     },
+     {
+      "src": "images/photos/col-robidoux-mosca-2010.jpg",
+      "legende": "Le col Robidoux (Mosca), à 9 700 pieds ; photo de Gail Fisher, 6 décembre 2010 (dossier de l'auteur)"
      }
     ]
    }
@@ -929,7 +933,12 @@
     "sources": "Cragin, Early Far West Notebooks (1902-1923), transcription dactylographiée, p. 131, 141 ; W. S. Wallace, « Antoine Robidoux », dans Hafen (dir.), French Fur Traders and Voyageurs in the American West (1995), p. 281.",
     "note": "Le mont Rubidoux est signalé ici d'après la toponymie actuelle.",
     "type": "lieu",
-    "images": []
+    "images": [
+     {
+      "src": "images/documents/plan-rancho-jurupa.jpg",
+      "legende": "Plan du rancho Jurupa confirmé à Louis Robidoux et al., levé pour le Surveyor General des États-Unis (années 1870) ; dossier de l'auteur"
+     }
+    ]
    }
   },
   {
@@ -1350,6 +1359,14 @@
      {
       "src": "images/photos/westwater-inscription-antoine-robidoux-2001.jpg",
       "legende": "L'inscription d'Antoine Robidoux, ruisseau Westwater (Utah), photographiée en 2001 (dossier de l'auteur)"
+     },
+     {
+      "src": "images/photos/westwater-inscription-antoine-robidoux.jpg",
+      "legende": "« Antoine Robidoux passé ici le 13 novembre 1837 pour établire maison traitte à la rv. Vert ou Wiyte » (dossier de l'auteur)"
+     },
+     {
+      "src": "images/photos/westwater-canyon-falaise.jpg",
+      "legende": "La falaise de grès du canyon Westwater, près de l'inscription (dossier de l'auteur)"
      }
     ]
    }
@@ -1376,7 +1393,12 @@
     "sources": "R. J. Willoughby, The Brothers Robidoux and the Opening of the American West (2012), p. 154 ; Missouri Historical Society, Western Travel Collection, A1734-00001 (photographie de 1968).",
     "note": "Emplacement exact non publié : point placé dans le bassin du Willow Creek.",
     "type": "lieu",
-    "images": []
+    "images": [
+     {
+      "src": "images/photos/willow-creek-inscription-louis-robidoux-1841.jpg",
+      "legende": "« Louis Robidoux passo aqui el cuarto [?] de mayo de 1841 », Willow Creek ; photo de George E. Stewart reproduite par J. Nelson (2003), p. 35 (dossier de l'auteur)"
+     }
+    ]
    }
   },
   {
@@ -1585,6 +1607,10 @@
      {
       "src": "images/photos/jurupa-maison-louis-rubidoux-v1869.jpg",
       "legende": "La maison de Louis Rubidoux à Jurupa, vers 1869 (California Historical Society, USC Digital Library)"
+     },
+     {
+      "src": "images/photos/jurupa-adobe-louis-robidoux.jpg",
+      "legende": "L'adobe de Louis Robidoux à Jurupa (dossier de l'auteur)"
      }
     ]
    }
@@ -1607,11 +1633,20 @@
     "precision": "annee",
     "certitude": "certaine",
     "categorie": "louis",
-    "description": "Sur le rancho Jurupa, Louis bâtit en 1846-1847 un moulin à grain à turbine hydraulique et deux paires de meules, sans doute le premier du sud de la Californie. Seul de son espèce dans la région, il répond à un besoin pressant. Le site est le California Historical Landmark n° 303 (5540, Molino Way).",
+    "description": "Sur le rancho Jurupa, Louis bâtit en 1846-1847 un moulin à grain à turbine hydraulique et deux paires de meules, sans doute le premier du sud de la Californie. Seul de son espèce dans la région, il répond à un besoin pressant. Le moulin fournit une farine rare aux colons et aux troupes américaines ; une crue l'emporte en 1862. Le site est le California Historical Landmark n° 303 (5540, Molino Way), signalé par la plaque n° 51 du comté de Riverside.",
     "sources": "R. J. Willoughby, The Brothers Robidoux and the Opening of the American West (2012), p. 164 ; California Office of Historic Preservation, California Historical Landmarks, n° 303.",
     "note": "",
     "type": "lieu",
-    "images": []
+    "images": [
+     {
+      "src": "images/photos/jurupa-plaque-moulin-robidoux.jpg",
+      "legende": "Plaque n° 51 du comté de Riverside : « Robidoux Grist Mill Site », California Historical Landmark n° 303 (dossier de l'auteur)"
+     },
+     {
+      "src": "images/photos/jurupa-monument-moulin-robidoux.jpg",
+      "legende": "Le monument du moulin, coiffé d'une meule (dossier de l'auteur)"
+     }
+    ]
    }
   },
   {
@@ -3327,6 +3362,36 @@
     "note": "Coordonnées du cimetière approximatives.",
     "type": "lieu",
     "images": []
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -90.1873,
+     38.6261
+    ]
+   },
+   "properties": {
+    "id": "L128",
+    "nom": "Saint-Louis : la licence de William Clark",
+    "debut": 1827.5575,
+    "fin": 1827.5575,
+    "date_edtf": "1827-07-23",
+    "precision": "jour",
+    "certitude": "certaine",
+    "categorie": "antoine",
+    "description": "Le 23 juillet 1827, à Saint-Louis, William Clark, surintendant des Affaires indiennes, accorde à « Antoine Robidoux and Company » la permission de traverser le pays indien pour aller faire la traite dans le Territoire (la formule manuscrite se lit « to pass through the Indian country to trade in the Territory »). C'est le passeport qui ouvre la grande période d'Antoine au Nouveau-Mexique et dans le pays ute, au moment où il prépare le fort Uncompahgre.",
+    "sources": "Licence originale photographiée (dossier ROBIDOUX_FAMILY de l'auteur) ; voir aussi R. J. Willoughby, The Brothers Robidoux and the Opening of the American West (2012), p. 76-80.",
+    "note": "Le point marque la surintendance de Clark à Saint-Louis.",
+    "type": "lieu",
+    "images": [
+     {
+      "src": "images/documents/clark-1827-07-23-licence-antoine-robidoux-and-company.jpg",
+      "legende": "Licence de William Clark à « Antoine Robidoux and Company », Saint-Louis, 23 juillet 1827 (dossier de l'auteur)"
+     }
+    ]
    }
   }
  ]

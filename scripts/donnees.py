@@ -372,7 +372,7 @@ L('L59', "Jurupa : la maison de Louis Rubidoux", -117.40605, 33.99682, '1846/186
   f"{WIL}, p. 163-164 ; {OHP}, n° 102 ; {WLR}.",
   images=[LOC("jurupa-maison-louis-rubidoux-v1869.jpg", "La maison de Louis Rubidoux à Jurupa, vers 1869 (California Historical Society, USC Digital Library)")])
 L('L60', "Jurupa : le moulin Rubidoux", -117.40646, 33.99526, '1846/1847', 'annee', 'certaine', 'louis',
-  "Sur le rancho Jurupa, Louis bâtit en 1846-1847 un moulin à grain à turbine hydraulique et deux paires de meules, sans doute le premier du sud de la Californie. Seul de son espèce dans la région, il répond à un besoin pressant. Le site est le California Historical Landmark n° 303 (5540, Molino Way).",
+  "Sur le rancho Jurupa, Louis bâtit en 1846-1847 un moulin à grain à turbine hydraulique et deux paires de meules, sans doute le premier du sud de la Californie. Seul de son espèce dans la région, il répond à un besoin pressant. Le moulin fournit une farine rare aux colons et aux troupes américaines ; une crue l'emporte en 1862. Le site est le California Historical Landmark n° 303 (5540, Molino Way), signalé par la plaque n° 51 du comté de Riverside.",
   f"{WIL}, p. 164 ; {OHP}, n° 303.")
 L('L61', "Agua Mansa : la sépulture de Louis", -117.36389, 34.04194, '1868-09-24', 'jour', 'certaine', 'louis',
   "Louis Robidoux meurt le 24 septembre 1868 près de Colton. Il repose au cimetière pionnier d'Agua Mansa, seul vestige du village néo-mexicain fondé en 1842-1845 sur le Santa Ana et emporté par la crue de 1862 ; il en serait la plus ancienne inhumation connue. Sa veuve, Guadalupe García, meurt en 1892. Le cimetière est le California Historical Landmark n° 121.",
@@ -643,6 +643,25 @@ L('L127', "Pagosa Springs : la tombe de Christian Stollsteimer", -107.026, 37.27
   "Christian Stollsteimer meurt à Pagosa Springs le vendredi 13 avril 1906, quelques mois après son fils Fred, emporté par la typhoïde à Durango le 27 septembre 1905 ; il est enterré au cimetière Hill Top, sous une pierre gravée à la main de son blason. Amanda part ensuite pour Pasadena, près de ses enfants. Le ruisseau Nutria a été rebaptisé Stollsteimer Creek en son honneur.",
   f"{OLD}, p. 54-55.",
   "Coordonnées du cimetière approximatives.")
+# ------------------------------------------------------------------ Dossier ROBIDOUX_FAMILY
+L('L128', "Saint-Louis : la licence de William Clark", -90.1873, 38.6261, '1827-07-23', 'jour', 'certaine', 'antoine',
+  "Le 23 juillet 1827, à Saint-Louis, William Clark, surintendant des Affaires indiennes, accorde à « Antoine Robidoux and Company » la permission de traverser le pays indien pour aller faire la traite dans le Territoire (la formule manuscrite se lit « to pass through the Indian country to trade in the Territory »). C'est le passeport qui ouvre la grande période d'Antoine au Nouveau-Mexique et dans le pays ute, au moment où il prépare le fort Uncompahgre.",
+  "Licence originale photographiée (dossier ROBIDOUX_FAMILY de l'auteur) ; voir aussi " + f"{WIL}, p. 76-80.",
+  "Le point marque la surintendance de Clark à Saint-Louis.")
+
+EXTRA = {
+  'L128': [{"src": "images/documents/clark-1827-07-23-licence-antoine-robidoux-and-company.jpg", "legende": "Licence de William Clark à « Antoine Robidoux and Company », Saint-Louis, 23 juillet 1827 (dossier de l'auteur)"}],
+  'L50': [LOC("westwater-inscription-antoine-robidoux.jpg", "« Antoine Robidoux passé ici le 13 novembre 1837 pour établire maison traitte à la rv. Vert ou Wiyte » (dossier de l'auteur)"),
+          LOC("westwater-canyon-falaise.jpg", "La falaise de grès du canyon Westwater, près de l'inscription (dossier de l'auteur)")],
+  'L51': [LOC("willow-creek-inscription-louis-robidoux-1841.jpg", "« Louis Robidoux passo aqui el cuarto [?] de mayo de 1841 », Willow Creek ; photo de George E. Stewart reproduite par J. Nelson (2003), p. 35 (dossier de l'auteur)")],
+  'L27': [LOC("col-robidoux-mosca-2010.jpg", "Le col Robidoux (Mosca), à 9 700 pieds ; photo de Gail Fisher, 6 décembre 2010 (dossier de l'auteur)")],
+  'L34': [{"src": "images/documents/plan-rancho-jurupa.jpg", "legende": "Plan du rancho Jurupa confirmé à Louis Robidoux et al., levé pour le Surveyor General des États-Unis (années 1870) ; dossier de l'auteur"}],
+  'L59': [LOC("jurupa-adobe-louis-robidoux.jpg", "L'adobe de Louis Robidoux à Jurupa (dossier de l'auteur)")],
+  'L60': [LOC("jurupa-plaque-moulin-robidoux.jpg", "Plaque n° 51 du comté de Riverside : « Robidoux Grist Mill Site », California Historical Landmark n° 303 (dossier de l'auteur)"),
+          LOC("jurupa-monument-moulin-robidoux.jpg", "Le monument du moulin, coiffé d'une meule (dossier de l'auteur)")],
+}
+for f in LIEUX:
+    f['properties']['images'] = f['properties']['images'] + EXTRA.get(f['properties']['id'], [])
 
 os.makedirs('data', exist_ok=True)
 for nom, feats in (('lieux', LIEUX), ('trajets', TRAJETS)):

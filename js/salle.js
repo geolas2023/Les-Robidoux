@@ -507,6 +507,37 @@ Les souvenirs du fils Harry, recueillis par Ila Montroy, ajoutent qu'Amanda parl
   images: [{ src: 'images/photos/amanda-barada-stollsteimer-portrait.jpg', legende: 'Amanda Marie Barada Stollsteimer (1852-1916)' },
            { src: 'images/photos/christian-f-stollsteimer-portrait.jpg', legende: 'Christian Friedrich Stollsteimer (1842-1906)' }] },
 
+{ id: 'd-clark-1827', type: 'document', statut: 'transcription', ordre: 117, date: '23 juillet 1827', titre: 'Licence de William Clark à « Antoine Robidoux and Company »',
+  personnes: ['Antoine'],
+  resume: "Le formulaire imprimé de la surintendance des Affaires indiennes, rempli à la main et signé par William Clark, qui autorise Antoine et sa compagnie à traverser le pays indien.",
+  texte: `Texte (formulaire imprimé, parties manuscrites en italique entre astérisques) :
+
+« WILLIAM CLARK, Superintendent of Indian Affairs: To all whom it may Concern: Under authority vested in me by the President of the United States, to grant permission to citizens or other persons to pass into and through the Indian country, &c., permission is hereby granted to *Antoine Robidoux and Company* to pass *through* the Indian country to *trade in the Territory*. In testimony whereof, I have hereunto fixed my seal. Given under my hand, at St. Louis, the *twenty third* day of *July* A.D. eighteen hundred and twenty *seven* and of the Independence of the United States, the *fifty second*. *Wm Clark* »
+
+Traduction :
+
+William Clark, surintendant des Affaires indiennes, à tous ceux qu'il appartiendra : en vertu de l'autorité que m'a conférée le président des États-Unis d'accorder aux citoyens et autres personnes la permission d'entrer dans le pays indien et de le traverser, permission est accordée par la présente à Antoine Robidoux et compagnie de traverser le pays indien pour faire la traite dans le Territoire. En foi de quoi j'ai apposé mon sceau. Donné de ma main à Saint-Louis, le vingt-trois juillet mil huit cent vingt-sept, cinquante-deuxième année de l'indépendance des États-Unis. Wm Clark.`,
+  note: "La lecture « to trade in the Territory » est probable mais l'écriture est cursive ; le sceau est apposé à gauche. Deux ans plus tôt (29 juin 1825), Clark avait déjà délivré un passeport à Antoine et à Michel pour le Mexique.",
+  sources: "Original photographié, dossier ROBIDOUX_FAMILY de l'auteur ; R. J. Willoughby (2012), p. 76-80.",
+  lieux: ['L128', 'L81', 'L22', 'L17'],
+  images: [{ src: 'images/documents/clark-1827-07-23-licence-antoine-robidoux-and-company.jpg', legende: 'Licence signée par William Clark, Saint-Louis, 23 juillet 1827' }] },
+
+{ id: 'd-trois-inscriptions', type: 'document', statut: 'transcription', ordre: 118, date: '1837 – 1841', titre: 'Trois frères, trois inscriptions : Antoine, Louis et « M. Robidoux, trapper »',
+  personnes: ['Antoine', 'Louis', 'Michel'],
+  resume: "Une planche familiale réunit les gravures rupestres laissées par Antoine (1837), Louis (1841) et un « M. Robidoux » (1841).",
+  texte: `Une planche du dossier familial rassemble trois inscriptions :
+
+1. « Antoine Robidoux passé ici le 13 novembre 1837 pour établire maison traitte à la rv. Vert ou Wiyte » — canyon Westwater (Utah), à une quarantaine de milles au nord-est de Grand Junction.
+
+2. « Louis Robidoux passo aqui el [cuarto ?] de mayo de 1841 » — drainage du Willow Creek, plateau de Tavaputs (Utah), au nord de l'inscription d'Antoine ; photo de George E. Stewart.
+
+3. « M. Robidoux, trapper, 1841 » — gravée au bord d'un « Robidoux Creek » où, selon la légende de la planche, Michel tenait un poste de traite avec les Indiens ; le gué voisin, « Robidoux Crossing », aurait servi au Pony Express, et le ruisseau comme le gué porteraient son nom.`,
+  note: "L'emplacement de la troisième inscription n'est pas précisé : elle n'est donc pas placée sur la carte. Le lien avec le Pony Express (1860-1861) et l'attribution à Michel restent à vérifier.",
+  sources: "Planche du dossier ROBIDOUX_FAMILY de l'auteur ; J. Nelson (1996, 2003) ; C. Kelly (1933).",
+  lieux: ['L50', 'L51'],
+  images: [{ src: 'images/documents/inscription-m-robidoux-trapper-1841.jpg', legende: '« M. Robidoux, trapper, 1841 » (planche du dossier familial)' },
+           { src: 'images/photos/willow-creek-inscription-louis-robidoux-1841.jpg', legende: 'L\'inscription de Louis au Willow Creek, 1841 (photo G. E. Stewart)' }] },
+
 { id: 'e-memorial-1924', type: 'etude', statut: 'fiche', ordre: 206, date: '1924', titre: 'O. M. Robidoux, Memorial to the Robidoux Brothers',
   personnes: ['Joseph III', 'Antoine', 'Louis', 'Michel', 'François', 'Isidore', 'Jules', 'Carmel Benavides'],
   resume: "Le livre de famille publié à Kansas City par Orral Messmore Robidoux, veuve d'un petit-fils de Joseph : une mine d'anecdotes, à manier avec précaution.",
