@@ -79,6 +79,7 @@ def COM(fichier, legende):
     nom = fichier.replace(' ', '_')
     return {"src": f"https://commons.wikimedia.org/wiki/Special:FilePath/{quote(nom)}?width=1200",
             "lien": f"https://commons.wikimedia.org/wiki/File:{quote(nom)}", "legende": f"{legende} (Wikimedia Commons)"}
+GIA = "C. A. Gianini, « Manuel Lisa, One of the Earliest Traders on the Missouri River », New Mexico Historical Review, vol. 2, n° 4 (octobre 1927), p. 323-333"
 PHG = "J. Lecompte, Pueblo, Hardscrabble, Greenhorn: The Upper Arkansas, 1832-1856 (Norman, University of Oklahoma Press, 1978)"
 def LOC(fichier, legende):
     return {"src": f"images/photos/{fichier}", "legende": legende}
@@ -851,6 +852,11 @@ L('L163', "Hardscrabble : les engagés de Robidoux réfugiés sur l'Arkansas (au
   "Après l'attaque du fort Uncompahgre, les Utes épargnent le seul Américain et l'envoient dire à Antoine Robidoux, au fort Uintah, que ses pelleteries ne risquent rien. Terrifiés, sept Mexicains du fort Uintah volent mules, fusils et équipement et s'enfuient jusqu'à Hardscrabble, où Alexander Montgomerie recueille leur récit et alerte Taos. Les autorités mexicaines accusent Robidoux d'avoir vendu des fusils aux Utes. Parmi les engagés de Robidoux qui s'établissent ensuite dans les villages de l'Arkansas : Manuel Ruis, Esquípula Salasar (« Scapoodlar »), Manuel Pais, Miguel Ruibali, un esclave paiute nommé José et Felipe Archuleta.",
   f"{PHG}, p. 137-138 et n. 26-28 (billet demandant à ces hommes de remettre les mules de Robidoux à « Mr. W. Subletz »).",
   "Position approximative de l'établissement de Hardscrabble (1844-1848), sur le ruisseau du même nom près de son confluent avec l'Arkansas.")
+
+L('L164', "Saint-Louis : un contrat entre le jeune Manuel Lisa et « Roubidoux » (1798)", -90.1885, 38.6255, '1798', 'annee', 'hypothetique', 'joseph1',
+  "Selon Charles Gianini (1927), Manuel Lisa, né à La Nouvelle-Orléans vers 1772, arrive à Saint-Louis en 1798 et passe la même année un contrat avec « Roubidoux, l'un des vieux traiteurs indiens ». Gianini ne donne ni le prénom ni l'objet du contrat ; en 1798, le Robidoux établi de longue date dans la traite est Joseph (père). Lisa deviendra ensuite le grand rival des Chouteau sur le Missouri, et Joseph fils le précédera au poste de Bellevue.",
+  f"{GIA}, p. 323 (PDF du Drive de l'auteur, dossier MANUEL_LISA).",
+  "Article de vulgarisation sans référence d'archives : attribution à Joseph père à vérifier dans les actes notariés de Saint-Louis (Missouri Historical Society). Point placé au vieux Saint-Louis.")
 
 EXTRA = {
   'L128': [{"src": "images/documents/clark-1827-07-23-licence-antoine-robidoux-and-company.jpg", "legende": "Licence de William Clark à « Antoine Robidoux and Company », Saint-Louis, 23 juillet 1827 (dossier de l'auteur)"}],

@@ -4362,6 +4362,31 @@
     "type": "lieu",
     "images": []
    }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -90.1885,
+     38.6255
+    ]
+   },
+   "properties": {
+    "id": "L164",
+    "nom": "Saint-Louis : un contrat entre le jeune Manuel Lisa et « Roubidoux » (1798)",
+    "debut": 1798.5,
+    "fin": 1798.5,
+    "date_edtf": "1798",
+    "precision": "annee",
+    "certitude": "hypothetique",
+    "categorie": "joseph1",
+    "description": "Selon Charles Gianini (1927), Manuel Lisa, né à La Nouvelle-Orléans vers 1772, arrive à Saint-Louis en 1798 et passe la même année un contrat avec « Roubidoux, l'un des vieux traiteurs indiens ». Gianini ne donne ni le prénom ni l'objet du contrat ; en 1798, le Robidoux établi de longue date dans la traite est Joseph (père). Lisa deviendra ensuite le grand rival des Chouteau sur le Missouri, et Joseph fils le précédera au poste de Bellevue.",
+    "sources": "C. A. Gianini, « Manuel Lisa, One of the Earliest Traders on the Missouri River », New Mexico Historical Review, vol. 2, n° 4 (octobre 1927), p. 323-333, p. 323 (PDF du Drive de l'auteur, dossier MANUEL_LISA).",
+    "note": "Article de vulgarisation sans référence d'archives : attribution à Joseph père à vérifier dans les actes notariés de Saint-Louis (Missouri Historical Society). Point placé au vieux Saint-Louis.",
+    "type": "lieu",
+    "images": []
+   }
   }
  ]
 }
