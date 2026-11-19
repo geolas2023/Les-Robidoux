@@ -5,10 +5,10 @@ Atlas géohistorique de la famille Robidoux, traiteurs canadiens-français de Mo
 Membre du réseau [Atlas de l'Amérique française](https://geolas2023.github.io/Atlas-Les-Canadiens-Fran-ais-de-l-Ouest/). En ligne : https://geolas2023.github.io/Les-Robidoux/
 
 ## Contenu
-- 154 lieux et 10 routes, chacun avec une date (EDTF), une certitude de localisation, une description et ses sources paginées.
-- Une salle de lecture (`salle-de-lecture.html`) : 17 portraits (le père, la mère, les six frères, les sœurs, Joseph E., Jules, Carmel Benavides, Martina Anaya, Amanda Barada, Mary Many Days, Jeffrey Deroine), 18 documents transcrits, traduits ou résumés (baptême de 1750, annonces de 1809, vol de 1842, lettres d'Antoine de 1846 et 1857, rapport de pension de 1856, nécrologie de 1860, proclamation de 1868, inscriptions, recensements, récits de Carmel, généalogie de 1924, journal de Christian Stollsteimer) et 7 fiches d'études (dont le Memorial de 1924 et Tassé).
+- 161 lieux et 10 routes, chacun avec une date (EDTF), une certitude de localisation, une description et ses sources paginées.
+- Une salle de lecture (`salle-de-lecture.html`) : 17 portraits (le père, la mère, les six frères, les sœurs, Joseph E., Jules, Carmel Benavides, Martina Anaya, Amanda Barada, Mary Many Days, Jeffrey Deroine), 18 documents transcrits, traduits ou résumés (baptême de 1750, annonces de 1809, vol de 1842, lettres d'Antoine de 1846 et 1857, rapport de pension de 1856, nécrologie de 1860, proclamation de 1868, inscriptions, recensements, récits de Carmel, généalogie de 1924, journal de Christian Stollsteimer) et 7 fiches d'études (dont le Memorial de 1924 et Tassé), plus 20 articles de presse classés en six thèmes, avec leurs découpures (voir plus bas).
 - Une page thématique « Les inscriptions » (`inscriptions.html`) : carte et fiches des noms gravés par Antoine (Westwater, 1837), Louis (Willow Creek, 1841) et Denis Julien, l'homme du fort Uintah (9 inscriptions, 1830-1844), avec la certitude de chaque position et les sources.
-- 38 photos et documents et documents, en vignettes cliquables dans les fiches (comme l'Atlas Aubry) : images locales dans `images/photos/`, images de Wikimedia Commons liées avec leur page de licence.
+- 54 photos, documents et découpures de presse (dont 16 découpures de journaux), en vignettes cliquables dans les fiches (comme l'Atlas Aubry) : images locales dans `images/photos/`, images de Wikimedia Commons liées avec leur page de licence.
 - La couleur des pastilles indique le membre de la famille : Joseph Ier, Joseph II, Joseph III, Antoine, Louis, François et Michel, Jules ; une couleur à part pour les proches (épouses, alliés autochtones, descendants : Carmel Benavides, Martina Anaya, Amanda Barada Stollsteimer, Mary Many Days et White Cloud).
 - La timeline va par année de 1720 à 1821, puis par mois de 1822 à 1875. Les liens directs `#lieu=L12` et `#trajet=T03` ouvrent une fiche.
 
@@ -49,6 +49,34 @@ Membre du réseau [Atlas de l'Amérique française](https://geolas2023.github.io
 - St. Joseph Museums (Robidoux Row) ; Riverside Metropolitan Museum ; San Bernardino County Museum (cimetière d'Agua Mansa) ; Pagosa Springs History Museum.
 - Repères officiels : California Historical Landmarks n° 102, 121 et 303 ; NRHP n° 73001037 ; National Park Service (Robidoux Pass, Carmel Benavides).
 - Registres paroissiaux (collection Drouin) et recensements américains de 1850, 1860, 1870.
+
+### Presse dépouillée sur Newspapers.com (novembre 2026)
+717 pages trouvées (1820-1930) ; les articles retenus sont dans la salle de lecture, genre « Dans les journaux », et leurs découpures dans `images/journaux/`. Chaque fiche indique les reprises : avant les agences, un article était recopié mot pour mot par dix ou quinze journaux, ce qui ne fait qu'une seule source.
+
+| Sujet | Article de référence | Reprises |
+|---|---|---|
+| « Mr. Rubideau » et les Arapahos au Green River (1824) | Daily National Intelligencer, 23 mai 1825 (d'après le Missouri Intelligencer) | 13 journaux, même texte |
+| Argent volé de Joseph retrouvé (1842) | Missouri Republican, 26 oct. 1842 | 8 journaux, même texte |
+| Destruction du fort Uintah (1844) | Washington Union, 18 mars 1845 | 18 journaux, même texte |
+| Fausse rumeur de la mort d'Antoine | Louisville Daily Courier, 1er mai 1845 | 11 journaux, même texte |
+| Annonces de Joseph (maisons de Saint-Louis) | Missouri Republican, 21 mai 1845 ; août 1846 | une seule annonce, publiée 17 et 11 fois |
+| Meurtre de Charles Robidoux (1850) | Liberty Tribune, 20 sept. 1850 (d'après la St. Joseph Gazette) | 9 journaux, même texte |
+| Michel revient des Plaines (1855) | Liberty Tribune, 25 mai 1855 (d'après le St. Joseph Cycle) | 10 journaux, même texte |
+| Mort de Jeffrey Deroine (1859) | Courier-Journal, 4 avril 1859 | 9 journaux, même dépêche |
+| Mort d'Antoine (1860) | Missouri Republican, 1er sept. 1860 (d'après la St. Joseph Gazette) | 5 journaux, même texte |
+| « Cas de conscience » (1863) | Liberty Tribune, 3 avril 1863 (d'après le St. Joseph Herald) | 4 journaux, même texte |
+| 82e anniversaire de Joseph et de John Patee (1866) | Tri-Weekly Missouri Republican, 6 août 1866 | 4 journaux |
+| Mort de Joseph (1868) | Liberty Tribune, 5 juin 1868 | une quinzaine de notices distinctes |
+| Mort de Jules (1875) | St. Louis Globe-Democrat, 1er mars 1875 | 2 notices plus brèves |
+| Louis en Californie | Los Angeles Star, 1860 ; San Bernardino Guardian, 1867-1868 | aucune |
+| Stollsteimer et les Utes du Sud | Santa Fe New Mexican, 15 mars 1886 | aucune |
+| Mort d'Elizabeth Barada | St. Joseph Gazette, 28 sept. 1904 | aucune |
+| Inscription de Westwater | Times-Independent (Moab), 23 févr. 1912 | aucune |
+| Mort d'Amanda Stollsteimer | Pasadena Star-News, 14 déc. 1916 | aucune |
+| Mort de Louis, petit-fils | St. Joseph News-Press, 7 févr. 1923 | 5 notices distinctes |
+| Compte rendu du Memorial | Kansas City Star, 16 oct. 1924 | (feuilleton Kit Carson de 1927 : 16 journaux, simple mention) |
+
+Homonymes écartés : l'Antoine Robidoux de la seigneurie de Yamaska (Montreal Gazette, 1827) ; les Stollsteimer d'Ann Arbor, de Buffalo et de Brooklyn. Les pages de 1888-1902 (école, hôtel et rue Robidoux de Saint-Joseph) et de 1891-1893 (mont Rubidoux à Riverside) ne parlent pas de la famille.
 
 ### Ouvrages d'archive.org dépouillés (2026)
 - O. M. Robidoux, *Memorial to the Robidoux Brothers* (Kansas City, 1924) — archive.org `memorialtorobido00robi`

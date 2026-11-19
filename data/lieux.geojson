@@ -398,8 +398,8 @@
     "precision": "jour",
     "certitude": "certaine",
     "categorie": "joseph3",
-    "description": "Le 15 juillet 1839, le premier tribunal de circuit du district siège dans la maison de Joseph Robidoux. En mai 1843, il obtient ses lettres patentes pour environ 160 acres et lotit la ville. En 1845, président du conseil des syndics, il fait incorporer le village de 600 habitants sous le nom de son patron, Saint-Joseph. La ville devient une étape majeure des émigrants vers l'Oregon et la Californie ; Robidoux y achète les fourrures des trappeurs de Taos et protège les familles de passage.",
-    "sources": "Tassé, Les Canadiens de l'Ouest (1878), t. II, p. 124-126 ; Cragin, Early Far West Notebooks (1902-1923), transcription dactylographiée, p. 257, 305.",
+    "description": "Le 15 juillet 1839, le premier tribunal de circuit du district siège dans la maison de Joseph Robidoux. En mai 1843, il obtient ses lettres patentes pour environ 160 acres et lotit la ville. En 1845, président du conseil des syndics, il fait incorporer le village de 600 habitants sous le nom de son patron, Saint-Joseph. La ville devient une étape majeure des émigrants vers l'Oregon et la Californie ; Robidoux y achète les fourrures des trappeurs de Taos et protège les familles de passage. Dans la presse : Deux échos de la presse : en février 1863, un catholique de Saint-Louis avoue à confesse avoir escroqué Joseph de 300 dollars, et le prêtre lui renvoie la somme (St. Joseph Herald, repris jusqu'au Shasta Courier). Le 2 août 1866, Joseph et John Patee, les « deux fondateurs », fêtent ensemble leurs 82 ans.",
+    "sources": "Tassé, Les Canadiens de l'Ouest (1878), t. II, p. 124-126 ; Cragin, Early Far West Notebooks (1902-1923), transcription dactylographiée, p. 257, 305 ; Liberty Tribune, 3 avril 1863 ; Tri-Weekly Missouri Republican, 6 août 1866 (Newspapers.com (abonnement de l'auteur)).",
     "note": "Le témoignage d'O. P. Wiggins recueilli par Cragin est à recouper.",
     "type": "lieu",
     "images": [
@@ -407,6 +407,10 @@
       "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Bird%27s_eye_view_of_the_city_of_Saint_Joseph%2C_Missouri_1868._LOC_73693489.jpg?width=1200",
       "lien": "https://commons.wikimedia.org/wiki/File:Bird%27s_eye_view_of_the_city_of_Saint_Joseph%2C_Missouri_1868._LOC_73693489.jpg",
       "legende": "Vue à vol d'oiseau de Saint-Joseph, 1868, l'année de la mort de Joseph (Library of Congress) (Wikimedia Commons)"
+     },
+     {
+      "src": "images/journaux/1863-04-03-liberty-tribune-cas-de-conscience.jpg",
+      "legende": "Liberty Tribune, 3 avril 1863 : « A Case of Conscience » (Newspapers.com)"
      }
     ]
    }
@@ -429,8 +433,8 @@
     "precision": "jour",
     "certitude": "certaine",
     "categorie": "joseph3",
-    "description": "Joseph Robidoux meurt à Saint-Joseph le 27 mai 1868, à 84 ans. Marié en 1808 à Eugénie Delisle, puis en 1812 à Angélique Vaudry, de Cahokia, il laisse notamment Jules-César, Belavoir, Félix, Edmond, Édouard et Sylvanie. En 1866, le Historical Magazine de New York l'avait salué comme le premier Blanc à pénétrer dans le haut Missouri.",
-    "sources": "Tassé, Les Canadiens de l'Ouest (1878), t. II, p. 126-127 ; Houck, The Spanish Regime in Missouri (1909), vol. 2, p. 160.",
+    "description": "Joseph Robidoux meurt à Saint-Joseph le 27 mai 1868, à 84 ans. Marié en 1808 à Eugénie Delisle, puis en 1812 à Angélique Vaudry, de Cahokia, il laisse notamment Jules-César, Belavoir, Félix, Edmond, Édouard et Sylvanie. En 1866, le Historical Magazine de New York l'avait salué comme le premier Blanc à pénétrer dans le haut Missouri. Dans la presse : Les journaux de juin 1868 résument la nouvelle : il s'était couché en bonne santé apparente ; le lotissement de ses terres l'avait enrichi, mais « la plus grande partie lui avait échappé depuis des années, et il meurt relativement pauvre ».",
+    "sources": "Tassé, Les Canadiens de l'Ouest (1878), t. II, p. 126-127 ; Houck, The Spanish Regime in Missouri (1909), vol. 2, p. 160 ; Liberty Tribune, 5 juin 1868 (Newspapers.com (abonnement de l'auteur)).",
     "note": "",
     "type": "lieu",
     "images": [
@@ -438,6 +442,10 @@
       "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Bird%27s_eye_view_of_the_city_of_Saint_Joseph%2C_Missouri_1868._LOC_73693489.jpg?width=1200",
       "lien": "https://commons.wikimedia.org/wiki/File:Bird%27s_eye_view_of_the_city_of_Saint_Joseph%2C_Missouri_1868._LOC_73693489.jpg",
       "legende": "Saint-Joseph en 1868 (Library of Congress) (Wikimedia Commons)"
+     },
+     {
+      "src": "images/journaux/1868-06-05-liberty-tribune-mort-joseph-robidoux.jpg",
+      "legende": "Liberty Tribune, 5 juin 1868 (Newspapers.com)"
      }
     ]
    }
@@ -798,11 +806,16 @@
     "precision": "mois",
     "certitude": "certaine",
     "categorie": "antoine",
-    "description": "À l'automne 1844, les Utes, exaspérés par le « Taos Lightning » et la traite des captifs, attaquent le fort, tuent les hommes et emmènent les femmes. Le 20 octobre, Andrew Sublette écrit de Taos qu'un trappeur espagnol rescapé a trouvé cinq ou six Espagnols et un Américain tués. Le fort Uncompahgre est abandonné à la même époque.",
-    "sources": "W. S. Wallace, « Antoine Robidoux », dans Hafen (dir.), French Fur Traders and Voyageurs in the American West (1995), p. 281.",
+    "description": "À l'automne 1844, les Utes, exaspérés par le « Taos Lightning » et la traite des captifs, attaquent le fort, tuent les hommes et emmènent les femmes. Le 20 octobre, Andrew Sublette écrit de Taos qu'un trappeur espagnol rescapé a trouvé cinq ou six Espagnols et un Américain tués. Le fort Uncompahgre est abandonné à la même époque. Dans la presse : La presse de l'Est annonce la nouvelle en mars 1845 : les Utes ont pris le fort d'Antoine sur la « Wintae » et tué traiteurs et engagés ; Antoine s'est réfugié à son fort de la « Campagara » [Uncompahgre]. Dix-huit journaux la reprennent. En mai, des voyageurs de Santa Fe font croire qu'Antoine a péri, faute de nouvelles depuis l'hiver ; onze journaux répètent cette fausse rumeur.",
+    "sources": "W. S. Wallace, « Antoine Robidoux », dans Hafen (dir.), French Fur Traders and Voyageurs in the American West (1995), p. 281 ; Washington Union, 18 mars 1845 ; Louisville Daily Courier, 1er mai 1845 (Newspapers.com (abonnement de l'auteur)).",
     "note": "",
     "type": "lieu",
-    "images": []
+    "images": [
+     {
+      "src": "images/journaux/1845-03-18-washington-union-fort-uintah.jpg",
+      "legende": "Washington Union, 18 mars 1845, p. 3 (Newspapers.com)"
+     }
+    ]
    }
   },
   {
@@ -848,11 +861,16 @@
     "precision": "annee",
     "certitude": "certaine",
     "categorie": "jules",
-    "description": "Jules Robidoux, frère de Joseph, bâtit en 1843 la deuxième maison de la future ville de Saint-Joseph. En 1849, il passe au fort Laramie comme traiteur. Il assiste en septembre 1874 à l'assemblée des pionniers du Missouri et meurt à Saint-Joseph le 26 février 1875.",
-    "sources": "Tassé, Les Canadiens de l'Ouest (1878), t. II, p. 125-128 ; Cragin, Early Far West Notebooks (1902-1923), transcription dactylographiée, p. 224.",
+    "description": "Jules Robidoux, frère de Joseph, bâtit en 1843 la deuxième maison de la future ville de Saint-Joseph. En 1849, il passe au fort Laramie comme traiteur. Il assiste en septembre 1874 à l'assemblée des pionniers du Missouri et meurt à Saint-Joseph le 26 février 1875. Dans la presse : La nécrologie de 1875 précise qu'il a étudié à l'université Saint-Louis, qu'il a ouvert le premier magasin de la ville, puis d'autres à White Hall (Jimtown) et à Savannah, qu'il a été juge de paix de 1858 à 1868 et qu'il est mort de consomption chez lui, rue Edmond, entre les rues Quatre et Cinq. Il avait eu douze enfants d'Elizabeth Barada, dont six vivaient encore.",
+    "sources": "Tassé, Les Canadiens de l'Ouest (1878), t. II, p. 125-128 ; Cragin, Early Far West Notebooks (1902-1923), transcription dactylographiée, p. 224 ; St. Louis Globe-Democrat, 1er mars 1875 (Newspapers.com (abonnement de l'auteur)).",
     "note": "",
     "type": "lieu",
-    "images": []
+    "images": [
+     {
+      "src": "images/journaux/1875-03-01-st-louis-globe-democrat-mort-jules-robidoux.jpg",
+      "legende": "St. Louis Globe-Democrat, 1er mars 1875 (Newspapers.com)"
+     }
+    ]
    }
   },
   {
@@ -929,8 +947,8 @@
     "precision": "annee",
     "certitude": "approximative",
     "categorie": "louis",
-    "description": "Louis Robidoux, frère de Joseph et d'Antoine, ancien commerçant de Santa Fe, devient ranchero en Californie au rancho de Jurupa, aujourd'hui Riverside. Il meurt en 1868. Le mont Rubidoux, à Riverside, porte encore son nom.",
-    "sources": "Cragin, Early Far West Notebooks (1902-1923), transcription dactylographiée, p. 131, 141 ; W. S. Wallace, « Antoine Robidoux », dans Hafen (dir.), French Fur Traders and Voyageurs in the American West (1995), p. 281.",
+    "description": "Louis Robidoux, frère de Joseph et d'Antoine, ancien commerçant de Santa Fe, devient ranchero en Californie au rancho de Jurupa, aujourd'hui Riverside. Il meurt en 1868. Le mont Rubidoux, à Riverside, porte encore son nom. Dans la presse : En juin 1868, le San Bernardino Guardian décrit Jurupa comme l'une des meilleures terres du comté, « en partie à Don Louis Robidoux » et gérée par son agent Arthur Parks.",
+    "sources": "Cragin, Early Far West Notebooks (1902-1923), transcription dactylographiée, p. 131, 141 ; W. S. Wallace, « Antoine Robidoux », dans Hafen (dir.), French Fur Traders and Voyageurs in the American West (1995), p. 281 ; San Bernardino Guardian, 6 juin 1868 (Newspapers.com (abonnement de l'auteur)).",
     "note": "Le mont Rubidoux est signalé ici d'après la toponymie actuelle.",
     "type": "lieu",
     "images": [
@@ -1051,11 +1069,16 @@
     "precision": "jour",
     "certitude": "certaine",
     "categorie": "antoine",
-    "description": "Antoine Robidoux passe ses cinq dernières années à Saint-Joseph, aidé par David Waldo pour réclamer une pension, et y meurt le 29 août 1860. La St. Joseph Gazette le croyait installé en Californie depuis des années.",
-    "sources": "W. S. Wallace, « Antoine Robidoux », dans Hafen (dir.), French Fur Traders and Voyageurs in the American West (1995), p. 282 ; Tassé, Les Canadiens de l'Ouest (1878), t. II, p. 129.",
+    "description": "Antoine Robidoux passe ses cinq dernières années à Saint-Joseph, aidé par David Waldo pour réclamer une pension, et y meurt le 29 août 1860. La St. Joseph Gazette le croyait installé en Californie depuis des années. Dans la presse : La notice de la St. Joseph Gazette du 30 août paraît intégralement dans le Missouri Republican du 1er septembre, puis à Keokuk, Liberty, Cleveland et Los Angeles.",
+    "sources": "W. S. Wallace, « Antoine Robidoux », dans Hafen (dir.), French Fur Traders and Voyageurs in the American West (1995), p. 282 ; Tassé, Les Canadiens de l'Ouest (1878), t. II, p. 129 ; Missouri Republican, 1er septembre 1860 (Newspapers.com (abonnement de l'auteur)).",
     "note": "Tassé donne le 29 avril 1860.",
     "type": "lieu",
-    "images": []
+    "images": [
+     {
+      "src": "images/journaux/1860-09-01-missouri-republican-mort-antoine-robidoux.jpg",
+      "legende": "Missouri Republican, 1er septembre 1860 (Newspapers.com)"
+     }
+    ]
    }
   },
   {
@@ -1276,8 +1299,8 @@
     "precision": "jour",
     "certitude": "approximative",
     "categorie": "famille",
-    "description": "Le 28 mai 1868, Joseph est inhumé au cimetière catholique du Calvaire, sur Garfield Avenue, devant 85 voitures et 50 cavaliers ; ses petits-fils Jules, Thomas, Napoléon et Louis escortent le corbillard. Le 15 août 1908, son petit-fils Louis fait exhumer Joseph, son fils Jules et son petit-fils Napoléon, qu'il reconnaît à leurs traits, et les transfère au nouveau cimetière Mount Olivet, sur Lovers' Lane (lot 111, bloc 1). En 1914, il y élève un monument de granit gris de douze pieds. Au pied, des stèles rappellent Antoine, Michel et François, qui n'y reposent pas, et Angélique Vaudry, morte en 1857.",
-    "sources": "O. M. Robidoux, Memorial to the Robidoux Brothers: A History of the Robidouxs in America (Kansas City, 1924), archive.org memorialtorobido00robi, p. 151-155, 271-272 ; R. J. Willoughby, The Brothers Robidoux and the Opening of the American West (2012), p. 211 ; « Joseph Robidoux IV », Wikipédia (d'après C. Rabideau et H. M. Lewis, Robidoux Chronicles, 2004).",
+    "description": "Le 28 mai 1868, Joseph est inhumé au cimetière catholique du Calvaire, sur Garfield Avenue, devant 85 voitures et 50 cavaliers ; ses petits-fils Jules, Thomas, Napoléon et Louis escortent le corbillard. Le 15 août 1908, son petit-fils Louis fait exhumer Joseph, son fils Jules et son petit-fils Napoléon, qu'il reconnaît à leurs traits, et les transfère au nouveau cimetière Mount Olivet, sur Lovers' Lane (lot 111, bloc 1). En 1914, il y élève un monument de granit gris de douze pieds. Au pied, des stèles rappellent Antoine, Michel et François, qui n'y reposent pas, et Angélique Vaudry, morte en 1857. Dans la presse : La nécrologie d'Elizabeth Barada (St. Joseph Gazette, 28 septembre 1904) évoque déjà le projet de réunir la famille sous un seul monument. En 1923, le St. Joseph News-Press attribue le transfert à son fils Louis.",
+    "sources": "O. M. Robidoux, Memorial to the Robidoux Brothers: A History of the Robidouxs in America (Kansas City, 1924), archive.org memorialtorobido00robi, p. 151-155, 271-272 ; R. J. Willoughby, The Brothers Robidoux and the Opening of the American West (2012), p. 211 ; « Joseph Robidoux IV », Wikipédia (d'après C. Rabideau et H. M. Lewis, Robidoux Chronicles, 2004) ; St. Joseph Gazette, 28 septembre 1904 ; St. Joseph News-Press, 7 février 1923 (Newspapers.com (abonnement de l'auteur)).",
     "note": "Coordonnées du cimetière approximatives.",
     "type": "lieu",
     "images": []
@@ -1351,8 +1374,8 @@
     "precision": "jour",
     "certitude": "certaine",
     "categorie": "antoine",
-    "description": "Sur la paroi de grès de la rive ouest du ruisseau Westwater, à huit kilomètres environ à l'ouest de la frontière Utah-Colorado, Antoine grave : « Antoine Robidoux passé ici le 13 Novembre 1837 pour etablire maison traitte a la Rv. vert ou wiyte ». « Wiyte » se lit Uinta ou White ; le 7 de 1837 pourrait être un 1. L'inscription surmonte un bouclier peint préhistorique et a été criblée de balles.",
-    "sources": "R. J. Willoughby, The Brothers Robidoux and the Opening of the American West (2012), p. 126-128 ; C. Kelly, « Antoine Robidoux » [inscription de Westwater], Utah Historical Quarterly, vol. 6, n° 4 (oct. 1933), p. 115-116 ; B. Bartholomew, « Old Antoine Robidoux Left His Mark in Utah », History Blazer (août 1996).",
+    "description": "Sur la paroi de grès de la rive ouest du ruisseau Westwater, à huit kilomètres environ à l'ouest de la frontière Utah-Colorado, Antoine grave : « Antoine Robidoux passé ici le 13 Novembre 1837 pour etablire maison traitte a la Rv. vert ou wiyte ». « Wiyte » se lit Uinta ou White ; le 7 de 1837 pourrait être un 1. L'inscription surmonte un bouclier peint préhistorique et a été criblée de balles. Dans la presse : La première publication de l'inscription date du 23 février 1912 : le Times-Independent de Moab annonce que des éleveurs l'ont découverte « à la tête du canyon de Bitter Creek », là où passe la vieille piste ute, mais il la traduit de travers (« établir une mission et apporter une loi à la réserve »).",
+    "sources": "R. J. Willoughby, The Brothers Robidoux and the Opening of the American West (2012), p. 126-128 ; C. Kelly, « Antoine Robidoux » [inscription de Westwater], Utah Historical Quarterly, vol. 6, n° 4 (oct. 1933), p. 115-116 ; B. Bartholomew, « Old Antoine Robidoux Left His Mark in Utah », History Blazer (août 1996) ; The Times-Independent (Moab), 23 février 1912 (Newspapers.com (abonnement de l'auteur)).",
     "note": "Charles Kelly, qui la photographie en 1933, la situe près de l'embouchure du canyon de Westwater, au ranch Larsen (section 5, canton 18 sud, rang 24 est, comté de Grand), à 15 milles au nord-ouest de la gare de Westwater : Robidoux campait dans un abri sous roche et grava juste au sud de l'entrée. Point repris du repère de l'auteur (ROBIDOUX.kml), qui tombe dans la section 5 décrite par Kelly et par la fiche NRHP n° 82004124.",
     "type": "lieu",
     "images": [
@@ -1367,6 +1390,10 @@
      {
       "src": "images/photos/westwater-canyon-falaise.jpg",
       "legende": "La falaise de grès du canyon Westwater, près de l'inscription (dossier de l'auteur)"
+     },
+     {
+      "src": "images/journaux/1912-02-23-times-independent-inscription-westwater.jpg",
+      "legende": "The Times-Independent, 23 février 1912 (Newspapers.com)"
      }
     ]
    }
@@ -1962,8 +1989,8 @@
     "precision": "jour",
     "certitude": "approximative",
     "categorie": "proches",
-    "description": "Amanda Stollsteimer, élevée par Antoine Robidoux, meurt d'un cancer le 15 décembre 1916 à Altadena, chez sa fille Stella, et repose au cimetière Mountain View. Le Pagosa Springs Sun salue l'une des premières pionnières du comté, mère de huit enfants. Dernière à avoir connu Antoine, elle est la personne la plus susceptible d'avoir raconté ses souvenirs au début du siècle.",
-    "sources": "Descendants of Johannes Stollsteimer, généalogie (2025), notice d'Amanda Maria Barada.",
+    "description": "Amanda Stollsteimer, élevée par Antoine Robidoux, meurt d'un cancer le 15 décembre 1916 à Altadena, chez sa fille Stella, et repose au cimetière Mountain View. Le Pagosa Springs Sun salue l'une des premières pionnières du comté, mère de huit enfants. Dernière à avoir connu Antoine, elle est la personne la plus susceptible d'avoir raconté ses souvenirs au début du siècle. Dans la presse : Elle meurt chez elle, au 1710 rue Las Lunas à Pasadena, le 13 décembre 1916 ; les funérailles ont lieu à l'église St. Andrew.",
+    "sources": "Descendants of Johannes Stollsteimer, généalogie (2025), notice d'Amanda Maria Barada ; Pasadena Star-News, 14 décembre 1916 (Newspapers.com (abonnement de l'auteur)).",
     "note": "Coordonnées du cimetière approximatives.",
     "type": "lieu",
     "images": []
@@ -2117,11 +2144,16 @@
     "precision": "jour",
     "certitude": "certaine",
     "categorie": "joseph3",
-    "description": "Le dimanche 8 septembre 1850, vers 23 heures, Charles, le benjamin de Joseph, rentré du collège, est tué d'une décharge de chevrotine tirée d'une fenêtre de la rue principale. Joseph accourt et accuse le propriétaire du magasin, Duncan MacDonald ; on craint un lynchage. Il ne se remet pas de ce deuil.",
-    "sources": "R. J. Willoughby, The Brothers Robidoux and the Opening of the American West (2012), p. 195.",
+    "description": "Le dimanche 8 septembre 1850, vers 23 heures, Charles, le benjamin de Joseph, rentré du collège, est tué d'une décharge de chevrotine tirée d'une fenêtre de la rue principale. Joseph accourt et accuse le propriétaire du magasin, Duncan MacDonald ; on craint un lynchage. Il ne se remet pas de ce deuil. Dans la presse : Selon la St. Joseph Gazette, reprise par neuf journaux, Charles chahutait avec d'autres jeunes gens vers minuit. Il emportait sur l'épaule un poteau arraché devant le magasin de D. & T. D. S. MacDonald quand Duncan MacDonald tira du premier étage une charge de gros plomb. Charles mourut en quelques minutes en appelant son compagnon. MacDonald avoua, en disant n'avoir voulu blesser personne.",
+    "sources": "R. J. Willoughby, The Brothers Robidoux and the Opening of the American West (2012), p. 195 ; Liberty Tribune, 20 septembre 1850, d'après la St. Joseph Gazette (Newspapers.com (abonnement de l'auteur)).",
     "note": "",
     "type": "lieu",
-    "images": []
+    "images": [
+     {
+      "src": "images/journaux/1850-09-20-liberty-tribune-mort-charles-robidoux.jpg",
+      "legende": "Liberty Tribune, 20 septembre 1850 (Newspapers.com)"
+     }
+    ]
    }
   },
   {
@@ -2342,8 +2374,8 @@
     "precision": "annee",
     "certitude": "certaine",
     "categorie": "louis",
-    "description": "En 1853, Louis est élu superviseur du nouveau comté de San Bernardino et devient le premier président du conseil. Il s'entend avec les colons mormons jusqu'en 1856 et siège en 1858 au comité de construction de la nouvelle église catholique de San Bernardino.",
-    "sources": "R. J. Willoughby, The Brothers Robidoux and the Opening of the American West (2012), p. 199-201.",
+    "description": "En 1853, Louis est élu superviseur du nouveau comté de San Bernardino et devient le premier président du conseil. Il s'entend avec les colons mormons jusqu'en 1856 et siège en 1858 au comité de construction de la nouvelle église catholique de San Bernardino. Dans la presse : En août 1860, le rôle d'imposition du comté évalue les biens de Louis Robidoux à 14 000 dollars, derrière Rains & Carlisle (43 071 dollars) mais devant Abel Stearns et James W. Waters.",
+    "sources": "R. J. Willoughby, The Brothers Robidoux and the Opening of the American West (2012), p. 199-201 ; Los Angeles Star, 4 août 1860 (Newspapers.com (abonnement de l'auteur)).",
     "note": "",
     "type": "lieu",
     "images": []
@@ -2467,8 +2499,8 @@
     "precision": "annee",
     "certitude": "certaine",
     "categorie": "freres",
-    "description": "En 1845, tous les frères sauf Louis vivent ou commercent à Saint-Joseph. Isidore et Michel y sont associés jusqu'à la mort d'Isidore, sans testament, à l'été 1852 ; Michel, « associé survivant de Michel Robidoux & Co. », administre la succession avec une caution de 26 000 dollars. Resté lié au major Andrew Drips et au fort Laramie, Michel meurt en avril 1858, à soixante ans.",
-    "sources": "R. J. Willoughby, The Brothers Robidoux and the Opening of the American West (2012), p. 181, 194, 202.",
+    "description": "En 1845, tous les frères sauf Louis vivent ou commercent à Saint-Joseph. Isidore et Michel y sont associés jusqu'à la mort d'Isidore, sans testament, à l'été 1852 ; Michel, « associé survivant de Michel Robidoux & Co. », administre la succession avec une caution de 26 000 dollars. Resté lié au major Andrew Drips et au fort Laramie, Michel meurt en avril 1858, à soixante ans. Dans la presse : En mai 1855, Michel revient d'un poste de traite situé « à soixante milles de Laramie » et annonce une guerre indienne générale (voir le lieu de la Platte Nord).",
+    "sources": "R. J. Willoughby, The Brothers Robidoux and the Opening of the American West (2012), p. 181, 194, 202 ; Liberty Tribune, 25 mai 1855 (Newspapers.com (abonnement de l'auteur)).",
     "note": "",
     "type": "lieu",
     "images": []
@@ -2772,11 +2804,16 @@
     "precision": "jour",
     "certitude": "approximative",
     "categorie": "joseph3",
-    "description": "Dans la nuit du 18 octobre 1842, quatre caisses de mille dollars en argent disparaissent du magasin de Joseph, où dort son commis Isidore Poulin. Les fils Spencer, de la ferme de la section 19 (T58N R34W, comté d'Andrew), sont acquittés par le juge de paix. Jules Robidoux consulte le juge Atchison à Sparta ; une compagnie de soixante-quinze hommes, menée par le « général » Ashley, part de chez Joseph, s'arrête à Jamestown, arrête Scott et Davis et simule une pendaison : Scott avoue. L'argent est déterré près de la rivière 102 et de la ferme ; Joseph verse 1 300 dollars de récompense.",
-    "sources": "O. M. Robidoux, Memorial to the Robidoux Brothers: A History of the Robidouxs in America (Kansas City, 1924), archive.org memorialtorobido00robi, p. 106-113 ; The History of Buchanan County, Missouri (St. Joseph, Union Historical Company, 1881).",
+    "description": "Dans la nuit du 18 octobre 1842, quatre caisses de mille dollars en argent disparaissent du magasin de Joseph, où dort son commis Isidore Poulin. Les fils Spencer, de la ferme de la section 19 (T58N R34W, comté d'Andrew), sont acquittés par le juge de paix. Jules Robidoux consulte le juge Atchison à Sparta ; une compagnie de soixante-quinze hommes, menée par le « général » Ashley, part de chez Joseph, s'arrête à Jamestown, arrête Scott et Davis et simule une pendaison : Scott avoue. L'argent est déterré près de la rivière 102 et de la ferme ; Joseph verse 1 300 dollars de récompense. Dans la presse : Le 26 octobre 1842, le Missouri Republican annonce que l'argent est retrouvé, « sauf une petite somme », après que les coupables ont été soumis au « juge Lynch » et ont avoué « après un moment d'étranglement et de fouet ». Huit journaux reprennent la nouvelle.",
+    "sources": "O. M. Robidoux, Memorial to the Robidoux Brothers: A History of the Robidouxs in America (Kansas City, 1924), archive.org memorialtorobido00robi, p. 106-113 ; The History of Buchanan County, Missouri (St. Joseph, Union Historical Company, 1881) ; Missouri Republican, 26 octobre 1842 (Newspapers.com (abonnement de l'auteur)).",
     "note": "Emplacement approximatif de la section 19 ; l'histoire de 1881 dit qu'il ne manqua que 27 dollars et parle d'une récompense de 500 dollars.",
     "type": "lieu",
-    "images": []
+    "images": [
+     {
+      "src": "images/journaux/1842-10-26-missouri-republican-argent-vole-recupere.jpg",
+      "legende": "Missouri Republican, 26 octobre 1842 (Newspapers.com)"
+     }
+    ]
    }
   },
   {
@@ -3172,11 +3209,16 @@
     "precision": "annee",
     "certitude": "hypothetique",
     "categorie": "famille",
-    "description": "Une note de l'éditeur des explorations d'Ashley et Smith signale qu'en 1824 le parti de « Joseph Rubideau » est attaqué par des Arapahos sur la Green.",
-    "sources": "H. C. Dale, The Ashley-Smith Explorations (1918), archive.org ashleysmithexplo00daleuoft, p. 156, n. 302.",
+    "description": "Une note de l'éditeur des explorations d'Ashley et Smith signale qu'en 1824 le parti de « Joseph Rubideau » est attaqué par des Arapahos sur la Green. Dans la presse : Le récit vient de William Huddart, rentré de Taos à Franklin en avril 1825. Parti de Taos le 24 août 1824 avec quatorze trappeurs, il rencontre sur le Green River « M. Rubideau » et cinq Américains. Deux jours plus tard, les Arapahos tuent un certain Nowlin et laissent « M. Rubideau et ses hommes dans les montagnes sans un cheval ni une mule ». La nouvelle est reprise par quatorze journaux en mai et juin 1825.",
+    "sources": "H. C. Dale, The Ashley-Smith Explorations (1918), archive.org ashleysmithexplo00daleuoft, p. 156, n. 302 ; Daily National Intelligencer, 23 mai 1825, d'après le Missouri Intelligencer (Newspapers.com (abonnement de l'auteur)).",
     "note": "Identification incertaine : peut-être un des frères (Antoine, François ou Michel) plutôt que Joseph ; emplacement symbolique.",
     "type": "lieu",
-    "images": []
+    "images": [
+     {
+      "src": "images/journaux/1825-05-23-national-intelligencer-huddart-rubideau-green-river.jpg",
+      "legende": "Daily National Intelligencer, 23 mai 1825 (Newspapers.com)"
+     }
+    ]
    }
   },
   {
@@ -3327,8 +3369,8 @@
     "precision": "jour",
     "certitude": "certaine",
     "categorie": "proches",
-    "description": "Le 13 janvier 1885, le président Arthur nomme Christian Stollsteimer agent des Indiens de l'agence des Utes du Sud ; Cleveland le reconduit et lui confie aussi les Apaches jicarillas de Dulce. Il autorise les Utes affamés à chasser hors de la réserve ; en juin 1885, des cowboys massacrent une famille de la bande de Crazy Jake près de Beaver Creek, et les Utes ripostent au ranch Gentner. En 1886, Stollsteimer accompagne une délégation ute à Washington. Amanda, qui parle anglais, français et espagnol, donne naissance à Stella à Durango le 31 janvier 1886.",
-    "sources": "A. Oldham, « Stollsteimer Chronik » (2000), d'après le journal de Christian F. Stollsteimer, pages photographiées dans le dossier de l'auteur, p. 51-54 ; I. Montroy, « Colonel C. T. Stollsteimer », d'après les souvenirs de Harry Stollsteimer (pages photographiées dans le dossier de l'auteur), p. 57.",
+    "description": "Le 13 janvier 1885, le président Arthur nomme Christian Stollsteimer agent des Indiens de l'agence des Utes du Sud ; Cleveland le reconduit et lui confie aussi les Apaches jicarillas de Dulce. Il autorise les Utes affamés à chasser hors de la réserve ; en juin 1885, des cowboys massacrent une famille de la bande de Crazy Jake près de Beaver Creek, et les Utes ripostent au ranch Gentner. En 1886, Stollsteimer accompagne une délégation ute à Washington. Amanda, qui parle anglais, français et espagnol, donne naissance à Stella à Durango le 31 janvier 1886. Dans la presse : En mars 1886, l'agent Stollsteimer plaide dans la presse (Denver News, Santa Fe New Mexican) pour le transfert des Utes du Sud en Utah, où ils trouveraient de bons pâturages, « plus heureux loin des Blancs ».",
+    "sources": "A. Oldham, « Stollsteimer Chronik » (2000), d'après le journal de Christian F. Stollsteimer, pages photographiées dans le dossier de l'auteur, p. 51-54 ; I. Montroy, « Colonel C. T. Stollsteimer », d'après les souvenirs de Harry Stollsteimer (pages photographiées dans le dossier de l'auteur), p. 57 ; Santa Fe New Mexican, 15 mars 1886 (Newspapers.com (abonnement de l'auteur)).",
     "note": "Point placé à l'agence d'Ignacio ; la famille habite alors Durango.",
     "type": "lieu",
     "images": [
@@ -3812,11 +3854,16 @@
     "precision": "annee",
     "certitude": "certaine",
     "categorie": "jules",
-    "description": "Louis Robidoux, fils de Jules et d'Elizabeth Barada, né à Saint-Joseph le 26 août 1855, débute dans les journaux de son père (Daily Commercial) puis s'installe en 1883 à Kansas City, où il fait fortune dans le commerce des vins puis l'immobilier. Avec sa femme Orral Messmore, il suit les pompiers de Kansas City à l'Exposition universelle de Paris (1900), visite La Havane (1911), Panama (1912), Riverside (1915) et Honolulu (1920). Il meurt le 6 février 1923 au 3518 Wyandotte Street et est inhumé à Morrill (Kansas) ; sa veuve publie l'année suivante le Memorial to the Robidoux Brothers.",
-    "sources": "O. M. Robidoux, Memorial to the Robidoux Brothers: A History of the Robidouxs in America (Kansas City, 1924), archive.org memorialtorobido00robi, p. 243-271.",
+    "description": "Louis Robidoux, fils de Jules et d'Elizabeth Barada, né à Saint-Joseph le 26 août 1855, débute dans les journaux de son père (Daily Commercial) puis s'installe en 1883 à Kansas City, où il fait fortune dans le commerce des vins puis l'immobilier. Avec sa femme Orral Messmore, il suit les pompiers de Kansas City à l'Exposition universelle de Paris (1900), visite La Havane (1911), Panama (1912), Riverside (1915) et Honolulu (1920). Il meurt le 6 février 1923 au 3518 Wyandotte Street et est inhumé à Morrill (Kansas) ; sa veuve publie l'année suivante le Memorial to the Robidoux Brothers. Dans la presse : Selon le St. Joseph News-Press, Louis a quitté Saint-Joseph à 27 ans pour ouvrir un saloon avenue Union, en face de l'ancienne gare de Kansas City, et il a milité chez les démocrates. Il meurt d'apoplexie le 6 février 1923 et il est inhumé à Morrill (Kansas).",
+    "sources": "O. M. Robidoux, Memorial to the Robidoux Brothers: A History of the Robidouxs in America (Kansas City, 1924), archive.org memorialtorobido00robi, p. 243-271 ; St. Joseph News-Press, 7 février 1923 (Newspapers.com (abonnement de l'auteur)).",
     "note": "",
     "type": "lieu",
-    "images": []
+    "images": [
+     {
+      "src": "images/journaux/1923-02-07-st-joseph-news-press-mort-louis-robidoux.jpg",
+      "legende": "St. Joseph News-Press, 7 février 1923 (Newspapers.com)"
+     }
+    ]
    }
   },
   {
@@ -4040,6 +4087,206 @@
     "description": "Denis Julien, traiteur de Saint-Louis lié au poste des Reed sur l'Uinta (vendu à Antoine Robidoux en 1832), reste au fort Robidoux jusqu'en 1836. Sur un gros bloc à l'embouchure du Chandler Creek, dans le Desolation Canyon de la Green, les initiales « DJ » lui sont attribuées, sans date.",
     "sources": "« Denis Julien », Wikipédia (d'après J. H. Knipmeyer, The Life and Times of Denis Julien, Fur Trader, 2018).",
     "note": "Inscription non datée, attribuée sur les seules initiales ; dates encadrées par les autres inscriptions de Julien ; point approximatif.",
+    "type": "lieu",
+    "images": []
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -90.1868,
+     38.6262
+    ]
+   },
+   "properties": {
+    "id": "L155",
+    "nom": "Saint-Louis : Joseph vend ses maisons de la rue Main",
+    "debut": 1845.3849,
+    "fin": 1846.6644,
+    "date_edtf": "1845-05-21/1846-08-31",
+    "precision": "jour",
+    "certitude": "approximative",
+    "categorie": "joseph3",
+    "description": "Le 21 mai 1845, Joseph Robidoux fait paraître pour un mois dans le Missouri Republican une annonce : il vend sa propriété de l'îlot n° 5, 84 pieds sur la rue Main et 221 de profondeur, dont les bâtiments rapportent 2 200 dollars de loyer par an. Il accepte la moitié du prix en argent et le reste en marchandises de traite et en épicerie. En août 1846, il offre encore une ou deux maisons sur la rue Main ou la rue Front, entre les rues Elm et Myrtle, contre argent ou marchandises.",
+    "sources": "Missouri Republican, 21 mai 1845 et 5 août 1846 (Newspapers.com (abonnement de l'auteur)).",
+    "note": "L'îlot 5 est celui de l'ancienne maison familiale (Council House) ; point placé sur la rue Main.",
+    "type": "lieu",
+    "images": [
+     {
+      "src": "images/journaux/1845-05-21-missouri-republican-annonce-propriete-joseph-robidoux.jpg",
+      "legende": "Missouri Republican, 21 mai 1845 (Newspapers.com)"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -117.205,
+     34.02
+    ]
+   },
+   "properties": {
+    "id": "L156",
+    "nom": "San Timoteo : le « rancho Robidoux » à vendre",
+    "debut": 1867.4726,
+    "fin": 1867.5685,
+    "date_edtf": "1867-06-22/1867-07-27",
+    "precision": "jour",
+    "certitude": "approximative",
+    "categorie": "louis",
+    "description": "En juin et juillet 1867, Louis Robidoux met en vente dans le San Bernardino Guardian « le beau et bien connu rancho de San Timoteo, connu sous le nom de rancho Robidoux » : une lieue de terre arrosée par des sources intarissables, une belle maison d'habitation et ses dépendances, titre parfait. Les acheteurs doivent s'adresser à Louis, au rancho de Jurupa, ou à son agent A. Parks, à San Bernardino.",
+    "sources": "San Bernardino Guardian, 22 juin, 6 et 27 juillet 1867 (Newspapers.com (abonnement de l'auteur)).",
+    "note": "Point placé dans le canyon de San Timoteo, à l'est de Loma Linda ; emplacement exact de la maison inconnu.",
+    "type": "lieu",
+    "images": [
+     {
+      "src": "images/journaux/1867-06-22-san-bernardino-guardian-rancho-san-timoteo-a-vendre.jpg",
+      "legende": "San Bernardino Guardian, 22 juin 1867 (Newspapers.com)"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -103.7,
+     41.88
+    ]
+   },
+   "properties": {
+    "id": "L157",
+    "nom": "Platte Nord : le poste de Michel, à soixante milles de Laramie",
+    "debut": 1854.5,
+    "fin": 1855.3685,
+    "date_edtf": "1854/1855-05",
+    "precision": "annee",
+    "certitude": "hypothetique",
+    "categorie": "freres",
+    "description": "En mai 1855, Michel Robidoux rentre à Saint-Joseph, à vingt-cinq jours de Laramie. Il annonce une grande guerre indienne : le chef de la bande de Smoke fédère les tribus contre les troupes attendues. Les Oglalas lui ont volé dix chevaux. À son poste de traite, « à soixante milles de Laramie », l'hiver a été si doux qu'il s'est passé de feu en janvier et en février. La nouvelle, publiée par le St. Joseph Cycle, est reprise par dix journaux.",
+    "sources": "Liberty Tribune, 25 mai 1855, d'après le St. Joseph Cycle (Newspapers.com (abonnement de l'auteur)).",
+    "note": "Emplacement hypothétique : à environ soixante milles en aval de Fort Laramie, sur la Platte Nord, près du col de Robidoux.",
+    "type": "lieu",
+    "images": [
+     {
+      "src": "images/journaux/1855-05-25-liberty-tribune-michel-robidoux-plaines.jpg",
+      "legende": "Liberty Tribune, 25 mai 1855 (Newspapers.com)"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -94.848,
+     39.769
+    ]
+   },
+   "properties": {
+    "id": "L158",
+    "nom": "Saint-Joseph : la mort de Jeffrey Deroine",
+    "debut": 1859.2452,
+    "fin": 1859.2452,
+    "date_edtf": "1859-03-31",
+    "precision": "jour",
+    "certitude": "approximative",
+    "categorie": "joseph3",
+    "description": "Jeffrey Deroine, ancien esclave de Joseph Robidoux, meurt à Saint-Joseph le 31 mars 1859. La dépêche de Saint-Louis reprise par neuf journaux raconte qu'il est devenu traiteur au service de son maître, qu'il a acheté sa liberté (en 1835, selon elle), qu'il a été interprète du gouvernement et qu'il a accompagné en Europe, en 1844, les chefs ioways, sauks et renards du colonel Melody. Il y aurait séduit une dame de haut rang et appris plusieurs langues ; Disraeli l'aurait remarqué. Il servit ensuite de guide et d'interprète aux expéditions d'exploration.",
+    "sources": "Courier-Journal (Louisville), 4 avril 1859 (Newspapers.com (abonnement de l'auteur)) ; R. J. Willoughby, The Brothers Robidoux and the Opening of the American West (2012), p. 114-117.",
+    "note": "Point symbolique en ville ; lieu de décès précis inconnu.",
+    "type": "lieu",
+    "images": [
+     {
+      "src": "images/journaux/1859-04-04-courier-journal-mort-jeffrey-deroine.jpg",
+      "legende": "Courier-Journal, 4 avril 1859 (Newspapers.com)"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -0.1372,
+     51.5087
+    ]
+   },
+   "properties": {
+    "id": "L159",
+    "nom": "Londres : Jeffrey Deroine et la délégation ioway",
+    "debut": 1844.5369,
+    "fin": 1845.2863,
+    "date_edtf": "1844-07/1845-04",
+    "precision": "mois",
+    "certitude": "approximative",
+    "categorie": "famille",
+    "description": "En 1844, Jeffrey Deroine, l'ancien esclave affranchi de Joseph Robidoux, accompagne comme interprète une délégation de chefs ioways, sauks et renards conduite par le colonel Melody. À Londres, elle est présentée dans la galerie indienne de George Catlin, à l'Egyptian Hall de Piccadilly ; elle passe ensuite à Paris et à Bruxelles. Selon la presse de 1859, Deroine impressionne les cours d'Europe, retient l'attention de Disraeli et revient « chargé de présents ».",
+    "sources": "Courier-Journal (Louisville), 4 avril 1859 (Newspapers.com (abonnement de l'auteur)).",
+    "note": "Point placé à l'Egyptian Hall (Piccadilly), où Catlin exposait les Ioways.",
+    "type": "lieu",
+    "images": []
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -118.1155,
+     34.1565
+    ]
+   },
+   "properties": {
+    "id": "L160",
+    "nom": "Pasadena : la maison d'Amanda, rue Las Lunas",
+    "debut": 1916.4549,
+    "fin": 1916.9495,
+    "date_edtf": "1916-06/1916-12-13",
+    "precision": "jour",
+    "certitude": "approximative",
+    "categorie": "antoine",
+    "description": "Amanda Barada Stollsteimer, petite-fille adoptive d'Antoine, vit en Californie depuis 1913 et à Pasadena depuis l'été 1916. Elle meurt chez elle, au 1710 rue Las Lunas, le 13 décembre 1916, à 64 ans. Elle laisse trois fils à Denver (C. A., Harry S. et Tony S. Stollsteimer) et trois filles (Mme Lena S. Archuleta, à San Diego ; Mme A. L. Knorr et Mme Tom Accord, à Pasadena). Les funérailles ont lieu à l'église St. Andrew, l'inhumation au cimetière Mountain View.",
+    "sources": "Pasadena Star-News, 14 décembre 1916 (Newspapers.com (abonnement de l'auteur)).",
+    "note": "Adresse placée approximativement sur la rue Las Lunas.",
+    "type": "lieu",
+    "images": [
+     {
+      "src": "images/journaux/1916-12-14-pasadena-star-news-mort-amanda-stollsteimer.jpg",
+      "legende": "Pasadena Star-News, 14 décembre 1916 (Newspapers.com)"
+     }
+    ]
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -95.693,
+     39.929
+    ]
+   },
+   "properties": {
+    "id": "L161",
+    "nom": "Morrill (Kansas) : la tombe de Louis, le petit-fils",
+    "debut": 1923.1055,
+    "fin": 1923.1055,
+    "date_edtf": "1923-02-08",
+    "precision": "jour",
+    "certitude": "approximative",
+    "categorie": "jules",
+    "description": "Louis Robidoux, petit-fils du fondateur, meurt à Kansas City le 6 février 1923, trois semaines après une attaque d'apoplexie. Après les funérailles à l'église Our Lady of Good Counsel, il est inhumé le 8 février à Morrill, dans le Kansas. Le St. Joseph News-Press rappelle que c'est lui qui avait fait transférer le corps de Joseph du vieux cimetière du Calvaire à Mount Olivet.",
+    "sources": "St. Joseph News-Press, 7 février 1923 (Newspapers.com (abonnement de l'auteur)) ; O. M. Robidoux, Memorial to the Robidoux Brothers: A History of the Robidouxs in America (Kansas City, 1924), archive.org memorialtorobido00robi, p. 270.",
+    "note": "Point placé au village ; cimetière exact non vérifié.",
     "type": "lieu",
     "images": []
    }

@@ -53,6 +53,7 @@ AND = "A. T. Andreas (éd.), History of the State of Nebraska (1882), comté de 
 NPR = "DAR, Collection of Nebraska Pioneer Reminiscences (1916), archive.org collectionofnebr00daug"
 TWI = "R. E. Twitchell, The Spanish Archives of New Mexico (1914), vol. I, archive.org spanisharchiveso01twituoft"
 READ = "B. M. Read, Illustrated History of New Mexico (1912), archive.org illustratedhisto00readrich"
+NWS = "Newspapers.com (abonnement de l'auteur)"
 DALE = "H. C. Dale, The Ashley-Smith Explorations (1918), archive.org ashleysmithexplo00daleuoft"
 JWK = "« Denis Julien », Wikipédia (d'après J. H. Knipmeyer, The Life and Times of Denis Julien, Fur Trader, 2018)"
 KNI = "J. H. Knipmeyer, « The Denis Julien Inscriptions », Utah Historical Quarterly, vol. 64, n° 1 (1996)"
@@ -758,6 +759,87 @@ L('L154', "Desolation Canyon : les initiales « DJ »", -110.05, 39.78, '1831/18
   f"{JWK}.",
   "Inscription non datée, attribuée sur les seules initiales ; dates encadrées par les autres inscriptions de Julien ; point approximatif.")
 
+# ------------------------------------------------------------------ Dans les journaux (Newspapers.com)
+L('L155', "Saint-Louis : Joseph vend ses maisons de la rue Main", -90.1868, 38.6262, '1845-05-21/1846-08-31', 'jour', 'approximative', 'joseph3',
+  "Le 21 mai 1845, Joseph Robidoux fait paraître pour un mois dans le Missouri Republican une annonce : il vend sa propriété de l'îlot n° 5, 84 pieds sur la rue Main et 221 de profondeur, dont les bâtiments rapportent 2 200 dollars de loyer par an. Il accepte la moitié du prix en argent et le reste en marchandises de traite et en épicerie. En août 1846, il offre encore une ou deux maisons sur la rue Main ou la rue Front, entre les rues Elm et Myrtle, contre argent ou marchandises.",
+  f"Missouri Republican, 21 mai 1845 et 5 août 1846 ({NWS}).",
+  "L'îlot 5 est celui de l'ancienne maison familiale (Council House) ; point placé sur la rue Main.",
+  images=[{"src": "images/journaux/1845-05-21-missouri-republican-annonce-propriete-joseph-robidoux.jpg", "legende": "Missouri Republican, 21 mai 1845 (Newspapers.com)"}])
+L('L156', "San Timoteo : le « rancho Robidoux » à vendre", -117.205, 34.020, '1867-06-22/1867-07-27', 'jour', 'approximative', 'louis',
+  "En juin et juillet 1867, Louis Robidoux met en vente dans le San Bernardino Guardian « le beau et bien connu rancho de San Timoteo, connu sous le nom de rancho Robidoux » : une lieue de terre arrosée par des sources intarissables, une belle maison d'habitation et ses dépendances, titre parfait. Les acheteurs doivent s'adresser à Louis, au rancho de Jurupa, ou à son agent A. Parks, à San Bernardino.",
+  f"San Bernardino Guardian, 22 juin, 6 et 27 juillet 1867 ({NWS}).",
+  "Point placé dans le canyon de San Timoteo, à l'est de Loma Linda ; emplacement exact de la maison inconnu.",
+  images=[{"src": "images/journaux/1867-06-22-san-bernardino-guardian-rancho-san-timoteo-a-vendre.jpg", "legende": "San Bernardino Guardian, 22 juin 1867 (Newspapers.com)"}])
+L('L157', "Platte Nord : le poste de Michel, à soixante milles de Laramie", -103.70, 41.88, '1854/1855-05', 'annee', 'hypothetique', 'freres',
+  "En mai 1855, Michel Robidoux rentre à Saint-Joseph, à vingt-cinq jours de Laramie. Il annonce une grande guerre indienne : le chef de la bande de Smoke fédère les tribus contre les troupes attendues. Les Oglalas lui ont volé dix chevaux. À son poste de traite, « à soixante milles de Laramie », l'hiver a été si doux qu'il s'est passé de feu en janvier et en février. La nouvelle, publiée par le St. Joseph Cycle, est reprise par dix journaux.",
+  f"Liberty Tribune, 25 mai 1855, d'après le St. Joseph Cycle ({NWS}).",
+  "Emplacement hypothétique : à environ soixante milles en aval de Fort Laramie, sur la Platte Nord, près du col de Robidoux.",
+  images=[{"src": "images/journaux/1855-05-25-liberty-tribune-michel-robidoux-plaines.jpg", "legende": "Liberty Tribune, 25 mai 1855 (Newspapers.com)"}])
+L('L158', "Saint-Joseph : la mort de Jeffrey Deroine", -94.848, 39.769, '1859-03-31', 'jour', 'approximative', 'joseph3',
+  "Jeffrey Deroine, ancien esclave de Joseph Robidoux, meurt à Saint-Joseph le 31 mars 1859. La dépêche de Saint-Louis reprise par neuf journaux raconte qu'il est devenu traiteur au service de son maître, qu'il a acheté sa liberté (en 1835, selon elle), qu'il a été interprète du gouvernement et qu'il a accompagné en Europe, en 1844, les chefs ioways, sauks et renards du colonel Melody. Il y aurait séduit une dame de haut rang et appris plusieurs langues ; Disraeli l'aurait remarqué. Il servit ensuite de guide et d'interprète aux expéditions d'exploration.",
+  f"Courier-Journal (Louisville), 4 avril 1859 ({NWS}) ; {WIL}, p. 114-117.",
+  "Point symbolique en ville ; lieu de décès précis inconnu.",
+  images=[{"src": "images/journaux/1859-04-04-courier-journal-mort-jeffrey-deroine.jpg", "legende": "Courier-Journal, 4 avril 1859 (Newspapers.com)"}])
+L('L159', "Londres : Jeffrey Deroine et la délégation ioway", -0.1372, 51.5087, '1844-07/1845-04', 'mois', 'approximative', 'famille',
+  "En 1844, Jeffrey Deroine, l'ancien esclave affranchi de Joseph Robidoux, accompagne comme interprète une délégation de chefs ioways, sauks et renards conduite par le colonel Melody. À Londres, elle est présentée dans la galerie indienne de George Catlin, à l'Egyptian Hall de Piccadilly ; elle passe ensuite à Paris et à Bruxelles. Selon la presse de 1859, Deroine impressionne les cours d'Europe, retient l'attention de Disraeli et revient « chargé de présents ».",
+  f"Courier-Journal (Louisville), 4 avril 1859 ({NWS}).",
+  "Point placé à l'Egyptian Hall (Piccadilly), où Catlin exposait les Ioways.")
+L('L160', "Pasadena : la maison d'Amanda, rue Las Lunas", -118.1155, 34.1565, '1916-06/1916-12-13', 'jour', 'approximative', 'antoine',
+  "Amanda Barada Stollsteimer, petite-fille adoptive d'Antoine, vit en Californie depuis 1913 et à Pasadena depuis l'été 1916. Elle meurt chez elle, au 1710 rue Las Lunas, le 13 décembre 1916, à 64 ans. Elle laisse trois fils à Denver (C. A., Harry S. et Tony S. Stollsteimer) et trois filles (Mme Lena S. Archuleta, à San Diego ; Mme A. L. Knorr et Mme Tom Accord, à Pasadena). Les funérailles ont lieu à l'église St. Andrew, l'inhumation au cimetière Mountain View.",
+  f"Pasadena Star-News, 14 décembre 1916 ({NWS}).",
+  "Adresse placée approximativement sur la rue Las Lunas.",
+  images=[{"src": "images/journaux/1916-12-14-pasadena-star-news-mort-amanda-stollsteimer.jpg", "legende": "Pasadena Star-News, 14 décembre 1916 (Newspapers.com)"}])
+L('L161', "Morrill (Kansas) : la tombe de Louis, le petit-fils", -95.693, 39.929, '1923-02-08', 'jour', 'approximative', 'jules',
+  "Louis Robidoux, petit-fils du fondateur, meurt à Kansas City le 6 février 1923, trois semaines après une attaque d'apoplexie. Après les funérailles à l'église Our Lady of Good Counsel, il est inhumé le 8 février à Morrill, dans le Kansas. Le St. Joseph News-Press rappelle que c'est lui qui avait fait transférer le corps de Joseph du vieux cimetière du Calvaire à Mount Olivet.",
+  f"St. Joseph News-Press, 7 février 1923 ({NWS}) ; {ROB}, p. 270.",
+  "Point placé au village ; cimetière exact non vérifié.")
+
+# Enrichissements tirés de la presse : (texte ajouté à la description, source, image facultative)
+PRESSE = {
+  'L120': ("Le récit vient de William Huddart, rentré de Taos à Franklin en avril 1825. Parti de Taos le 24 août 1824 avec quatorze trappeurs, il rencontre sur le Green River « M. Rubideau » et cinq Américains. Deux jours plus tard, les Arapahos tuent un certain Nowlin et laissent « M. Rubideau et ses hommes dans les montagnes sans un cheval ni une mule ». La nouvelle est reprise par quatorze journaux en mai et juin 1825.",
+           "Daily National Intelligencer, 23 mai 1825, d'après le Missouri Intelligencer",
+           {"src": "images/journaux/1825-05-23-national-intelligencer-huddart-rubideau-green-river.jpg", "legende": "Daily National Intelligencer, 23 mai 1825 (Newspapers.com)"}),
+  'L104': ("Le 26 octobre 1842, le Missouri Republican annonce que l'argent est retrouvé, « sauf une petite somme », après que les coupables ont été soumis au « juge Lynch » et ont avoué « après un moment d'étranglement et de fouet ». Huit journaux reprennent la nouvelle.",
+           "Missouri Republican, 26 octobre 1842",
+           {"src": "images/journaux/1842-10-26-missouri-republican-argent-vole-recupere.jpg", "legende": "Missouri Republican, 26 octobre 1842 (Newspapers.com)"}),
+  'L29': ("La presse de l'Est annonce la nouvelle en mars 1845 : les Utes ont pris le fort d'Antoine sur la « Wintae » et tué traiteurs et engagés ; Antoine s'est réfugié à son fort de la « Campagara » [Uncompahgre]. Dix-huit journaux la reprennent. En mai, des voyageurs de Santa Fe font croire qu'Antoine a péri, faute de nouvelles depuis l'hiver ; onze journaux répètent cette fausse rumeur.",
+          "Washington Union, 18 mars 1845 ; Louisville Daily Courier, 1er mai 1845",
+          {"src": "images/journaux/1845-03-18-washington-union-fort-uintah.jpg", "legende": "Washington Union, 18 mars 1845, p. 3 (Newspapers.com)"}),
+  'L78': ("Selon la St. Joseph Gazette, reprise par neuf journaux, Charles chahutait avec d'autres jeunes gens vers minuit. Il emportait sur l'épaule un poteau arraché devant le magasin de D. & T. D. S. MacDonald quand Duncan MacDonald tira du premier étage une charge de gros plomb. Charles mourut en quelques minutes en appelant son compagnon. MacDonald avoua, en disant n'avoir voulu blesser personne.",
+          "Liberty Tribune, 20 septembre 1850, d'après la St. Joseph Gazette",
+          {"src": "images/journaux/1850-09-20-liberty-tribune-mort-charles-robidoux.jpg", "legende": "Liberty Tribune, 20 septembre 1850 (Newspapers.com)"}),
+  'L38': ("La notice de la St. Joseph Gazette du 30 août paraît intégralement dans le Missouri Republican du 1er septembre, puis à Keokuk, Liberty, Cleveland et Los Angeles.",
+          "Missouri Republican, 1er septembre 1860",
+          {"src": "images/journaux/1860-09-01-missouri-republican-mort-antoine-robidoux.jpg", "legende": "Missouri Republican, 1er septembre 1860 (Newspapers.com)"}),
+  'L16': ("Les journaux de juin 1868 résument la nouvelle : il s'était couché en bonne santé apparente ; le lotissement de ses terres l'avait enrichi, mais « la plus grande partie lui avait échappé depuis des années, et il meurt relativement pauvre ».",
+          "Liberty Tribune, 5 juin 1868",
+          {"src": "images/journaux/1868-06-05-liberty-tribune-mort-joseph-robidoux.jpg", "legende": "Liberty Tribune, 5 juin 1868 (Newspapers.com)"}),
+  'L31': ("La nécrologie de 1875 précise qu'il a étudié à l'université Saint-Louis, qu'il a ouvert le premier magasin de la ville, puis d'autres à White Hall (Jimtown) et à Savannah, qu'il a été juge de paix de 1858 à 1868 et qu'il est mort de consomption chez lui, rue Edmond, entre les rues Quatre et Cinq. Il avait eu douze enfants d'Elizabeth Barada, dont six vivaient encore.",
+          "St. Louis Globe-Democrat, 1er mars 1875",
+          {"src": "images/journaux/1875-03-01-st-louis-globe-democrat-mort-jules-robidoux.jpg", "legende": "St. Louis Globe-Democrat, 1er mars 1875 (Newspapers.com)"}),
+  'L50': ("La première publication de l'inscription date du 23 février 1912 : le Times-Independent de Moab annonce que des éleveurs l'ont découverte « à la tête du canyon de Bitter Creek », là où passe la vieille piste ute, mais il la traduit de travers (« établir une mission et apporter une loi à la réserve »).",
+          "The Times-Independent (Moab), 23 février 1912",
+          {"src": "images/journaux/1912-02-23-times-independent-inscription-westwater.jpg", "legende": "The Times-Independent, 23 février 1912 (Newspapers.com)"}),
+  'L145': ("Selon le St. Joseph News-Press, Louis a quitté Saint-Joseph à 27 ans pour ouvrir un saloon avenue Union, en face de l'ancienne gare de Kansas City, et il a milité chez les démocrates. Il meurt d'apoplexie le 6 février 1923 et il est inhumé à Morrill (Kansas).",
+           "St. Joseph News-Press, 7 février 1923",
+           {"src": "images/journaux/1923-02-07-st-joseph-news-press-mort-louis-robidoux.jpg", "legende": "St. Joseph News-Press, 7 février 1923 (Newspapers.com)"}),
+  'L47': ("La nécrologie d'Elizabeth Barada (St. Joseph Gazette, 28 septembre 1904) évoque déjà le projet de réunir la famille sous un seul monument. En 1923, le St. Joseph News-Press attribue le transfert à son fils Louis.",
+          "St. Joseph Gazette, 28 septembre 1904 ; St. Joseph News-Press, 7 février 1923", None),
+  'L15': ("Deux échos de la presse : en février 1863, un catholique de Saint-Louis avoue à confesse avoir escroqué Joseph de 300 dollars, et le prêtre lui renvoie la somme (St. Joseph Herald, repris jusqu'au Shasta Courier). Le 2 août 1866, Joseph et John Patee, les « deux fondateurs », fêtent ensemble leurs 82 ans.",
+          "Liberty Tribune, 3 avril 1863 ; Tri-Weekly Missouri Republican, 6 août 1866",
+          {"src": "images/journaux/1863-04-03-liberty-tribune-cas-de-conscience.jpg", "legende": "Liberty Tribune, 3 avril 1863 : « A Case of Conscience » (Newspapers.com)"}),
+  'L87': ("En août 1860, le rôle d'imposition du comté évalue les biens de Louis Robidoux à 14 000 dollars, derrière Rains & Carlisle (43 071 dollars) mais devant Abel Stearns et James W. Waters.",
+          "Los Angeles Star, 4 août 1860", None),
+  'L34': ("En juin 1868, le San Bernardino Guardian décrit Jurupa comme l'une des meilleures terres du comté, « en partie à Don Louis Robidoux » et gérée par son agent Arthur Parks.",
+          "San Bernardino Guardian, 6 juin 1868", None),
+  'L126': ("En mars 1886, l'agent Stollsteimer plaide dans la presse (Denver News, Santa Fe New Mexican) pour le transfert des Utes du Sud en Utah, où ils trouveraient de bons pâturages, « plus heureux loin des Blancs ».",
+           "Santa Fe New Mexican, 15 mars 1886", None),
+  'L72': ("Elle meurt chez elle, au 1710 rue Las Lunas à Pasadena, le 13 décembre 1916 ; les funérailles ont lieu à l'église St. Andrew.",
+          "Pasadena Star-News, 14 décembre 1916", None),
+  'L92': ("En mai 1855, Michel revient d'un poste de traite situé « à soixante milles de Laramie » et annonce une guerre indienne générale (voir le lieu de la Platte Nord).",
+          "Liberty Tribune, 25 mai 1855", None),
+}
+
 EXTRA = {
   'L128': [{"src": "images/documents/clark-1827-07-23-licence-antoine-robidoux-and-company.jpg", "legende": "Licence de William Clark à « Antoine Robidoux and Company », Saint-Louis, 23 juillet 1827 (dossier de l'auteur)"}],
   'L50': [LOC("westwater-inscription-antoine-robidoux.jpg", "« Antoine Robidoux passé ici le 13 novembre 1837 pour établire maison traitte à la rv. Vert ou Wiyte » (dossier de l'auteur)"),
@@ -771,6 +853,12 @@ EXTRA = {
 }
 for f in LIEUX:
     f['properties']['images'] = f['properties']['images'] + EXTRA.get(f['properties']['id'], [])
+    pr = PRESSE.get(f['properties']['id'])
+    if pr:
+        texte, src, img = pr
+        f['properties']['description'] += " Dans la presse : " + texte
+        f['properties']['sources'] = f['properties']['sources'].rstrip('.') + f" ; {src} ({NWS})."
+        if img: f['properties']['images'] = f['properties']['images'] + [img]
 
 os.makedirs('data', exist_ok=True)
 for nom, feats in (('lieux', LIEUX), ('trajets', TRAJETS)):

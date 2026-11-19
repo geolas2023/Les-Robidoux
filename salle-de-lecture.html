@@ -27,6 +27,7 @@ main { display: grid; grid-template-columns: 360px 1fr; min-height: 0; }
 .filtres .ligne { display: grid; grid-template-columns: minmax(0,1fr) minmax(0,1fr); gap: .4rem; }
 .filtres .compte { font-size: .8rem; color: #6b604f; }
 #liste { list-style: none; margin: 0; padding: 0; }
+#liste li.groupe.theme { background: #f3ede2; font-family: inherit; font-style: italic; font-size: .8rem; padding-left: 1.3rem; }
 #liste li.groupe { cursor: default; background: #e6dccb; font-family: "IM Fell English SC", Georgia, serif; font-size: .9rem; padding: .3rem .8rem; color: #4d4436; }
 #liste li.it { padding: .5rem .8rem; border-bottom: 1px solid #e6dccb; cursor: pointer; }
 #liste li.it:hover { background: #f3ecdf; }
@@ -99,6 +100,7 @@ main { display: grid; grid-template-columns: 360px 1fr; min-height: 0; }
             <option value="portrait">Portraits de famille</option>
             <option value="document">Documents</option>
             <option value="etude">Études du dossier</option>
+            <option value="journal">Dans les journaux</option>
           </select>
         </label>
         <label>Personne
@@ -118,7 +120,7 @@ main { display: grid; grid-template-columns: 360px 1fr; min-height: 0; }
 </div>
 <script src="js/salle.js?v=1"></script>
 <script>
-const GENRES = { portrait: 'Portraits de famille', document: 'Documents', etude: 'Études du dossier' };
+const GENRES = { portrait: 'Portraits de famille', document: 'Documents', etude: 'Études du dossier', journal: 'Dans les journaux (Newspapers.com)' };
 const STATUTS = { biographie: 'biographie', transcription: 'transcription', traduction: 'traduction', resume: 'résumé', fiche: 'fiche' };
 const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
 const tries = [...ITEMS].sort((a, b) => a.ordre - b.ordre);
@@ -135,11 +137,12 @@ function filtrer() {
   const t = document.getElementById('f-type').value, p = selP.value;
   const q = document.getElementById('f-texte').value.trim().toLowerCase();
   visibles = tries.filter(i => (!t || i.type === t) && (!p || (i.personnes || []).includes(p)) &&
-    (!q || [i.titre, i.resume, i.texte, i.sources, i.date].join(' ').toLowerCase().includes(q)));
+    (!q || [i.titre, i.resume, i.texte, i.sources, i.date, i.theme, i.recoupements].join(' ').toLowerCase().includes(q)));
   document.getElementById('compte').textContent = `${visibles.length} entrée${visibles.length > 1 ? 's' : ''} sur ${ITEMS.length}`;
-  let html = '', g = null;
+  let html = '', g = null, th = null;
   visibles.forEach(i => {
-    if (i.type !== g) { g = i.type; html += `<li class="groupe">${GENRES[g]}</li>`; }
+    if (i.type !== g) { g = i.type; th = null; html += `<li class="groupe">${GENRES[g]}</li>`; }
+    if (i.theme && i.theme !== th) { th = i.theme; html += `<li class="groupe theme">${esc(th)}</li>`; }
     html += `<li class="it${courant && courant.id === i.id ? ' actif' : ''}" data-id="${i.id}">
       <div class="d"><span>${esc(i.date)}</span><span class="pastille p-${i.statut}">${STATUTS[i.statut]}</span></div>
       <div class="t">${esc(i.titre)}</div><div class="r">${esc(i.resume)}</div></li>`;
@@ -164,6 +167,7 @@ function afficher(i) {
       <div>
         <p class="resume">${esc(i.resume)}</p>
         ${corps}
+        ${i.recoupements ? `<p class="note recoupe"><strong>Recoupements et reprises :</strong> ${esc(i.recoupements)}</p>` : ''}
         ${i.note ? `<p class="note"><strong>Note :</strong> ${esc(i.note)}</p>` : ''}
         ${(i.lieux || []).length ? `<div class="lieux"><strong>Sur la carte :</strong> ${i.lieux.map(lienLieu).join('')}</div>` : ''}
         <div class="sources"><strong>Sources :</strong> ${esc(i.sources)}</div>
@@ -197,7 +201,7 @@ function accueil() {
   document.getElementById('lecteur').innerHTML = `<div class="intro">
     <h2>La famille Robidoux, de Montréal à la Californie</h2>
     <p>Cette salle de lecture accompagne la carte. Elle réunit les portraits du père, de la mère, des six frères et de leurs proches, épouses néo-mexicaines, enfants autochtones et métis, esclaves et descendants, ainsi que les documents et les études du dossier de recherche de l'atlas. Chaque entrée renvoie aux lieux de la carte.</p>
-    <div class="chiffres"><div><b>${n('portrait')}</b>portraits</div><div><b>${n('document')}</b>documents</div><div><b>${n('etude')}</b>études</div></div>
+    <div class="chiffres"><div><b>${n('portrait')}</b>portraits</div><div><b>${n('document')}</b>documents</div><div><b>${n('etude')}</b>études</div><div><b>${n('journal')}</b>articles de presse</div></div>
     <div class="arbre">Joseph Robidoux Ier (v. 1720-1771) ∞ Marianne Leblanc
 └─ Joseph Marie, dit Joseph II (1750-1809) ∞ 1782 Catherine Rollet dit Laderoute
    ├─ Joseph III (1783-1868) ∞ Eugénie Delisle ; ∞ Angélique Vaudry

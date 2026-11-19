@@ -1,5 +1,5 @@
 // Salle de lecture de l'Atlas Robidoux : portraits de famille et documents.
-// type : portrait | document | etude ; statut : biographie | transcription | traduction | resume | fiche
+// type : portrait | document | etude | journal (theme, recoupements) ; statut : biographie | transcription | traduction | resume | fiche
 // lieux : identifiants de l'atlas (index.html#lieu=Lxx). Textes du domaine public transcrits ; études récentes résumées.
 const WIL = 'R. J. Willoughby, The Brothers Robidoux and the Opening of the American West (University of Missouri Press, 2012)';
 
@@ -184,14 +184,14 @@ Les Ioways, partenaires commerciaux de Joseph (« Ayois » dans ses lettres), c�
   sources: `${WIL}, p. 21, 134, 144 ; T. C. Thorne, The Many Hands of My Relations (1996) ; « Mary Many Days Robidoux », Wikipédia.`,
   lieux: ['L12', 'L63', 'L77'] },
 
-{ id: 'deroine', type: 'portrait', statut: 'biographie', ordre: 17, date: 'v. 1804 – ?', titre: 'Jeffrey Deroine, esclave, interprète et diplomate',
+{ id: 'deroine', type: 'portrait', statut: 'biographie', ordre: 17, date: 'v. 1804 – 1859', titre: 'Jeffrey Deroine, esclave, interprète et diplomate',
   personnes: ['Jeffrey Deroine'],
   resume: "Né esclave à Saint-Louis, détenu par Joseph Robidoux, il gagne sa liberté en 1832 avec l'aide des Ioways et devient interprète, puis voyageur du monde.",
   texte: `Jeffrey (Jeffre, Geoffrey Dorwin) naît à Saint-Louis vers 1804-1805, élevé dans la famille de Francis Deroin. Détenu comme esclave par Joseph Robidoux, il est l'objet d'un long procès en liberté (une déposition de janvier 1830 précise qu'il est né à Saint-Louis après la prise de possession américaine et qu'il a été élevé par la famille Deroin ; en 1835, la cour d'appel casse un jugement rendu contre lui). En mars 1832, l'agent Andrew Hughes paie 600 dollars à Joseph, sans doute avec des fonds réunis par ses amis ioways, et Jeffrey devient interprète à la sous-agence ioway.
 
-Licencié pour la traite, il devient le rival acharné de Joseph, qui le dénonce dans ses lettres à Chouteau. L'historien Greg Olson a retracé la suite de sa vie d'interprète et de voyageur.`,
+Licencié pour la traite, il devient le rival acharné de Joseph, qui le dénonce dans ses lettres à Chouteau. L'historien Greg Olson a retracé la suite de sa vie d'interprète et de voyageur. En 1844-1845, il accompagne en Europe la délégation ioway, sauk et renarde du colonel Melody et de George Catlin. Il meurt à Saint-Joseph le 31 mars 1859. La dépêche qui annonce sa mort est reprise par neuf journaux (voir « La mort de Jeffrey Deroine, ancien esclave de Joseph »).`,
   sources: `${WIL}, p. 45, 114-117, 133-135 ; G. Olson, « Slave, Trader, Interpreter, and World Traveler: Jeffrey Deroine », Missouri Historical Review, vol. 107, n° 4 (2013).`,
-  lieux: ['L12'] },
+  lieux: ['L12', 'L158', 'L159'] },
 
 // ===================================================================== DOCUMENTS
 { id: 'd-bapteme-1750', type: 'document', statut: 'transcription', ordre: 101, date: '12 février 1750', titre: 'Baptême de Joseph Marie Robidoux, Sault-au-Récollet',
@@ -558,4 +558,296 @@ Tassé raconte ensuite les lettres patentes de 1843, le lotissement de la ville,
   note: "Le Memorial de 1924 reproduit ce passage en français, très déformé par la transcription (p. 89-91).",
   sources: `Tassé, Les Canadiens de l'Ouest (Montréal, 1878), t. II, p. 119-129, 193, archive.org cihm_33779 ; ${ROB}, p. 89-91.`,
   lieux: ['L12', 'L15', 'L31', 'L38'] },
+
+// ===================================================================== DANS LES JOURNAUX (Newspapers.com)
+// Articles lus sur Newspapers.com ; découpures dans images/journaux/. Textes antérieurs à 1929 (domaine public) transcrits par l'auteur de l'atlas.
+{ id: 'j-guide', type: 'journal', theme: '0. Guide de lecture', statut: 'fiche', ordre: 300, date: '1820 – 1930', titre: 'Les Robidoux dans la presse : ce que donnent 717 pages de journaux',
+  personnes: ['Joseph III', 'Antoine', 'Louis', 'Michel', 'Jules'],
+  resume: "Bilan d'un dépouillement de Newspapers.com : neuf grands sujets, beaucoup de reprises du même texte, quelques homonymes à écarter.",
+  texte: `Une recherche sur Newspapers.com (Robidoux, Robideaux, Rubideau, Roubidoux, Robidou, Rubidoux, Stollsteimer) a donné 717 pages entre 1820 et 1930. Elles se rangent en neuf sujets, présentés ici par thème. Chaque fiche indique si l'article a été repris ailleurs.
+
+Comment la presse de l'époque se recopie. Avant le télégraphe, et encore après, un journal reprend mot pour mot l'article d'un confrère en le citant (« St. Joseph Gazette », « St. Jo. Cycle », « Intell. »). Une seule nouvelle peut donc produire dix ou quinze pages. Ces reprises ne sont pas des témoignages indépendants : elles comptent pour une seule source. Les grandes séries de reprises sont les suivantes.
+• Mai-juin 1825 : récit de William Huddart sur « Mr. Rubideau » au Green River (Missouri Intelligencer de Franklin, puis 14 journaux de Washington à Pensacola).
+• Octobre-novembre 1842 : l'argent volé de Joseph est retrouvé (Missouri Republican, puis 8 journaux).
+• Mars 1845 : les Utes détruisent le fort Uintah (St. Louis Republican du 6 mars, puis 18 journaux en deux semaines).
+• Mai 1845 : on croit Antoine mort (Independence Expositor, puis 11 journaux). C'est une rumeur fausse, qui contredit la nouvelle de mars.
+• Septembre 1850 : meurtre de Charles (St. Joseph Gazette, puis 9 journaux).
+• Mai-juin 1855 : Michel revient des Plaines (St. Joseph Cycle, puis 10 journaux).
+• Avril 1859 : mort de Jeffrey Deroine (dépêche de Saint-Louis, 9 journaux).
+• Février-mai 1863 : le « cas de conscience » de Joseph (St. Joseph Herald, puis 4 journaux jusqu'en Californie).
+• Mai-juin 1868 : mort de Joseph (une quinzaine de notices, du Montana au Kentucky). Elles ne sont pas toutes identiques : chaque journal résume à sa façon.
+• Avril-juin 1927 : un feuilleton sur Kit Carson, publié dans une quinzaine de journaux, ne cite Antoine qu'en passant.
+
+Petites annonces répétées. Plusieurs séries de pages ne sont qu'une seule annonce publiée tous les jours :
+• Joseph vend sa propriété de la rue Main à Saint-Louis (Missouri Republican, 17 pages du 21 mai au 24 juin 1845), puis deux maisons entre les rues Elm et Myrtle (11 pages, août 1846).
+• Louis vend le rancho San Timoteo (San Bernardino Guardian, juin-juillet 1867).
+• Jules publie des annonces commerciales à Saint-Joseph (1853-1854).
+
+Homonymes et faux positifs à écarter :
+• La Montreal Gazette de 1827 cite un Antoine Robidoux voisin d'une terre saisie dans la seigneurie de Yamaska, au Québec. Ce n'est pas le traiteur.
+• Les Stollsteimer d'Ann Arbor, de Buffalo et de Brooklyn (1887-1913) appartiennent à une autre branche.
+• De 1888 à 1902, la St. Joseph Gazette mentionne surtout l'école, l'hôtel, la rue et l'immeuble Robidoux.
+• De 1891 à 1893, la Riverside Daily Enterprise parle presque toujours du mont Rubidoux et de l'ancien rancho.
+
+Premiers avis, années 1820 (Missouri Republican et Missouri Intelligencer) :
+• avis de succession où paraissent Michael Robideaux, Vitrai Papin et « F. Robideau » (mai 1820) ;
+• listes de lettres en souffrance au bureau de poste, au nom d'Isadore Robideaux (1821), de « J. & F. Robideaux » (1823) et de François Robideaux (1824-1825) ;
+• procès de « Frenays & Fontaine contre Jos. Robidoux et Angélique, sa femme, avec F. Robidoux et sa femme » (novembre 1823) ;
+• avis de dissolution de la société J. & F. Robidoux.`,
+  note: "Les articles n'ont pas d'OCR exploitable sur le site : ils ont été lus sur les images. La date d'un article est celle du numéro consulté, souvent quelques jours ou semaines après les faits.",
+  sources: 'Newspapers.com (abonnement de l\'auteur), recherches de novembre 2026.',
+  lieux: ['L120', 'L104', 'L29', 'L78', 'L38', 'L16', 'L31'] },
+
+// ---- Thème 1
+{ id: 'j-1825-green-river', type: 'journal', theme: "1. Les traiteurs dans l'Ouest", statut: 'transcription', ordre: 301, date: '19 avril 1825 (Washington, 23 mai 1825)', titre: '« Mr. Rubideau » abandonné sans un cheval au Green River',
+  personnes: ['Antoine', 'François', 'Michel'],
+  resume: "La première mention d'un Robidoux au-delà des Rocheuses dans la presse américaine : une attaque arapaho près du Green River, à l'automne 1824.",
+  texte: `« Franklin, Mo. April 19. William Huddard, who went to Santa Fe in one of the trading companies, last summer, has just returned, having left Taos on the 12th of January last. He gives us the following particulars: — On the 24th of August, he, in company with fourteen others, left Taos for the purpose of trapping for beaver, and travelled west thirty days. On Green River (probably the Rio Colorado of the West) the company separated, and nine ascended the river. Our informant was among those who remained; and in a few days they accidentally fell in with five other Americans, among whom was Mr. Rubideau. Two days after this junction, a large party of the Aripehoes attacked them, killed one person by the name of Nowlin, and robbed the others. The party of six then concluded to return to Taos, and left Mr. Rubideau and his men in the mountains without a single horse or mule. »
+
+— Traduction —
+Franklin (Missouri), 19 avril. William Huddart, parti l'été dernier pour Santa Fe avec une des compagnies de traite, vient de rentrer ; il a quitté Taos le 12 janvier. Le 24 août [1824], avec quatorze compagnons, il a quitté Taos pour piéger le castor et marché trente jours vers l'ouest. Sur le Green River (« sans doute le Rio Colorado de l'Ouest »), la compagnie s'est séparée et neuf hommes ont remonté la rivière. Ceux qui restaient ont rencontré par hasard cinq autres Américains, dont M. Rubideau. Deux jours plus tard, un fort parti d'Arapahos les a attaqués, a tué un certain Nowlin et les a dépouillés. Les six ont décidé de rentrer à Taos et ont laissé M. Rubideau et ses hommes dans les montagnes sans un cheval ni une mule.`,
+  note: "Le prénom n'est pas donné. Willoughby y voit Antoine, alors associé à Taos avec François. L'article cite aussi trois Américains tués au Nouveau-Mexique (Nance, Foot, Hadley).",
+  recoupements: "Le texte vient du Missouri Intelligencer de Franklin. Le Daily National Intelligencer de Washington le reprend le 23 mai 1825 (« Intell. »), puis 13 journaux le recopient mot pour mot entre le 23 mai et le 18 juin 1825 : Washington Gazette, Daily National Journal, Philadelphia Inquirer, United States Gazette, Harrisburg Chronicle, Herald and Torch Light, Pennsylvania Republican, Lancaster Intelligencer, Village Herald, Alexandria Gazette, Vermont Watchman, Sparta Review et Pensacola Gazette. C'est une seule source.",
+  sources: 'Daily National Intelligencer (Washington), 23 mai 1825, d\'après le Missouri Intelligencer (Newspapers.com).',
+  lieux: ['L120', 'L131'],
+  images: [{ src: 'images/journaux/1825-05-23-national-intelligencer-huddart-rubideau-green-river.jpg', legende: 'Daily National Intelligencer, 23 mai 1825 (Newspapers.com)' }] },
+
+{ id: 'j-1845-uintah', type: 'journal', theme: "1. Les traiteurs dans l'Ouest", statut: 'resume', ordre: 302, date: 'mars – mai 1845', titre: 'Le fort Uintah détruit, puis Antoine donné pour mort',
+  personnes: ['Antoine'],
+  resume: "Deux vagues de nouvelles en 1845 : en mars, les Utes prennent le fort Uintah et Antoine se réfugie au fort Uncompahgre ; en mai, on le croit mort.",
+  texte: `Mars 1845. Le St. Louis Republican du 6 mars, repris par le Washington Union du 18 mars (p. 3) et le Daily Madisonian du 19 mars, annonce que les Utes ont pris « le fort d'Antoine Robidoux sur la Wintae [Uintah] » et tué les traiteurs et les engagés. Antoine Robidoux s'est échappé vers son fort de la « Campagara » [Uncompahgre]. Les journaux y voient la vengeance du massacre de chefs utes à Santa Fe en août 1844.
+
+Mai 1845. Le 1er mai, le Louisville Daily Courier cite l'Independence Expositor du 17 avril. Des voyageurs arrivés de Santa Fe confirment « le massacre des traiteurs par les Utes ». On suppose qu'Antoine Robideaux a péri, car on est sans nouvelles de lui depuis l'hiver. La même dépêche signale la mort de Richard McCarty, d'Independence, à Santa Fe en février, et le vol de 165 mules par les Apaches sur la Jornada del Muerto.
+
+La rumeur était fausse. Antoine rentre à Saint-Joseph en 1845. Sa nécrologie de 1860 raconte qu'une expédition vers les montagnes, cette année-là, perdit cent à deux cents chevaux dans les tempêtes, et que Joseph envoya des secours qui le ramenèrent « dans un état déplorable ».`,
+  recoupements: "Mars : la nouvelle part du St. Louis Republican (6 mars) et passe en deux semaines dans 18 journaux, du Louisville Courier (12 mars) au Pittsburgh Post (22 mars) et au Spirit of Democracy (28 mars) : New York Herald, New-York Tribune, Brooklyn Eagle, Evening Post, Alexandria Gazette, Washington Union, Daily Madisonian, Buffalo Courier, Vicksburg Daily Whig… Mai : la rumeur de la mort d'Antoine est reprise par 11 journaux entre le 1er et le 14 mai (Boon's Lick Times, Baltimore Daily Commercial, Public Ledger, Niles' National Register, Holly Springs Gazette, Michigan Expositor…). Les deux séries sont deux sources distinctes, et la seconde dément en partie la première.",
+  sources: 'Washington Union, 18 mars 1845, p. 3 ; Louisville Daily Courier, 1er mai 1845 (Newspapers.com).',
+  lieux: ['L29', 'L23', 'L22', 'L30'],
+  images: [{ src: 'images/journaux/1845-03-18-washington-union-fort-uintah.jpg', legende: 'Washington Union, 18 mars 1845, p. 3 (Newspapers.com)' }] },
+
+{ id: 'j-1855-michel', type: 'journal', theme: "1. Les traiteurs dans l'Ouest", statut: 'transcription', ordre: 303, date: '25 mai 1855', titre: 'Michel Robidoux revient des Plaines',
+  personnes: ['Michel'],
+  resume: "Vingt-cinq jours après avoir quitté Laramie, Michel annonce une guerre indienne et décrit son poste, à soixante milles du fort.",
+  texte: `« From the Plains. Mr. Mitchell Robidoux has just returned from the Plains, (twenty-five days from Laramie,) and confirms our worst apprehensions of a terrible Indian war on our frontiers. The Indians everywhere are confederating, to offer active resistance to the Government troops, whose coming they eagerly anticipate. The leader of the Smoke band, well known to all traders, and a terror to all who know him, is acting the Tecumseh in banding them together. Delay at this juncture is dangerous. The four regiments should have been by this time on the Plains, to prevent a general coalition of all the different tribes. [...] Mr. Robidoux came in without detriment to person or property, save the loss of ten horses, stolen by the Ogalalies. The weather at his trading post, sixty miles from Laramie, has been, during the whole winter, extremely mild and pleasant; so much so, that during the months of January and February, he found it convenient to dispense with the usual fire. — St. Jo. Cycle. »
+
+— Traduction —
+M. Michel Robidoux revient des Plaines, à vingt-cinq jours de Laramie. Il confirme nos pires craintes d'une terrible guerre indienne. Partout, les Indiens se confédèrent pour résister aux troupes, dont ils attendent l'arrivée. Le chef de la bande de Smoke, bien connu des traiteurs et redouté de tous, joue les Tecumseh. Robidoux est rentré sain et sauf, mais les Oglalas lui ont volé dix chevaux. À son poste de traite, à soixante milles de Laramie, l'hiver a été si doux qu'il s'est passé de feu en janvier et en février.`,
+  note: "Le contexte est celui de l'affaire Grattan (août 1854) et de l'expédition Harney, qui aboutit au massacre de Blue Water (Ash Hollow) en septembre 1855. Le poste de Michel n'est pas localisé ; « soixante milles de Laramie » le place sans doute en aval sur la Platte Nord, vers Scotts Bluff.",
+  recoupements: "Le texte vient du St. Joseph Commercial Cycle (25 mai 1855). Il est repris tel quel par la Liberty Tribune (25 mai), le Tri-Weekly Washington (29 mai), le Columbia Herald-Statesman, le Washington Union et le Charleston Mercury (1er juin), le Kansas Herald of Freedom (2 juin), le Weekly Plain Dealer (6 juin), le Quad-City Times (7 juin) et le Weekly Arkansas Gazette (8 juin). C'est une seule source.",
+  sources: 'Liberty Tribune, 25 mai 1855, d\'après le St. Joseph Cycle (Newspapers.com).',
+  lieux: ['L157', 'L121', 'L92'],
+  images: [{ src: 'images/journaux/1855-05-25-liberty-tribune-michel-robidoux-plaines.jpg', legende: 'Liberty Tribune, 25 mai 1855 (Newspapers.com)' }] },
+
+{ id: 'j-1912-westwater', type: 'journal', theme: "1. Les traiteurs dans l'Ouest", statut: 'transcription', ordre: 304, date: '23 février 1912', titre: "Moab découvre l'inscription de Westwater",
+  personnes: ['Antoine'],
+  resume: "Des éleveurs retrouvent l'inscription d'Antoine dans les Book Cliffs ; le journal de Moab la publie, avec une traduction fantaisiste.",
+  texte: `« Message left by explorer found written on cliffs. A message left printed indelibly on a rocky wall of the Book Cliffs near Westwater by Antoine Robidoux, a French explorer who passed through Grand county in 1837, has been discovered by cattlemen in the Westwater country. The message is as follows: "ANTOINE ROBIDOUX PASSE ICI LE 13 NOVEMBRE 1837 POUR ESTBLIRE MAISON TRAITTE A LA RY VERT OU WIYTE." Translated, the message reads: "Antoine Robidous passed here the 13th of November, 1837, to establish a mission and bring a law to the reservation for the Uintah." The inscription is painted in red, at a point about 5 miles west of the Uintah railroad tracks and at the head of Bitter Creek canyon, which runs into the Grand river at Westwater, and at a place where the old Ute trail passes. »
+
+— Commentaire —
+La traduction du journal est fausse. Le texte signifie : « Antoine Robidoux est passé ici le 13 novembre 1837 pour établir une maison de traite à la rivière Verte ou Wiyte [White] ». C'est la plus ancienne publication connue de l'inscription, vingt et un ans avant l'article de Charles Kelly (1933). L'inscription est gravée, et non peinte.`,
+  recoupements: "Aucune reprise trouvée.",
+  sources: 'The Times-Independent (Moab, Utah), 23 février 1912 (Newspapers.com).',
+  lieux: ['L50'],
+  images: [{ src: 'images/journaux/1912-02-23-times-independent-inscription-westwater.jpg', legende: 'The Times-Independent (Moab), 23 février 1912 (Newspapers.com)' }] },
+
+// ---- Thème 2
+{ id: 'j-1842-vol', type: 'journal', theme: '2. Saint-Joseph, la ville du fondateur', statut: 'transcription', ordre: 311, date: '26 octobre 1842', titre: '« Stolen Money Recovered » : la justice du juge Lynch',
+  personnes: ['Joseph III'],
+  resume: "Huit jours après le vol, la presse de Saint-Louis annonce que l'argent est retrouvé, grâce à des aveux arrachés par la pendaison simulée et le fouet.",
+  texte: `« Stolen Money Recovered. — We are gratified to learn, that the money, of which Mr. Robidoux, residing at the Black Snake Hills, was robbed a few days since, has been recovered, with the exception of a small amount. The sum stolen was about $4,000. We have not learned all the particulars, but understand that the offenders were brought under the jurisdiction of Judge Lynch, and after trying the choaking and whipping process a short time, they confessed. »
+
+— Traduction —
+Nous apprenons avec plaisir que l'argent volé il y a quelques jours à M. Robidoux, des Black Snake Hills, a été retrouvé, sauf une petite somme. On avait volé environ 4 000 dollars. Nous ne connaissons pas tous les détails, mais les coupables ont été soumis à la juridiction du juge Lynch : après un moment d'étranglement et de fouet, ils ont avoué.`,
+  note: "Voir le document « Le vol des quatre mille dollars de Joseph Robidoux » pour le récit complet du Memorial (1924).",
+  recoupements: "Le texte vient du Missouri Republican (Saint-Louis). Il est repris par le Courier-Journal de Louisville (28 octobre et 7 novembre), le Jefferson Inquirer (3 novembre), le Columbia Herald-Statesman (4 et 11 novembre), le Daily National Intelligencer (4 novembre), le Knickerbocker News d'Albany (15 novembre) et le Fall River Argus (17 novembre). C'est une seule source.",
+  sources: 'Missouri Republican (Saint-Louis), 26 octobre 1842 (Newspapers.com).',
+  lieux: ['L104', 'L12'],
+  images: [{ src: 'images/journaux/1842-10-26-missouri-republican-argent-vole-recupere.jpg', legende: 'Missouri Republican, 26 octobre 1842 (Newspapers.com)' }] },
+
+{ id: 'j-1845-annonce', type: 'journal', theme: '2. Saint-Joseph, la ville du fondateur', statut: 'transcription', ordre: 312, date: '21 mai 1845 – août 1846', titre: 'Joseph vend ses maisons de Saint-Louis',
+  personnes: ['Joseph III'],
+  resume: "Au moment où sa ville prend son essor, Joseph met en vente ses biens de Saint-Louis contre de l'argent… et des marchandises de traite.",
+  texte: `« Valuable City Property for Sale. The subscriber will sell his property in the city of St. Louis, in block No. 5, containing 84 feet front on Main street, by 221 feet in depth. The whole of the property has valuable buildings on it, bringing a rent of $2,200 per year. He will sell the whole or one half, and take half in cash and the balance in Indian goods and groceries. JOSEPH ROBIDOUX. For further particulars, enquire of James Browne, No. 73 South Main street. » (Missouri Republican, 21 mai 1845, « m21 1m »)
+
+« Bargains. — The undersigned offers for [sale] one or two houses on Main or Front street, between Elm and Myrtle streets, for cash or merchandise. JOSEPH ROBIDOUX. » (Missouri Republican, août 1846, « au1 1m »)
+
+— Traduction —
+Propriété de valeur à vendre. Le soussigné vendra sa propriété de Saint-Louis, îlot n° 5 : 84 pieds de façade sur la rue Main, 221 pieds de profondeur. Elle porte des bâtiments de valeur qui rapportent 2 200 dollars de loyer par an. Il vendra le tout ou la moitié, payable pour moitié en argent comptant et pour le reste en marchandises de traite et en épicerie.`,
+  note: "L'îlot 5 est celui de la vieille maison familiale (la Council House de la rue Seconde, devenue rue Main). Le Memorial situe le jardin de Joseph à l'angle des rues Elms et Myrtle.",
+  recoupements: "Ce n'est pas une série d'articles mais une seule annonce payée pour un mois : 17 pages du Missouri Republican, du 21 mai au 24 juin 1845. La seconde annonce occupe 11 pages, du 5 au 31 août 1846.",
+  sources: 'Missouri Republican (Saint-Louis), 21 mai 1845 et 5 août 1846 (Newspapers.com).',
+  lieux: ['L155', 'L122'],
+  images: [{ src: 'images/journaux/1845-05-21-missouri-republican-annonce-propriete-joseph-robidoux.jpg', legende: 'Missouri Republican, 21 mai 1845 (Newspapers.com)' }] },
+
+{ id: 'j-1859-deroine', type: 'journal', theme: '2. Saint-Joseph, la ville du fondateur', statut: 'transcription', ordre: 313, date: '1er avril 1859', titre: 'La mort de Jeffrey Deroine, ancien esclave de Joseph',
+  personnes: ['Jeffrey Deroine', 'Joseph III'],
+  resume: "Une dépêche télégraphique de Saint-Louis résume une vie hors du commun : esclave, traiteur, interprète, reçu dans les cours d'Europe.",
+  texte: `« St. Louis, April 1. Jeffres Deron, formerly a slave of Joseph Robidoux, the founder of St. Joseph, died there yesterday. Deceased, by long association with his master in the Indian country, became an expert trader, and realized sufficient to purchase his freedom in 1835. He was then employed as government interpreter. In 1844 he accompanied a number of Iowa and Sacs and Fox Indian chiefs, under the charge of Col. Melody, to Europe. His interpretation of their language was so intelligent that he not only made a favorable impression upon all the dignitaries of foreign courts at which they were received, but it is said fascinated a lady of high rank. D'Israeli and other literati showed him marked attention. He returned to this country loaded with presents, having mastered several European languages during his visit. He has since served as interpreter to guide the U.S. exploring expeditions. »
+
+— Traduction —
+Jeffrey Deroine, ancien esclave de Joseph Robidoux, fondateur de Saint-Joseph, est mort hier [31 mars 1859] dans cette ville. À force de suivre son maître en pays indien, il était devenu un traiteur habile et avait gagné de quoi acheter sa liberté en 1835. Il fut ensuite interprète du gouvernement. En 1844, il accompagna en Europe des chefs ioways, sauks et renards conduits par le colonel Melody. Ses traductions firent si bonne impression dans les cours étrangères qu'il aurait, dit-on, séduit une dame de haut rang ; Disraeli et d'autres lettrés le remarquèrent. Il en revint chargé de présents et parlant plusieurs langues européennes. Il servit ensuite d'interprète aux expéditions d'exploration.`,
+  note: "Les archives (Willoughby, Olson) placent le rachat en 1832 (600 dollars versés à Joseph par l'agent Hughes) et un arrêt d'appel en 1835. La délégation ioway de 1844-1845 voyagea avec George Catlin à Londres, Paris et Bruxelles.",
+  recoupements: "C'est une seule dépêche télégraphique, reprise du 4 avril au 2 mai 1859 : Courier-Journal (Louisville), Knickerbocker News, Daily Gate City (Keokuk), Cleveland Leader, Keosauqua Republican, Lynchburg Daily Virginian, Liberty Tribune, Holt County News et The Recorder.",
+  sources: 'Courier-Journal (Louisville), 4 avril 1859 (Newspapers.com).',
+  lieux: ['L158', 'L159', 'L12'],
+  images: [{ src: 'images/journaux/1859-04-04-courier-journal-mort-jeffrey-deroine.jpg', legende: 'Courier-Journal, 4 avril 1859 (Newspapers.com)' }] },
+
+{ id: 'j-1863-conscience', type: 'journal', theme: '2. Saint-Joseph, la ville du fondateur', statut: 'transcription', ordre: 314, date: 'février – mai 1863', titre: 'Un cas de conscience : trois cents dollars rendus par un confesseur',
+  personnes: ['Joseph III'],
+  resume: "Un catholique de Saint-Louis avoue en confession avoir escroqué Joseph Robidoux ; le prêtre lui fait parvenir l'argent.",
+  texte: `« A Case of Conscience. — Joseph Robidoux, Sr., one of our oldest citizens, was lately in receipt of about three hundred dollars, the history of which will never be known. A Catholic in St. Louis, at confession, informed the Priest that he had defrauded Mr. Robidoux of that amount and made full restitution. The Priest remitted the same to its rightful owner. Mr. Robidoux has not the slightest idea of the name of the party, or the transaction out of which the affair could have sprung. — Who will say that the "monitor within" is not a faithful and persistent watcher over the acts of men? — St. Jos. Herald. »
+
+— Traduction —
+Un cas de conscience. Joseph Robidoux père, l'un de nos plus anciens citoyens, a reçu récemment environ trois cents dollars dont on ne connaîtra jamais l'histoire. À confesse, un catholique de Saint-Louis a avoué au prêtre avoir escroqué cette somme à M. Robidoux, et il l'a remboursée en entier. Le prêtre l'a remise à son légitime propriétaire. M. Robidoux n'a pas la moindre idée du nom de cette personne ni de l'affaire en cause. Qui dira que la « voix intérieure » ne veille pas fidèlement sur les actes des hommes ?`,
+  recoupements: "Le texte vient du St. Joseph Herald (février 1863). Il est repris par la Liberty Tribune (3 avril), le Missouri State Times (4 avril), le Clinton Republican (10 avril) et le Shasta Courier, en Californie (2 mai). C'est une seule source.",
+  sources: 'Liberty Tribune, 3 avril 1863, d\'après le St. Joseph Herald (Newspapers.com).',
+  lieux: ['L15', 'L108'],
+  images: [{ src: 'images/journaux/1863-04-03-liberty-tribune-cas-de-conscience.jpg', legende: 'Liberty Tribune, 3 avril 1863 (Newspapers.com)' }] },
+
+{ id: 'j-1866-anniversaire', type: 'journal', theme: '2. Saint-Joseph, la ville du fondateur', statut: 'transcription', ordre: 315, date: '3 août 1866', titre: 'Les deux fondateurs fêtent leurs quatre-vingt-deux ans',
+  personnes: ['Joseph III'],
+  resume: "Joseph Robidoux et John Patee, les deux « fondateurs » rivaux de Saint-Joseph, sont nés le même jour.",
+  texte: `« From St. Joseph. Special Dispatch to the Republican. St. Joseph, August 3. The two founders of our city Joseph Robidoux and John Patee yesterday celebrated their eighty-second birthday. The former was the first white man to penetrate the upper Missouri country, when St. Louis was a mere trading post. »
+
+— Traduction —
+Saint-Joseph, 3 août. Les deux fondateurs de notre ville, Joseph Robidoux et John Patee, ont fêté hier leur quatre-vingt-deuxième anniversaire. Le premier fut le premier Blanc à pénétrer dans le haut Missouri, quand Saint-Louis n'était encore qu'un comptoir.`,
+  note: "La dépêche donne le 2 août comme anniversaire de Joseph, ce qui confirme la date retenue par l'atlas (2 août 1783 ou 1784). John Patee, qui lança l'« addition Patee » au sud de la ville, est le promoteur du Patee House.",
+  recoupements: "Cette dépêche du Tri-Weekly Missouri Republican (6 août 1866) est reprise ou résumée par le Weekly Caucasian (8 août), The Landmark (10 août), le Weekly Tribune (16 août) et le Montana Post (22 septembre).",
+  sources: 'Tri-Weekly Missouri Republican, 6 août 1866 (Newspapers.com).',
+  lieux: ['L15', 'L04'] },
+
+// ---- Thème 3
+{ id: 'j-1850-charles', type: 'journal', theme: '3. Morts dans la famille du fondateur', statut: 'transcription', ordre: 321, date: '8 septembre 1850', titre: '« Serious Affair » : Charles Robidoux tué d\'un coup de fusil',
+  personnes: ['Joseph III'],
+  resume: "Une nuit de chahut finit mal : le fils cadet de Joseph est abattu depuis la fenêtre d'un magasin de la rue principale.",
+  texte: `« Serious Affair. A serious affair occurred in this place on Sunday evening last, the 8th inst., which resulted in the death of Charles Robidoux, son of Mr. Joseph Robidoux. The facts connected with this melancholy affair, are about these. On Sunday night, young Robidoux in company with other young men, were on the street engaged in a "frolic or a sort of carousal," as was stated by witnesses, and such as is frequently indulged in by a portion of our young men. About 11 or 12 o'clock they were making a noise along the street, rapping at some of the doors of the business houses, so as to awaken the clerks and others sleeping therein. This they did at the store room of D. & T. D. S. MacDonald. After leaving the door they went to a post set in the ground at the edge of the pavement, opposite the building, and commenced pulling it up. Before they succeeded in getting it out of the ground, some of the police appeared on the pavement, when the young man who was then in company with the deceased, left him and crossed the street, to the Edgar House. Young Robidoux still remained at the post, which he succeeded in removing. Placing it on his shoulder, he started towards the opposite side of the street, and when he had gone about one third of the distance, a gun was fired from the window in the second story of MacDonald's store. The load which consisted of shot of large size, took effect in the back part of the head, tearing it almost to atoms. He expired in a few minutes, not having spoken after he was shot, except to call the name of his companion, which he did two or three times. [...] Duncan MacDonald confessed that he had shot the gun, but as he states, with no intention of injuring any person, as he knew no person then on the street. He is now undergoing examination before Esquires Wash and Tracy, which will probably be concluded to-day. Charles Robidoux was a young man much respected in this place, and his death is a source of great regret to his friends and numerous acquaintances. — St. Joseph Gazette. »
+
+— Résumé —
+Le dimanche 8 septembre 1850, vers minuit, Charles Robidoux et d'autres jeunes gens font du chahut dans la rue et frappent aux portes des magasins pour réveiller les commis. Devant le magasin de D. & T. D. S. MacDonald, ils arrachent un poteau planté au bord du trottoir. La police arrive, le compagnon de Charles s'enfuit vers l'Edgar House. Charles traverse la rue, le poteau sur l'épaule. Un coup de fusil chargé de gros plomb, tiré d'une fenêtre de l'étage, l'atteint à l'arrière de la tête. Il meurt en quelques minutes en appelant son ami. Duncan MacDonald avoue avoir tiré, sans intention de blesser quelqu'un, dit-il. Il comparaît devant les juges de paix Wash et Tracy.`,
+  recoupements: "Le texte vient de la St. Joseph Gazette. Il est repris par la Frontier Guardian de Kanesville (18 septembre), la Liberty Tribune et le Missouri Telegraph (20 septembre), le Tri-Weekly Missouri Republican (21 septembre), le Journal and Courier et le Weekly Pioneer (26 septembre), le Missouri Republican (27 septembre), le Jefferson Inquirer (28 septembre) et le Monmouth Atlas (11 octobre). C'est une seule source.",
+  sources: 'Liberty Tribune, 20 septembre 1850, d\'après la St. Joseph Gazette (Newspapers.com).',
+  lieux: ['L78'],
+  images: [{ src: 'images/journaux/1850-09-20-liberty-tribune-mort-charles-robidoux.jpg', legende: 'Liberty Tribune, 20 septembre 1850 (Newspapers.com)' }] },
+
+{ id: 'j-1860-antoine', type: 'journal', theme: '3. Morts dans la famille du fondateur', statut: 'resume', ordre: 322, date: '1er septembre 1860', titre: "La nécrologie d'Antoine dans la presse de Saint-Louis",
+  personnes: ['Antoine', 'Carmel Benavides'],
+  resume: "Trois jours après la parution de la notice de la St. Joseph Gazette, le Missouri Republican la reproduit en entier.",
+  texte: `Le texte est celui de la St. Joseph Gazette du 30 août 1860, transcrit et traduit dans le document « Nécrologie d'Antoine Robidoux ». La version de Saint-Louis est lisible là où la copie du Los Angeles Star ne l'est pas. Elle confirme deux lectures :
+• « In 1856 he went to Washington and remained there a year, arranging some business with the Government » : il s'agit de la pension de 1856 ;
+• « He was found in a most deplorable condition and saved » : l'épisode des tempêtes de 1845.
+
+Le portrait final dit : « Mr. Robidoux was a very remarkable man — tall, slender, athletic and agile. »`,
+  recoupements: "Cinq journaux reproduisent la même notice entre le 1er et le 29 septembre 1860 : Missouri Republican, Daily Gate City (Keokuk, 5 septembre), Liberty Tribune (7 septembre), Cleveland Leader (18 septembre, deux éditions) et Los Angeles Star (29 septembre). C'est une seule source.",
+  sources: 'Missouri Republican (Saint-Louis), 1er septembre 1860, d\'après la St. Joseph Gazette du 30 août (Newspapers.com).',
+  lieux: ['L38', 'L84', 'L32'],
+  images: [{ src: 'images/journaux/1860-09-01-missouri-republican-mort-antoine-robidoux.jpg', legende: 'Missouri Republican, 1er septembre 1860 (Newspapers.com)' }] },
+
+{ id: 'j-1868-joseph', type: 'journal', theme: '3. Morts dans la famille du fondateur', statut: 'transcription', ordre: 323, date: '27 mai – juin 1868', titre: 'La mort du fondateur, « mort relativement pauvre »',
+  personnes: ['Joseph III'],
+  resume: "Les journaux de la région rendent compte de la mort de Joseph en quelques lignes, sans complaisance : sa fortune lui avait échappé.",
+  texte: `« Death of an Old Citizen of St. Joseph. — Joseph Robidoux, the first inhabitant and founder of St. Joseph, died in that city last Wednesday morning, at the age of 84. He was taken ill during the night, having retired in apparent good health. Mr. Robidoux established an Indian trading post at that place nearly sixty years ago, and has resided there ever since. After he laid off the ground into town lots he became wealthy, but most of it passed out of his hands years ago, and he died comparatively poor. His children and grand children are numerous. »
+
+— Traduction —
+Joseph Robidoux, premier habitant et fondateur de Saint-Joseph, est mort dans cette ville mercredi matin [27 mai 1868], à 84 ans. Il s'était couché en bonne santé apparente et fut pris de malaise dans la nuit. Il avait fondé là un comptoir de traite il y a près de soixante ans et y avait toujours vécu. Le lotissement de ses terres l'avait enrichi, mais il avait perdu depuis longtemps la plus grande partie de sa fortune et il meurt relativement pauvre. Ses enfants et petits-enfants sont nombreux.`,
+  recoupements: "Une quinzaine de journaux annoncent la mort entre le 28 mai et le 19 juin 1868 : Gallatin North Missourian, Tri-Weekly Missouri Republican, Omaha Herald, Nebraska City News (deux fois), Brookfield Gazette, Courier-Journal, Platte County Reveille, Richmond Conservator, Warrensburg Journal, Freeport Journal, Montana Post (deux éditions). Ce sont des résumés de la nouvelle partie de Saint-Joseph, pas un texte unique : les détails varient (âge de 84 ou 85 ans).",
+  sources: 'Liberty Tribune, 5 juin 1868 (Newspapers.com).',
+  lieux: ['L16', 'L47'],
+  images: [{ src: 'images/journaux/1868-06-05-liberty-tribune-mort-joseph-robidoux.jpg', legende: 'Liberty Tribune, 5 juin 1868 (Newspapers.com)' }] },
+
+{ id: 'j-1875-jules', type: 'journal', theme: '3. Morts dans la famille du fondateur', statut: 'transcription', ordre: 324, date: '26 février 1875', titre: 'Jules-César Robidoux, juge de paix et marchand',
+  personnes: ['Jules', 'Joseph III'],
+  resume: "La notice de la St. Joseph Gazette, reprise à Saint-Louis, résume la vie du troisième fils de Joseph.",
+  texte: `« Death of Julius C. Robidoux, Sr. Mr. Julius C. Robidoux, Sr., a native of St. Louis, and well and favorably known to all our citizens of forty years ago, died at his residence in St. Joseph, Mo., on the 26th ult. The Gazette gives the following sketch of his life: Joseph C. Robidoux, Sr., was the third son of Joseph Robidoux, the founder of St. Joseph, and was born in St. Louis in 1816. After receiving a good education at the St. Louis University he came to St. Joseph, in the year 1836, and clerked for his father, who then kept an Indian store on Black Snake Hills. After the city was laid out by his father, he opened the first store in St. Joseph for the settlers, and also started two more, one at White Hall, now called Jimtown, and the other at Savanna. He continued in business in St. Joseph for fifteen years, accumulating a large fortune. In 1858 he was appointed Justice of the Peace, and was elected for two terms, making ten years. He justly earned the title of being one of the most competent and popular Justices Buchanan County ever had. In 1838 Mr. Robidoux was married, at Carondelet, in St. Louis County, to Miss Elizabeth Barada, by whom he had twelve children — six still living. Mr. Robidoux was a charitable man, giving bountifully to the poor, and assisting with a helping hand all those who were needy and in want. He was enterprising, as the number of public houses he has erected testifies, and as a man he bore a character above reproach. [...] For many years Mr. Robidoux has been a consistent member of the Catholic Church, and died the death of a Christian. He had been sick for about three months, and was confined for a month to his bed. His disease was consumption. His funeral will take place from his late residence, on Edmond, between Fourth and Fifth streets, Sunday evening at 1:30 o'clock. »
+
+— Résumé —
+Troisième fils de Joseph, né à Saint-Louis en 1816 (la Gazette écrit par erreur « Joseph C. »), Jules étudie à l'université Saint-Louis et arrive en 1836 aux Black Snake Hills comme commis de son père. Il ouvre le premier magasin de Saint-Joseph, puis deux autres, à White Hall (Jimtown) et à Savannah, et fait fortune en quinze ans. Juge de paix de 1858 à 1868, il épouse en 1838 à Carondelet Elizabeth Barada, qui lui donne douze enfants, dont six vivent encore. Il est charitable et catholique. Il meurt de consomption chez lui, rue Edmond, entre les rues Quatre et Cinq.`,
+  recoupements: "La notice de la St. Joseph Gazette est reprise par le St. Louis Globe-Democrat (1er mars 1875). Le Weekly Democrat-Forum de Maryville (4 mars) et l'Andrew County Republican (5 mars) publient des notices plus brèves.",
+  sources: 'St. Louis Globe-Democrat, 1er mars 1875, d\'après la St. Joseph Gazette (Newspapers.com).',
+  lieux: ['L31', 'L108', 'L109', 'L110'],
+  images: [{ src: 'images/journaux/1875-03-01-st-louis-globe-democrat-mort-jules-robidoux.jpg', legende: 'St. Louis Globe-Democrat, 1er mars 1875 (Newspapers.com)' }] },
+
+// ---- Thème 4
+{ id: 'j-louis-californie', type: 'journal', theme: '4. Louis en Californie', statut: 'resume', ordre: 331, date: '1860 – 1868', titre: 'Don Louis Robidoux dans la presse du sud de la Californie',
+  personnes: ['Louis'],
+  resume: "Le Los Angeles Star et le San Bernardino Guardian montrent Louis parmi les grandes fortunes du comté, puis vendant ses terres.",
+  texte: `4 août 1860, Los Angeles Star. Un correspondant de San Bernardino, qui signe « Civis », publie le rôle d'imposition établi par l'assesseur adjoint F. G. J. Margetson. Parmi « nos citoyens les plus riches » : Rains & Carlisle, 43 071 dollars ; Louis Robidoux, 14 000 dollars ; Abel Stearns, 9 250 dollars ; James W. Waters, 8 875 dollars ; la succession de Bernardo Yorba, 10 135 dollars.
+
+22 juin 1867, San Bernardino Guardian (annonce répétée quatre semaines) : « Valuable Rancho for Sale. The fine and well known Rancho of San Timoteo, situated in San Bernardino County, is offered for sale, a bargain. It is well watered with never failing springs; a handsome Dwelling House, and Out-Houses attached, and known as the "Robidoux Rancho." This property contains one league of land, and is a desirable investment to those wishing to purchase land. Title perfect. For further particulars, apply to LOUIS ROBIDOUX, Jurupé Rancho, or to A. PARKS, San Bernardino, Cal. »
+(Traduction : beau rancho de San Timoteo, bien arrosé par des sources intarissables, avec une belle maison et ses dépendances, connu sous le nom de « rancho Robidoux » ; une lieue de terre ; titre parfait.)
+
+6 juin 1868, San Bernardino Guardian. Une description du comté, en suivant la Santa Ana vers l'ouest, arrive au « Jurupé Rancho, owned in part by Don Louis Robidoux, and now under the management of his agent, Arthur Parks ». C'est l'une des meilleures terres du comté : la rivière permet d'irriguer toutes les terres arables, et les peupliers de la rive fournissent le bois. Louis meurt trois mois plus tard, le 24 septembre 1868.`,
+  recoupements: "L'annonce de 1867 paraît les 22 juin, 6 juillet et 27 juillet : c'est une seule annonce. Aucun autre journal ne reprend ces textes.",
+  sources: 'Los Angeles Star, 4 août 1860 ; San Bernardino Guardian, 22 juin 1867 et 6 juin 1868 (Newspapers.com).',
+  lieux: ['L87', 'L156', 'L34', 'L59'],
+  images: [{ src: 'images/journaux/1867-06-22-san-bernardino-guardian-rancho-san-timoteo-a-vendre.jpg', legende: 'San Bernardino Guardian, 22 juin 1867 (Newspapers.com)' }] },
+
+// ---- Thème 5
+{ id: 'j-1904-elizabeth', type: 'journal', theme: '5. Les descendants', statut: 'resume', ordre: 341, date: '28 septembre 1904', titre: 'Elizabeth Barada Robidoux, « la première femme blanche » de Saint-Joseph',
+  personnes: ['Jules'],
+  resume: "La veuve de Jules meurt à Denver à 84 ans ; on la ramène à Saint-Joseph, et l'on parle déjà de réunir la famille sous un seul monument.",
+  texte: `La St. Joseph Gazette du 28 septembre 1904 (p. 6) titre par erreur « Was Daughter of Joseph Robidoux ». C'est en fait la nécrologie d'Elizabeth Barada, veuve de Jules, morte à Denver à 84 ans.
+
+Venue à Saint-Joseph en 1838 comme jeune épouse de Jules, elle est présentée comme la première femme blanche de la ville. Elle part en 1893 vivre chez son fils Louis à Kansas City. Lors du cinquantenaire de Saint-Joseph, on lui offre des lunettes en or.
+
+Les funérailles partent de la maison du capitaine Joseph Thompson, 2206 rue Charles, et l'inhumation a lieu à Mount Olivet. Elle laisse un fils, Louis (Kansas City), et trois filles : Mme Thomas Conway (Saint-Louis), Mme L. F. Thacker (Los Angeles) et Mme Edwin Tappan (Denver). L'article évoque le projet de transférer les restes de la famille à Mount Olivet, sous un seul monument. Le transfert sera fait en 1908.`,
+  recoupements: "Aucune reprise trouvée.",
+  sources: 'St. Joseph Gazette, 28 septembre 1904, p. 6 (Newspapers.com).',
+  lieux: ['L47', 'L31', 'L145'] },
+
+{ id: 'j-1886-stollsteimer', type: 'journal', theme: '5. Les descendants', statut: 'resume', ordre: 342, date: '15 mars 1886', titre: "L'agent Stollsteimer et le déplacement des Utes du Sud",
+  personnes: ['Amanda Barada'],
+  resume: "Le mari d'Amanda, agent des Utes du Sud, se prononce pour le transfert de la réserve en Utah.",
+  texte: `Le Santa Fe New Mexican du 15 mars 1886 (« The Ute Lands ») s'adresse aux lecteurs du pays de San Juan : ils seront heureux d'apprendre l'avis de l'agent Stollsteimer sur le probable déplacement des Utes du Sud. Le journal cite le Denver News : on demande qu'une commission choisisse en Utah une nouvelle résidence pour les Utes du Sud, et le Congrès sera prié de voter une loi.
+
+Christian F. Stollsteimer, l'époux d'Amanda Barada, petite-fille adoptive d'Antoine, ne peut dire où les Indiens iraient. Il croit qu'ils trouveraient de bons pâturages en Utah et seraient plus heureux loin des Blancs. Selon lui, on réussit mal à faire des Utes des cultivateurs, mais ils font de bons éleveurs. La terre qu'ils quitteraient serait parmi les meilleures du Colorado pour l'agriculture et l'élevage.`,
+  note: "Le projet échoue. La réserve des Utes du Sud est divisée en lots en 1895-1899 (voir le lieu « Durango : l'ouverture de la réserve ute »).",
+  recoupements: "Le passage du Denver News est repris par le New Mexican. Les autres pages de 1887-1913 qui citent un Stollsteimer (Ann Arbor, Buffalo, Brooklyn) concernent une autre famille.",
+  sources: 'Santa Fe New Mexican, 15 mars 1886 (Newspapers.com).',
+  lieux: ['L126', 'L96'] },
+
+{ id: 'j-1916-amanda', type: 'journal', theme: '5. Les descendants', statut: 'transcription', ordre: 343, date: '14 décembre 1916', titre: 'La mort d\'Amanda Stollsteimer à Pasadena',
+  personnes: ['Amanda Barada'],
+  resume: "Une courte notice nécrologique donne l'adresse d'Amanda et les noms de ses six enfants.",
+  texte: `« Mrs. Amanda Stollsteimer. Mrs. Amanda Stollsteimer, a native of Missouri, aged 64 years, died yesterday afternoon at her home, 1710 Las Lunas street. She had lived in California three years and in Pasadena for six months. She leaves six children, C. A. Stollsteimer, Harry S. Stollsteimer and Tony S. Stollsteimer of Denver; Mrs. Lena S. Archulrat of San Diego, Mrs. A. L. Knorr and Mrs. Tom Accord of Pasadena. Funeral services will be held at 9 o'clock tomorrow at St. Andrew's church with burial at Mountain View. Arrangements are in charge of Ives & Warren Company. »
+
+— Traduction —
+Mme Amanda Stollsteimer, née au Missouri, 64 ans, est morte hier après-midi [13 décembre 1916] chez elle, au 1710 rue Las Lunas. Elle vivait en Californie depuis trois ans et à Pasadena depuis six mois. Elle laisse six enfants : C. A., Harry S. et Tony S. Stollsteimer, de Denver ; Mme Lena S. Archuleta, de San Diego ; Mme A. L. Knorr et Mme Tom Accord, de Pasadena. Les funérailles auront lieu demain à 9 heures à l'église St. Andrew, et l'inhumation au cimetière Mountain View.`,
+  note: "« Archulrat » est une coquille pour Archuleta.",
+  recoupements: "Aucune reprise trouvée.",
+  sources: 'Pasadena Star-News, 14 décembre 1916 (Newspapers.com).',
+  lieux: ['L160', 'L72'],
+  images: [{ src: 'images/journaux/1916-12-14-pasadena-star-news-mort-amanda-stollsteimer.jpg', legende: 'Pasadena Star-News, 14 décembre 1916 (Newspapers.com)' }] },
+
+{ id: 'j-1923-louis', type: 'journal', theme: '5. Les descendants', statut: 'transcription', ordre: 344, date: '7 février 1923', titre: '« Death of a Robidoux » : Louis, le petit-fils',
+  personnes: ['Jules'],
+  resume: "Le petit-fils du fondateur, tenancier de saloon puis homme d'affaires de Kansas City, meurt d'apoplexie ; c'est lui qui avait fait transférer le corps de Joseph à Mount Olivet.",
+  texte: `« Death of a Robidoux. Grandson of founder of St. Joseph is no more. Stroke of apoplexy suffered by Louis Robidoux three weeks ago proves fatal — will be buried at Morrill, Kan., tomorrow. Louis Robidoux, grandson of Joseph Robidoux, founder of St. Joseph, and who lived here until young manhood, died late yesterday at his home in Kansas City. Death followed a stroke of apoplexy suffered three weeks ago. Louis Robidoux was a son of Julius Caesar Robidoux, the first postmaster and for many years a justice of the peace of St. Joseph. For years Louis Robidoux was in the saloon business in Kansas City. He used to visit St. Joseph several times a year. It was Louis Robidoux who had the body of Joseph Robidoux moved from old Calvary Cemetery, in South Park, to Mount Olivet Cemetery. Joseph Robidoux visited the site of St. Joseph as early as 1804. Antoine Robidoux, a great uncle of Louis Robidoux, blazed the first white man's trail to Colorado and members of the family made their way across the Utah pass to Riverside, Cal. Louis Robidoux was sixty-eight years old, and lived in St. Joseph until he was twenty-seven, when he moved to Kansas City and established a saloon on Union avenue, opposite the old Union Station, where he is said to have amassed a comfortable fortune. Until the last several years he was active as a Democrat in Kansas City ward politics. The funeral service will be conducted at 10 o'clock tomorrow morning in Our Lady of Good Counsel Church, Kansas City, and burial will be in Morrill, Kan. There are several relatives of Louis Robidoux living in St. Joseph and vicinity. Mrs. F. J. Hamaker, on Cook road, just north of the city, is a niece. Her mother, Emma Robidoux, was the wife of Joseph Thompson, for many years a clerk in the postoffice here. Mrs. B. F. Ellis, Mrs. Fannie Perry and Miss Delia Beauvais, all of whom live here, are children of Mr. and Mrs. G. Beauvais. Mrs. Beauvais was Sylvanie Robidoux, a daughter of Joseph Robidoux. Mrs. Orel Robidoux, the widow, is the only immediate survivor of Louis Robidoux. When a squad of Kansas City firemen under Chief George C. Hale went to England and France to give demonstrations, twenty-five years ago, Louis Robidoux accompanied them as a delegate from Kansas City, and carried credentials from James A. Reed, then mayor of Kansas City. »
+
+— Résumé —
+Louis Robidoux, fils de Jules-César (premier maître de poste et longtemps juge de paix de Saint-Joseph), meurt le 6 février 1923 à Kansas City, trois semaines après une attaque d'apoplexie. Il a vécu à Saint-Joseph jusqu'à 27 ans, puis a tenu un saloon avenue Union, en face de l'ancienne gare, et a été actif dans la politique démocrate. C'est lui qui fit transférer le corps de Joseph du vieux cimetière du Calvaire à Mount Olivet. Il est inhumé à Morrill (Kansas). Il laisse une veuve, Orral, et des neveux et nièces Thompson et Beauvais.`,
+  note: "Plusieurs affirmations sont inexactes : Joseph n'est pas venu « dès 1804 », et la famille n'a pas gagné Riverside par un « col de l'Utah ». Le voyage des pompiers de Kansas City est celui de 1893 (Londres) ou de l'Exposition de Paris de 1900. Le Memorial, publié l'année suivante par la veuve, développe toute cette biographie.",
+  recoupements: "D'autres journaux publient des notices indépendantes, plus courtes : Nebraska City News et Falls City Daily News (9 février), Catholic Tribune (10 février), Sabetha Herald (15 février). La mention du Riverside Daily Press (23 février) montre que la famille était encore connue en Californie.",
+  sources: 'St. Joseph News-Press, 7 février 1923 (Newspapers.com).',
+  lieux: ['L145', 'L161', 'L47'],
+  images: [{ src: 'images/journaux/1923-02-07-st-joseph-news-press-mort-louis-robidoux.jpg', legende: 'St. Joseph News-Press, 7 février 1923 (Newspapers.com)' }] },
+
+// ---- Thème 6
+{ id: 'j-memoire', type: 'journal', theme: '6. La mémoire de la famille (1924-1930)', statut: 'resume', ordre: 351, date: '1924 – 1930', titre: 'Le Memorial dans le Kansas City Star et l\'histoire de Miles Cannon',
+  personnes: ['Joseph III', 'Antoine', 'Louis'],
+  resume: "La parution du Memorial (1924) vaut aux Robidoux une pleine page dans le Kansas City Star ; en 1930, Riverside raconte à son tour la famille.",
+  texte: `16 octobre 1924, Kansas City Star : « A French Canadian Family Among Western Pathfinders ». Le sous-titre annonce un « Recent Memorial History of the Robidoux Family », qui raconte la carrière de Joseph et de ses cinq frères. L'article énumère les lieux qui portent le nom :
+• le mont Robidoux, au-dessus des orangeraies de Riverside ;
+• une rivière et une ville du Colorado ;
+• des cols au Nouveau-Mexique, en Utah et au Wyoming ;
+• à Saint-Joseph, l'hôtel, l'école, les maisons de commerce et un mémorial à la Chambre de commerce.
+
+Il cite ensuite la description, par Mme Robidoux, du vieux Saint-Louis français : le jardin clos de murs de pierre à l'angle des rues Elms et Myrtle, la maison de Joseph derrière son portail. Il retrace la traite de Joseph avec les Otoes, les Ioways, les Pawnees et les Sauks jusqu'en 1831, et le rachat en 1833 du vieux poste de l'American Fur Company aux Black Snake Hills. De là, ses frères Antoine, Isidore, François, Michel et Louis auraient lancé leurs caravanes de chariots Conestoga. La maison de Joseph, à l'angle nord-est des rues Main et Jule, accueillit Kit Carson, Frémont et Jim Bridger. La page est illustrée d'un portrait de Joseph et de dessins (vapeur, comptoir).
+
+8 novembre 1930, Riverside Daily Press : pleine page de Miles Cannon, « Recounts Early History ». Elle part de la mention d'un Robidoux dans le journal de Lewis et Clark (1804) et suit Joseph de la traite à Saint-Joseph, jusqu'au transfert de 1908 à Mount Olivet. Un intertitre « Others in Family » présente Antoine (« de onze ans son cadet ») et Louis (« de treize ans »), placés sous la tutelle de leur aîné. Les frères ont établi à Taos une station centrale, où Louis était le facteur en chef pendant qu'Antoine parcourait les montagnes.`,
+  note: "Ces articles de vulgarisation reprennent le Memorial et contiennent des erreurs (première maison « en 1803 », écarts d'âge). Ils montrent comment la mémoire familiale s'est fixée dans les années 1920.",
+  recoupements: "L'article du Kansas City Star est le compte rendu du Memorial (1924) : il n'apporte pas de source nouvelle. Le Kansas City Journal (11 mai 1924) et le Riverside Daily Press (30 octobre 1924) parlent aussi du livre. Le feuilleton sur Kit Carson d'avril-juin 1927, publié dans une quinzaine de journaux (Oakland Tribune, Cincinnati Enquirer, Daily Oklahoman, Arizona Republic, Fort Worth Star-Telegram…), cite seulement « Bridger, the Sublettes, Fitzpatrick and Antoine Robidoux ».",
+  sources: 'Kansas City Star, 16 octobre 1924 ; Riverside Daily Press, 8 novembre 1930 (Newspapers.com).',
+  lieux: ['L15', 'L62', 'L12', 'L47'],
+  images: [{ src: 'images/journaux/1924-10-16-kansas-city-star-famille-canadienne-francaise.jpg', legende: 'Kansas City Star, 16 octobre 1924 (Newspapers.com)' }] },
+
 ];
