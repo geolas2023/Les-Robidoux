@@ -901,7 +901,7 @@ L('L172', "Santa Fe : les chefs utes, le gouverneur Martínez et les trappeurs d
 
 L('L173', "Robidoux's Landing : les missionnaires jésuites, puis la première église de Saint-Joseph (1838-1847)", -94.8500, 39.7660, '1838/1847-06-17', 'annee', 'approximative', 'joseph3',
   "L'historien de l'archidiocèse décrit le site, cent ans plus tôt, comme des collines boisées avec la cabane du traiteur Joseph Robidoux (le troisième du nom) et un débarcadère ; Robidoux, qui y acquiert la terre en 1830, la fait lotir et la ville compte 20 000 habitants en 1864. Les jésuites de la mission kickapoue y passent les premiers : De Smet en mai 1838, puis Eysvogels, qui baptise en 1842 « aux Black Snake Hills (Robidoux's Landing) ». Le premier curé résident, Thomas Scanlon, arrive le 25 octobre 1845 ; De Smet, de passage le 23 novembre 1846, compte 350 maisons et une population d'Américains, de Créoles français, d'Irlandais et d'Allemands. L'église, au coin des rues Fifth et Felix, est dédiée le 17 juin 1847.",
-  f"{ROT28}, ch. 8, p. 99-101.",
+  f"{ROT28}, chapitre « St. Joseph and the Platte Purchase ».",
   "Rothensteiner place l'achat de la terre en 1830, avant la ratification du Platte Purchase (1836) : à recouper avec les lettres patentes de 1843 (L15).")
 
 # ------------------------------------------------------------------ Recensements (ménages relevés sur Ancestry)
