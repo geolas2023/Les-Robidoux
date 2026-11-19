@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Les membres de la famille — Atlas Robidoux</title>
+<meta name="author" content="Olivier J. Caron, Département de géographie, UQAM">
+<link rel="icon" href="images/coureur-des-bois.svg" type="image/svg+xml">
+<link rel="stylesheet" href="https://unpkg.com/maplibre-gl@5/dist/maplibre-gl.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&family=IM+Fell+English+SC&display=swap">
+<style>
+* { box-sizing: border-box; }
+html, body { margin: 0; font-family: Georgia, "Times New Roman", serif; color: #2b2620; background: #f4efe6; }
+a { color: #6b3f12; }
+.barre { display: flex; align-items: center; gap: 1rem; padding: .5rem 1rem; background: #3b3328; color: #f4efe6; flex-wrap: wrap; position: sticky; top: 0; z-index: 20; }
+.barre img { height: 40px; }
+.barre h1 { font-family: "IM Fell English", Georgia, serif; font-size: 1.25rem; margin: 0; font-weight: normal; }
+.barre h1 span { opacity: .7; }
+.barre a { color: #f0d9a8; font-size: .9rem; }
+.barre .esp { flex: 1; }
+.onglets { position: sticky; top: 56px; z-index: 15; background: #e6dccb; border-bottom: 1px solid #c9bba3; display: flex; gap: .25rem; overflow-x: auto; padding: .45rem .6rem 0; scrollbar-width: thin; }
+.onglets button { flex: 0 0 auto; font: inherit; font-size: .88rem; background: #efe9dd; color: #4d4436; border: 1px solid #c9bba3; border-bottom: 0; border-radius: 5px 5px 0 0; padding: .3rem .7rem .35rem; cursor: pointer; text-align: left; line-height: 1.15; }
+.onglets button small { display: block; font-size: .7rem; color: #7a6d59; }
+.onglets button.actif { background: #f4efe6; color: #2b2620; font-weight: bold; position: relative; top: 1px; }
+main { max-width: 74rem; margin: 0 auto; padding: 1.2rem 1.2rem 4rem; }
+.hero { display: grid; grid-template-columns: 220px 1fr; gap: 1.4rem; align-items: start; }
+.hero img { width: 100%; border: 4px double #c8b48c; background: #fff; cursor: zoom-in; }
+.hero .vide { aspect-ratio: 3/4; border: 4px double #c8b48c; display: flex; align-items: center; justify-content: center; background: #efe6d4; }
+.hero .vide img { width: 60%; border: 0; opacity: .5; cursor: default; }
+.hero h2 { font-family: "IM Fell English", Georgia, serif; font-weight: normal; font-size: 2rem; margin: 0 0 .2rem; }
+.hero .dates { color: #6b604f; margin: 0 0 .6rem; }
+.hero .resume { font-size: 1.08rem; font-style: italic; border-left: 3px solid #c8903e; padding: .2rem 0 .2rem .8rem; margin: 0 0 .8rem; }
+.chiffres { display: flex; flex-wrap: wrap; gap: .4rem; }
+.chiffres a { text-decoration: none; background: #faf7f1; border: 1px solid #b9ab92; border-radius: 3px; padding: .15rem .55rem; color: #3b3328; font-size: .88rem; }
+.chiffres a:hover { background: #ead9b9; }
+section { margin-top: 2rem; scroll-margin-top: 120px; }
+section > h3 { font-family: "IM Fell English SC", Georgia, serif; font-weight: normal; font-size: 1.3rem; margin: 0 0 .7rem; border-bottom: 1px solid #c9bba3; padding-bottom: .2rem; }
+.recit p { line-height: 1.65; font-size: 1.04rem; margin: 0 0 .85rem; max-width: 52rem; }
+.sources { font-size: .85rem; color: #6b604f; max-width: 52rem; }
+.galerie { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: .9rem; }
+.galerie figure { margin: 0; }
+.galerie img { width: 100%; height: 200px; object-fit: cover; object-position: top; border: 1px solid #c9bba3; background: #fff; cursor: zoom-in; box-shadow: 0 2px 5px rgba(0,0,0,.1); }
+.galerie figcaption { font-size: .76rem; color: #6b604f; margin-top: .25rem; line-height: 1.3; }
+.carte-famille { height: 420px; border: 1px solid #c9bba3; border-radius: 3px; }
+.lieux-liste { list-style: none; padding: 0; margin: .8rem 0 0; columns: 2 22rem; column-gap: 2rem; }
+.lieux-liste li { break-inside: avoid; margin: 0 0 .45rem; font-size: .92rem; display: flex; gap: .5rem; }
+.lieux-liste .an { flex: 0 0 4.6rem; color: #6b604f; font-variant-numeric: tabular-nums; }
+.lieux-liste .pt { flex: 0 0 .7rem; height: .7rem; border-radius: 50%; margin-top: .3rem; border: 1px solid #fff; box-shadow: 0 0 0 1px #8a7a60; }
+.recens { background: #fffdf8; border: 1px solid #e0d5c2; border-left: 4px solid #8a6d3b; padding: .6rem .8rem; margin: 0 0 .8rem; }
+.recens .tete { display: flex; gap: .8rem; flex-wrap: wrap; align-items: baseline; }
+.recens .an { font-family: "IM Fell English", Georgia, serif; font-size: 1.25rem; }
+.recens .carte a { font-size: .82rem; }
+.recens table { border-collapse: collapse; width: 100%; font-size: .86rem; margin-top: .4rem; }
+.recens th, .recens td { text-align: left; padding: .15rem .4rem; border-bottom: 1px solid #ece3d3; vertical-align: top; }
+.recens th { font-weight: normal; color: #6b604f; font-size: .78rem; }
+.recens tr.cible td { background: #f6ead2; font-weight: bold; }
+.recens .src { font-size: .78rem; color: #6b604f; margin-top: .3rem; }
+.actes { padding-left: 1.1rem; max-width: 56rem; }
+.actes li { margin: 0 0 .45rem; line-height: 1.45; }
+.actes .src { color: #6b604f; font-size: .8rem; }
+details.doc { background: #fffdf8; border: 1px solid #e0d5c2; border-radius: 3px; margin: 0 0 .6rem; }
+details.doc summary { cursor: pointer; padding: .55rem .8rem; list-style: none; }
+details.doc summary::-webkit-details-marker { display: none; }
+details.doc summary::before { content: "▸ "; color: #8a6d3b; }
+details.doc[open] summary::before { content: "▾ "; }
+details.doc summary .t { font-weight: bold; }
+details.doc summary .d { color: #6b604f; font-size: .85rem; }
+details.doc summary .r { display: block; font-size: .88rem; color: #4d4436; font-style: italic; margin-top: .15rem; }
+details.doc .corps { padding: 0 1rem 1rem; }
+details.doc .corps .texte p { line-height: 1.55; margin: 0 0 .7rem; }
+details.doc .corps .texte.document { font-family: "IM Fell English", Georgia, serif; white-space: pre-wrap; font-size: 1.05rem; line-height: 1.5; }
+details.doc .corps img { max-width: 260px; max-height: 260px; border: 1px solid #c9bba3; margin: 0 .6rem .6rem 0; cursor: zoom-in; }
+.pastille { font-size: .7rem; padding: 0 .35rem; border-radius: 3px; background: #e6dccb; margin-left: .3rem; }
+.avert { font-size: .85rem; background: #f3e3c3; padding: .5rem .7rem; border-radius: 3px; max-width: 56rem; }
+.lightbox { position: fixed; inset: 0; z-index: 1100; background: rgba(25, 18, 10, .9); display: flex; align-items: center; justify-content: center; padding: 1rem; }
+.lightbox[hidden] { display: none; }
+.lightbox figure { margin: 0; display: flex; flex-direction: column; align-items: center; }
+.lightbox img { max-width: 94vw; max-height: 84vh; background: #fff; border: 4px double #c8b48c; }
+.lightbox figcaption { color: #f1e4c4; font-style: italic; text-align: center; margin-top: .5rem; max-width: 60rem; }
+.lightbox button { position: absolute; top: .6rem; background: transparent; border: 0; color: #f1e4c4; font-size: 1.8rem; cursor: pointer; }
+#lb-fermer { right: .9rem; } #lb-prec { left: .6rem; top: 45%; } #lb-suiv { right: .6rem; top: 45%; }
+@media (max-width: 760px) {
+  .hero { grid-template-columns: 1fr; }
+  .hero > div:first-child { max-width: 240px; }
+  .onglets { top: 0; position: relative; }
+  .barre { position: relative; }
+  main { padding: 1rem 16px 3rem; }
+}
+</style>
+</head>
+<body>
+<header class="barre">
+  <img src="images/coureur-des-bois-clair.svg" alt="">
+  <h1>Les membres de la famille <span>· Robidoux, 1720–1916</span></h1>
+  <span class="esp"></span>
+  <a href="salle-de-lecture.html">📜 Salle de lecture</a>
+  <a href="inscriptions.html">🪨 Les inscriptions</a>
+  <a href="index.html">← Retour à la carte</a>
+</header>
+<nav class="onglets" id="onglets" role="tablist" aria-label="Membres de la famille"></nav>
+<main id="page"></main>
+<div id="lightbox" class="lightbox" hidden role="dialog" aria-modal="true" aria-label="Image agrandie">
+  <button type="button" id="lb-fermer" aria-label="Fermer">✕</button>
+  <button type="button" id="lb-prec" aria-label="Image précédente">‹</button>
+  <button type="button" id="lb-suiv" aria-label="Image suivante">›</button>
+  <figure><img id="lb-image" src="" alt=""><figcaption id="lb-legende"></figcaption></figure>
+</div>
+<script src="https://unpkg.com/maplibre-gl@5/dist/maplibre-gl.js"></script>
+<script src="js/salle.js?v=3"></script>
+<script src="js/dossiers.js?v=2"></script>
+<script src="js/recensements.js?v=2"></script>
+<script src="js/famille.js?v=1"></script>
+</body>
+</html>

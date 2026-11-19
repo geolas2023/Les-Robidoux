@@ -110,6 +110,7 @@ main { display: grid; grid-template-columns: 360px 1fr; min-height: 0; }
   <img src="images/coureur-des-bois-clair.svg" alt="">
   <h1>Salle de lecture <span>· la famille Robidoux, 1720–1916</span></h1>
   <span class="esp"></span>
+  <a href="famille.html">👪 Les membres de la famille</a>
   <a href="inscriptions.html">🪨 Les inscriptions</a>
   <a href="index.html">← Retour à la carte</a>
   <a href="https://geolas2023.github.io/Atlas-Les-Canadiens-Fran-ais-de-l-Ouest/">⚜ Atlas de l'Amérique française</a>
@@ -142,9 +143,9 @@ main { display: grid; grid-template-columns: 360px 1fr; min-height: 0; }
   <button type="button" id="lb-fermer" aria-label="Fermer">✕</button>
   <figure><img id="lb-image" src="" alt=""><figcaption id="lb-legende"></figcaption></figure>
 </div>
-<script src="js/salle.js?v=2"></script>
-<script src="js/dossiers.js?v=1"></script>
-<script src="js/recensements.js?v=1"></script>
+<script src="js/salle.js?v=3"></script>
+<script src="js/dossiers.js?v=2"></script>
+<script src="js/recensements.js?v=2"></script>
 <script>
 const GENRES = { portrait: 'Portraits de famille', document: 'Documents', etude: 'Études du dossier', journal: 'Dans les journaux (Newspapers.com)' };
 const STATUTS = { biographie: 'biographie', transcription: 'transcription', traduction: 'traduction', resume: 'résumé', fiche: 'fiche' };
@@ -188,7 +189,8 @@ function afficher(i) {
   const nd = i.type === 'portrait' ? nbDocuments(i) : 0;
   const tabs = i.type === 'portrait' ? `<div class="onglets" role="tablist">
       <button type="button" role="tab" data-o="bio" class="${onglet === 'bio' ? 'actif' : ''}">Biographie</button>
-      <button type="button" role="tab" data-o="documents" class="${onglet === 'documents' ? 'actif' : ''}">Documents trouvés (${nd})</button></div>` : '';
+      <button type="button" role="tab" data-o="documents" class="${onglet === 'documents' ? 'actif' : ''}">Documents trouvés (${nd})</button>
+      <a href="famille.html#${i.id}" style="margin-left:auto;align-self:center;font-size:.88rem">👪 Page complète de la personne →</a></div>` : '';
   const enTete = `<h2>${esc(i.titre)}</h2>
     <p class="meta">${esc(i.date)} · ${GENRES[i.type]} · <span class="pastille p-${i.statut}">${STATUTS[i.statut]}</span>${(i.personnes || []).length ? ' · ' + esc(i.personnes.join(', ')) : ''}</p>${tabs}`;
   const navHtml = `<div class="nav">
