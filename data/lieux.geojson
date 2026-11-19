@@ -4635,6 +4635,56 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     -91.141,
+     43.0517
+    ]
+   },
+   "properties": {
+    "id": "L174",
+    "nom": "Prairie du Chien : le baptême du feu d'Antoine, milicien contre les Anglais (guerre de 1812)",
+    "debut": 1814.5,
+    "fin": 1814.5,
+    "date_edtf": "1814~",
+    "precision": "circa",
+    "certitude": "approximative",
+    "categorie": "antoine",
+    "description": "Pendant la guerre de 1812, Antoine Robidoux connaît son baptême du feu comme milicien face aux Anglais à la Prairie du Chien, au confluent du Mississippi et de la Wisconsin : les Robidoux s'affichent dans le camp américain. Après son service, il reprend la traite avec Michel, Pierre-Isidore et François dans le Haut-Missouri (Kansas, Iowa, Nebraska actuels), chez les Otoes, les Osages, les Poncas et les Omahas, en ravitaillant le poste familial de Council Bluffs dirigé par Joseph III, avant de se tourner vers le Sud-Ouest vers 1822.",
+    "sources": "S. Bouchard et M.-C. Lévesque, Ils ont couru l'Amérique (Montréal, Lux, 2014), ch. « Hommes des montagnes : Provost, Chalifoux, Robidoux ».",
+    "note": "Le livre ne date pas l'engagement ; la Prairie du Chien est prise par les Américains en juin 1814 puis reprise par les Britanniques en juillet. Point au site du fort Shelby.",
+    "type": "lieu",
+    "images": []
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -90.187,
+     38.628
+    ]
+   },
+   "properties": {
+    "id": "L175",
+    "nom": "Saint-Louis : Joseph II, Jean Lafitte et l'associé John Jacob Astor (vers 1799-1809)",
+    "debut": 1799.5,
+    "fin": 1809.5,
+    "date_edtf": "1799/1809",
+    "precision": "annee",
+    "certitude": "hypothetique",
+    "categorie": "joseph2",
+    "description": "Bouchard et Lévesque décrivent Joseph II comme un homme d'affaires toujours endetté envers ses créanciers de La Nouvelle-Orléans, mais entreprenant : ami des Chouteau, en relation avec le corsaire Jean Lafitte, qui approvisionne le pays des Illinois en esclaves venus des Caraïbes, et associé dès 1799 du New-Yorkais John Jacob Astor. Devenu aveugle à cinquante-trois ans, il fait de ses six fils ses partenaires ; il laisse à sa mort une boulangerie, un moulin et des terres.",
+    "sources": "S. Bouchard et M.-C. Lévesque, Ils ont couru l'Amérique (Montréal, Lux, 2014), ch. « Hommes des montagnes : Provost, Chalifoux, Robidoux ».",
+    "note": "Le lien avec Lafitte n'est pas documenté ailleurs dans l'atlas ; à vérifier. Point symbolique au vieux Saint-Louis.",
+    "type": "lieu",
+    "images": []
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      -94.846,
      39.768
     ]

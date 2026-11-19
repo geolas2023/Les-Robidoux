@@ -63,6 +63,7 @@ KNI = "J. H. Knipmeyer, « The Denis Julien Inscriptions », Utah Historical Qua
 KNB = "J. H. Knipmeyer, Butch Cassidy Was Here: Historic Inscriptions of the Colorado Plateau (University of Utah Press, 2002)"
 ADV = "adventr.co, « Denis Julien Inscriptions » (photographies de terrain)"
 NRH = "National Register of Historic Places"
+BOU = "S. Bouchard et M.-C. Lévesque, Ils ont couru l'Amérique (Montréal, Lux, 2014), ch. « Hommes des montagnes : Provost, Chalifoux, Robidoux »"
 
 def dec(edtf):
     d = edtf.replace('~', '').replace('?', '')
@@ -903,6 +904,14 @@ L('L173', "Robidoux's Landing : les missionnaires jésuites, puis la première �
   "L'historien de l'archidiocèse décrit le site, cent ans plus tôt, comme des collines boisées avec la cabane du traiteur Joseph Robidoux (le troisième du nom) et un débarcadère ; Robidoux, qui y acquiert la terre en 1830, la fait lotir et la ville compte 20 000 habitants en 1864. Les jésuites de la mission kickapoue y passent les premiers : De Smet en mai 1838, puis Eysvogels, qui baptise en 1842 « aux Black Snake Hills (Robidoux's Landing) ». Le premier curé résident, Thomas Scanlon, arrive le 25 octobre 1845 ; De Smet, de passage le 23 novembre 1846, compte 350 maisons et une population d'Américains, de Créoles français, d'Irlandais et d'Allemands. L'église, au coin des rues Fifth et Felix, est dédiée le 17 juin 1847.",
   f"{ROT28}, chapitre « St. Joseph and the Platte Purchase ».",
   "Rothensteiner place l'achat de la terre en 1830, avant la ratification du Platte Purchase (1836) : à recouper avec les lettres patentes de 1843 (L15).")
+
+# ------------------------------------------------------------------ Bouchard et Lévesque (2014)
+L('L174', "Prairie du Chien : le baptême du feu d'Antoine, milicien contre les Anglais (guerre de 1812)", -91.1410, 43.0517, '1814~', 'circa', 'approximative', 'antoine',
+  "Pendant la guerre de 1812, Antoine Robidoux connaît son baptême du feu comme milicien face aux Anglais à la Prairie du Chien, au confluent du Mississippi et de la Wisconsin : les Robidoux s'affichent dans le camp américain. Après son service, il reprend la traite avec Michel, Pierre-Isidore et François dans le Haut-Missouri (Kansas, Iowa, Nebraska actuels), chez les Otoes, les Osages, les Poncas et les Omahas, en ravitaillant le poste familial de Council Bluffs dirigé par Joseph III, avant de se tourner vers le Sud-Ouest vers 1822.",
+  f"{BOU}.", "Le livre ne date pas l'engagement ; la Prairie du Chien est prise par les Américains en juin 1814 puis reprise par les Britanniques en juillet. Point au site du fort Shelby.")
+L('L175', "Saint-Louis : Joseph II, Jean Lafitte et l'associé John Jacob Astor (vers 1799-1809)", -90.1870, 38.6280, '1799/1809', 'annee', 'hypothetique', 'joseph2',
+  "Bouchard et Lévesque décrivent Joseph II comme un homme d'affaires toujours endetté envers ses créanciers de La Nouvelle-Orléans, mais entreprenant : ami des Chouteau, en relation avec le corsaire Jean Lafitte, qui approvisionne le pays des Illinois en esclaves venus des Caraïbes, et associé dès 1799 du New-Yorkais John Jacob Astor. Devenu aveugle à cinquante-trois ans, il fait de ses six fils ses partenaires ; il laisse à sa mort une boulangerie, un moulin et des terres.",
+  f"{BOU}.", "Le lien avec Lafitte n'est pas documenté ailleurs dans l'atlas ; à vérifier. Point symbolique au vieux Saint-Louis.")
 
 # ------------------------------------------------------------------ Recensements (ménages relevés sur Ancestry)
 import sys as _sys; _sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
