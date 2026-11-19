@@ -172,7 +172,8 @@ Le couple vit à Conejos (1870), puis élève bétail et moutons sur la Piedra, 
 
 Veuve en 1906, Amanda meurt d'un cancer le 15 décembre 1916 chez sa fille Stella, à Altadena (Californie), et repose au cimetière Mountain View ; sa tombe porte « Manda Stollsteimer, 1852-1917 » selon une note de l'auteur. Le Pagosa Springs Sun salue une pionnière du comté.`,
   sources: `Descendants of Johannes Stollsteimer (généalogie, 2025) ; Pagosa Springs History Museum ; Fort Lewis College, Prospectus TCP San Juan ; recensement de 1870 (Ancestry) ; Biblio.txt (dossier de l'auteur).`,
-  lieux: ['L66', 'L67', 'L68', 'L69', 'L70', 'L96', 'L72'] },
+  lieux: ['L66', 'L67', 'L68', 'L69', 'L70', 'L96', 'L72'],
+  images: [{ src: 'images/photos/amanda-barada-stollsteimer-portrait.jpg', legende: 'Amanda Marie Barada Stollsteimer, portrait reproduit par A. Oldham (dossier de l\'auteur)' }] },
 
 { id: 'mary', type: 'portrait', statut: 'biographie', ordre: 16, date: 'v. 1805 – 1884', titre: 'Mary Many Days et White Cloud',
   personnes: ['Mary Many Days', 'White Cloud'],
@@ -502,7 +503,9 @@ Cinq semaines plus tard, Christian redescend à Santa Fe avec un chariot de cali
 Les souvenirs du fils Harry, recueillis par Ila Montroy, ajoutent qu'Amanda parlait couramment anglais, français et espagnol, et qu'elle sermonna le bandit Charles Allison, venu dîner chez elle sous escorte du shérif.`,
   note: "Le journal original appartient aux descendants ; Ann Oldham en a publié des extraits en 2000 (« Stollsteimer Chronik »). Les pages photographiées dans le dossier de l'auteur sont protégées : seules de brèves citations sont traduites ici.",
   sources: "A. Oldham, « Stollsteimer Chronik » (2000), p. 46-55 ; I. Montroy, « Colonel C. T. Stollsteimer », p. 56-57 ; nécrologies d'Archuleta County (p. 227) ; pages photographiées dans le dossier de l'auteur (dossier Armanda_Maria_Baracha).",
-  lieux: ['L124', 'L67', 'L68', 'L125', 'L69', 'L126', 'L127', 'L72'] },
+  lieux: ['L124', 'L67', 'L68', 'L125', 'L69', 'L126', 'L127', 'L72'],
+  images: [{ src: 'images/photos/amanda-barada-stollsteimer-portrait.jpg', legende: 'Amanda Marie Barada Stollsteimer (1852-1916)' },
+           { src: 'images/photos/christian-f-stollsteimer-portrait.jpg', legende: 'Christian Friedrich Stollsteimer (1842-1906)' }] },
 
 { id: 'e-memorial-1924', type: 'etude', statut: 'fiche', ordre: 206, date: '1924', titre: 'O. M. Robidoux, Memorial to the Robidoux Brothers',
   personnes: ['Joseph III', 'Antoine', 'Louis', 'Michel', 'François', 'Isidore', 'Jules', 'Carmel Benavides'],

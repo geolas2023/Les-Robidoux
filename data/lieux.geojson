@@ -3241,7 +3241,12 @@
     "sources": "A. Oldham, « Stollsteimer Chronik » (2000), d'après le journal de Christian F. Stollsteimer, pages photographiées dans le dossier de l'auteur, p. 48-50.",
     "note": "Le journal de Christian est le seul témoignage direct connu d'une visite chez Carmel. Les nécrologies et les souvenirs de Harry Stollsteimer datent le mariage du 21 avril 1869.",
     "type": "lieu",
-    "images": []
+    "images": [
+     {
+      "src": "images/photos/amanda-barada-stollsteimer-portrait.jpg",
+      "legende": "Amanda Marie Barada (née à Saint-Joseph le 26 juin 1852), petite-fille adoptive d'Antoine et de Carmel ; portrait reproduit par A. Oldham, « Stollsteimer Chronik » (dossier de l'auteur)"
+     }
+    ]
    }
   },
   {
@@ -3291,7 +3296,12 @@
     "sources": "A. Oldham, « Stollsteimer Chronik » (2000), d'après le journal de Christian F. Stollsteimer, pages photographiées dans le dossier de l'auteur, p. 51-54 ; I. Montroy, « Colonel C. T. Stollsteimer », d'après les souvenirs de Harry Stollsteimer (pages photographiées dans le dossier de l'auteur), p. 57.",
     "note": "Point placé à l'agence d'Ignacio ; la famille habite alors Durango.",
     "type": "lieu",
-    "images": []
+    "images": [
+     {
+      "src": "images/photos/christian-f-stollsteimer-portrait.jpg",
+      "legende": "Christian Friedrich Stollsteimer (1842-1906), agent des Utes du Sud ; portrait reproduit par A. Oldham, « Stollsteimer Chronik » (dossier de l'auteur)"
+     }
+    ]
    }
   },
   {

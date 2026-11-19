@@ -76,6 +76,8 @@ def COM(fichier, legende):
 def LOC(fichier, legende):
     return {"src": f"images/photos/{fichier}", "legende": legende}
 IMAGES = {
+  'L124': [LOC("amanda-barada-stollsteimer-portrait.jpg", "Amanda Marie Barada (née à Saint-Joseph le 26 juin 1852), petite-fille adoptive d'Antoine et de Carmel ; portrait reproduit par A. Oldham, « Stollsteimer Chronik » (dossier de l'auteur)")],
+  'L126': [LOC("christian-f-stollsteimer-portrait.jpg", "Christian Friedrich Stollsteimer (1842-1906), agent des Utes du Sud ; portrait reproduit par A. Oldham, « Stollsteimer Chronik » (dossier de l'auteur)")],
   'L01': [COM("View of St. Louis from the Illinois shore - 1842 - DPLA - e4086a5fc6aaedd147830fbedfbaa7a1.jpg", "Saint-Louis vue de la rive illinoise, 1842")],
   'L03': [COM("Old Cahokia Courthouse.JPG", "Cahokia : l'ancien palais de justice, maison à poteaux du village français, v. 1740")],
   'L10': [COM("Fort Michilimackinac.jpg", "Fort Michilimackinac reconstitué (Mackinaw City)")],
