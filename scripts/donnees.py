@@ -584,7 +584,8 @@ L('L110', "Carondelet : Jules épouse Elizabeth Barada", -90.2585, 38.56, '1838-
   f"{ROB}, p. 225, 284.")
 L('L111', "Athens (Albany) : la boutique de François B. Robidoux", -94.331, 40.248, '1843/1857', 'annee', 'approximative', 'famille',
   "En 1843, François Belevere Robidoux, fils de Joseph, construit la première maison de commerce d'Athens, chef-lieu du comté de Gentry (aujourd'hui Albany), et y tient un magasin général ; il est secrétaire de la loge maçonnique de 1852 à 1857, puis vend à un autre Français et rentre à Saint-Louis. Jeune homme, il avait franchi avec son oncle Antoine le col Robidoux du Huerfano.",
-  f"{ROB}, p. 226.")
+  f"{ROB}, p. 226 ; U.S., Newspapers.com Obituary Index (Ancestry, coll. 61843) : avis de décès de « [F]rancis B. Robidoux », résidant à Albany, Bethany Star (Bethany, Missouri), 29 mars 1860.",
+  "Le Memorial le fait rentrer à Saint-Louis ; l'index des nécrologies suggère plutôt qu'il meurt vers mars 1860, toujours domicilié à Albany (texte de l'avis non consulté, réservé aux abonnés).")
 L('L112', "St. Marys : Octavia, fille de Michel", -96.071, 39.194, '1839/1888', 'annee', 'approximative', 'freres',
   "Michel Robidoux et Susanne Vaudry ont deux filles, Sophia et Octavia (née en 1839), élèves en 1845 du séminaire de jeunes filles de Mrs Landis, première école privée de Saint-Joseph. Octavia devient « Madame Robidoux », religieuse du Sacré-Cœur à Saint-Joseph et à la mission de St. Marys (Kansas), puis au couvent de Chicago, où elle meurt vers 1886-1888. Sophia épouse Charles J. Kathrens.",
   f"{ROB}, p. 122, 283.")
