@@ -375,6 +375,7 @@
 1 NOTE Fils d'Eugénie Delisle ; traiteur ; vit sur la réserve ioway (No Heart Agency).
 1 FAMC @F6@
 1 FAMS @F15@
+1 NOTE Registres de la vieille cathédrale de Saint-Louis, collection Drouin (Ancestry, coll. 1111) : baptisé le 8 juil. 1810, né le 26 mai 1809 de Joseph Robidoux et Eugénie Delisle (d13p_34510292)
 0 @I30@ INDI
 1 NAME Mary /Many Days/
 2 GIVN Mary
@@ -449,6 +450,7 @@
 1 NOTE Avis de décès, Bethany Star, 29 mars 1860 (index Newspapers.com).
 1 FAMC @F7@
 1 FAMS @F17@
+1 NOTE Registres de la vieille cathédrale de Saint-Louis, collection Drouin (Ancestry, coll. 1111) : né le 29 oct. 1817, baptisé le 25 févr. 1818 (d13p_34510389)
 0 @I35@ INDI
 1 NAME Rosine /Guion/
 2 GIVN Rosine
@@ -468,6 +470,7 @@
 1 OCCU Marchand, greffier municipal
 1 FAMC @F7@
 1 FAMS @F18@
+1 NOTE Registres de la vieille cathédrale de Saint-Louis, collection Drouin (Ancestry, coll. 1111) : baptisé le 5 mai 1820 (d13p_34510428)
 0 @I37@ INDI
 1 NAME Catherine /Smith/
 2 GIVN Catherine
@@ -489,6 +492,7 @@
 2 PLAC Saint-Louis, Missouri, USA
 1 FAMC @F7@
 1 FAMS @F19@
+1 NOTE Registres de la vieille cathédrale de Saint-Louis, collection Drouin (Ancestry, coll. 1111) : né le 11 mai 1825, baptisé le 12 mai 1825 (d13p_34510515)
 0 @I39@ INDI
 1 NAME Martha C. /Riddle/
 2 GIVN Martha C.
@@ -505,6 +509,7 @@
 2 PLAC Saint-Louis, Missouri, USA
 1 FAMC @F7@
 1 FAMS @F20@
+1 NOTE Registres de la vieille cathédrale de Saint-Louis, collection Drouin (Ancestry, coll. 1111) : ondoyée sous le nom de Marie Agnès, née le 10 mars 1827, cérémonies suppléées le 21 juil. 1832 (d13p_34510646) ; mariée le 26 avril 1847 à Francis A. Beauvais sous le nom de Sylvanie Agnès (d13p_34530262)
 0 @I41@ INDI
 1 NAME Francis A. /Beauvais/
 2 GIVN Francis A.
@@ -530,6 +535,7 @@
 2 PLAC Saint-Joseph, Missouri, USA
 2 NOTE Tué d'un coup de fusil tiré du magasin MacDonald (Liberty Tribune, 20 sept. 1850)
 2 NOTE Source : Newspapers.com
+1 NOTE Registres de la vieille cathédrale de Saint-Louis, collection Drouin (Ancestry, coll. 1111) : né le 10 juil. 1831, baptisé le 21 juil. 1832 (d13p_34510646)
 0 @I43@ INDI
 1 NAME Elizabeth (Isabel) /Barada/
 2 GIVN Elizabeth (Isabel)
@@ -683,6 +689,7 @@
 1 SEX F
 1 FAMC @F8@
 1 FAMS @F23@
+1 NOTE Registres de la vieille cathédrale de Saint-Louis, collection Drouin (Ancestry, coll. 1111) : née le 26 août 1818, baptisée le 29 août 1818 (d13p_34510399) ; mariée le 25 janv. 1836 à James Brown (d13p_34530003)
 0 @I57@ INDI
 1 NAME Isidore /Poulin/
 2 GIVN Isidore
@@ -708,6 +715,7 @@
 1 SEX F
 1 FAMC @F8@
 1 FAMS @F24@
+1 NOTE Registres de la vieille cathédrale de Saint-Louis, collection Drouin (Ancestry, coll. 1111) : née le 15 avril 1809, baptisée le 8 juil. 1810 (d13p_34510293)
 0 @I61@ INDI
 1 NAME John /Angle/
 2 GIVN John
@@ -720,6 +728,7 @@
 2 SURN Robidoux
 1 SEX F
 1 FAMC @F8@
+1 NOTE Registres de la vieille cathédrale de Saint-Louis, collection Drouin (Ancestry, coll. 1111) : née le 20 nov. 1824, baptisée le 19 juin 1825 (d13p_34510517) ; mariée le 3 janv. 1842 à John McDowell (d13p_34530154)
 0 @I63@ INDI
 1 NAME Louis /Robidoux/
 2 GIVN Louis
@@ -730,6 +739,7 @@
 2 PLAC Saint-Louis, Missouri, USA
 1 NOTE Baptisé à Saint-Louis le 12 août 1820.
 1 FAMC @F10@
+1 NOTE Registres de la vieille cathédrale de Saint-Louis, collection Drouin (Ancestry, coll. 1111) : né le 6 [oct.] 1820, baptisé le 10 oct. 1820, fils d'Isidore et de Julie (d13p_34510436)
 0 @I64@ INDI
 1 NAME Franklin /Robidoux/
 2 GIVN Franklin
@@ -940,6 +950,7 @@
 1 SEX F
 1 FAMC @F13@
 1 FAMS @F29@
+1 NOTE Registres de la vieille cathédrale de Saint-Louis, collection Drouin (Ancestry, coll. 1111) : baptisée Agnès Sophie, née le 11 juil. 1832, fille de Michel et Suzanne Vaudry (d13p_34510648)
 0 @I87@ INDI
 1 NAME Charles J. /Kathrens/
 2 GIVN Charles J.
@@ -1328,6 +1339,7 @@
 1 MARR
 2 DATE 1800
 2 PLAC Saint-Louis, Missouri, USA
+1 CHIL @I155@
 0 @F7@ FAM
 1 HUSB @I11@
 1 WIFE @I13@
@@ -1342,6 +1354,7 @@
 1 MARR
 2 DATE 1813
 1 CHIL @I143@
+1 CHIL @I156@
 0 @F8@ FAM
 1 HUSB @I15@
 1 WIFE @I16@
@@ -1353,6 +1366,9 @@
 1 MARR
 2 DATE 1807
 2 PLAC Saint-Louis, Missouri, USA
+1 CHIL @I152@
+1 CHIL @I153@
+1 CHIL @I154@
 0 @F9@ FAM
 1 HUSB @I15@
 1 WIFE @I55@
@@ -1391,6 +1407,7 @@
 1 MARR
 2 DATE 22 JUN 1825
 2 PLAC Saint-Louis, Missouri, USA
+1 CHIL @I157@
 0 @F14@ FAM
 1 HUSB @I28@
 1 WIFE @I27@
@@ -1413,6 +1430,8 @@
 2 PLAC Carondelet, Missouri, USA
 1 CHIL @I137@
 1 CHIL @I138@
+1 CHIL @I158@
+1 CHIL @I159@
 0 @F17@ FAM
 1 HUSB @I34@
 1 WIFE @I35@
@@ -1730,4 +1749,68 @@
 1 CHIL @I149@
 1 CHIL @I150@
 1 CHIL @I151@
+0 @I152@ INDI
+1 NAME François /Robidoux/
+1 SEX M
+1 BIRT
+2 DATE 6 APR 1811
+2 PLAC Saint-Louis, Missouri, USA
+1 NOTE Registres de la vieille cathédrale de Saint-Louis, collection Drouin (Ancestry, coll. 1111) : baptisé le 21 févr. 1812 (image d13p_34510307)
+1 FAMC @F8@
+0 @I153@ INDI
+1 NAME Antoine /Robidoux/
+1 SEX M
+1 BIRT
+2 DATE 24 AUG 1816
+2 PLAC Saint-Louis, Missouri, USA
+1 NOTE Registres de la vieille cathédrale de Saint-Louis, collection Drouin (Ancestry, coll. 1111) : baptisé le 6 mars 1817 (image d13p_34510379)
+1 FAMC @F8@
+0 @I154@ INDI
+1 NAME Joseph /Robidoux/
+1 SEX M
+1 BIRT
+2 DATE 23 JUL 1820
+2 PLAC Saint-Louis, Missouri, USA
+1 NOTE Registres de la vieille cathédrale de Saint-Louis, collection Drouin (Ancestry, coll. 1111) : baptisé le 24 juil. 1820 (image d13p_34510432)
+1 FAMC @F8@
+0 @I155@ INDI
+1 NAME Thérèse Caroline /Robidoux/
+1 SEX F
+1 BIRT
+2 DATE 17 JUN 1807
+2 PLAC Saint-Louis, Missouri, USA
+1 NOTE Registres de la vieille cathédrale de Saint-Louis, collection Drouin (Ancestry, coll. 1111) : baptisée en août 1807, fille de Joseph Robidoux et d'Eugénie Bienvenu [Delisle] (image d13p_34510270)
+1 FAMC @F6@
+0 @I156@ INDI
+1 NAME Antoine /Robidoux/
+1 SEX M
+1 BIRT
+2 DATE ABT 1813
+2 PLAC Saint-Louis, Missouri, USA
+1 NOTE Registres de la vieille cathédrale de Saint-Louis, collection Drouin (Ancestry, coll. 1111) : baptisé sous condition le 2 mai 1816 ; date de naissance lue « 2 novembre 1813 », lecture incertaine (image d13p_34510373)
+1 FAMC @F7@
+0 @I157@ INDI
+1 NAME Pélagie /Robidoux/
+1 SEX F
+1 BIRT
+2 DATE 9 MAY 1839
+2 PLAC Saint-Louis, Missouri, USA
+1 NOTE Registres de la vieille cathédrale de Saint-Louis, collection Drouin (Ancestry, coll. 1111) : baptisée le 26 août 1839 (image d13p_34510789)
+1 FAMC @F13@
+0 @I158@ INDI
+1 NAME Joseph /Robidoux/
+1 SEX M
+1 BIRT
+2 DATE 1839
+2 PLAC Saint-Louis, Missouri, USA
+1 NOTE Registres de la vieille cathédrale de Saint-Louis, collection Drouin (Ancestry, coll. 1111) : baptisé le 26 août 1839 (image d13p_34510789) ; absent du recensement de 1850
+1 FAMC @F16@
+0 @I159@ INDI
+1 NAME Margaret /Robidoux/
+1 SEX F
+1 BIRT
+2 DATE 5 SEP 1841
+2 PLAC Saint-Louis, Missouri, USA
+1 NOTE Registres de la vieille cathédrale de Saint-Louis, collection Drouin (Ancestry, coll. 1111) : baptisée le 5 avril 1842 (image d13p_34510874) ; absente du recensement de 1850
+1 FAMC @F16@
 0 TRLR

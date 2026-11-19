@@ -1,0 +1,37 @@
+# Lecture des registres de Saint-Louis (Drouin, Ancestry coll. 1111)
+- 34510252 (1806) Pélagie, mulâtresse de M. Le Compte ; parrain Isidore Robidoux -> pas de la famille
+- 34510255 (1806) Élisabeth, négresse de Mme Hammond ; parrain Isidore Robideau -> pas de la famille
+- 34510270 (août 1807) Thérèse Caroline, née 17 juin 1807, fille légitime de Joseph Robideaux et de Julie Eugénie Bienvenu [Delisle] ; parrain François Robideaux, marraine Thérèse Bienvenu
+- 34510292 (8 juil. 1810) Joseph Eugène, ondoyé, né 26 mai 1809, de Joseph Robidoux et Eugénie Delisle ; parrain Joseph Brazeau, marraine Catherine Rolet
+- 34510293 (8 juil. 1810) Thérèse Eugénie, ondoyée, née 15 avril 1809, de François Robidou et Thérèse Delisle ; parrain Joseph Robidou, marraine Thérèse Delisle
+- 34510307 (21 févr. 1812) François, né 6 avril 1811, de François Robidou, cultivateur, et Thérèse Delisle ; parrain Isidore Robidou, marraine Cécile Brazeau
+- 34510340 (22 sept. 1814) Louis Lalonne, né 6 mai 1811 de parents inconnus ; parrain Isidore Robidoux -> pas de la famille
+- 34510372 (2 mai 1816, sous condition) Joseph, né le 14 janvier dernier [1816], de Joseph Robidoux et Angélique Vaudry ; parrain Isidore Robidoux, marraine Susanne Vaudry
+- 34510373 (2 mai 1816, sous condition, même jour) Antoine, né le 2 novembre 1813 [lecture ; peu compatible avec Jules, août 1814], de Joseph Robidou et Angélique Vaudry ; parrain François Robidou, marraine Marie Vaudry
+- 34510379 (6 mars 1817, sous condition) Antoine, né 24 août 1816, de François Robidou et Thérèse Delisle ; parrain Charles Sanguinet, marraine Julie Frisbach(?)
+- 34510389 (25 févr. 1818) François [Belevere], né le 29 [?] octobre 1817, de Joseph Robidou et Angélique Vaudry ; parrain Vincent Guion, marraine Clarisse Delisle. (L'arbre donne 25 févr. 1818 = date du baptême.)
+- 34510399 (29 août 1818) Marie, née 26 août 1818, de François Robidou et Thérèse De L'Isle ; parrain Michel Seré(?), marraine Rosalie De L'Isle
+- 34510428 (5 mai 1820) Félix, fils de Joseph Roubidoux et Angélique Vaudray (date de naissance non donnée) ; parrain Amore Richebourg, marraine Pélagie Roubidoux (sa tante)
+- 34510432 (24 juil. 1820) Joseph, né hier [23 juil. 1820], fils légitime de François Roubidou et Thérèse Delile ; parrain Joseph Bouju, marraine Sylvie(?) Biron
+- 34510436 (10 oct. 1820) Louis, fils légitime d'Isidore Roubidoux et de Julie « Aloy » [Desjarlais ?], né le 6 [courant ?] ; parrain André Bouet, marraine Susanne Vaudry (l'arbre : août 1820)
+- 34510515 (12 mai 1825) Edmond Valentin, né le 11 mai 1825, de Joseph Robidoux et Angélique Vaudré ; parrain Joseph Brazeau, marraine Julie Fishback
+- 34510517 (19 juin 1825) Cécile, née le 20 novembre 1824, de François Robidoux et Thérèse De L'Isle ; parrain Michel Robidoux, marraine Émilie Valois
+- 34510584 (19 avr. 1829) Paul Laurent, né 23 nov. 1828, de Laurent Robidoux et Émilie Daubin -> autre branche (Laurent), hors famille de Joseph II
+- 34510646 (21 juil. 1832) Charles, né le 10 juillet 1831, de Joseph Robidoux et Angélique Vaudry ; parrain Charles Dumont, marraine Marthe Brigitte McKee
+- 34510646 (21 juil. 1832, suppléance) Marie Agnès, ondoyée, née le 10 mars 1827, de Joseph Robidoux et Angélique Vaudry ; marraine Marie Deroin. Probablement Sylvanie (arbre : 18 mars 1827).
+- 34510648 (5 août 1832) Agnès Sophie, née le 11 juillet 1832, de Michel Robidoux et Suzanne Vaudry ; parrain Joseph Robidoux, marraine Sophie Valois  => = Sophia (épouse Kathrens)
+- 34510789 (26 août 1839) Pélagie, née le 9 mai 1839, de Michel Robidoux et Suzanne [Vaudry] ; parrain Valentin [Edmond] Robidoux, marraine Agnès Robidoux
+- 34510789 (26 août 1839) Joseph, fils de Joseph Jules César Robidoux, marchand, et d'Isabelle Baradas, né le 10 [?] 1839 ; parrain Valentin Robidoux, marraine Agnès Robidoux
+- 34510823 (12 sept. 1840) Vincent, fils de « Belonier » Robidou, imprimeur -> autre branche
+- 34510874 (5 avril 1842) Lucie(?) Margaret, née le 5 septembre [1841], fille de Jule C. Robidoux et Isabella Barada ; parrain Ad. Pomarède(?)
+- 34511009 (17 juin 1845) Angelica Josephina, née le 1er octobre 1843, de Felix Robidoux et Jane Smith ; parrain Richard Warren, marraine Mrs Francis Robidoux (signé Sylvanie Robidoux) => Josephine A.
+- 34521035 (25 juin 1825) mariage de Michel Robidoux (fils de Joseph et Catherine [Rollet]) et Susanne Vaudry (fille d'Antoine Vaudry et Agnès) — déjà connu
+- 34521110 (1835) François Robidoux témoin d'un mariage d'esclaves -> rien
+- 34521070 (16 nov. 1828) Rosalie Robidoux, fille de Joseph Vernette(?) Robidoux et Josette Compau, de Détroit, épouse Paul Maurice -> branche de Détroit, hors famille
+- 34530003 (25 janv. 1836) Mary Robidoux, fille de François Robidoux et Thérèse Delisle, épouse James Brown, fils de Francis Brown et Maria Brown ; tuteur présent M. Robidoux [Michel] ; témoins Angélique, Susan, P. C.(?) Robidoux. (Cf. recensement 1850 : James Brown 36 et Mary Brown 30 chez Jules.)
+- 34530154 (3 janv. 1842, cathédrale) Cecilia [Cécile] Robidoux, fille de François Robidoux et Thérèse Delisle, ~17 ans, épouse John McDowell, fils de Thomas McDowell et Elizabeth Douglass, 24 ans
+- 34530262 (26 avril 1847) Sylvanie Agnès Robidoux, fille de Joseph Robidoux et Angélique Vaudry, épouse Francis August Beauvais, fils de Gemien Beauvais et Mary Placide Obuchon ; témoins Edmond Robidoux, Marie Stoine(?) ; officiant Edward Barron, évêque. => confirme Sylvanie = Marie Agnès (ondoyée en 1827)
+- 34540155 (3 juin 1828) sépulture d'Isidore Robidoux, âgé de quelques mois (parents non nommés)
+- 34540169 (2 sept. 1830) sépulture d'Octavie Robidoux, ~8 mois (parents non nommés) ; (15 oct. 1830) Fanny, esclave de Joseph Robidoux
+- 34540197 (12 juin 1833) sépulture de Clarisse Robidoux, épouse de François Robidoux, ~43 ans
+- 34540204 (4 juil. 1834) Louisa, enfant esclave de M. Robidoux, 3 ans
