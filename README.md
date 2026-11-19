@@ -5,8 +5,8 @@ Atlas géohistorique de la famille Robidoux, traiteurs canadiens-français de Mo
 Membre du réseau [Atlas de l'Amérique française](https://geolas2023.github.io/Atlas-Les-Canadiens-Fran-ais-de-l-Ouest/). En ligne : https://geolas2023.github.io/Les-Robidoux/
 
 ## Contenu
-- 96 lieux et 10 routes, chacun avec une date (EDTF), une certitude de localisation, une description et ses sources paginées.
-- Une salle de lecture (`salle-de-lecture.html`) : 17 portraits (le père, la mère, les six frères, les sœurs, Joseph E., Jules, Carmel Benavides, Martina Anaya, Amanda Barada, Mary Many Days, Jeffrey Deroine), 9 documents transcrits ou traduits (baptême de 1750, lettres d'Antoine de 1846 et 1857, nécrologie de 1860, proclamation de 1868, inscriptions, recensements) et 5 fiches d'études.
+- 123 lieux et 10 routes, chacun avec une date (EDTF), une certitude de localisation, une description et ses sources paginées.
+- Une salle de lecture (`salle-de-lecture.html`) : 17 portraits (le père, la mère, les six frères, les sœurs, Joseph E., Jules, Carmel Benavides, Martina Anaya, Amanda Barada, Mary Many Days, Jeffrey Deroine), 15 documents transcrits, traduits ou résumés (baptême de 1750, annonces de 1809, vol de 1842, lettres d'Antoine de 1846 et 1857, rapport de pension de 1856, nécrologie de 1860, proclamation de 1868, inscriptions, recensements, récits de Carmel, généalogie de 1924) et 7 fiches d'études (dont le Memorial de 1924 et Tassé).
 - 26 photos et documents, en vignettes cliquables dans les fiches (comme l'Atlas Aubry) : images locales dans `images/photos/`, images de Wikimedia Commons liées avec leur page de licence.
 - La couleur des pastilles indique le membre de la famille : Joseph Ier, Joseph II, Joseph III, Antoine, Louis, François et Michel, Jules ; une couleur à part pour les proches (épouses, alliés autochtones, descendants : Carmel Benavides, Martina Anaya, Amanda Barada Stollsteimer, Mary Many Days et White Cloud).
 - La timeline va par année de 1720 à 1821, puis par mois de 1822 à 1875. Les liens directs `#lieu=L12` et `#trajet=T03` ouvrent une fiche.
@@ -48,6 +48,17 @@ Membre du réseau [Atlas de l'Amérique française](https://geolas2023.github.io
 - St. Joseph Museums (Robidoux Row) ; Riverside Metropolitan Museum ; San Bernardino County Museum (cimetière d'Agua Mansa) ; Pagosa Springs History Museum.
 - Repères officiels : California Historical Landmarks n° 102, 121 et 303 ; NRHP n° 73001037 ; National Park Service (Robidoux Pass, Carmel Benavides).
 - Registres paroissiaux (collection Drouin) et recensements américains de 1850, 1860, 1870.
+
+### Ouvrages d'archive.org dépouillés (2026)
+- O. M. Robidoux, *Memorial to the Robidoux Brothers* (Kansas City, 1924) — archive.org `memorialtorobido00robi`
+- J. Tassé, *Les Canadiens de l'Ouest* (1878), t. II, p. 119-129, 193 — archive.org `cihm_33779`
+- *The History of Buchanan County, Missouri* (1881)
+- A. T. Andreas, *History of the State of Nebraska* (1882), comté de Sarpy
+- DAR, *Collection of Nebraska Pioneer Reminiscences* (1916) — `collectionofnebr00daug`
+- R. E. Twitchell, *The Spanish Archives of New Mexico* (1914), vol. I — `spanisharchiveso01twituoft`
+- B. M. Read, *Illustrated History of New Mexico* (1912) — `illustratedhisto00readrich`
+- H. C. Dale, *The Ashley-Smith Explorations* (1918) — `ashleysmithexplo00daleuoft`
+
 
 ## Données
 `python3 scripts/donnees.py` régénère `data/lieux.geojson` et `data/trajets.geojson`.

@@ -45,6 +45,13 @@ KEL = "C. Kelly, « Antoine Robidoux » [inscription de Westwater], Utah Histori
 WEB72 = "D. J. Weber (éd.), « Louis Robidoux: Two Letters from California, 1848 », Southern California Quarterly, vol. 54, n° 2 (1972)"
 CEN = "Recensements fédéraux des États-Unis (Ancestry)"
 OBI = "Nécrologie d'Antoine Robidoux, St. Joseph Gazette, reprise dans le Los Angeles Star, 29 septembre 1860"
+ROB = "O. M. Robidoux, Memorial to the Robidoux Brothers: A History of the Robidouxs in America (Kansas City, 1924), archive.org memorialtorobido00robi"
+BUC = "The History of Buchanan County, Missouri (St. Joseph, Union Historical Company, 1881)"
+AND = "A. T. Andreas (éd.), History of the State of Nebraska (1882), comté de Sarpy (transcription kancoll.org)"
+NPR = "DAR, Collection of Nebraska Pioneer Reminiscences (1916), archive.org collectionofnebr00daug"
+TWI = "R. E. Twitchell, The Spanish Archives of New Mexico (1914), vol. I, archive.org spanisharchiveso01twituoft"
+READ = "B. M. Read, Illustrated History of New Mexico (1912), archive.org illustratedhisto00readrich"
+DALE = "H. C. Dale, The Ashley-Smith Explorations (1918), archive.org ashleysmithexplo00daleuoft"
 
 def dec(edtf):
     d = edtf.replace('~', '').replace('?', '')
@@ -523,6 +530,97 @@ L('L96', "Durango : l'ouverture de la réserve ute", -107.8801, 37.2753, '1899-0
   "Le 3 mai 1899, la veille de l'ouverture de la réserve ute à la colonisation, Emma et Adela Stollsteimer, filles d'Amanda, la petite-fille adoptive d'Antoine Robidoux, prennent les troisième et quatrième places dans la file du bureau des terres de Durango, avec leur frère. Le 10 mai, les Stollsteimer déposent plus de 1 200 acres de demandes dans la vallée de la San Juan : la terre ute passe aux descendants des traiteurs.",
   f"{STO} (journaux de Durango, 3 et 10 mai 1899).",
   images=[LOC("durango-1899-ouverture-ute-strip-stollsteimer.jpg", "« Waiting for the opening of the Ute Strip » : premier rang, Phil Voight, Stollsteimer et deux sœurs (photo Conner, 1899, reproduite dans un ouvrage local ; dossier de l'auteur)")])
+# ------------------------------------------------------------------ Le Memorial de 1924 et les ouvrages d'archive.org
+L('L97', "Embouchure de la Kaw : le premier campement de Joseph", -94.6105, 39.1155, '1799~', 'circa', 'hypothetique', 'joseph3',
+  "Selon la tradition familiale publiée en 1924, Joseph Robidoux, remontant le Missouri, apprend à l'embouchure de la Kaw qu'une guerre sévit chez les nations de la Platte. Il plante sa tente sur la rive missourienne, chasse l'ours et le bison avec ses hommes, dresse cartes et rapports, puis repart pour Saint-Louis en laissant des représentants pour traiter : « le premier colon de Kansas City », écrit son petit-fils.",
+  f"{ROB}, p. 92, 118, 236.",
+  "Récit familial invérifiable ; il associe aussi Joseph à l'American Fur Company dès 1799, alors qu'Astor ne la fonde qu'en 1808.")
+L('L98', "Portage des Sioux : la lettre de Pike et la mort d'Eulalie", -90.344, 38.927, '1805-08-11/1818', 'jour', 'approximative', 'joseph3',
+  "Le 11 août 1805, deux jours après son départ de Saint-Louis, le lieutenant Zebulon Pike croise Joseph Robidoux et William Kettlelas (homme de confiance du général Wilkinson) qui descendent vers Saint-Louis ; il leur confie une lettre. C'est aussi à Portage des Sioux que meurt en 1818 Eulalie Robidoux, sœur de Joseph, à dix-huit ans, sans avoir été mariée.",
+  f"{ROB}, p. 67, 284.",
+  "Le Memorial place la rencontre sur le Missouri ; Pike remontait en réalité le Mississippi, ce qui s'accorde avec Portage des Sioux.")
+L('L99', "Rivière du Loup : Lewis et Clark rencontrent un Robidoux", -95.17, 39.91, '1806-09-11/1806-09-12', 'jour', 'approximative', 'freres',
+  "Le 11 septembre 1806, au retour du Pacifique, Lewis et Clark dépassent la Grande Nemaha et rencontrent un jeune traiteur Robidoux et trois hommes, qui commercent paisiblement avec les Indiens près de la rivière du Loup (Wolf River). Clark, ne reconnaissant pas la signature de la licence, menace de saisir la marchandise, puis laisse partir le jeune homme avec un avertissement.",
+  f"{ROB}, p. 66-67.",
+  "Le Memorial nomme François ; le journal de Clark parle de « M. Robideau ». Embouchure de la Wolf, près d'Iowa Point (Kansas).")
+L('L100', "Rivière Sauterelle : la nuée de criquets", -95.535, 39.46, '1818-09', 'mois', 'hypothetique', 'freres',
+  "En septembre 1818, des frères de Joseph conduisent deux chariots de marchandises jusqu'à un lieu de rencontre des nations, à un mille en aval de l'actuelle Arrington (Kansas). Quelques jours après leur arrivée, des nuées de sauterelles dévorent l'herbe des basses terres : ils baptisent le cours d'eau « Sauterelle », d'où ses noms de Grasshopper puis de Delaware River.",
+  f"{ROB}, p. 102-103.")
+L('L101', "Comptoir de John B. Roy : la danse de guerre de 1836", -94.88, 39.80, '1836', 'annee', 'approximative', 'joseph3',
+  "En 1836, au comptoir de Jean-Baptiste Roy, à un mille et demi de Blacksnake Hills, trois cents Ioways et Otos donnent une grande danse de guerre. Dans l'excitation, Francis Tayon, commis et beau-frère de Roy, a le nez tranché. Un guerrier porte le morceau à Joseph Robidoux, qui fait cesser la danse et conseille de le rapporter aux médecins ; il se perd en chemin. Tayon, né dans le comté de Saint-Charles, meurt défiguré le 1er février 1870. En 1826, Joseph avait d'abord établi son poste à l'embouchure de ce ruisseau Roy (Roy's Branch).",
+  f"{ROB}, p. 103-104 ; {BUC}.")
+L('L102', "Saint-Joseph : la maison de rondins de la rue Main", -94.8522, 39.7697, '1838/1843', 'annee', 'approximative', 'joseph3',
+  "La seconde maison de Joseph, à l'angle nord-est des futures rues Main et Jule, regarde le sud : un étage et demi, neuf pièces, une galerie sur toute la façade, en rondins calfeutrés de boue. En 1838, un missionnaire jésuite y dit la messe sur une table devant les Indiens. À l'automne 1838, une quarantaine de « sauteurs de terres » viennent chasser Joseph ; il les reçoit avec ses hommes et cent jeunes guerriers prêts à intervenir, et tout finit par une rasade. La cour de comté y tient ses séances jusqu'à l'été 1841 et, le 7 mai 1839, y trace les premiers chemins.",
+  f"{ROB}, p. 97-99, 104, 129, 234 ; {BUC}.")
+L('L103', "Robidoux Landing : le bac de la rue Francis", -94.8565, 39.7663, '1839-05-07/1840-05-07', 'jour', 'certaine', 'jules',
+  "Le bac de Joseph, un simple chaland, aborde à l'endroit où la rue Francis touchait le fleuve ; le débarcadère garde trente ans le nom de Robidoux Landing. Le chemin qui en part mène au gué de l'agence sur la Platte, puis se divise vers Liberty et vers la Grand River. Le 7 mai 1839, la cour de comté délivre à Jules C. Robidoux la première licence de passeur du comté de Buchanan, pour un an.",
+  f"{ROB}, p. 100, 104, 225 ; {BUC}.")
+L('L104', "Ferme Spencer : la piste de l'argent volé", -94.72, 39.86, '1842-10-18/1842-11', 'jour', 'approximative', 'joseph3',
+  "Dans la nuit du 18 octobre 1842, quatre caisses de mille dollars en argent disparaissent du magasin de Joseph, où dort son commis Isidore Poulin. Les fils Spencer, de la ferme de la section 19 (T58N R34W, comté d'Andrew), sont acquittés par le juge de paix. Jules Robidoux consulte le juge Atchison à Sparta ; une compagnie de soixante-quinze hommes, menée par le « général » Ashley, part de chez Joseph, s'arrête à Jamestown, arrête Scott et Davis et simule une pendaison : Scott avoue. L'argent est déterré près de la rivière 102 et de la ferme ; Joseph verse 1 300 dollars de récompense.",
+  f"{ROB}, p. 106-113 ; {BUC}.",
+  "Emplacement approximatif de la section 19 ; l'histoire de 1881 dit qu'il ne manqua que 27 dollars et parle d'une récompense de 500 dollars.")
+L('L105', "Saint-Joseph : le premier mariage de la ville", -94.8495, 39.7712, '1843-12-14', 'jour', 'approximative', 'freres',
+  "Le 14 décembre 1843, Franklin Robidoux, fils de Pierre Isidore, épouse la jeune veuve Nancy Bailey, fille de William Langston. Jules et Isidore, fils de Joseph, sont les seuls violoneux du pays. Un charivari tourne au drame : le meneur, le maçon Scott, est poignardé dans un débit de boisson. Isidore Robidoux, arrêté avec les Langston, est acquitté ; les autres le sont à Platte City. Franklin meurt le 16 janvier 1847, à vingt-cinq ans, laissant une fille, Mary, future épouse d'Edward Beauvais.",
+  f"{ROB}, p. 119-121, 281.",
+  "La maison de William Langston n'est pas localisée.")
+L('L106', "Lac Contrary : la maison d'Isidore Barada", -94.89, 39.715, '1840/1859', 'annee', 'approximative', 'proches',
+  "Au sud de Blacksnake, au bout d'un sentier forestier, Isidore Barada, ami de Joseph et beau-frère de Jules, bâtit une maison double à deux étages, tenue ensuite par les Dumford, réputés pour leurs poissons, grenouilles et poulets frits. Seuls les Barada et les Dumford fréquentaient alors les rives du lac. C'est cet Isidore Barada qui épouse Carmelete, la fille adoptive d'Antoine.",
+  f"{ROB}, p. 116-117, 281.")
+L('L107', "Saint-Joseph : les terrains donnés par Joseph", -94.8447, 39.7684, '1845-05-24/1853', 'jour', 'certaine', 'joseph3',
+  "Le 24 mai 1845, les commissaires choisissent le bloc 48, une colline donnée par Joseph Robidoux, pour le palais de justice ; il y ajoute dix lots pour le financer (contrat de 6 000 dollars, 1846). Il donne aussi le demi-bloc du marché (rues Second, Felix et Edmond, halle de 1853), le terrain de l'église catholique de la rue Felix (pierre angulaire le 17 juin 1847), le lot méthodiste des rues Third et Felix et, le 7 août 1849, cède un lot au charpentier Joseph Girard pour la première chapelle catholique. Président du village en 1845, il est en 1859 parmi les fondateurs de la State National Bank.",
+  f"{ROB}, p. 123, 126-131.")
+L('L108', "Saint-Joseph : la maison du 411 rue Edmond", -94.8487, 39.7666, '1850/1866', 'annee', 'certaine', 'jules',
+  "En 1850, Joseph bâtit au 411 rue Edmond trois maisons de brique reliées par l'arrière, la plus belle demeure de la ville. Ses enfants s'y installent : Jules, Sylvanie et son mari Gus Beauvais, Félix. Jules y tient au sous-sol son bureau de juge de paix et de notaire : plus de sept cents mariages en onze ans, dont 410 entre 1858 et 1866, parmi lesquels ceux d'anciens esclaves. En 1862, le 16e régiment de l'Illinois occupe deux des maisons, jusqu'à ce qu'Emily, fille de Jules, obtienne son départ.",
+  f"{ROB}, p. 133-135, 229-232.")
+L('L109', "Savannah : Jules, premier marchand", -94.8297, 39.9414, '1841/1843', 'annee', 'approximative', 'jules',
+  "Jules ouvre d'abord un magasin à White Hall ; quand la localité est transportée à Savannah, chef-lieu du comté d'Andrew, il y déménage sa boutique et devient le premier marchand de Savannah, avant de s'établir à Saint-Joseph. Au printemps 1848, il va acheter ses marchandises à New York : trois mois de voyage par les rivières. C'est aussi à Savannah, sur renvoi, que se plaide le procès du meurtrier de son frère Charles.",
+  f"{ROB}, p. 125, 225.")
+L('L110', "Carondelet : Jules épouse Elizabeth Barada", -90.2585, 38.56, '1838-08-21', 'jour', 'certaine', 'jules',
+  "Le 21 août 1838, à Carondelet (Saint-Louis sud), Jules C. Robidoux épouse Elizabeth dite Isabelle Barada, née au même lieu le 20 octobre 1820. Le couple remonte par bateau jusqu'à Liberty Landing, puis gagne en diligence le poste de Joseph. Ils auront huit enfants, dont Emily (1844), épouse du capitaine Joseph Thompson.",
+  f"{ROB}, p. 225, 284.")
+L('L111', "Athens (Albany) : la boutique de François B. Robidoux", -94.331, 40.248, '1843/1857', 'annee', 'approximative', 'famille',
+  "En 1843, François Belevere Robidoux, fils de Joseph, construit la première maison de commerce d'Athens, chef-lieu du comté de Gentry (aujourd'hui Albany), et y tient un magasin général ; il est secrétaire de la loge maçonnique de 1852 à 1857, puis vend à un autre Français et rentre à Saint-Louis. Jeune homme, il avait franchi avec son oncle Antoine le col Robidoux du Huerfano.",
+  f"{ROB}, p. 226.")
+L('L112', "St. Marys : Octavia, fille de Michel", -96.071, 39.194, '1839/1888', 'annee', 'approximative', 'freres',
+  "Michel Robidoux et Susanne Vaudry ont deux filles, Sophia et Octavia (née en 1839), élèves en 1845 du séminaire de jeunes filles de Mrs Landis, première école privée de Saint-Joseph. Octavia devient « Madame Robidoux », religieuse du Sacré-Cœur à Saint-Joseph et à la mission de St. Marys (Kansas), puis au couvent de Chicago, où elle meurt vers 1886-1888. Sophia épouse Charles J. Kathrens.",
+  f"{ROB}, p. 122, 283.")
+L('L113', "Vincennes : les sœurs Vaudry", -87.528, 38.678, '1793-04-26', 'jour', 'approximative', 'proches',
+  "Angélique et Susanne Vaudry, filles d'Antoine Vaudry et d'Agnès Bourassa, naissent le 26 avril 1793 dans la vieille ville française de Vincennes (Indiana). Leurs parents s'installent ensuite à Saint-Louis, où Angélique épouse Joseph (1813) et Susanne son frère Michel (1825).",
+  f"{ROB}, p. 138-139, 283-284.")
+L('L114', "Cahokia : Isidore épouse Julie Desjarlais", -90.188, 38.572, '1815-10-14', 'jour', 'approximative', 'freres',
+  "Le 14 octobre 1815, Pierre Isidore Robidoux épouse Julie Desjarlais à Cahokia. Ils ont deux fils : Louis, baptisé à Saint-Louis le 12 août 1820, qui accompagne ses oncles à Santa Fe et finit en Californie, et Franklin (v. 1822-1847).",
+  f"{ROB}, p. 277, 281.")
+L('L115', "La Prairie : l'arrivée d'André Robidou", -73.499, 45.416, '1667-06-07/1721-01-07', 'jour', 'approximative', 'famille',
+  "Selon le juge Joseph-Émery Robidoux de Montréal, cité dans le Memorial, tous les Robidoux d'Amérique descendent d'André, fils de Manuel Robidou de Saint-Germain (Paris) et de Catherine Allue, de Galice. Marié à Jeanne Duc, il s'établit le 7 juin 1667 à la concession Saint-Lambert de La Prairie. Son fils Guillaume épouse Marie Guern à Montréal le 11 juillet 1697 ; leur fils Joseph épouse Anne Fontenau à La Prairie le 7 janvier 1721 : ce sont les grands-parents de Joseph Marie, le père des six frères.",
+  f"{ROB}, p. 276-279.",
+  "Le Memorial date de 1667 l'établissement à La Prairie ; les généalogies récentes placent l'arrivée d'André en 1661 et son installation vers 1671.")
+L('L116', "Bellevue : Joseph succède à Deroin", -95.886, 41.145, '1810/1816', 'annee', 'hypothetique', 'joseph3',
+  "L'histoire du comté de Sarpy (1882) rapporte qu'après le traiteur Deroin, Joseph Robidoux tient le poste de Bellevue, sur le Missouri, de 1810 à 1816 environ, avant que Manuel Lisa et la Compagnie du Missouri n'y dominent.",
+  f"{AND}.",
+  "Dates à confirmer ; le Memorial dit seulement qu'en 1809 Joseph devient « agent indien » aux Council Bluffs.")
+L('L117', "Cottonwood Springs : le premier bâtiment", -100.52, 41.05, '1858', 'annee', 'approximative', 'famille',
+  "En 1858, un Robidoux et I. P. Boyer construisent le premier bâtiment de Cottonwood Springs, sur la route de l'Oregon le long de la Platte, futur site du fort McPherson.",
+  f"{AND} ; {NPR}, p. 190.",
+  "Le prénom de ce Robidoux n'est pas donné ; peut-être un fils de Joseph ou un neveu.")
+L('L118', "Saint-Charles : le passeport de 1824", -90.4815, 38.7837, '1824', 'annee', 'certaine', 'freres',
+  "Un passeport délivré à Saint-Charles en 1824 pour les marchands se rendant au Nouveau-Mexique énumère Francis Robidoux et Isidor Roubidou ; la copie en est conservée dans les archives espagnoles de Santa Fe.",
+  f"{TWI}, p. 341 (doc. 1139).")
+L('L119', "Santa Fe : la réclamation des marchands après Chimayó", -105.9395, 35.6872, '1837-09-07', 'jour', 'certaine', 'freres',
+  "Après la révolte de Chimayó (août 1837) et la mort du gouverneur Pérez, les marchands américains de Santa Fe adressent le 7 septembre 1837 un mémoire au ministre des États-Unis à Mexico, Powhatan Ellis, réclamant réparation au gouvernement mexicain ; Isidore Robidoux le signe avec Alvarez, Waldo et d'autres. Le Memorial de 1924 en reproduit le texte.",
+  f"{READ}, p. 389-395 ; {ROB}, p. 205-215.")
+L('L120', "Green River : l'attaque des Arapahos", -109.5, 41.4, '1824', 'annee', 'hypothetique', 'famille',
+  "Une note de l'éditeur des explorations d'Ashley et Smith signale qu'en 1824 le parti de « Joseph Rubideau » est attaqué par des Arapahos sur la Green.",
+  f"{DALE}, p. 156, n. 302.",
+  "Identification incertaine : peut-être un des frères (Antoine, François ou Michel) plutôt que Joseph ; emplacement symbolique.")
+L('L121', "Fort Laramie : la route de Michel", -104.553, 42.208, '1835/1845', 'annee', 'hypothetique', 'freres',
+  "Michel Robidoux traite surtout au fort Laramie. Ses chariots Conestoga chargés de calicots, de perles, de miroirs, de lard et de sucre suivent la route de l'Oregon le long de la Platte Nord jusqu'au rendez-vous de Laramie et au fort Platte voisin ; il redescend avec les peaux dans des chalands mackinaw construits sur place. À son retour, il raconte aux siens avoir vu « le plus joli jardin du monde », le pays du Yellowstone.",
+  f"{ROB}, p. 74, 87, 175-176.")
+L('L122', "Saint-Louis : la Council House de la rue Seconde", -90.1858, 38.6232, '1809-04-25/1809-06-29', 'jour', 'certaine', 'joseph3',
+  "La Missouri Gazette de 1809 situe à Saint-Louis la maison de Joseph Robidoux, « connue comme la Council House », près de la taverne Webster, rue Seconde : le docteur Farrar y ouvre son cabinet (16 mai 1809), L. T. Hampton y prépare les peaux (29 juin). Les annonces parlent aussi de « la maison de feu Robidoux » et de « Madame Robidoux », la veuve. C'est là que siège en 1812 la première assemblée générale du territoire.",
+  f"{ROB}, p. 114, 138.")
+L('L123', "Saint-Louis : la souscription pour le collège", -90.1867, 38.6247, '1819-10-30', 'jour', 'certaine', 'freres',
+  "Le 30 octobre 1819, l'évêque Dubourg réunit les chefs de famille catholiques de Saint-Louis pour fonder un collège près de la première église de brique. Auguste Chouteau, François Robidoux et Joseph Robidoux sont parmi les premiers signataires.",
+  f"{ROB}, p. 115.")
 
 os.makedirs('data', exist_ok=True)
 for nom, feats in (('lieux', LIEUX), ('trajets', TRAJETS)):

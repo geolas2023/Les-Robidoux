@@ -3,6 +3,8 @@
 // lieux : identifiants de l'atlas (index.html#lieu=Lxx). Textes du domaine public transcrits ; études récentes résumées.
 const WIL = 'R. J. Willoughby, The Brothers Robidoux and the Opening of the American West (University of Missouri Press, 2012)';
 
+const ROB = 'O. M. Robidoux, Memorial to the Robidoux Brothers: A History of the Robidouxs in America (Kansas City, Smith-Grieves, 1924), texte intégral sur archive.org (memorialtorobido00robi)';
+
 const ITEMS = [
 // ===================================================================== PORTRAITS DE FAMILLE
 { id: 'joseph1', type: 'portrait', statut: 'biographie', ordre: 1, date: 'v. 1720 – 1771', titre: 'Joseph Robidoux Ier, le cordonnier de Montréal',
@@ -403,4 +405,109 @@ L'ouvrage, numérisé par Google à partir de l'exemplaire de Harvard, est du do
   texte: `Dans le numéro précédent, un article sur « le mystérieux D. Julien » citait une inscription d'Antoine Robidoux près de Fruita (Colorado), datée de 1837 mais supposée mal recopiée pour 1831. Charles Kelly, qui l'a depuis retrouvée et photographiée, en donne la lecture correcte, la situe avec précision (voir le document « L'inscription de Westwater ») et maintient 1837. Il pense que Robidoux voulait fonder un nouveau poste sur la Green ou la White, peut-être à la suite des explorations de Denis Julien, qui grava cinq inscriptions sur la Green en 1836.`,
   sources: 'Utah Historical Quarterly, vol. 6, n° 4 (octobre 1933), p. 115-116 ; PDF dans le dossier de l\'auteur.',
   lieux: ['L50', 'L23'] },
+// ===================================================================== MEMORIAL DE 1924, TASSÉ
+{ id: 'd-decharge-1856', type: 'document', statut: 'traduction', ordre: 110, date: '23 mai 1856', titre: 'Rapport n° 157 de la Chambre des représentants sur la pension d\'Antoine Robidoux',
+  personnes: ['Antoine'],
+  resume: "Le rapport du comité des pensions d'invalidité qui reconnaît la blessure de San Pasqual ; la famille le conservait comme « certificat de congé honorable ».",
+  texte: `Texte original (34e Congrès, 1re session, rapport n° 157, accompagnant le projet de loi H.R. 196) :
+
+« Mr. Lumpkin, from the committee on invalids' pensions, made the following report: The committee on invalids' pensions, to whom was referred the petition of Antoine Robidoux, beg leave to submit the following report. That Antoine Robidoux was on or about June 9, 1846, employed by Brigadier General Kearney as Spanish interpreter and continued in actual service about ten months. That he was discharged honorably at Monterey, in California, in the month of April or May, 1847. That while in the actual discharge of his duty he received a severe lance wound at the battle of San Pasqual, from which he has ever since been disabled. His attending physician, a man of good reputation as a surgeon in his profession, testifies that the effect of the lance wound is now and has been since the reception of said wound, such as to render him entirely unable to make a support for himself and family by manual labor. The committee, therefore, recommend that the prayer of the petitioner be granted and beg leave to report back to the house bill No. 196 and recommend its passage. »
+
+Traduction :
+
+M. Lumpkin, au nom du comité des pensions d'invalidité, présente le rapport suivant. Le comité, saisi de la pétition d'Antoine Robidoux, expose qu'Antoine Robidoux fut engagé vers le 9 juin 1846 par le général de brigade Kearny comme interprète d'espagnol et resta en service effectif environ dix mois ; qu'il fut congédié honorablement à Monterey, en Californie, en avril ou mai 1847 ; que, dans l'exercice de ses fonctions, il reçut à la bataille de San Pasqual un grave coup de lance qui l'a depuis rendu invalide. Son médecin, chirurgien de bonne réputation, atteste que les suites de cette blessure le rendent, depuis lors, entièrement incapable de subvenir par le travail manuel à ses besoins et à ceux de sa famille. Le comité recommande donc de faire droit à la requête et propose l'adoption du projet de loi n° 196.`,
+  note: "La loi est signée par le président Pierce le 23 août 1856 : 16,66 dollars par mois (voir le lieu « Washington : la pension d'Antoine »).",
+  sources: `${ROB}, p. 198-199.`,
+  lieux: ['L84', 'L32', 'L83'] },
+
+{ id: 'd-gazette-1809', type: 'document', statut: 'transcription', ordre: 111, date: 'avril-juin 1809', titre: 'La maison Robidoux dans les annonces de la Missouri Gazette',
+  personnes: ['Joseph II', 'Joseph III'],
+  resume: "Quatre petites annonces de 1809, l'année de la mort du père, qui situent la grande maison familiale de la rue Seconde.",
+  texte: `« Dr. Farrar, Surgery and Medicine. Office in Joseph Robidoux House, Second Street. » (16 mai 1809)
+
+« L. T. Hampton, skindressing and breeches making; Mr. Joseph Robidoux's house, known as the Council House near Webster tavern. » (29 juin 1809)
+
+« Prim and Davis, Taylors. Have entered into partnership and will continue the business in P. Pruns old stand opposite the late Robidoux's house. » (25 avril 1809)
+
+« Auction Sale. On Monday, June 12, at the store of Alexander McKeever, next door to Madam Robidoux. » (31 mai 1809)
+
+Commentaire : la « maison de feu Robidoux » est celle de Joseph II, mort en mars 1809 ; sa veuve Catherine Rollet est « Madame Robidoux ». Joseph III loue des pièces de la grande maison, surnommée Council House, où siégera le 7 décembre 1812 la première assemblée générale du territoire du Missouri.`,
+  sources: `${ROB}, p. 114, 138 (d'après la Missouri Gazette).`,
+  lieux: ['L122', 'L07', 'L08'] },
+
+{ id: 'd-vol-1842', type: 'document', statut: 'resume', ordre: 112, date: '18 octobre 1842', titre: 'Le vol des quatre mille dollars de Joseph Robidoux',
+  personnes: ['Joseph III', 'Jules'],
+  resume: "Le cambriolage du magasin de Blacksnake, le procès manqué et la justice expéditive d'une compagnie de « régulateurs ».",
+  texte: `Dans la nuit du 18 octobre 1842, quelqu'un force la fenêtre du magasin de Joseph Robidoux, au ruisseau Blacksnake, et emporte quatre caisses de mille dollars en pièces d'argent rangées sous l'étagère du bas. Joseph dort à côté du magasin, son commis Isidore Poulin dans une maison attenante ; ni l'un ni l'autre n'entend rien.
+
+Les soupçons tombent sur les quatre fils de John Spencer, réputés faux-monnayeurs et joueurs, qui vivent à sept milles, dans le comté d'Andrew. Arrêtés sur la plainte de Joseph devant le juge de paix Samuel P. Hall, ils sont relâchés : leurs témoins jurent qu'ils étaient à cent milles. Seul indice, un soulier trouvé dans le champ de maïs, que Poulin reconnaît pour en avoir vendu la paire à un certain Scott.
+
+Jules Robidoux va consulter à Sparta le juge David R. Atchison, qui laisse entendre que seule une action privée fera justice. Soixante-quinze hommes se réunissent chez Joseph, élisent pour capitaine le « général » Ashley, du comté d'Andrew, s'arrêtent à Jamestown chez le juge E. S. Castle ; vingt-cinq seulement vont jusqu'au bout. À la ferme Spencer, ils arrêtent Scott et Davis, pendent Davis pour le faire parler, puis font croire à Scott qu'on a tué son complice : il avoue. John et George Spencer ont pris l'argent ; Scott et Davis gardaient les portes de Joseph et de Poulin, armés de gourdins et de pistolets. Les caisses sont retrouvées enterrées au bord de la rivière 102, dans la prairie et près de la ferme ; il manque environ trois cents dollars. Joseph verse 1 300 dollars à la compagnie, qui se transforme en comité de « régulateurs » et chasse du pays plusieurs mauvais sujets. Davis s'évade ; Scott, témoin à charge, est relâché.`,
+  note: "L'histoire du comté de Buchanan (1881) donne une version plus courte : tout l'argent sauf 27 dollars est retrouvé et la récompense est de 500 dollars.",
+  sources: `${ROB}, p. 106-113 ; The History of Buchanan County (1881).`,
+  lieux: ['L104', 'L102', 'L42'] },
+
+{ id: 'd-seven-up', type: 'document', statut: 'resume', ordre: 113, date: '1803 (récit de la fin du XIXe siècle)', titre: 'La partie de « seven-up » : une légende de Blacksnake Hills',
+  personnes: ['Joseph III'],
+  resume: "Un conte facétieux de journal, repris par le Memorial : Joseph joue sa vie aux cartes contre un chef.",
+  texte: `Le récit, écrit sur le ton de l'humour de presse de l'époque, raconte qu'à son arrivée aux collines du Serpent-Noir, Joseph Robidoux initie ses hôtes au seven-up et au poker et gagne sans cesse. Le conseil de la nation décide que le Grand Esprit est irrité et qu'il faut un sacrifice humain ; pourquoi pas ce Français, dont les biens reviendraient à la tribu ? Joseph, entré dans la salle du conseil, propose de jouer contre le chef, en lui laissant trois points d'avance, lequel des deux sera offert au Grand Esprit, non sans avoir d'abord misé une somme contre les biens du chef. Il gagne les deux parties.
+
+Ce texte n'a pas de valeur historique : il reflète surtout les préjugés de ceux qui l'ont écrit. Il montre néanmoins la réputation de joueur que Joseph garda toute sa vie : le Memorial rappelle qu'il jouait encore au poker et au seven-up avec Elisha Gladden, Charley Stewart et des Indiens dans les années 1840.`,
+  sources: `${ROB}, p. 67-70, 121.`,
+  lieux: ['L12'] },
+
+{ id: 'd-carmel-1924', type: 'document', statut: 'resume', ordre: 114, date: 'v. 1833 – 1888', titre: 'Les récits de Carmel Benavides selon le Memorial',
+  personnes: ['Carmel Benavides', 'Amanda Barada', 'Antoine'],
+  resume: "Le blizzard du Llano Estacado, les Comanches qui veulent acheter Amanda : les souvenirs que Carmel racontait à Durango.",
+  texte: `Le Memorial recueille les histoires que Carmel Benavides racontait dans sa vieillesse. Fille d'un capitaine espagnol tué par les Comanches, née à Santa Fe (le 29 décembre 1812 selon la famille), mariée à Antoine en 1828, elle aimait la danse : on la voyait chevaucher en un jour de Santa Fe à Albuquerque pour un bal, et elle traversa plusieurs fois le Rio Grande à la nage, à cheval.
+
+Dès 1833, dit le texte, elle avait franchi six fois les plaines entre Saint-Joseph et Santa Fe. Lors d'un de ces voyages, un blizzard surprend la caravane sur le Llano Estacado : la neige monte jusqu'aux chariots, toutes les mules gèlent, sept hommes meurent, ainsi que la servante qui dormait à côté d'elle. Les survivants brûlent les chariots et vivent des semaines de viande de mule gelée, jusqu'à l'arrivée d'une expédition de secours envoyée par Joseph Robidoux.
+
+Après la mort d'Antoine (1860), Carmel repart pour Santa Fe avec la petite Amanda Barada, dans un convoi mené par le traiteur Leitensdorfer. Des Comanches s'approchent pour commercer et veulent acheter la fillette de dix ans contre des poneys, des couvertures et même un enfant. Carmel vit ensuite chez Amanda et son mari Christian F. Stollsteimer, qu'elle suit jusqu'à Durango, où elle meurt en 1888, à soixante-seize ans, parlant couramment espagnol, français et anglais.`,
+  note: "Plusieurs points sont discutés : Carmel ne savait pas signer, la chronologie des traversées est invraisemblable dès 1833, et le Memorial confond par endroits Carmelete (Martina Anaya, mère d'Amanda) et la fille adoptive « Miss Barada ».",
+  sources: `${ROB}, p. 183-187, 281-282.`,
+  lieux: ['L38', 'L67', 'L71', 'T07'] },
+
+{ id: 'd-genealogie-1924', type: 'document', statut: 'transcription', ordre: 115, date: '1924', titre: 'La généalogie familiale du Memorial',
+  personnes: ['Joseph II', 'Joseph III', 'François', 'Isidore', 'Antoine', 'Louis', 'Michel', 'Eulalie', 'Pélagie', 'Jules'],
+  resume: "Les dates de naissance des enfants de Joseph II et de Joseph III telles que la famille les transmettait en 1924.",
+  texte: `Enfants de Joseph Robidoux (né en 1750) et de Catherine Rollet (née en 1767), mariés à Saint-Louis le 21 septembre 1782 :
+– Joseph, 10 août 1783 ; épouse Eugénie Delisle, puis Angélique Vaudry.
+– Lewis, 6 octobre 1786 ; mort en 1788.
+– François, 25 septembre 1788 ; épouse Clarisse Delisle.
+– Marguerite, 12 octobre 1790 ; morte jeune.
+– Pierre Isidore, 6 novembre 1791 ; épouse Julie Desjarlais à Cahokia le 14 octobre 1815.
+– Antoine, 24 septembre 1794 ; épouse Carmel Benavides.
+– Louis, 31 juillet 1796 ; épouse Guadalupe García.
+– Michel, 8 août 1798 ; épouse Susanne Vaudry.
+– Eulalie, 7 septembre 1800 ; morte célibataire en 1818 (à Portage des Sioux).
+– Marie Pélagie, 8 mai 1802 ; épouse Philippe Saucier.
+
+Enfants de Joseph III : Joseph E. (né vers 1801-1802, de son union avec Eugénie Delisle, morte en couches avec la jumelle du garçon), puis, d'Angélique Vaudry : Jules C. et sa jumelle Messanie (morte à la naissance), 13 août 1814 ; Faraon H., 3 mai 1816, mort célibataire en 1840 ; François B., 25 février 1818 ; Félix, 1820 ; Edmond, 12 mai 1825 ; Sylvanie A., 18 mars 1827 ; Charles, 1831, tué en 1851 [1850].
+
+« Faits remarquables » : le père devint aveugle à 53 ans, Joseph III en partie à 56, François à 53, Antoine à 58.`,
+  note: "Ces dates diffèrent parfois des registres : Willoughby donne Isidore né le 2 novembre 1791, Louis le 5 août 1796, Michel le 3 août 1798 et Antoine le 22 septembre 1794 ; le baptême de Joseph III est daté du 2 août 1783 dans d'autres sources, et Charles est tué le 8 septembre 1850.",
+  sources: `${ROB}, p. 222-223, 276-287 ; ${WIL}.`,
+  lieux: ['L115', 'L73', 'L113', 'L114', 'L98'] },
+
+{ id: 'e-memorial-1924', type: 'etude', statut: 'fiche', ordre: 206, date: '1924', titre: 'O. M. Robidoux, Memorial to the Robidoux Brothers',
+  personnes: ['Joseph III', 'Antoine', 'Louis', 'Michel', 'François', 'Isidore', 'Jules', 'Carmel Benavides'],
+  resume: "Le livre de famille publié à Kansas City par Orral Messmore Robidoux, veuve d'un petit-fils de Joseph : une mine d'anecdotes, à manier avec précaution.",
+  texte: `Orral Messmore Robidoux, épouse (1879) de Louis Robidoux, fils de Jules, publie en 1924 à Kansas City ce volume de 300 pages illustré de portraits, de plans et de documents. Il compile des papiers de famille, des souvenirs, des articles de journaux et des passages d'ouvrages (Tassé, Bancroft, Read, Emory).
+
+Plan : I. La Louisiane espagnole et le père (pétition de 1798 au gouverneur Gayoso, contribution patriotique de 1799, l'« année du grand hiver » 1800) ; II. Les temps indiens (Lewis et Clark, Pike, la légende du seven-up, le chef Wathena, les bateaux) ; III. Joseph, fondateur de Saint-Joseph (le vol de 1842, le premier mariage, les dons de terrains, les églises, le vote pour Frémont en 1856, le dernier crampon du chemin de fer en 1859) ; les frères dans le Nord-Ouest et le Sud-Ouest (Michel au fort Laramie, Antoine, Carmel, San Pasqual, la pension de 1856, Louis à Jurupa, sa lettre de 1848, les marchands de Santa Fe en 1837) ; IV. Jules et ses enfants ; V. Le petit-fils Louis de Kansas City ; VI. La généalogie (France, Canada, Missouri) ; VII. La maison Robidoux et l'hôtel Robidoux.
+
+Valeur : précieux pour les traditions de famille, les dates de naissance, les adresses de Saint-Joseph et les anecdotes (le bac, le moulin de 1841, l'explosion du moulin à vapeur vers 1844, l'écurie des rues Fourth et Felix, le 411 rue Edmond). Mais l'ouvrage multiplie les anachronismes (Joseph au service d'Astor dès 1799, Joseph « premier colon de Kansas City », dates de l'inscription de 1837 traduite à contresens) et les confusions de personnes ; chaque fait a été recoupé, quand c'était possible, avec Willoughby, Tassé et les histoires de comté.`,
+  sources: `${ROB}.`,
+  lieux: ['L97', 'L98', 'L99', 'L100', 'L101', 'L102', 'L103', 'L104', 'L105', 'L106', 'L107', 'L108', 'L109', 'L110', 'L111', 'L112', 'L121'] },
+
+{ id: 'e-tasse-1878', type: 'etude', statut: 'fiche', ordre: 207, date: '1878', titre: 'Tassé, Les Canadiens de l\'Ouest, t. II, chapitre « Joseph Robidoux »',
+  personnes: ['Joseph III', 'Antoine', 'Jules'],
+  resume: "Le premier portrait en français de Joseph Robidoux, par le journaliste montréalais Joseph Tassé, repris en partie dans le Memorial de 1924.",
+  texte: `Dans le second tome de ses Canadiens de l'Ouest (Montréal, 1878, p. 119-129 et 193), Joseph Tassé consacre un chapitre à Joseph Robidoux. Il le fait naître à Saint-Louis en 1783 d'un père canadien, le suit au comptoir qu'il ouvre en 1803 au pied des collines du Serpent-Noir, puis cite longuement le prince Maximilien de Wied, qui passe aux collines du Serpent-Noir le 24 avril 1833, en remontant le Missouri : « l'habitation de Robidoux, peinte en blanc » et entourée de la brillante verdure des prairies, fait un effet si agréable que le peintre Karl Bodmer en fait un croquis. Au retour, le 16 mai 1834, le prince trouve le propriétaire et son fils absents et ne peut obtenir de ses engagés ni provisions ni chevaux ; le 22 mai, il croise le vapeur Ioway, à bord duquel « le vieux Robidoux » lui donne des nouvelles de sa maison des Blacksnake Hills.
+
+Tassé raconte ensuite les lettres patentes de 1843, le lotissement de la ville, son érection en village en 1845 sous le nom du patron de Joseph, la fortune et la mort du fondateur, avant de consacrer quelques lignes à Antoine (le Nouveau-Mexique, la blessure de la campagne de Kearny, la Californie, la mort à Saint-Joseph en 1860) et à Jules, qui bâtit la deuxième maison de la ville et meurt en 1875. Pour Tassé, Joseph « mérite une mention spéciale comme premier habitant de cette ville, premier commerçant de fourrures avec les sauvages, premier pionnier ».`,
+  note: "Le Memorial de 1924 reproduit ce passage en français, très déformé par la transcription (p. 89-91).",
+  sources: `Tassé, Les Canadiens de l'Ouest (Montréal, 1878), t. II, p. 119-129, 193, archive.org cihm_33779 ; ${ROB}, p. 89-91.`,
+  lieux: ['L12', 'L15', 'L31', 'L38'] },
 ];
