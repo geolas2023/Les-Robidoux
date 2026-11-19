@@ -880,6 +880,11 @@ L('L168', "Jurupa : l'évaluation fiscale de 1854 et le lotissement du rancho", 
   f"{HOR}, p. 81-88 (PDF du Drive de l'auteur, dossier ROBIDOUX_FAMILY).",
   "Hornbeck écrit en 1913 d'après des souvenirs et des auteurs antérieurs ; il fait arriver Louis en Californie en 1844, alors que les autres sources situent l'achat du rancho en 1847.")
 
+# ------------------------------------------------------------------ Recensements (ménages relevés sur Ancestry)
+import sys as _sys; _sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import recensements as _rec
+_rec.points(L)
+
 EXTRA = {
   'L128': [{"src": "images/documents/clark-1827-07-23-licence-antoine-robidoux-and-company.jpg", "legende": "Licence de William Clark à « Antoine Robidoux and Company », Saint-Louis, 23 juillet 1827 (dossier de l'auteur)"}],
   'L50': [LOC("westwater-inscription-antoine-robidoux.jpg", "« Antoine Robidoux passé ici le 13 novembre 1837 pour établire maison traitte à la rv. Vert ou Wiyte » (dossier de l'auteur)"),
@@ -895,6 +900,15 @@ EXTRA = {
   'L60': [LOC("jurupa-plaque-moulin-robidoux.jpg", "Plaque n° 51 du comté de Riverside : « Robidoux Grist Mill Site », California Historical Landmark n° 303 (dossier de l'auteur)"),
           LOC("jurupa-monument-moulin-robidoux.jpg", "Le monument du moulin, coiffé d'une meule (dossier de l'auteur)")],
 }
+# Photographies anciennes repérées dans les arbres publics d'Ancestry (domaine public ; crédit à la source d'origine quand elle est connue)
+ANC = "arbre public d'un membre d'Ancestry"
+for _id, _im in {
+  'L12': [LOC("maison-joseph-robidoux.jpg", f"La maison de rondins de Joseph Robidoux (photographie ancienne ; {ANC})")],
+  'L16': [LOC("joseph-robidoux-portrait-v1860.jpg", f"Joseph Robidoux vers 1860 (photographie ancienne ; {ANC})")],
+  'L34': [LOC("louis-robidoux.jpg", f"Louis Robidoux (photographie ancienne ; {ANC})")],
+  'L59': [LOC("louis-robidoux-ranch-1869.jpg", f"La maison du ranch de Louis Robidoux à Jurupa (USC Digital Library, California Historical Society ; {ANC})")],
+}.items():
+    EXTRA[_id] = EXTRA.get(_id, []) + _im
 for f in LIEUX:
     f['properties']['images'] = f['properties']['images'] + EXTRA.get(f['properties']['id'], [])
     pr = PRESSE.get(f['properties']['id'])

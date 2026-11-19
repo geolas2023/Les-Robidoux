@@ -74,6 +74,30 @@ main { display: grid; grid-template-columns: 360px 1fr; min-height: 0; }
 .lightbox figcaption { color: #f1e4c4; font-style: italic; text-align: center; margin-top: .5rem; }
 .lightbox figure { margin: 0; display: flex; flex-direction: column; align-items: center; }
 .lightbox button { position: absolute; top: .6rem; right: .9rem; background: transparent; border: 0; color: #f1e4c4; font-size: 1.6rem; cursor: pointer; }
+.onglets { display: flex; gap: .3rem; margin: .8rem 0 0; border-bottom: 1px solid #c9bba3; flex-wrap: wrap; }
+.onglets button { font: inherit; font-size: .92rem; background: #efe9dd; color: #4d4436; border: 1px solid #c9bba3; border-bottom: 0; border-radius: 4px 4px 0 0; padding: .3rem .8rem; cursor: pointer; margin-bottom: -1px; }
+.onglets button.actif { background: #f4efe6; color: #2b2620; font-weight: bold; border-bottom: 1px solid #f4efe6; }
+.dossier h3 { font-family: "IM Fell English SC", Georgia, serif; font-weight: normal; font-size: 1.15rem; margin: 1.4rem 0 .5rem; border-bottom: 1px solid #d6cbb8; padding-bottom: .15rem; }
+.dossier .intro-d { font-size: .9rem; color: #6b604f; max-width: 52rem; }
+.recens { background: #fffdf8; border: 1px solid #e0d5c2; border-left: 4px solid #8a6d3b; padding: .6rem .8rem; margin: 0 0 .8rem; max-width: 56rem; }
+.recens .tete { display: flex; justify-content: space-between; gap: .8rem; flex-wrap: wrap; align-items: baseline; }
+.recens .an { font-family: "IM Fell English", Georgia, serif; font-size: 1.25rem; }
+.recens .lieu { font-size: .95rem; }
+.recens .carte a { font-size: .82rem; background: #faf7f1; border: 1px solid #b9ab92; border-radius: 3px; padding: .05rem .45rem; color: #3b3328; text-decoration: none; }
+.recens table { border-collapse: collapse; width: 100%; font-size: .86rem; margin-top: .4rem; }
+.recens th, .recens td { text-align: left; padding: .15rem .4rem; border-bottom: 1px solid #ece3d3; vertical-align: top; }
+.recens th { font-weight: normal; color: #6b604f; font-size: .78rem; }
+.recens tr.cible td { background: #f6ead2; font-weight: bold; }
+.recens .src { font-size: .78rem; color: #6b604f; margin-top: .3rem; }
+.actes { padding-left: 1.1rem; max-width: 56rem; }
+.actes li { margin: 0 0 .45rem; font-size: .94rem; line-height: 1.45; }
+.actes .d { font-weight: bold; }
+.galerie { display: grid; grid-template-columns: repeat(auto-fill, minmax(170px, 1fr)); gap: .8rem; max-width: 60rem; }
+.galerie figure { margin: 0; }
+.galerie img { width: 100%; height: 190px; object-fit: cover; object-position: top; border: 1px solid #c9bba3; background: #fff; cursor: zoom-in; }
+.galerie figcaption { font-size: .76rem; color: #6b604f; margin-top: .2rem; }
+.renvois { padding-left: 1.1rem; }
+.renvois a { color: #3b3328; }
 @media (max-width: 800px) {
   main { grid-template-columns: 1fr; grid-template-rows: 40vh 1fr; }
   #index { border-right: 0; border-bottom: 1px solid #d6cbb8; }
@@ -118,13 +142,15 @@ main { display: grid; grid-template-columns: 360px 1fr; min-height: 0; }
   <button type="button" id="lb-fermer" aria-label="Fermer">✕</button>
   <figure><img id="lb-image" src="" alt=""><figcaption id="lb-legende"></figcaption></figure>
 </div>
-<script src="js/salle.js?v=1"></script>
+<script src="js/salle.js?v=2"></script>
+<script src="js/dossiers.js?v=1"></script>
+<script src="js/recensements.js?v=1"></script>
 <script>
 const GENRES = { portrait: 'Portraits de famille', document: 'Documents', etude: 'Études du dossier', journal: 'Dans les journaux (Newspapers.com)' };
 const STATUTS = { biographie: 'biographie', transcription: 'transcription', traduction: 'traduction', resume: 'résumé', fiche: 'fiche' };
 const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
 const tries = [...ITEMS].sort((a, b) => a.ordre - b.ordre);
-let visibles = tries, courant = null;
+let visibles = tries, courant = null, onglet = 'bio';
 let NOMS_LIEUX = {};
 Promise.all(['data/lieux.geojson', 'data/trajets.geojson'].map(u => fetch(u).then(r => r.json()).catch(() => null)))
   .then(js => { js.forEach(j => j && j.features.forEach(f => NOMS_LIEUX[f.properties.id] = f.properties.nom)); if (courant) afficher(courant); });
@@ -159,9 +185,23 @@ function afficher(i) {
   const im = i.images || [];
   const corps = i.type === 'document' ? `<div class="texte document">${esc(i.texte)}</div>` : `<div class="texte">${paragraphes(i.texte)}</div>`;
   const k = visibles.findIndex(v => v.id === i.id);
+  const nd = i.type === 'portrait' ? nbDocuments(i) : 0;
+  const tabs = i.type === 'portrait' ? `<div class="onglets" role="tablist">
+      <button type="button" role="tab" data-o="bio" class="${onglet === 'bio' ? 'actif' : ''}">Biographie</button>
+      <button type="button" role="tab" data-o="documents" class="${onglet === 'documents' ? 'actif' : ''}">Documents trouvés (${nd})</button></div>` : '';
+  const enTete = `<h2>${esc(i.titre)}</h2>
+    <p class="meta">${esc(i.date)} · ${GENRES[i.type]} · <span class="pastille p-${i.statut}">${STATUTS[i.statut]}</span>${(i.personnes || []).length ? ' · ' + esc(i.personnes.join(', ')) : ''}</p>${tabs}`;
+  const navHtml = `<div class="nav">
+      <button type="button" id="prec" ${k <= 0 ? 'disabled' : ''}>‹ Précédent</button>
+      <button type="button" id="suiv" ${k < 0 || k >= visibles.length - 1 ? 'disabled' : ''}>Suivant ›</button>
+    </div>`;
+  if (i.type === 'portrait' && onglet === 'documents') {
+    document.getElementById('lecteur').innerHTML = enTete + `<div class="dossier">${dossierHtml(i)}</div>` + navHtml;
+    brancher(i, k);
+    return;
+  }
   document.getElementById('lecteur').innerHTML = `
-    <h2>${esc(i.titre)}</h2>
-    <p class="meta">${esc(i.date)} · ${GENRES[i.type]} · <span class="pastille p-${i.statut}">${STATUTS[i.statut]}</span>${(i.personnes || []).length ? ' · ' + esc(i.personnes.join(', ')) : ''}</p>
+    ${enTete}
     <div class="grille${im.length ? '' : ' sans-image'}">
       ${im.length ? `<div class="facs">${im.map((d, n) => `<figure><img src="${esc(d.src)}" alt="${esc(d.legende)}" data-n="${n}"><figcaption>${esc(d.legende)}</figcaption></figure>`).join('')}</div>` : ''}
       <div>
@@ -173,22 +213,63 @@ function afficher(i) {
         <div class="sources"><strong>Sources :</strong> ${esc(i.sources)}</div>
       </div>
     </div>
-    <div class="nav">
-      <button type="button" id="prec" ${k <= 0 ? 'disabled' : ''}>‹ Précédent</button>
-      <button type="button" id="suiv" ${k < 0 || k >= visibles.length - 1 ? 'disabled' : ''}>Suivant ›</button>
-    </div>`;
-  document.querySelectorAll('.facs img').forEach(img => img.addEventListener('click', () => {
+    ${navHtml}`;
+  brancher(i, k);
+}
+function brancher(i, k) {
+  document.querySelectorAll('.facs img, .galerie img').forEach(img => img.addEventListener('click', () => {
     document.getElementById('lb-image').src = img.src; document.getElementById('lb-legende').textContent = img.alt;
     document.getElementById('lightbox').hidden = false;
   }));
+  document.querySelectorAll('.onglets button').forEach(b => b.addEventListener('click', () => {
+    onglet = b.dataset.o; history.replaceState(null, '', '#' + i.id + (onglet === 'documents' ? '/documents' : '')); afficher(i);
+  }));
+  document.querySelectorAll('.renvois a[data-id]').forEach(a => a.addEventListener('click', e => { e.preventDefault(); onglet = 'bio'; ouvrir(a.dataset.id); }));
   document.getElementById('prec').addEventListener('click', () => ouvrir(visibles[k - 1].id));
   document.getElementById('suiv').addEventListener('click', () => ouvrir(visibles[k + 1].id));
   document.getElementById('lecteur').scrollTop = 0;
 }
+// ---------- Onglet « Documents trouvés » : recensements, actes, photographies, renvois
+function recensementsDe(i) { return (typeof RECENSEMENTS !== 'undefined' ? RECENSEMENTS : []).filter(r => (r.portraits || []).includes(i.id)).sort((a, b) => a.annee - b.annee); }
+function dossierDe(i) { return (typeof DOSSIERS !== 'undefined' && DOSSIERS[i.id]) || {}; }
+function renvoisDe(i) { const ps = i.personnes || []; return tries.filter(x => x.id !== i.id && x.type !== 'portrait' && (x.personnes || []).some(p => ps.includes(p))); }
+function nbDocuments(i) { const d = dossierDe(i); return recensementsDe(i).length + (d.actes || []).length + (d.photos || []).length + (i.images || []).length + renvoisDe(i).length; }
+function dossierHtml(i) {
+  const rec = recensementsDe(i), d = dossierDe(i), ren = renvoisDe(i);
+  const photos = [...(i.images || []), ...(d.photos || [])];
+  let h = `<p class="intro-d">Les pièces trouvées pour cette personne : recensements (avec les personnes du même foyer et le lieu de résidence, reporté sur la carte), actes des registres paroissiaux, photographies anciennes et autres documents de la salle de lecture.</p>`;
+  if (rec.length) {
+    h += `<h3>Recensements (${rec.length})</h3>`;
+    h += rec.map(r => `<div class="recens"><div class="tete"><span class="an">${r.annee}</span><span class="lieu">${esc(r.lieu)}</span>
+      <span class="carte">${r.lieu_id ? `<a href="index.html#lieu=${esc(r.lieu_id)}" title="${esc(NOMS_LIEUX[r.lieu_id] || '')}">📍 Voir sur la carte</a>` : ''}</span></div>
+      ${r.titre ? `<div>${esc(r.titre)}</div>` : ''}
+      <table><thead><tr><th>Personne du foyer</th><th>Âge</th><th>Lien</th><th>Naissance</th><th>Métier</th></tr></thead><tbody>
+      ${(r.menage || []).map(m => `<tr class="${m.cible ? 'cible' : ''}"><td>${esc(m.nom)}</td><td>${esc(m.age ?? '')}</td><td>${esc(m.lien || '')}</td><td>${esc(m.ne || '')}</td><td>${esc(m.metier || '')}</td></tr>`).join('')}
+      </tbody></table>
+      ${r.note ? `<div class="src"><em>${esc(r.note)}</em></div>` : ''}
+      <div class="src">Source : ${esc(r.source)}</div></div>`).join('');
+  }
+  if ((d.actes || []).length) {
+    h += `<h3>Actes des registres (${d.actes.length})</h3><ul class="actes">` +
+      d.actes.map(a => `<li><span class="d">${esc(a.date)}</span> — ${esc(a.texte)} <span class="src" style="color:#6b604f;font-size:.8rem">(${esc(a.source)})</span></li>`).join('') + '</ul>';
+  }
+  if (photos.length) {
+    h += `<h3>Photographies et images (${photos.length})</h3><div class="galerie">` +
+      photos.map(p => `<figure><img src="${esc(p.src)}" alt="${esc(p.legende)}" loading="lazy"><figcaption>${esc(p.legende)}</figcaption></figure>`).join('') + '</div>';
+  }
+  if (ren.length) {
+    h += `<h3>Dans la salle de lecture (${ren.length})</h3><ul class="renvois">` +
+      ren.map(x => `<li><a href="#${x.id}" data-id="${x.id}">${esc(x.titre)}</a> <span style="color:#6b604f;font-size:.85rem">· ${esc(x.date)} · ${GENRES[x.type]}</span></li>`).join('') + '</ul>';
+  }
+  if (d.note) h += `<p class="note">${esc(d.note)}</p>`;
+  return h;
+}
 function ouvrir(id) {
+  if (id.includes('/')) { const [a, b] = id.split('/'); id = a; onglet = b === 'documents' ? 'documents' : 'bio'; }
   courant = ITEMS.find(i => i.id === id);
   if (!courant) return accueil();
-  history.replaceState(null, '', '#' + id);
+  if (courant.type !== 'portrait') onglet = 'bio';
+  history.replaceState(null, '', '#' + id + (onglet === 'documents' ? '/documents' : ''));
   filtrer();
   if (!visibles.some(v => v.id === id)) { // entrée masquée par les filtres : on les remet à zéro
     document.getElementById('f-type').value = ''; selP.value = ''; document.getElementById('f-texte').value = ''; filtrer();
@@ -226,7 +307,7 @@ document.getElementById('lightbox').addEventListener('click', e => { if (e.targe
 document.addEventListener('keydown', e => { if (e.key === 'Escape') document.getElementById('lightbox').hidden = true; });
 const h = location.hash.slice(1);
 h ? ouvrir(h) : accueil();
-window.addEventListener('hashchange', () => { const id = location.hash.slice(1); if (!courant || id !== courant.id) (id ? ouvrir(id) : accueil()); });
+window.addEventListener('hashchange', () => { const id = location.hash.slice(1); if (!courant || id.split('/')[0] !== courant.id) (id ? ouvrir(id) : accueil()); });
 </script>
 </body>
 </html>

@@ -55,6 +55,8 @@ De 1819 à 1828, il traite autour de Council Bluffs avec François et Papin, pui
 
 Joseph était, dit-on, généreux, caustique et joueur : le peintre Kurz raconte qu'il gagna une partie de poker sur un vapeur en misant une malle contenant mille dollars. Il possédait des esclaves ; l'un d'eux, Jeffrey Deroine, obtint sa liberté en 1832. Son fils Charles est tué en 1850 ; Angélique meurt en janvier 1857. Aveugle, il passe ses dernières années dans sa rangée de logements (Robidoux Row) et meurt le 27 mai 1868. Le maire George Hall fait fermer les commerces pour ses funérailles, parties de la maison de Jules, rue Edmond.`,
   sources: `${WIL}, p. 3, 20-45, 47-62, 88-119, 133-144, 178-204, 210 ; Tassé, Les Canadiens de l'Ouest (1878), t. II, p. 119-127 ; Chittenden (1902).`,
+  images: [{ src: 'images/photos/joseph-robidoux-portrait-v1860.jpg', legende: 'Joseph Robidoux, portrait assis, vers 1860 (photographie ancienne ; arbre public d\'un membre d\'Ancestry)' },
+           { src: 'images/photos/maison-joseph-robidoux.jpg', legende: 'La maison de rondins de Joseph Robidoux (photographie ancienne ; arbre public d\'un membre d\'Ancestry)' }],
   lieux: ['L04', 'L10', 'L75', 'L14', 'L76', 'L12', 'L41', 'L43', 'L44', 'L15', 'L46', 'L78', 'L79', 'L16', 'L47'] },
 
 { id: 'francois', type: 'portrait', statut: 'biographie', ordre: 5, date: '1788 – 1856 ?', titre: 'François Robidoux, le marchand de Saint-Louis',
@@ -90,6 +92,7 @@ Ses forts vendent armes et alcool aux Utes et participent à la traite des capti
 
 En 1846, interprète et guide de Kearny, il traduit la prise de possession de Santa Fe, puis suit l'armée jusqu'en Californie. À San Pasqual, le 6 décembre, un coup de lance dans le dos le laisse pour mort ; une tasse de café, raconte Emory, le ramène à la vie. Il rentre par mer en 1847-1848, demande pension et remboursements au Congrès, et obtient en 1856 une pension de 16,66 dollars par mois. Presque aveugle, atteint d'hydropisie, il meurt à Saint-Joseph le 29 août 1860, laissant Carmel et leur petite-fille adoptive Amanda.`,
   sources: `${WIL}, ch. 4, 7, 9, 10, 12 ; W. S. Wallace, Antoine Robidoux, 1794-1860 (1953) et sa notice dans Hafen (dir.) (1995), p. 270-282 ; nécrologie de la St. Joseph Gazette (1860).`,
+  images: [{ src: 'images/photos/antoine-robidoux-jeune.jpg', legende: 'Antoine Robidoux jeune homme (Museum of New Mexico ; arbre public d\'un membre d\'Ancestry)' }],
   lieux: ['L06', 'L09', 'L80', 'L81', 'L17', 'L22', 'L25', 'L23', 'L50', 'L48', 'L24', 'L54', 'L29', 'L30', 'L82', 'L32', 'L83', 'L84', 'L38'] },
 
 { id: 'louis', type: 'portrait', statut: 'biographie', ordre: 8, date: '1796 – 1868', titre: 'Louis Robidoux, d\'alcalde de Santa Fe à ranchero de Jurupa',
@@ -103,6 +106,8 @@ Devant l'hostilité croissante envers les Américains, il vend ses biens en 1841
 
 Superviseur et premier président du conseil du comté de San Bernardino (1853), il voit sa fortune ruinée par la crue de 1862, la sécheresse et les procès ; une chute de cheval le laisse infirme. Remarié à Flavia Castillo, il meurt le 24 septembre 1868 et repose à Agua Mansa. Le mont Rubidoux, à Riverside, porte son nom.`,
   sources: `${WIL}, p. 3, 66, 80-81, 86-87, 120-124, 149-154, 162-165, 174-177, 198-201, 209-210 ; D. J. Weber (éd.), « Louis Robidoux: Two Letters from California, 1848 » (1972) ; R. Hornbeck, Roubidoux's Ranch in the 70's (1913).`,
+  images: [{ src: 'images/photos/louis-robidoux.jpg', legende: 'Louis Robidoux (photographie ancienne ; arbre public d\'un membre d\'Ancestry)' },
+           { src: 'images/photos/louis-robidoux-ranch-1869.jpg', legende: 'La maison du ranch de Louis Robidoux à Jurupa (USC Digital Library, California Historical Society ; arbre public d\'un membre d\'Ancestry)' }],
   lieux: ['L18', 'L85', 'L49', 'L51', 'L58', 'L59', 'L60', 'L86', 'L87', 'L61', 'L62'] },
 
 { id: 'michel', type: 'portrait', statut: 'biographie', ordre: 9, date: '1798 – 1858', titre: 'Michel Robidoux, le chef de brigade',
@@ -114,6 +119,7 @@ Rentré au Missouri, il travaille avec Baptiste Roy ; une fille lui naît à Sai
 
 Après 1835, il traite sur les Plaines autour du fort William (Laramie) et revient souvent à Saint-Louis, où il achète en 1839 la propriété de Joseph. À Saint-Joseph, il est l'associé d'Isidore, puis administre sa succession en 1852. Il meurt en avril 1858.`,
   sources: `${WIL}, p. 3, 76-77, 96-99, 202 ; D. J. Weber, « Sylvestre S. Pratte », dans Hafen (dir.) (1995), p. 264.`,
+  images: [{ src: 'images/photos/michel-robidoux.jpg', legende: 'Michel Robidoux, profil aquarellé (miniature ancienne ; arbre public d\'un membre d\'Ancestry)' }],
   lieux: ['L88', 'L20', 'L89', 'L90', 'L91', 'L92'] },
 
 { id: 'soeurs', type: 'portrait', statut: 'biographie', ordre: 10, date: '1800 – ?', titre: 'Eulalie et Marie Pélagie, les sœurs',
@@ -139,6 +145,8 @@ Employé de la licence paternelle en 1849, il tient très probablement le poste 
 
 Il reprend le commerce de détail et la vie civique de son père ; c'est de sa maison, rue Edmond, que partent les funérailles de Joseph le 28 mai 1868. Il assiste en septembre 1874 à l'assemblée des pionniers du Missouri et meurt à Saint-Joseph le 26 février 1875.`,
   sources: `${WIL}, p. 34, 113, 141, 202, 210 ; Tassé (1878), t. II, p. 125-128 ; Cragin, Early Far West Notebooks, p. 224.`,
+  images: [{ src: 'images/photos/jules-robidoux.jpg', legende: 'Jules-César Robidoux (photographie de studio ; arbre public d\'un membre d\'Ancestry)' },
+           { src: 'images/photos/elizabeth-barada-robidoux.jpg', legende: 'Elizabeth Barada Robidoux, son épouse (photographie ancienne ; arbre public d\'un membre d\'Ancestry)' }],
   lieux: ['L45', 'L31', 'L36', 'L16'] },
 
 { id: 'carmel', type: 'portrait', statut: 'biographie', ordre: 13, date: '1811 – 1888', titre: 'Carmel Benavides, l\'épouse d\'Antoine',

@@ -321,7 +321,12 @@
     "sources": "Tassé, Les Canadiens de l'Ouest (1878), t. II, p. 121-124 ; Chittenden, The American Fur Trade of the Far West (1902), vol. 2-3, p. 874.",
     "note": "Date d'établissement discutée (1803 selon le Herald, vers 1826 selon Chittenden).",
     "type": "lieu",
-    "images": []
+    "images": [
+     {
+      "src": "images/photos/maison-joseph-robidoux.jpg",
+      "legende": "La maison de rondins de Joseph Robidoux (photographie ancienne ; arbre public d'un membre d'Ancestry)"
+     }
+    ]
    }
   },
   {
@@ -442,6 +447,10 @@
       "src": "https://commons.wikimedia.org/wiki/Special:FilePath/Bird%27s_eye_view_of_the_city_of_Saint_Joseph%2C_Missouri_1868._LOC_73693489.jpg?width=1200",
       "lien": "https://commons.wikimedia.org/wiki/File:Bird%27s_eye_view_of_the_city_of_Saint_Joseph%2C_Missouri_1868._LOC_73693489.jpg",
       "legende": "Saint-Joseph en 1868 (Library of Congress) (Wikimedia Commons)"
+     },
+     {
+      "src": "images/photos/joseph-robidoux-portrait-v1860.jpg",
+      "legende": "Joseph Robidoux vers 1860 (photographie ancienne ; arbre public d'un membre d'Ancestry)"
      },
      {
       "src": "images/journaux/1868-06-05-liberty-tribune-mort-joseph-robidoux.jpg",
@@ -955,6 +964,10 @@
      {
       "src": "images/documents/plan-rancho-jurupa.jpg",
       "legende": "Plan du rancho Jurupa confirmé à Louis Robidoux et al., levé pour le Surveyor General des États-Unis (années 1870) ; dossier de l'auteur"
+     },
+     {
+      "src": "images/photos/louis-robidoux.jpg",
+      "legende": "Louis Robidoux (photographie ancienne ; arbre public d'un membre d'Ancestry)"
      }
     ]
    }
@@ -1650,6 +1663,10 @@
      {
       "src": "images/photos/jurupa-adobe-louis-robidoux.jpg",
       "legende": "L'adobe de Louis Robidoux à Jurupa (dossier de l'auteur)"
+     },
+     {
+      "src": "images/photos/louis-robidoux-ranch-1869.jpg",
+      "legende": "La maison du ranch de Louis Robidoux à Jurupa (USC Digital Library, California Historical Society ; arbre public d'un membre d'Ancestry)"
      }
     ]
    }
@@ -4484,6 +4501,706 @@
     "description": "Selon Hornbeck, qui s'appuie sur les registres du comté de San Bernardino, Louis Robidoux est évalué en 1854 à 20 000 dollars. Le rôle compte le rancho Jurupa (environ 3 000 acres), celui de San Timoteo (640 acres), 1 200 moutons, quelque 450 bovins, une soixantaine de chevaux, sa maison et ses aménagements, ainsi qu'un billet de 3 000 dollars des évêques mormons Lyman et Rich, acheteurs du rancho San Bernardino en 1851. Les bancs de terre où s'élèvera Riverside ne sont pas évalués, jugés sans valeur. Lettré et polyglotte (il parle quatre langues), Louis est juge local et membre du premier conseil de surveillance du comté. Il est l'un des premiers en Californie à lotir son domaine pour le vendre à de petits fermiers à crédit. Un de ses hommes, Antonio Prieto, bâtit une maison au pied nord du mont Rubidoux.",
     "sources": "R. Hornbeck, Roubidoux's Ranch in the 70's (Riverside, Press Printing Company, 1913), p. 81-88 (PDF du Drive de l'auteur, dossier ROBIDOUX_FAMILY).",
     "note": "Hornbeck écrit en 1913 d'après des souvenirs et des auteurs antérieurs ; il fait arriver Louis en Californie en 1844, alors que les autres sources situent l'achat du rancho en 1847.",
+    "type": "lieu",
+    "images": []
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -94.846,
+     39.768
+    ]
+   },
+   "properties": {
+    "id": "R1850-joseph",
+    "nom": "Recensement de 1850 : Joseph et Angélique, Black Snake Hills",
+    "debut": 1850.5,
+    "fin": 1850.5,
+    "date_edtf": "1850",
+    "precision": "annee",
+    "certitude": "approximative",
+    "categorie": "joseph3",
+    "description": "Recensement de 1850, canton de Washington, comté de Buchanan (Missouri), logement 258. Le fondateur de Saint-Joseph, 66 ans, avec sa seconde épouse. Personnes du foyer : Joseph Robidoux (66 ans, chef, v. 1784, Missouri) ; Angilique [Angélique Vaudry] Robidoux (50 ans, épouse, v. 1800, Illinois) ; Mary Lature (22 ans).",
+    "sources": "1850 United States Federal Census, Ancestry (coll. 8054, notice 3651738).",
+    "note": "Point placé au centre de la localité inscrite au recensement ; ménage détaillé dans la salle de lecture (onglet « Documents trouvés »).",
+    "type": "lieu",
+    "images": []
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -94.86,
+     39.79
+    ]
+   },
+   "properties": {
+    "id": "R1850-jules",
+    "nom": "Recensement de 1850 : Jules-César et Elizabeth, voisins de Joseph",
+    "debut": 1850.5,
+    "fin": 1850.5,
+    "date_edtf": "1850",
+    "precision": "annee",
+    "certitude": "approximative",
+    "categorie": "jules",
+    "description": "Recensement de 1850, canton de Washington, comté de Buchanan (Missouri), logement 259. Logement voisin de celui de Joseph : son fils Jules, marchand, sa famille, son jeune frère Charles et sa cousine Mary (fille de François) avec son mari James Brown. Personnes du foyer : Julius C. Robidoux (36 ans, chef, v. 1814, Missouri, marchand) ; Elice [Elizabeth Barada] Robidoux (27 ans, épouse, v. 1823, Missouri) ; J. C. Robidoux (13 ans, fils, v. 1837, Missouri) ; Emily Robidoux (11 ans, fille, v. 1839, Missouri) ; Thomas Robidoux (9 ans, fils, v. 1841, Missouri) ; Cora Robidoux (4 ans, fille, v. 1846, Missouri) ; Martha Robidoux (0 ans, fille, 1850, Missouri) ; Charles Robidoux (19 ans, frère de Jules, v. 1831, Missouri) ; James Brown (36 ans) ; Mary Brown (30 ans, née Robidoux, fille de François).",
+    "sources": "1850 United States Federal Census, Ancestry (coll. 8054, notice 3651741).",
+    "note": "Charles, fils de Joseph et d'Angélique, sera tué en septembre 1850. Point placé au centre de la localité inscrite au recensement ; ménage détaillé dans la salle de lecture (onglet « Documents trouvés »).",
+    "type": "lieu",
+    "images": []
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -94.83,
+     39.8
+    ]
+   },
+   "properties": {
+    "id": "R1850-francois",
+    "nom": "Recensement de 1850 : François, le frère de Joseph",
+    "debut": 1850.5,
+    "fin": 1850.5,
+    "date_edtf": "1850",
+    "precision": "annee",
+    "certitude": "approximative",
+    "categorie": "freres",
+    "description": "Recensement de 1850, canton de Washington, comté de Buchanan (Missouri), logement 314. François, le deuxième des six frères, à 64 ans, chez lui près de Saint-Joseph. Personnes du foyer : Francis Robidoux (64 ans, chef, v. 1786, Missouri) ; Ann Robidoux (50 ans, v. 1800, Kentucky) ; Elvira Robidoux (30 ans, v. 1820, Missouri) ; Napoleon Alx. Robidoux (1 ans, v. 1849, Missouri) ; Antoine Premore (24 ans) ; Melinda Premore (17 ans) ; John J. Stidd (25 ans).",
+    "sources": "1850 United States Federal Census, Ancestry (coll. 8054, notice 3652064).",
+    "note": "Ce recensement montre François vivant en 1850 ; les biographies hésitaient sur sa date de mort (1856 ?). Point placé au centre de la localité inscrite au recensement ; ménage détaillé dans la salle de lecture (onglet « Documents trouvés »).",
+    "type": "lieu",
+    "images": []
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -94.87,
+     39.76
+    ]
+   },
+   "properties": {
+    "id": "R1850-michel",
+    "nom": "Recensement de 1850 : Michel et Susanne Vaudry",
+    "debut": 1850.5,
+    "fin": 1850.5,
+    "date_edtf": "1850",
+    "precision": "annee",
+    "certitude": "approximative",
+    "categorie": "freres",
+    "description": "Recensement de 1850, canton de Washington, comté de Buchanan (Missouri), logement 215. Michel, inscrit comme « Trader », avec sa femme Susanne Vaudry et deux filles. Personnes du foyer : Mitchel Robideaux (43 ans, chef, v. 1807, Missouri, traiteur) ; Susan Robideaux (43 ans, épouse, v. 1807, Missouri) ; Sophy Robideaux (18 ans, fille, v. 1832, Missouri) ; Octavia Robideaux (11 ans, fille, v. 1839, Missouri).",
+    "sources": "1850 United States Federal Census, Ancestry (coll. 8054, notice 3651511).",
+    "note": "L'âge de Michel (43 ans) est sous-estimé : il est né en 1798. Sophy est Agnès Sophie (baptisée en 1832) ; Octavia, née vers 1839, correspond sans doute à Pélagie (baptisée en 1839). Point placé au centre de la localité inscrite au recensement ; ménage détaillé dans la salle de lecture (onglet « Documents trouvés »).",
+    "type": "lieu",
+    "images": []
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -94.84,
+     39.79
+    ]
+   },
+   "properties": {
+    "id": "R1850-felix",
+    "nom": "Recensement de 1850 : Félix, fils de Joseph",
+    "debut": 1850.5,
+    "fin": 1850.5,
+    "date_edtf": "1850",
+    "precision": "annee",
+    "certitude": "approximative",
+    "categorie": "joseph3",
+    "description": "Recensement de 1850, canton de Washington, comté de Buchanan (Missouri), logement 445. Félix, fils de Joseph et d'Angélique Vaudry, marchand, avec sa femme Jane Smith et leurs enfants. Personnes du foyer : Felix Robideaux (30 ans, chef, v. 1820, Missouri, marchand) ; Jane Robideaux (30 ans, épouse, v. 1820, Missouri) ; Josaphine Robideaux (7 ans, fille, v. 1843, Missouri) ; Charles Robideaux (5 ans, fils, v. 1845, Missouri) ; George Robidoux (0 ans, 1850, Missouri) ; Maria Meccia (34 ans).",
+    "sources": "1850 United States Federal Census, Ancestry (coll. 8054, notice 3652761).",
+    "note": "Point placé au centre de la localité inscrite au recensement ; ménage détaillé dans la salle de lecture (onglet « Documents trouvés »).",
+    "type": "lieu",
+    "images": []
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -94.35,
+     40.33
+    ]
+   },
+   "properties": {
+    "id": "R1850-francoisb",
+    "nom": "Recensement de 1850 : François (Francis B.), fils de Joseph",
+    "debut": 1850.5,
+    "fin": 1850.5,
+    "date_edtf": "1850",
+    "precision": "annee",
+    "certitude": "approximative",
+    "categorie": "joseph3",
+    "description": "Recensement de 1850, canton d'Athens, comté de Gentry (Missouri), logement 219. François [Belevere], fils de Joseph et d'Angélique Vaudry (baptisé en 1818), marchand dans le comté de Gentry. Personnes du foyer : Francis B. Robidoux (32 ans, chef, v. 1818, Missouri, marchand) ; Rosene Robidoux (25 ans, épouse, v. 1825, Missouri) ; Felix Robidoux (9 ans, fils, v. 1841, Missouri) ; Paline [Pauline] Robidoux (6 ans, fille, v. 1844, Missouri) ; Sylvina Robidoux (4 ans, fille, v. 1846, Missouri) ; Joseph Robidoux (1 ans, fils, v. 1849, Missouri) ; Lilburn P. Camron (21 ans) ; Katharine Wolf Camron (18 ans).",
+    "sources": "1850 United States Federal Census, Ancestry (coll. 8054, notice 3778879).",
+    "note": "Point placé au centre de la localité inscrite au recensement ; ménage détaillé dans la salle de lecture (onglet « Documents trouvés »).",
+    "type": "lieu",
+    "images": []
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -117.40605,
+     33.99682
+    ]
+   },
+   "properties": {
+    "id": "R1850-louis",
+    "nom": "Recensement de 1850 : Louis et Guadalupe García à Jurupa",
+    "debut": 1850.5,
+    "fin": 1850.5,
+    "date_edtf": "1850",
+    "precision": "annee",
+    "certitude": "approximative",
+    "categorie": "louis",
+    "description": "Recensement de 1850, comté de Los Angeles (Californie), logement 458 [rancho de Jurupa]. Louis Robidoux, 54 ans, au rancho de Jurupa, alors dans le comté de Los Angeles, avec Guadalupe García et leurs enfants. Personnes du foyer : Luis Robidoux (54 ans, chef, Missouri) ; Guadaloupe Robidoux (38 ans, épouse, v. 1812, Nouveau-Mexique) ; Catalina Robidoux (15 ans, fille, v. 1835, Nouveau-Mexique) ; Luis Robidoux (12 ans, fils, v. 1838, Nouveau-Mexique) ; Pascual Robidoux (10 ans, fils, v. 1840, Nouveau-Mexique) ; Carmel Robidoux (8 ans, fille, v. 1842, Mexique) ; Adelaida Robidoux (6 ans, fille, v. 1844, Californie) ; Benina [Benigno] Robidoux (0 ans, fils, 1850, Californie) ; Luis F. Robidoux (31 ans, v. 1819, Missouri, cultivateur) ; Incamacion Garcia (49 ans) ; Jesus Ramis (35 ans) ; Jose Antonio (10 ans).",
+    "sources": "1850 United States Federal Census, Ancestry (coll. 8054, notice 19660660).",
+    "note": "Luis F. Robidoux, né au Missouri vers 1819, est sans doute Louis, fils d'Isidore, baptisé à Saint-Louis en 1820 : le neveu travaille au ranch de son oncle. Point placé au centre de la localité inscrite au recensement ; ménage détaillé dans la salle de lecture (onglet « Documents trouvés »).",
+    "type": "lieu",
+    "images": []
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -94.848,
+     39.765
+    ]
+   },
+   "properties": {
+    "id": "R1860-jules",
+    "nom": "Recensement de 1860 : Jules-César, juge de paix",
+    "debut": 1860.5,
+    "fin": 1860.5,
+    "date_edtf": "1860",
+    "precision": "annee",
+    "certitude": "approximative",
+    "categorie": "jules",
+    "description": "Recensement de 1860, Saint-Joseph, comté de Buchanan (Missouri), logement 2146. Jules, juge de paix (« J P »), 10 000 $ de biens fonciers, avec Elizabeth et dix enfants. Personnes du foyer : J. C. Robidoux (44 ans, chef, v. 1816, Missouri, juge de paix) ; E. [Elizabeth] Robidoux (38 ans, épouse, v. 1822, Missouri) ; J. C. Robidoux (21 ans, fils, v. 1839) ; E. Robidoux (19 ans, fille, v. 1841) ; M. Robidoux (15 ans) ; T. [Thomas] Robidoux (14 ans, fils) ; C. Robidoux (12 ans) ; P. Robidoux (7 ans) ; L. Robidoux (5 ans) ; L. Robidoux (3 ans) ; L. Robidoux (1 ans).",
+    "sources": "1860 United States Federal Census, Ancestry (coll. 7667, notice 41025491).",
+    "note": "Point placé au centre de la localité inscrite au recensement ; ménage détaillé dans la salle de lecture (onglet « Documents trouvés »).",
+    "type": "lieu",
+    "images": []
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -94.845,
+     39.77
+    ]
+   },
+   "properties": {
+    "id": "R1860-carmel",
+    "nom": "Recensement de 1860 : Carmel à Saint-Joseph",
+    "debut": 1860.5,
+    "fin": 1860.5,
+    "date_edtf": "1860",
+    "precision": "annee",
+    "certitude": "approximative",
+    "categorie": "proches",
+    "description": "Recensement de 1860, Saint-Joseph, comté de Buchanan (Missouri), logement 1836. Carmel (« A. Robidoux », 48 ans, née au Nouveau-Mexique), voisine de la famille de François [Belevere] ; Antoine n'est pas inscrit au foyer. Personnes du foyer : A. Robidoux [Carmel Benavides] (48 ans, v. 1812, Nouveau-Mexique).",
+    "sources": "1860 United States Federal Census, Ancestry (coll. 7667, notice 41023971).",
+    "note": "Selon Levine, la fillette Amanda Barada (« A. Barady », 9 ans) et une jeune Allemande vivent avec elle. Point placé au centre de la localité inscrite au recensement ; ménage détaillé dans la salle de lecture (onglet « Documents trouvés »).",
+    "type": "lieu",
+    "images": []
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -94.8455,
+     39.7703
+    ]
+   },
+   "properties": {
+    "id": "R1860-francoisb",
+    "nom": "Recensement de 1860 : La famille de François [Belevere]",
+    "debut": 1860.5,
+    "fin": 1860.5,
+    "date_edtf": "1860",
+    "precision": "annee",
+    "certitude": "approximative",
+    "categorie": "joseph3",
+    "description": "Recensement de 1860, Saint-Joseph, comté de Buchanan (Missouri), logement 1837. Le ménage voisin de Carmel : P. Robidoux, 37 ans, et les enfants de François [Belevere], recensés en 1850 dans le comté de Gentry. Personnes du foyer : P. Robidoux (37 ans, v. 1823, Missouri) ; F. [Felix] Robidoux (20 ans, v. 1840) ; P. [Pauline] Robidoux (17 ans, v. 1843) ; O. Robidoux (14 ans, v. 1846) ; J. [Joseph] Robidoux (12 ans, v. 1848) ; N. Robidoux (8 ans, v. 1852) ; A. Robidoux (5 ans, v. 1855) ; C. Robidoux (1 ans, v. 1859).",
+    "sources": "1860 United States Federal Census, Ancestry (coll. 7667, notice 41024010).",
+    "note": "Identification par les âges des enfants (Felix, Pauline, Joseph), à confirmer ; François n'apparaît pas. Point placé au centre de la localité inscrite au recensement ; ménage détaillé dans la salle de lecture (onglet « Documents trouvés »).",
+    "type": "lieu",
+    "images": []
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -94.842,
+     39.764
+    ]
+   },
+   "properties": {
+    "id": "R1860-sylvanie",
+    "nom": "Recensement de 1860 : Sylvanie Robidoux et F. A. Beauvais",
+    "debut": 1860.5,
+    "fin": 1860.5,
+    "date_edtf": "1860",
+    "precision": "annee",
+    "certitude": "approximative",
+    "categorie": "joseph3",
+    "description": "Recensement de 1860, Saint-Joseph, comté de Buchanan (Missouri), logement 1631. Sylvanie, fille de Joseph et d'Angélique Vaudry, mariée en 1847 à Francis August Beauvais. Personnes du foyer : F. A. Beamoais [Beauvais] (36 ans, chef) ; S. Beamoais [Sylvanie Robidoux] (33 ans, épouse, v. 1827, Missouri) ; J. C. Beauvais (12 ans) ; C. L. Beauvais (10 ans) ; A. Beauvais (8 ans) ; C. Beauvais (6 ans) ; L. B. Beauvais (4 ans) ; A. Beauvais (1 ans).",
+    "sources": "1860 United States Federal Census, Ancestry (coll. 7667, notice 41023060).",
+    "note": "Point placé au centre de la localité inscrite au recensement ; ménage détaillé dans la salle de lecture (onglet « Documents trouvés »).",
+    "type": "lieu",
+    "images": []
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -94.85,
+     39.771
+    ]
+   },
+   "properties": {
+    "id": "R1860-susan",
+    "nom": "Recensement de 1860 : Susanne Vaudry, veuve de Michel",
+    "debut": 1860.5,
+    "fin": 1860.5,
+    "date_edtf": "1860",
+    "precision": "annee",
+    "certitude": "approximative",
+    "categorie": "freres",
+    "description": "Recensement de 1860, Saint-Joseph, comté de Buchanan (Missouri), logement 725. Susan Robidoux, 53 ans, née en Illinois : Susanne Vaudry, veuve de Michel (mort en 1858). Personnes du foyer : Susan Robidoux (53 ans, v. 1807, Illinois).",
+    "sources": "1860 United States Federal Census, Ancestry (coll. 7667, notice 41018385).",
+    "note": "Point placé au centre de la localité inscrite au recensement ; ménage détaillé dans la salle de lecture (onglet « Documents trouvés »).",
+    "type": "lieu",
+    "images": []
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -94.84,
+     39.79
+    ]
+   },
+   "properties": {
+    "id": "R1860-felix",
+    "nom": "Recensement de 1860 : Félix, fermier",
+    "debut": 1860.5,
+    "fin": 1860.5,
+    "date_edtf": "1860",
+    "precision": "annee",
+    "certitude": "approximative",
+    "categorie": "joseph3",
+    "description": "Recensement de 1860, canton de Washington, comté de Buchanan (Missouri), logement 249. Félix, propriétaire d'une ferme, avec sa famille. Personnes du foyer : Felix Robidoux (38 ans, chef, v. 1822, propriétaire agricole) ; Jane Robidoux (40 ans, épouse, v. 1820) ; Josephene Robidoux (16 ans, fille, v. 1844) ; Mary J. Robidoux (15 ans, fille, v. 1845) ; Chas E. Robidoux (14 ans, fils, v. 1846) ; Ella Robidoux (7 ans, fille, v. 1853).",
+    "sources": "1860 United States Federal Census, Ancestry (coll. 7667, notice 41016134).",
+    "note": "Point placé au centre de la localité inscrite au recensement ; ménage détaillé dans la salle de lecture (onglet « Documents trouvés »).",
+    "type": "lieu",
+    "images": []
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -117.40605,
+     33.99682
+    ]
+   },
+   "properties": {
+    "id": "R1860-louis",
+    "nom": "Recensement de 1860 : Louis à Jurupa",
+    "debut": 1860.5,
+    "fin": 1860.5,
+    "date_edtf": "1860",
+    "precision": "annee",
+    "certitude": "approximative",
+    "categorie": "louis",
+    "description": "Recensement de 1860, canton de San Bernardino, comté de San Bernardino (Californie), logement 253 [Jurupa]. Louis, 65 ans, cultivateur, et Guadalupe García avec leurs enfants (deux notices pour le même logement). Personnes du foyer : Louis Robidoux (65 ans, chef, v. 1795, cultivateur) ; Guadalupa G. Robidoux (45 ans, épouse, v. 1815) ; Pascal Robidoux (20 ans, fils, v. 1840) ; Louis Robidoux (22 ans, fils, v. 1838) ; Carmel H. Robidoux (15 ans, fille, v. 1845) ; Alice Robidoux (13 ans, fille, v. 1847) ; Benigno Robidoux (11 ans, fils, v. 1849) ; Abundo Robidoux (9 ans, fils, v. 1851).",
+    "sources": "1860 United States Federal Census, Ancestry (coll. 7667, notice 2673696).",
+    "note": "Point placé au centre de la localité inscrite au recensement ; ménage détaillé dans la salle de lecture (onglet « Documents trouvés »).",
+    "type": "lieu",
+    "images": []
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -117.385,
+     34.005
+    ]
+   },
+   "properties": {
+    "id": "R1860-pascual",
+    "nom": "Recensement de 1860 : Pascual, fils de Louis",
+    "debut": 1860.5,
+    "fin": 1860.5,
+    "date_edtf": "1860",
+    "precision": "annee",
+    "certitude": "approximative",
+    "categorie": "louis",
+    "description": "Recensement de 1860, canton de San Bernardino, comté de San Bernardino (Californie), logement 560. Pascual, 21 ans, cultivateur, et sa jeune épouse Maria Marcelina. Personnes du foyer : Pascal Robidoux (21 ans, chef, v. 1839, cultivateur) ; Maria M. Robidoux (16 ans, épouse, v. 1844) ; Alfreds Robidoux (2 mois ans, fils, 1859).",
+    "sources": "1860 United States Federal Census, Ancestry (coll. 7667, notice 2675085).",
+    "note": "Point placé au centre de la localité inscrite au recensement ; ménage détaillé dans la salle de lecture (onglet « Documents trouvés »).",
+    "type": "lieu",
+    "images": []
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -94.848,
+     39.765
+    ]
+   },
+   "properties": {
+    "id": "R1870-jules",
+    "nom": "Recensement de 1870 : Jules-César et Elizabeth",
+    "debut": 1870.5,
+    "fin": 1870.5,
+    "date_edtf": "1870",
+    "precision": "annee",
+    "certitude": "approximative",
+    "categorie": "jules",
+    "description": "Recensement de 1870, Saint-Joseph, quartier 3, comté de Buchanan (Missouri), logement 244. Dernier recensement de Jules (mort en 1875), avec Elizabeth, leurs enfants, une fille mariée (Mollie Lemon) et deux personnes âgées. Personnes du foyer : Julius C. Robidoux (55 ans, chef) ; Elizabeth Robidoux (49 ans, épouse) ; Julius C. Robidoux (31 ans, fils) ; Thomas Robidoux (25 ans, fils) ; Napoleon Robidoux (17 ans, fils, v. 1853, Missouri) ; Louis Robidoux (15 ans, fils) ; Sylvania Robidoux (13 ans, fille) ; Louis Robidoux (11 ans) ; Kate Robidoux (6 ans, fille) ; Mollie Lemon (25 ans) ; John Lemon (2 ans) ; Elige Sancier (69 ans) ; Victoria Roberts (66 ans).",
+    "sources": "1870 United States Federal Census, Ancestry (coll. 7163, notice 1874309).",
+    "note": "Point placé au centre de la localité inscrite au recensement ; ménage détaillé dans la salle de lecture (onglet « Documents trouvés »).",
+    "type": "lieu",
+    "images": []
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -94.851,
+     39.762
+    ]
+   },
+   "properties": {
+    "id": "R1870-edmond",
+    "nom": "Recensement de 1870 : Edmond, fils de Joseph",
+    "debut": 1870.5,
+    "fin": 1870.5,
+    "date_edtf": "1870",
+    "precision": "annee",
+    "certitude": "approximative",
+    "categorie": "joseph3",
+    "description": "Recensement de 1870, Saint-Joseph, quartier 2, comté de Buchanan (Missouri), logement 348. Edmond Valentin, fils de Joseph et d'Angélique Vaudry (baptisé en 1825), avec sa femme Martha et leurs enfants. Personnes du foyer : Edmund Robidoux (45 ans, chef) ; Martha Robidoux (35 ans, épouse, v. 1835, Kentucky) ; Jennie E. Robidoux (18 ans, fille) ; Benjamin Robidoux (12 ans, fils).",
+    "sources": "1870 United States Federal Census, Ancestry (coll. 7163, notice 1871322).",
+    "note": "Point placé au centre de la localité inscrite au recensement ; ménage détaillé dans la salle de lecture (onglet « Documents trouvés »).",
+    "type": "lieu",
+    "images": []
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -94.838,
+     39.77
+    ]
+   },
+   "properties": {
+    "id": "R1870-felix",
+    "nom": "Recensement de 1870 : Félix et Charles E.",
+    "debut": 1870.5,
+    "fin": 1870.5,
+    "date_edtf": "1870",
+    "precision": "annee",
+    "certitude": "approximative",
+    "categorie": "joseph3",
+    "description": "Recensement de 1870, Saint-Joseph, quartier 4, comté de Buchanan (Missouri), logement 428. Félix, 50 ans, sa femme (inscrite Catherine), son fils Charles E., teneur de livres, et sa famille. Personnes du foyer : Felix Robidoux (50 ans, chef, v. 1820, Missouri) ; Catheine Robidoux (50 ans, épouse) ; Chares E. Robidoux (25 ans, fils, v. 1845, Missouri, teneur de livres) ; Anena Z. Robidoux (21 ans, bru) ; Ella A. Robidoux (17 ans, fille) ; Maria T. Robidoux (2 mois ans, petite-fille) ; Maggie Burns (11 ans).",
+    "sources": "1870 United States Federal Census, Ancestry (coll. 7163, notice 7437873).",
+    "note": "Point placé au centre de la localité inscrite au recensement ; ménage détaillé dans la salle de lecture (onglet « Documents trouvés »).",
+    "type": "lieu",
+    "images": []
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -117.363,
+     34.045
+    ]
+   },
+   "properties": {
+    "id": "R1870-guadalupe",
+    "nom": "Recensement de 1870 : Guadalupe García, veuve de Louis",
+    "debut": 1870.5,
+    "fin": 1870.5,
+    "date_edtf": "1870",
+    "precision": "annee",
+    "certitude": "approximative",
+    "categorie": "louis",
+    "description": "Recensement de 1870, San Salvador [Agua Mansa], comté de San Bernardino (Californie), logement 89. Deux ans après la mort de Louis, sa veuve (« Gaud », 60 ans) vit à San Salvador avec deux enfants. Personnes du foyer : Gaud [Guadalupe] Rubidoux (60 ans, chef) ; Memena Rubidoux (19 ans, fille, v. 1851, Californie) ; Abonda [Abundio] Rubidoux (18 ans, fils, v. 1852, Californie).",
+    "sources": "1870 United States Federal Census, Ancestry (coll. 7163, notice 12456743).",
+    "note": "Point placé au centre de la localité inscrite au recensement ; ménage détaillé dans la salle de lecture (onglet « Documents trouvés »).",
+    "type": "lieu",
+    "images": []
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -117.37,
+     34.03
+    ]
+   },
+   "properties": {
+    "id": "R1870-pascual",
+    "nom": "Recensement de 1870 : Pascual et Maria Marcelina",
+    "debut": 1870.5,
+    "fin": 1870.5,
+    "date_edtf": "1870",
+    "precision": "annee",
+    "certitude": "approximative",
+    "categorie": "louis",
+    "description": "Recensement de 1870, canton de San Bernardino (Californie), logement 147. Pascual, fils de Louis, avec Maria Marcelina et leurs cinq enfants. Personnes du foyer : Pasqual Robidoux (28 ans, chef) ; Marcellina Robidoux (24 ans, épouse, v. 1846, Mexique) ; Frederick Robidoux (9 ans, fils, v. 1861, Californie) ; Florida Robidoux (7 ans, fille, v. 1863, Californie) ; Flora Robidoux (6 ans, fille, v. 1864, Californie) ; Adella Robidoux (4 ans, fille, v. 1866, Californie) ; Jose Robidoux (2 ans, fils, v. 1868, Californie).",
+    "sources": "1870 United States Federal Census, Ancestry (coll. 7163, notice 12458992).",
+    "note": "Point placé au centre de la localité inscrite au recensement ; ménage détaillé dans la salle de lecture (onglet « Documents trouvés »).",
+    "type": "lieu",
+    "images": []
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -94.848,
+     39.765
+    ]
+   },
+   "properties": {
+    "id": "R1880-elizabeth",
+    "nom": "Recensement de 1880 : Elizabeth Barada, veuve de Jules",
+    "debut": 1880.5,
+    "fin": 1880.5,
+    "date_edtf": "1880",
+    "precision": "annee",
+    "certitude": "approximative",
+    "categorie": "jules",
+    "description": "Recensement de 1880, Saint-Joseph, comté de Buchanan (Missouri), logement 251. Elizabeth, veuve de Jules, avec son fils Jules, peintre, et sa fille. Personnes du foyer : Elizabeth Robidoux (59 ans, chef) ; Jule Robidoux (40 ans, fils, v. 1840, Missouri, peintre) ; Finett Robidoux (20 ans, fille, v. 1860, Missouri).",
+    "sources": "1880 United States Federal Census, Ancestry (coll. 6742, notice 24832354).",
+    "note": "Point placé au centre de la localité inscrite au recensement ; ménage détaillé dans la salle de lecture (onglet « Documents trouvés »).",
+    "type": "lieu",
+    "images": []
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -94.846,
+     39.76
+    ]
+   },
+   "properties": {
+    "id": "R1880-thompson",
+    "nom": "Recensement de 1880 : Emma Robidoux et W. J. Thompson",
+    "debut": 1880.5,
+    "fin": 1880.5,
+    "date_edtf": "1880",
+    "precision": "annee",
+    "certitude": "approximative",
+    "categorie": "jules",
+    "description": "Recensement de 1880, Saint-Joseph, comté de Buchanan (Missouri), logement 176. Emma, fille de Jules, épouse de Joseph Thompson, commis de la poste ; sa sœur Sylvanie vit avec eux. Personnes du foyer : W. J. Thompson (42 ans, chef) ; Emma Thompson (38 ans, épouse, née Robidoux, x) ; Emma Thompson (10 ans, fille) ; Sylvania Robidoux (22 ans, belle-sœur, v. 1858, Missouri).",
+    "sources": "1880 United States Federal Census, Ancestry (coll. 6742, notice 33368358).",
+    "note": "Point placé au centre de la localité inscrite au recensement ; ménage détaillé dans la salle de lecture (onglet « Documents trouvés »).",
+    "type": "lieu",
+    "images": []
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -94.851,
+     39.762
+    ]
+   },
+   "properties": {
+    "id": "R1880-edmond",
+    "nom": "Recensement de 1880 : Edmond, imprimeur",
+    "debut": 1880.5,
+    "fin": 1880.5,
+    "date_edtf": "1880",
+    "precision": "annee",
+    "certitude": "approximative",
+    "categorie": "joseph3",
+    "description": "Recensement de 1880, Saint-Joseph, comté de Buchanan (Missouri), logement 137. Edmond, 56 ans, imprimeur, avec Martha et leurs enfants. Personnes du foyer : Edmond Robidoux (56 ans, chef, v. 1824, Missouri, imprimeur) ; Martha Robidoux (46 ans, épouse) ; Jennie Robidoux (27 ans, fille) ; Ben Robidoux (22 ans, fils).",
+    "sources": "1880 United States Federal Census, Ancestry (coll. 6742, notice 33695424).",
+    "note": "Point placé au centre de la localité inscrite au recensement ; ménage détaillé dans la salle de lecture (onglet « Documents trouvés »).",
+    "type": "lieu",
+    "images": []
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -90.199,
+     38.627
+    ]
+   },
+   "properties": {
+    "id": "R1880-charlese",
+    "nom": "Recensement de 1880 : Charles E., petit-fils de Joseph",
+    "debut": 1880.5,
+    "fin": 1880.5,
+    "date_edtf": "1880",
+    "precision": "annee",
+    "certitude": "approximative",
+    "categorie": "joseph3",
+    "description": "Recensement de 1880, Saint-Louis (Missouri), logement 15. Charles E., fils de Félix, avec sa femme, ses enfants et sa mère Jane (deux inscriptions la même année). Personnes du foyer : Chas. E. Robidoux (35 ans, chef, v. 1846, Missouri, commis de magasin) ; Annie Robidoux (33 ans, épouse) ; Maria Robidoux (10 ans, fille, v. 1870, Missouri) ; Ella Robidoux (8 ans, fille) ; Margaret Robidoux (6 ans, fille) ; Frances Robidoux (3 ans) ; Edwin Robidoux (1 ans, fils) ; Jane Robidoux (60 ans, mère).",
+    "sources": "1880 United States Federal Census, Ancestry (coll. 6742, notice 26084392).",
+    "note": "Point placé au centre de la localité inscrite au recensement ; ménage détaillé dans la salle de lecture (onglet « Documents trouvés »).",
+    "type": "lieu",
+    "images": []
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -107.238,
+     41.791
+    ]
+   },
+   "properties": {
+    "id": "R1880-felixv",
+    "nom": "Recensement de 1880 : F. V. Robidoux, petit-fils de Joseph",
+    "debut": 1880.5,
+    "fin": 1880.5,
+    "date_edtf": "1880",
+    "precision": "annee",
+    "certitude": "approximative",
+    "categorie": "joseph3",
+    "description": "Recensement de 1880, Rawlins, comté de Carbon (territoire du Wyoming), logement 146. F. V. Robidoux, 39 ans, fermier, né au Missouri vers 1841 : sans doute Felix, fils de François [Belevere] (recensé à 9 ans en 1850). Personnes du foyer : F. V. Robidoux (39 ans, chef, v. 1841, Missouri, fermier) ; C. A. Robidoux (31 ans, épouse, v. 1849, Tennessee) ; Octavia Robidoux (3 ans, fille, v. 1877, Colorado) ; Beeler Robidoux (1 mois ans).",
+    "sources": "1880 United States Federal Census, Ancestry (coll. 6742, notice 13759105).",
+    "note": "Identification probable, à confirmer. Point placé au centre de la localité inscrite au recensement ; ménage détaillé dans la salle de lecture (onglet « Documents trouvés »).",
+    "type": "lieu",
+    "images": []
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -117.396,
+     33.953
+    ]
+   },
+   "properties": {
+    "id": "R1880-louisjr",
+    "nom": "Recensement de 1880 : Louis fils, loueur d'écurie",
+    "debut": 1880.5,
+    "fin": 1880.5,
+    "date_edtf": "1880",
+    "precision": "annee",
+    "certitude": "approximative",
+    "categorie": "louis",
+    "description": "Recensement de 1880, Riverside, comté de San Bernardino (Californie), logement 133. Louis, fils de Louis et de Guadalupe García, tient une écurie de louage dans la jeune ville de Riverside, fondée sur l'ancien rancho de son père. Personnes du foyer : Louis Rubodoux (42 ans, chef, v. 1838, Nouveau-Mexique, loueur d'écurie) ; Flavico [Flavia] Rubodoux (32 ans, épouse, v. 1848, Californie) ; Andronico Rubodoux (18 ans, fils, v. 1862, garçon d'écurie) ; Selso Rubodoux (15 ans, fils) ; Porfidio Rubodoux (13 ans, fils) ; Maelovia Rubodoux (12 ans) ; Louis Rubodoux (9 ans, fils) ; Joseph Rubodoux (7 ans, fils) ; Francisco Rubodoux (5 ans, fils) ; Alexander Rubodoux (4 ans, fils) ; Agada Rubodoux (2 ans, fille) ; George Rubodoux (8 mois ans, fils).",
+    "sources": "1880 United States Federal Census, Ancestry (coll. 6742, notice 14333960).",
+    "note": "Flavia Castillo est l'épouse que les biographies donnent à Louis père ; ici, elle est inscrite comme femme de Louis fils. Point placé au centre de la localité inscrite au recensement ; ménage détaillé dans la salle de lecture (onglet « Documents trouvés »).",
+    "type": "lieu",
+    "images": []
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -117.39,
+     33.958
+    ]
+   },
+   "properties": {
+    "id": "R1880-abundio",
+    "nom": "Recensement de 1880 : Abundio, fils de Louis",
+    "debut": 1880.5,
+    "fin": 1880.5,
+    "date_edtf": "1880",
+    "precision": "annee",
+    "certitude": "approximative",
+    "categorie": "louis",
+    "description": "Recensement de 1880, Riverside, comté de San Bernardino (Californie), logement 29. A. Robudaux, 28 ans, journalier, né en Californie vers 1852 : Abundio, fils de Louis (recensé en 1860 et 1870). Personnes du foyer : A. [Abundio] Robudaux (28 ans, chef, v. 1852, Californie, journalier) ; Rosario Robudaux (28 ans, épouse) ; Isadora Robudaux (9 ans, fille) ; Cristobal Robudaux (7 ans, fils) ; Carmen Robudaux (5 ans, fille) ; Francisca Robudaux (3 ans, fille) ; Manuel Robudaux (1 ans, fils).",
+    "sources": "1880 United States Federal Census, Ancestry (coll. 6742, notice 14333799).",
+    "note": "Point placé au centre de la localité inscrite au recensement ; ménage détaillé dans la salle de lecture (onglet « Documents trouvés »).",
+    "type": "lieu",
+    "images": []
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -117.29,
+     34.108
+    ]
+   },
+   "properties": {
+    "id": "R1880-wixom",
+    "nom": "Recensement de 1880 : Maria Marcelina, remariée Wixom",
+    "debut": 1880.5,
+    "fin": 1880.5,
+    "date_edtf": "1880",
+    "precision": "annee",
+    "certitude": "approximative",
+    "categorie": "louis",
+    "description": "Recensement de 1880, San Bernardino (Californie), logement 101. Veuve de Pascual, Maria Marcelina (« Marcellia ») a épousé Charles W. Wixom ; les enfants Robidoux portent le nom de leur beau-père. Personnes du foyer : Charles W. Wixom (28 ans, chef) ; Marcellia Wixom (33 ans, épouse (veuve de Pascual Robidoux), x) ; Florida Wixom (16 ans, fille) ; Ella Wixom (13 ans, fille) ; Jose Wixom (11 ans, fils) ; Mary Wixom (9 ans, fille) ; Carmelila Wixom (6 ans, fille) ; William Wixom (4 ans, fils) ; C. Jaramillo (4 ans).",
+    "sources": "1880 United States Federal Census, Ancestry (coll. 6742, notice 14337323).",
+    "note": "Les prénoms Florida, Ella (Adella) et Jose correspondent aux enfants de Pascual recensés en 1870. Point placé au centre de la localité inscrite au recensement ; ménage détaillé dans la salle de lecture (onglet « Documents trouvés »).",
     "type": "lieu",
     "images": []
    }
