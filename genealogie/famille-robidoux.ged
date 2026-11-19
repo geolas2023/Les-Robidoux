@@ -785,6 +785,8 @@
 2 PLAC Saint-Joseph, Buchanan, Missouri, USA
 1 NOTE Fille adoptive d'Antoine et de Carmel ; morte du choléra un mois après la naissance d'Amanda.
 1 FAMS @F27@
+1 FAMC @F11@
+2 PEDI adopted
 0 @I69@ INDI
 1 NAME Isidore /Barada/
 2 GIVN Isidore
@@ -1316,6 +1318,11 @@
 1 MARR
 2 DATE 3 FEB 1749
 2 PLAC Sault-au-Récollet, Montréal, Québec, Canada
+1 CHIL @I160@
+1 CHIL @I161@
+1 CHIL @I162@
+1 CHIL @I163@
+1 CHIL @I164@
 0 @F5@ FAM
 1 HUSB @I9@
 1 WIFE @I10@
@@ -1388,6 +1395,9 @@
 2 DATE 1828
 2 PLAC Santa Fe, Nouveau-Mexique, USA
 1 NOTE Martina Anaya (Carmelette) fut leur fille adoptive.
+1 CHIL @I68@
+2 _FREL Adopted
+2 _MREL Adopted
 0 @F12@ FAM
 1 HUSB @I22@
 1 WIFE @I23@
@@ -1813,4 +1823,44 @@
 2 PLAC Saint-Louis, Missouri, USA
 1 NOTE Registres de la vieille cathédrale de Saint-Louis, collection Drouin (Ancestry, coll. 1111) : baptisée le 5 avril 1842 (image d13p_34510874) ; absente du recensement de 1850
 1 FAMC @F16@
+0 @I160@ INDI
+1 NAME Charles /Robidoux/
+1 SEX M
+1 BIRT
+2 DATE ABT 1751
+2 PLAC Sault-au-Récollet, Montréal, Québec, Canada
+1 NOTE Collection Drouin (Ancestry, coll. 1091), baptêmes de La Visitation du Sault-au-Récollet, parents Joseph Robidoux et Marie-Anne Leblanc, image d13p_1110b0655 (date précise à lire sur l'image).
+1 FAMC @F4@
+0 @I161@ INDI
+1 NAME Marie Charlotte /Robidoux/
+1 SEX F
+1 BIRT
+2 DATE ABT 1758
+2 PLAC Sault-au-Récollet, Montréal, Québec, Canada
+1 NOTE Collection Drouin (Ancestry, coll. 1091), baptêmes de La Visitation du Sault-au-Récollet, parents Joseph Robidoux et Marie-Anne Leblanc, image d13p_1110b0684 (date précise à lire sur l'image).
+1 FAMC @F4@
+0 @I162@ INDI
+1 NAME Marguerite /Robidoux/
+1 SEX F
+1 BIRT
+2 DATE BET 1758 AND 1765
+2 PLAC Sault-au-Récollet, Montréal, Québec, Canada
+1 NOTE Collection Drouin (Ancestry, coll. 1091), baptêmes de La Visitation du Sault-au-Récollet, parents Joseph Robidoux et Marie-Anne Leblanc, image d13p_1110b0691 (date précise à lire sur l'image).
+1 FAMC @F4@
+0 @I163@ INDI
+1 NAME Marie Josette /Robidoux/
+1 SEX F
+1 BIRT
+2 DATE BET 1758 AND 1765
+2 PLAC Sault-au-Récollet, Montréal, Québec, Canada
+1 NOTE Collection Drouin (Ancestry, coll. 1091), baptêmes de La Visitation du Sault-au-Récollet, parents Joseph Robidoux et Marie-Anne Leblanc, image d13p_1110b0698 (date précise à lire sur l'image).
+1 FAMC @F4@
+0 @I164@ INDI
+1 NAME Marie Anne /Robidoux/
+1 SEX F
+1 BIRT
+2 DATE ABT 1765
+2 PLAC Sault-au-Récollet, Montréal, Québec, Canada
+1 NOTE Collection Drouin (Ancestry, coll. 1091), baptêmes de La Visitation du Sault-au-Récollet, parents Joseph Robidoux et Marie-Anne Leblanc, image d13p_1110b0708 (date précise à lire sur l'image).
+1 FAMC @F4@
 0 TRLR
