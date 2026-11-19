@@ -198,10 +198,10 @@ L('L18', "Taos : naturalisation et colonie étrangère", -105.573, 36.407, '1829
 L('L19', "Taos : saisie des fourrures de François Robidoux", -105.576, 36.41, '1826-02/1826-11-12', 'mois', 'certaine', 'freres',
   "En 1826, l'alcalde de Taos saisit environ 630 livres de castor de Sylvestre Pratte et de François Robidoux, faute de citoyenneté mexicaine. À Santa Fe, ils obtiennent du gouverneur Narbona la levée de la saisie malgré la révocation de leurs licences. Cette perte décide Antoine à se faire naturaliser.",
   f"{WEB}, p. 263 ; {WAL}, p. 271.")
-L('L20', "Gila : le massacre du parti de Michel Robidoux", -110.0, 33.15, '1826~', 'circa', 'hypothetique', 'freres',
-  "À l'automne 1826, le gouverneur Narbona signale un parti de trappeurs conduit par Michel Robidoux et financé par Sylvestre Pratte sur la Gila. Seuls trois des vingt hommes survivent à une attaque indienne.",
-  f"{WEB}, p. 264.",
-  "Lieu précis inconnu sur la Gila ; le récit de James O. Pattie est la source principale.")
+L('L20', "Village papago : le massacre du parti de Michel", -112.30, 33.38, '1826-01-28/1826-01-31', 'jour', 'approximative', 'freres',
+  "Parti des mines de cuivre du Nouveau-Mexique le 2 janvier 1826, le parti « français » de trappeurs de Pratte & Cie, commandé par Michel Robidoux en l'absence de Sylvestre Pratte, atteint le 28 janvier un village papago près du confluent de la Salt et de la Gila. Malgré les avertissements du jeune James Ohio Pattie, le capitaine laisse les Indiens garder les armes et les chevaux ; à minuit, l'attaque fait un carnage. Pattie, un compagnon et le capitaine blessé, sauvé par un pistolet de poche, rejoignent le parti d'Ewing Young, qui se venge le 31 janvier en tuant cent dix Indiens et reprend les chevaux. Le gouverneur Narbona mentionne l'affaire à l'automne.",
+  f"{WIL}, p. 82-86 ; {WEB}, p. 264.",
+  "Pattie ne nomme pas le capitaine ; l'attribution à Michel est traditionnelle. Village placé près du confluent Salt-Gila.")
 L('L21', "Taos : François Robidoux part pour le pays ute", -105.57, 36.404, '1827-03', 'mois', 'certaine', 'freres',
   "En mars 1827, François Robidoux quitte Taos pour le pays ute avec un parti de trappeurs où figurent Baptiste Chalifoux et Maurice LeDuc.",
   f"{LEC}, p. 64.")
@@ -480,9 +480,9 @@ L('L79', "Ruisseau Blacksnake : le mariage des eaux", -94.858, 39.776, '1859-02-
 L('L80', "Franklin : la boutique d'Antoine", -92.73, 39.01, '1817/1829-07', 'annee', 'approximative', 'antoine',
   "À l'été 1817, Antoine quitte Saint-Louis pour le comté de Howard et ouvre une boutique à Franklin, avec des marchandises de Joseph et de François (licence de 10 dollars). En mars 1819, il y traite avec Joseph ; les frères achètent un quart de section près de la ville, perdu dans la panique de 1819. Franklin est le point de départ de la piste de Santa Fe. En juillet 1829, Isidore y signale à Pierre Chouteau l'arrivée d'une barge de marchandises.",
   f"{WIL}, p. 41, 48, 53, 96.")
-L('L81', "Taos : Lisa Romero et Maria Juana", -105.574, 36.4055, '1825/1826-01-30', 'annee', 'certaine', 'antoine',
-  "Au printemps 1825, Antoine noue une liaison avec Lisa Romero, de Taos ; leur fille Maria Juana est baptisée le 30 janvier 1826. Le 29 juin 1825, William Clark avait délivré à Antoine et à son frère Michel un passeport pour retraverser le Territoire indien vers le Mexique.",
-  f"{WIL}, p. 76.")
+L('L81', "Taos : Luisa Romero et Maria Juana", -105.574, 36.4055, '1825/1826-01-30', 'annee', 'certaine', 'freres',
+  "Au printemps 1825, François Robidoux, pourtant marié à Thérèse Delisle à Saint-Louis, noue une liaison avec Luisa (Lisa) Romero, de Taos ; leur fille Maria Juana est baptisée le 30 janvier 1826 comme « fille naturelle de Francisco Rubidoux ». La même saison, l'alcalde de Taos l'accuse de vendre des fusils aux Indiens et saisit ses marchandises, que le gouverneur Baca fait rendre. Le 29 juin 1825, William Clark délivre à Antoine, Isidore et Michel un passeport pour retraverser le Territoire indien vers le Mexique.",
+  f"{WIL}, p. 76, 82.")
 L('L82', "Fort Bent : avec l'armée de l'Ouest", -103.43, 38.04, '1846-07-28/1846-08-01', 'jour', 'certaine', 'antoine',
   "Interprète et guide de Kearny, Antoine arrive avec l'avant-garde au fort Bent le 28 juillet 1846. Il traduit les interrogatoires des prisonniers, puis, à Santa Fe, tous les discours de Kearny et le toast du général au banquet du 20 septembre, que note Susan Magoffin. Le 23 août, il écrit à B. F. Loan le récit de la prise de Santa Fe, publié par la Gazette de Saint-Joseph.",
   f"{WIL}, p. 168-172.")
@@ -645,9 +645,61 @@ L('L127', "Pagosa Springs : la tombe de Christian Stollsteimer", -107.026, 37.27
   "Coordonnées du cimetière approximatives.")
 # ------------------------------------------------------------------ Dossier ROBIDOUX_FAMILY
 L('L128', "Saint-Louis : la licence de William Clark", -90.1873, 38.6261, '1827-07-23', 'jour', 'certaine', 'antoine',
-  "Le 23 juillet 1827, à Saint-Louis, William Clark, surintendant des Affaires indiennes, accorde à « Antoine Robidoux and Company » la permission de traverser le pays indien pour aller faire la traite dans le Territoire (la formule manuscrite se lit « to pass through the Indian country to trade in the Territory »). C'est le passeport qui ouvre la grande période d'Antoine au Nouveau-Mexique et dans le pays ute, au moment où il prépare le fort Uncompahgre.",
+  "Le 23 juillet 1827, à Saint-Louis, William Clark, surintendant des Affaires indiennes, accorde à « Antoine Robidoux and Company » la permission de traverser le pays indien pour aller faire la traite dans le Territoire (la formule manuscrite se lit « to pass through the Indian country to trade in the Territory »). Le même jour, Clark délivre un permis à Louis Robidoux et à trente-deux autres marchands pour retourner au Mexique ; Louis vend encore une mule à l'American Fur Company le 25 août avant de partir. C'est le passeport qui ouvre la grande période d'Antoine au Nouveau-Mexique et dans le pays ute, au moment où il prépare le fort Uncompahgre.",
   "Licence originale photographiée (dossier ROBIDOUX_FAMILY de l'auteur) ; voir aussi " + f"{WIL}, p. 76-80.",
   "Le point marque la surintendance de Clark à Saint-Louis.")
+
+# ------------------------------------------------------------------ Compléments Willoughby (2012)
+L('L129', "Fort Atkinson : le journal du vivandier Kennerly", -96.011, 41.452, '1824-02-15/1825-11', 'jour', 'certaine', 'antoine',
+  "Le journal de James Kennerly, vivandier du fort Atkinson, suit les Robidoux pas à pas. Le 15 février 1824, « le jeune Robidou » (sans doute Antoine) apporte de Saint-Louis du courrier et des marchandises ; quatre jours plus tard, le colonel Leavenworth lui délivre un passeport « pour Antoine Robidoux et les autres personnes nommées » vers le Nouveau-Mexique. Le 30 septembre 1824, « le parti de Roubidoux part pour Santa Fe » ; le 30 août 1825, il revient de Taos avec au moins trente ballots de castor, partagés le lendemain avec Joseph ; le 14 septembre, Antoine, François, Louis et Michel repartent pour Taos sous l'orage. Fin novembre 1825, Joseph rentre de Saint-Louis jusqu'au ruisseau Papillion avec son bateau.",
+  f"{WIL}, p. 64-65, 69, 77-78, 80.")
+L('L130', "Rivière Jordan : le guet-apens de Bad Gocha", -111.93, 40.55, '1824-10', 'mois', 'hypothetique', 'antoine',
+  "À l'automne 1824, le chef shoshone appelé Bad Gocha attire Étienne Provost et ses trappeurs canadiens à fumer le calumet sur la rivière Jordan, entre le lac Utah et le Grand Lac Salé, puis les fait massacrer ; Provost s'échappe. Antoine, qui accompagnait probablement Provost pour sa première saison dans les montagnes, aurait perdu huit hommes de la compagnie Provost & Le Clerc, selon le témoignage de William Gordon. La même saison, William Huddart croise « M. Rubideau » et cinq Américains sur la Green avant une attaque arapaho qui laisse le parti sans un cheval.",
+  f"{WIL}, p. 66-69.",
+  "Participation d'Antoine probable mais non prouvée ; lieu du guet-apens approximatif.")
+L('L131', "Taos : la boutique de François et de Manuel Alvarez", -105.5735, 36.4075, '1824-11-25/1825-10', 'jour', 'certaine', 'freres',
+  "Parti de Council Bluffs avec Louis, Michel, Isidore, Manuel Alvarez et Antoine Lamanche (papiers du gouverneur McNair, 3 septembre 1824, pour onze hommes), François arrive à Taos le 25 novembre 1824 ; Alvarez entre à son service. En janvier 1825, François assure à l'alcalde que ni lui ni ses hommes n'ont causé « aucun désordre ni scandale ». À l'automne 1825, l'agent du fisc Juan Bautista Vigil, envoyé par Sylvestre Pratte, saisit ses marchandises non déclarées et les enferme chez l'alcalde Severino Martínez ; François court à Santa Fe et règle cent pesos, dette d'une licence de trappe impayée.",
+  f"{WIL}, p. 69-72, 79.")
+L('L132', "Embouchure de la Kansas : la licence de Michel", -94.6150, 39.1170, '1825-10-08/1826', 'jour', 'certaine', 'freres',
+  "Le 8 octobre 1825, William Clark délivre à Michel Robidoux une licence d'un an pour traiter à l'embouchure de la Kansas, sur le Grand Loup et la Républicaine, aux villages poncas et à Bellevue (caution de 1 000 dollars, capital de 2 450,26 dollars). Joseph s'en sert sans doute pour défier son employeur, Bernard Pratte & Cie, qui obtient une licence pour le même lieu le 5 décembre ; Michel la lui laisse en repartant au Nouveau-Mexique en 1826.",
+  f"{WIL}, p. 80-81.")
+L('L133', "El Paso : les marchandises de Louis", -106.487, 31.759, '1826-05-19', 'jour', 'certaine', 'louis',
+  "Le 19 mai 1826, Louis Robidoux confie des marchandises à son commis Manuel Martín, munies d'une guía (permis de commerce) de la douane de Santa Fe, à destination d'El Paso. Antoine reçoit la guía n° 22 la même année. Dans son rapport du 10 février 1826, le gouverneur Narbona recense « Francisco, Miguel et Antonio Rubidu », marchands sans passeport domiciliés à Taos.",
+  f"{WIL}, p. 80-81.")
+L('L134', "Santa Fe : Louis, premier alcalde", -105.9382, 35.6869, '1839-02-03/1840-01-01', 'jour', 'certaine', 'louis',
+  "Premier alcalde de Santa Fe en 1839, Louis rend la justice et administre la ville : il approuve une école ecclésiastique (3 février), transmet la demande de naturalisation du trappeur Levi Keithly (9 février), poursuit les meurtriers de l'étranger Andres Dayle (août) et témoigne pour Charles Bent (18 octobre). À la mi-septembre, il reçoit chez lui le journaliste Matt Field, lui sert côtes de mouton, œufs et café, et le présente au gouverneur Armijo en servant d'interprète. Joueur de monte, il a « trois fois perdu ses biens accumulés ». Manuel Alvarez lui succède le 1er janvier 1840.",
+  f"{WIL}, p. 148-152.")
+L('L135', "Ham's Fork : Antoine perd tout au jeu", -109.97, 41.59, '1840-03', 'mois', 'approximative', 'antoine',
+  "En mars 1840, Joe Meek et Robert Newell rejoignent Antoine, venu de Santa Fe avec des marchandises, près de l'embouchure de l'Uinta ; ils remontent la Green jusqu'au Ham's Fork. Selon Meek, Antoine y passe tant de temps au jeu de « hand » qu'il perd ses marchandises, ses chevaux « et même sa femme », et rentre à Santa Fe endetté. La même année, Kit Carson apporte ses fourrures au fort Uintah et y reste jusqu'en septembre.",
+  f"{WIL}, p. 145, 147-148.",
+  "Anecdote de Meek, peut-être enjolivée ; point à l'embouchure du Ham's Fork (Granger, Wyoming).")
+L('L136', "Cottonwood Creek : le blizzard et les charrettes", -97.23, 38.47, '1841-12/1843-09-06', 'mois', 'approximative', 'antoine',
+  "En décembre 1841, Antoine et Manuel Alvarez, voyageant en partis séparés avec de grands troupeaux, sont pris par un blizzard au Cottonwood Creek, près de Council Grove : Antoine perd en une nuit plus de quatre cents mules et chevaux et un ou deux hommes. Le 6 septembre 1843, le capitaine Cooke, qui escorte les caravanes, le retrouve au Cottonwood Fork « avec une douzaine de charrettes légères ; il a une maison de traite à trois cents milles au-delà de Santa Fe ».",
+  f"{WIL}, p. 153, 162.",
+  "Point au gué du Cottonwood sur la piste de Santa Fe.")
+L('L137', "Saint-Louis : Louis vend son lot de la rue Seconde", -90.1866, 38.6259, '1841-03-20/1841-07-08', 'jour', 'certaine', 'louis',
+  "Face à l'hostilité du gouverneur Armijo, Louis vend le 20 mars 1841 à Roque Tudesqui sa maison, son magasin et son moulin de Santa Fe, puis monte au fort Uintah (inscription du Willow Creek, 5 mai) et redescend à Saint-Louis, où il cède le 8 juillet 1841 un lot des rues Second et Market pour quatre cents dollars à Joseph Lavielle et George Morton. Il est de retour à Santa Fe en novembre.",
+  f"{WIL}, p. 153-154.")
+L('L138', "Fort Uintah : l'escale de Frémont", -109.9265, 40.4625, '1844-06-03/1844-06-05', 'jour', 'certaine', 'antoine',
+  "Après avoir franchi la Lake Fork, John C. Frémont atteint le 3 juin 1844 « le fort Uintah, poste de traite appartenant à M. A. Roubideau », un peu au-dessus de la jonction des deux branches de l'Uinta ; il y mesure 40° 27′ 45″ N et 109° 56′ 42″ O. Le fort a « une garnison bigarrée d'engagés et de chasseurs canadiens et espagnols, avec le nombre habituel de femmes indiennes » ; Frémont y achète sucre, café et viande séchée et engage le voyageur Auguste Archambeau.",
+  f"{WIL}, p. 154-156.",
+  "Willoughby date ce passage de 1842 ; le rapport de Frémont le place en juin 1844, quatre mois avant la destruction du fort.")
+L('L139', "Rivière Sevier : la traite des captifs paiutes", -112.10, 38.90, '1830/1844', 'annee', 'hypothetique', 'antoine',
+  "Dans les années 1830, Nouveaux-Mexicains et Américains razzient les Paiutes (« Sand Pitch ») de la rivière Sevier et échangent avec presque toutes les nations du Grand Bassin des femmes et des enfants captifs. En juillet 1842, le missionnaire Joseph Williams voit Antoine rassembler au fort Uintah « plusieurs squaws et jeunes Indiens à emmener au Nouveau-Mexique », où les Espagnols les achètent pour épouses : la meilleure preuve de sa participation à la traite des esclaves autochtones.",
+  f"{WIL}, p. 130-131, 157.",
+  "Point symbolique sur la Sevier ; la participation d'Antoine aux razzias elles-mêmes n'est pas documentée.")
+
+L('L140', "Fort Osage : les pirogues de François", -94.1867, 39.1867, '1812-06-04/1817-04-01', 'jour', 'certaine', 'freres',
+  "Le 4 juin 1812, John Luttig, commis de la Compagnie de fourrures du Missouri, croise près du fort Osage plusieurs pirogues qui descendent de leurs quartiers d'hiver, dont celle de « Mess fr Robideau » (sans doute François). En 1817, Joseph poursuit Jeremiah Connors, qui lui doit 500 dollars pour le transport, par son bateau à quille, de marchandises et d'un commis de Saint-Louis jusqu'au fort Osage (plainte du 1er avril).",
+  f"{WIL}, p. 35, 41.")
+L('L141', "Île de Campeche (Galveston) : la commande aux frères Laffite", -94.79, 29.30, '1818-04', 'mois', 'certaine', 'joseph3',
+  "Joseph Robidoux correspond avec Jean et Pierre Laffite, contrebandiers établis sur l'île de Campeche, près de Galveston. En avril 1818, il leur commande vingt esclaves mulâtres parlant français (dix hommes, dix jeunes femmes, plus des nourrissons), des miroirs, haches, couteaux, chaudrons, rubans de soie, couvertures, trois cents mousquets, poudre, balles, tabac, vermillon et sucre, pour 3 535 dollars payables à la livraison à Alexandria (Louisiane).",
+  f"{WIL}, p. 41-42.",
+  "On ignore si la commande fut livrée.")
+L('L142', "Col du Cajon : un fort contre les razzias", -117.43, 34.31, '1851/1853', 'annee', 'hypothetique', 'louis',
+  "Louis Robidoux signale jusqu'à mille chevaux et bovins volés en trois mois par des pillards mojaves et autres. Il plaide pour un fort qui bloquerait le col du Cajon, à la tête de la vallée de la Santa Ana ; un poste de l'armée en adobe est bâti près de son ranch en 1851. Louis sert d'interprète au commandant lors d'une rencontre avec une bande d'Indiens de San Jacinto ; sa propre maison de Jurupa est percée de meurtrières.",
+  f"{WIL}, p. 198-199.",
+  "Le point marque le col ; l'emplacement exact du poste militaire n'est pas précisé.")
 
 EXTRA = {
   'L128': [{"src": "images/documents/clark-1827-07-23-licence-antoine-robidoux-and-company.jpg", "legende": "Licence de William Clark à « Antoine Robidoux and Company », Saint-Louis, 23 juillet 1827 (dossier de l'auteur)"}],
