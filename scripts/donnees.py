@@ -338,8 +338,8 @@ L('L48', "Mine du Cerro del Oro", -106.17, 35.32, '1834', 'annee', 'hypothetique
   "Emplacement non précisé : placé dans les monts Ortiz, district aurifère le plus proche de Santa Fe.")
 L('L49', "Santa Fe : le moulin de Louis sur la rivière", -105.9445, 35.6842, '1839-04/1841-03-20', 'mois', 'approximative', 'louis',
   "En avril 1839, Louis Robidoux obtient de l'ayuntamiento le droit d'installer un moulin à grain sur la rivière Santa Fe ; un voisin et rival, Antonio Ortiz, s'en plaint, mais le conseil juge le moulin utile. Premier alcalde jusqu'au 1er janvier 1840, Louis vend le 20 mars 1841 sa maison, son magasin et son moulin à Roque Tudesqui, devant la montée de l'hostilité envers les Américains.",
-  f"{WIL}, p. 149, 153.",
-  "Emplacement du moulin sur la rivière non précisé.")
+  f"{WIL}, p. 149, 153 ; M. Ebright, Land Grants and Lawsuits in Northern New Mexico (Albuquerque, University of New Mexico Press, 1994), p. 64-65 et n. 37 du ch. 3.",
+  "Emplacement du moulin sur la rivière non précisé. Ebright (1994) signale aux Mexican Archives of New Mexico une « objection à une concession de terre à Luis Robidoux » (procès-verbaux législatifs, bobine 28, image 84), où le plaignant invoque les décrets des Cortes de 1812-1813 ; la date et la terre ne sont pas précisées, peut-être un autre épisode de la même rivalité.")
 L('L50', "Westwater : l'inscription d'Antoine", -109.2874, 39.2763, '1837-11-13', 'jour', 'certaine', 'antoine',
   "Sur la paroi de grès de la rive ouest du ruisseau Westwater, à huit kilomètres environ à l'ouest de la frontière Utah-Colorado, Antoine grave : « Antoine Robidoux passé ici le 13 Novembre 1837 pour etablire maison traitte a la Rv. vert ou wiyte ». « Wiyte » se lit Uinta ou White ; le 7 de 1837 pourrait être un 1. L'inscription surmonte un bouclier peint préhistorique et a été criblée de balles.",
   f"{WIL}, p. 126-128 ; {KEL} ; {UTB}.",
