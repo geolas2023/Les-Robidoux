@@ -93,7 +93,7 @@ Ses forts vendent armes et alcool aux Utes et participent à la traite des capti
 En 1846, interprète et guide de Kearny, il traduit la prise de possession de Santa Fe, puis suit l'armée jusqu'en Californie. À San Pasqual, le 6 décembre, un coup de lance dans le dos le laisse pour mort ; une tasse de café, raconte Emory, le ramène à la vie. Il rentre par mer en 1847-1848, demande pension et remboursements au Congrès, et obtient en 1856 une pension de 16,66 dollars par mois. Presque aveugle, atteint d'hydropisie, il meurt à Saint-Joseph le 29 août 1860, laissant Carmel et leur petite-fille adoptive Amanda.`,
   sources: `${WIL}, ch. 4, 7, 9, 10, 12 ; W. S. Wallace, Antoine Robidoux, 1794-1860 (1953) et sa notice dans Hafen (dir.) (1995), p. 270-282 ; nécrologie de la St. Joseph Gazette (1860).`,
   images: [{ src: 'images/photos/antoine-robidoux-jeune.jpg', legende: 'Antoine Robidoux jeune homme (Museum of New Mexico ; arbre public d\'un membre d\'Ancestry)' }],
-  lieux: ['L06', 'L09', 'L80', 'L81', 'L17', 'L22', 'L25', 'L23', 'L50', 'L48', 'L24', 'L54', 'L29', 'L30', 'L82', 'L32', 'L83', 'L84', 'L38'] },
+  lieux: ['L06', 'L09', 'L80', 'L81', 'L17', 'L22', 'L25', 'L23', 'L50', 'L48', 'L24', 'L54', 'L29', 'L30', 'L82', 'L32', 'L83', 'L84', 'L38', 'L170', 'L171', 'L172'] },
 
 { id: 'louis', type: 'portrait', statut: 'biographie', ordre: 8, date: '1796 – 1868', titre: 'Louis Robidoux, d\'alcalde de Santa Fe à ranchero de Jurupa',
   personnes: ['Louis'],
@@ -108,7 +108,7 @@ Superviseur et premier président du conseil du comté de San Bernardino (1853),
   sources: `${WIL}, p. 3, 66, 80-81, 86-87, 120-124, 149-154, 162-165, 174-177, 198-201, 209-210 ; D. J. Weber (éd.), « Louis Robidoux: Two Letters from California, 1848 » (1972) ; R. Hornbeck, Roubidoux's Ranch in the 70's (1913).`,
   images: [{ src: 'images/photos/louis-robidoux.jpg', legende: 'Louis Robidoux (photographie ancienne ; arbre public d\'un membre d\'Ancestry)' },
            { src: 'images/photos/louis-robidoux-ranch-1869.jpg', legende: 'La maison du ranch de Louis Robidoux à Jurupa (USC Digital Library, California Historical Society ; arbre public d\'un membre d\'Ancestry)' }],
-  lieux: ['L18', 'L85', 'L49', 'L51', 'L58', 'L59', 'L60', 'L86', 'L87', 'L61', 'L62'] },
+  lieux: ['L18', 'L85', 'L49', 'L51', 'L58', 'L59', 'L60', 'L86', 'L87', 'L61', 'L62', 'L169'] },
 
 { id: 'michel', type: 'portrait', statut: 'biographie', ordre: 9, date: '1798 – 1858', titre: 'Michel Robidoux, le chef de brigade',
   personnes: ['Michel'],
