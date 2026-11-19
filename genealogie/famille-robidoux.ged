@@ -1341,6 +1341,7 @@
 1 CHIL @I42@
 1 MARR
 2 DATE 1813
+1 CHIL @I143@
 0 @F8@ FAM
 1 HUSB @I15@
 1 WIFE @I16@
@@ -1380,6 +1381,8 @@
 1 CHIL @I83@
 1 CHIL @I84@
 1 CHIL @I85@
+1 CHIL @I135@
+1 CHIL @I136@
 0 @F13@ FAM
 1 HUSB @I24@
 1 WIFE @I25@
@@ -1408,6 +1411,8 @@
 1 MARR
 2 DATE 21 AUG 1838
 2 PLAC Carondelet, Missouri, USA
+1 CHIL @I137@
+1 CHIL @I138@
 0 @F17@ FAM
 1 HUSB @I34@
 1 WIFE @I35@
@@ -1417,6 +1422,9 @@
 1 CHIL @I115@
 1 CHIL @I116@
 1 CHIL @I117@
+1 CHIL @I140@
+1 CHIL @I141@
+1 CHIL @I142@
 0 @F18@ FAM
 1 HUSB @I36@
 1 WIFE @I37@
@@ -1425,6 +1433,7 @@
 1 CHIL @I106@
 1 CHIL @I107@
 1 CHIL @I108@
+1 CHIL @I139@
 0 @F19@ FAM
 1 HUSB @I38@
 1 WIFE @I39@
@@ -1533,6 +1542,7 @@
 0 @F34@ FAM
 1 HUSB @I106@
 1 WIFE @I109@
+1 CHIL @I144@
 0 @F35@ FAM
 1 HUSB @I110@
 1 WIFE @I107@
@@ -1573,4 +1583,151 @@
 1 CHIL @I133@
 1 CHIL @I134@
 0 @N1@ NOTE Sources : Atlas Robidoux ; R. J. Willoughby, The Brothers Robidoux (2012) ; O. M. Robidoux, Memorial to the Robidoux Brothers (1924) ; Billon (1886) ; collection Drouin ; recensements américains ; A. Oldham (2000).
+0 @I135@ INDI
+1 NAME Pascual /Robidoux/
+1 SEX M
+1 BIRT
+2 DATE ABT 1840
+2 PLAC Nouveau-Mexique, USA
+1 NOTE Recensement fédéral de 1850 (Ancestry, coll. 8054), Los Angeles, logement 458 (10 ans) ; Recensement fédéral de 1860 (Ancestry, coll. 7667), San Bernardino ; Recensement fédéral de 1870 (Ancestry, coll. 7163), San Bernardino, logement 147.
+1 FAMC @F12@
+1 FAMS @F43@
+0 @I136@ INDI
+1 NAME Benigno /Robidoux/
+1 SEX M
+1 BIRT
+2 DATE ABT 1850
+2 PLAC Los Angeles, Californie, USA
+1 NOTE Recensement fédéral de 1850 (Ancestry, coll. 8054), Los Angeles (« Benina », 0 an) ; Recensement fédéral de 1860 (Ancestry, coll. 7667), San Bernardino (11 ans).
+1 FAMC @F12@
+0 @I137@ INDI
+1 NAME Cora /Robidoux/
+1 SEX F
+1 BIRT
+2 DATE ABT 1846
+2 PLAC Saint-Joseph, Missouri, USA
+1 NOTE Recensement fédéral de 1850 (Ancestry, coll. 8054), Washington, Buchanan, logement 259 (4 ans) ; Recensement fédéral de 1860 (Ancestry, coll. 7667) (« C. », 12 ans).
+1 FAMC @F16@
+0 @I138@ INDI
+1 NAME Kate /Robidoux/
+1 SEX F
+1 BIRT
+2 DATE ABT 1864
+2 PLAC Saint-Joseph, Missouri, USA
+1 NOTE Recensement fédéral de 1870 (Ancestry, coll. 7163), Saint-Joseph quartier 3, logement 244 (6 ans).
+1 FAMC @F16@
+0 @I139@ INDI
+1 NAME George /Robidoux/
+1 SEX M
+1 BIRT
+2 DATE ABT 1850
+2 PLAC Saint-Joseph, Missouri, USA
+1 NOTE Recensement fédéral de 1850 (Ancestry, coll. 8054), Washington, Buchanan, logement 445 (0 an).
+1 FAMC @F18@
+0 @I140@ INDI
+1 NAME Pauline /Robidoux/
+1 SEX F
+1 BIRT
+2 DATE ABT 1844
+2 PLAC Missouri, USA
+1 NOTE Recensement fédéral de 1850 (Ancestry, coll. 8054), Athens, Gentry, logement 219 (6 ans).
+1 FAMC @F17@
+0 @I141@ INDI
+1 NAME Sylvina /Robidoux/
+1 SEX F
+1 BIRT
+2 DATE ABT 1846
+2 PLAC Missouri, USA
+1 NOTE Recensement fédéral de 1850 (Ancestry, coll. 8054), Athens, Gentry, logement 219 (4 ans).
+1 FAMC @F17@
+0 @I142@ INDI
+1 NAME Joseph /Robidoux/
+1 SEX M
+1 BIRT
+2 DATE ABT 1849
+2 PLAC Missouri, USA
+1 NOTE Recensement fédéral de 1850 (Ancestry, coll. 8054), Athens, Gentry, logement 219 (1 an).
+1 FAMC @F17@
+0 @I143@ INDI
+1 NAME Joseph /Robidoux/
+1 SEX M
+1 BIRT
+2 DATE DEC 1815
+2 PLAC Saint-Louis, Missouri, USA
+1 DEAT
+2 DATE ABT 1816
+1 NOTE Mort en bas âge ; Willoughby (2012), chap. 2 ; baptême indexé dans la collection Drouin (Ancestry, coll. 1111), Saint-Louis 1814-1823.
+1 FAMC @F7@
+0 @I144@ INDI
+1 NAME Maria T. /Robidoux/
+1 SEX F
+1 BIRT
+2 DATE ABT MAR 1870
+2 PLAC Saint-Joseph, Missouri, USA
+1 NOTE Recensement fédéral de 1870 (Ancestry, coll. 7163), Saint-Joseph quartier 4, logement 428 (2 mois).
+1 FAMC @F34@
+0 @I145@ INDI
+1 NAME Maria Marcelina //
+1 SEX F
+1 BIRT
+2 DATE ABT 1846
+2 PLAC Californie, USA
+1 FAMS @F43@
+0 @I146@ INDI
+1 NAME Alfredo /Robidoux/
+1 SEX M
+1 BIRT
+2 DATE ABT 1860
+2 PLAC San Bernardino, Californie, USA
+1 NOTE Recensement fédéral de 1860 (Ancestry, coll. 7667) et Recensement fédéral de 1870 (Ancestry, coll. 7163), San Bernardino (ménage de Pascual et Marcelina).
+1 FAMC @F43@
+0 @I147@ INDI
+1 NAME Frederick /Robidoux/
+1 SEX M
+1 BIRT
+2 DATE ABT 1861
+2 PLAC San Bernardino, Californie, USA
+1 NOTE Recensement fédéral de 1860 (Ancestry, coll. 7667) et Recensement fédéral de 1870 (Ancestry, coll. 7163), San Bernardino (ménage de Pascual et Marcelina).
+1 FAMC @F43@
+0 @I148@ INDI
+1 NAME Florida /Robidoux/
+1 SEX F
+1 BIRT
+2 DATE ABT 1863
+2 PLAC San Bernardino, Californie, USA
+1 NOTE Recensement fédéral de 1860 (Ancestry, coll. 7667) et Recensement fédéral de 1870 (Ancestry, coll. 7163), San Bernardino (ménage de Pascual et Marcelina).
+1 FAMC @F43@
+0 @I149@ INDI
+1 NAME Flora /Robidoux/
+1 SEX F
+1 BIRT
+2 DATE ABT 1864
+2 PLAC San Bernardino, Californie, USA
+1 NOTE Recensement fédéral de 1860 (Ancestry, coll. 7667) et Recensement fédéral de 1870 (Ancestry, coll. 7163), San Bernardino (ménage de Pascual et Marcelina).
+1 FAMC @F43@
+0 @I150@ INDI
+1 NAME Adella /Robidoux/
+1 SEX F
+1 BIRT
+2 DATE ABT 1866
+2 PLAC San Bernardino, Californie, USA
+1 NOTE Recensement fédéral de 1860 (Ancestry, coll. 7667) et Recensement fédéral de 1870 (Ancestry, coll. 7163), San Bernardino (ménage de Pascual et Marcelina).
+1 FAMC @F43@
+0 @I151@ INDI
+1 NAME José /Robidoux/
+1 SEX M
+1 BIRT
+2 DATE ABT 1868
+2 PLAC San Bernardino, Californie, USA
+1 NOTE Recensement fédéral de 1860 (Ancestry, coll. 7667) et Recensement fédéral de 1870 (Ancestry, coll. 7163), San Bernardino (ménage de Pascual et Marcelina).
+1 FAMC @F43@
+0 @F43@ FAM
+1 HUSB @I135@
+1 WIFE @I145@
+1 CHIL @I146@
+1 CHIL @I147@
+1 CHIL @I148@
+1 CHIL @I149@
+1 CHIL @I150@
+1 CHIL @I151@
 0 TRLR
