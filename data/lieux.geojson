@@ -1376,8 +1376,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     -109.7,
-     39.65
+     -109.3998,
+     39.4972
     ]
    },
    "properties": {
@@ -1387,11 +1387,11 @@
     "fin": 1841.3411,
     "date_edtf": "1841-05-05",
     "precision": "jour",
-    "certitude": "hypothetique",
+    "certitude": "approximative",
     "categorie": "louis",
     "description": "Au printemps 1841, Louis Robidoux monte vérifier le fort Uintah, dont il est copropriétaire avec Antoine. Dans le bassin du Willow Creek, sur le plateau Tavaputs, il grave en espagnol qu'il est passé là le 5 mai 1841. Le Missouri Historical Society conserve une photographie de l'inscription prise le 22 septembre 1968.",
-    "sources": "R. J. Willoughby, The Brothers Robidoux and the Opening of the American West (2012), p. 154 ; Missouri Historical Society, Western Travel Collection, A1734-00001 (photographie de 1968).",
-    "note": "Emplacement exact non publié : point placé dans le bassin du Willow Creek.",
+    "sources": "R. J. Willoughby, The Brothers Robidoux and the Opening of the American West (2012), p. 154 ; Missouri Historical Society, Western Travel Collection, A1734-00001 (photographie de 1968) ; J. W. Nelson, Forgotten Pathfinders Along the North Branch of the Old Spanish Trail (2003), p. 31, 35, 51.",
+    "note": "Selon Nelson, l'inscription marque l'embranchement de la piste du Willow Creek vers le sommet qui domine le canyon de Westwater, près de l'entrée du Wire Fence Canyon, par où la piste descendait des Book Cliffs. Point placé au débouché du Wire Fence Canyon sur le Willow Creek (GNIS), à quelques kilomètres près ; emplacement exact non publié.",
     "type": "lieu",
     "images": [
      {

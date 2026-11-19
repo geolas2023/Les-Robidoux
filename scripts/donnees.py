@@ -342,10 +342,10 @@ L('L50', "Westwater : l'inscription d'Antoine", -109.2874, 39.2763, '1837-11-13'
   f"{WIL}, p. 126-128 ; {KEL} ; {UTB}.",
   "Charles Kelly, qui la photographie en 1933, la situe près de l'embouchure du canyon de Westwater, au ranch Larsen (section 5, canton 18 sud, rang 24 est, comté de Grand), à 15 milles au nord-ouest de la gare de Westwater : Robidoux campait dans un abri sous roche et grava juste au sud de l'entrée. Point repris du repère de l'auteur (ROBIDOUX.kml), qui tombe dans la section 5 décrite par Kelly et par la fiche NRHP n° 82004124.",
   images=[LOC("westwater-inscription-antoine-robidoux-2001.jpg", "L'inscription d'Antoine Robidoux, ruisseau Westwater (Utah), photographiée en 2001 (dossier de l'auteur)")])
-L('L51', "Willow Creek : l'inscription de Louis", -109.70, 39.65, '1841-05-05', 'jour', 'hypothetique', 'louis',
+L('L51', "Willow Creek : l'inscription de Louis", -109.3998, 39.4972, '1841-05-05', 'jour', 'approximative', 'louis',
   "Au printemps 1841, Louis Robidoux monte vérifier le fort Uintah, dont il est copropriétaire avec Antoine. Dans le bassin du Willow Creek, sur le plateau Tavaputs, il grave en espagnol qu'il est passé là le 5 mai 1841. Le Missouri Historical Society conserve une photographie de l'inscription prise le 22 septembre 1968.",
-  f"{WIL}, p. 154 ; {MHS}.",
-  "Emplacement exact non publié : point placé dans le bassin du Willow Creek.")
+  f"{WIL}, p. 154 ; {MHS} ; J. W. Nelson, Forgotten Pathfinders Along the North Branch of the Old Spanish Trail (2003), p. 31, 35, 51.",
+  "Selon Nelson, l'inscription marque l'embranchement de la piste du Willow Creek vers le sommet qui domine le canyon de Westwater, près de l'entrée du Wire Fence Canyon, par où la piste descendait des Book Cliffs. Point placé au débouché du Wire Fence Canyon sur le Willow Creek (GNIS), à quelques kilomètres près ; emplacement exact non publié.")
 L('L52', "Embouchure de l'Uinta : le quartier d'hiver de Kit Carson", -109.66, 40.07, '1833-10/1834', 'mois', 'approximative', 'antoine',
   "En octobre 1832 ou 1833, Kit Carson trouve « M. Robidoux » sur l'Uinta avec une vingtaine d'hommes qui trappent et commercent, puis hiverne à l'embouchure de la rivière. Un Indien de Californie du parti Robidoux s'enfuit avec six chevaux ; Robidoux demande à Carson de le poursuivre, et Carson le rattrape à 130 milles.",
   f"{WIL}, p. 129.",
