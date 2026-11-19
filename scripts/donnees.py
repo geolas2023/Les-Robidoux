@@ -79,6 +79,7 @@ def COM(fichier, legende):
     nom = fichier.replace(' ', '_')
     return {"src": f"https://commons.wikimedia.org/wiki/Special:FilePath/{quote(nom)}?width=1200",
             "lien": f"https://commons.wikimedia.org/wiki/File:{quote(nom)}", "legende": f"{legende} (Wikimedia Commons)"}
+GIT = "J. Gitlin, The Bourgeois Frontier: French Towns, French Traders, and American Expansion (New Haven, Yale University Press, 2010)"
 GIA = "C. A. Gianini, « Manuel Lisa, One of the Earliest Traders on the Missouri River », New Mexico Historical Review, vol. 2, n° 4 (octobre 1927), p. 323-333"
 PHG = "J. Lecompte, Pueblo, Hardscrabble, Greenhorn: The Upper Arkansas, 1832-1856 (Norman, University of Oklahoma Press, 1978)"
 def LOC(fichier, legende):
@@ -857,6 +858,11 @@ L('L164', "Saint-Louis : un contrat entre le jeune Manuel Lisa et « Roubidoux �
   "Selon Charles Gianini (1927), Manuel Lisa, né à La Nouvelle-Orléans vers 1772, arrive à Saint-Louis en 1798 et passe la même année un contrat avec « Roubidoux, l'un des vieux traiteurs indiens ». Gianini ne donne ni le prénom ni l'objet du contrat ; en 1798, le Robidoux établi de longue date dans la traite est Joseph (père). Lisa deviendra ensuite le grand rival des Chouteau sur le Missouri, et Joseph fils le précédera au poste de Bellevue.",
   f"{GIA}, p. 323 (PDF du Drive de l'auteur, dossier MANUEL_LISA).",
   "Article de vulgarisation sans référence d'archives : attribution à Joseph père à vérifier dans les actes notariés de Saint-Louis (Missouri Historical Society). Point placé au vieux Saint-Louis.")
+
+L('L165', "Saint-Louis : Joseph hypothèque ses biens pour bâtir Blacksnake Hills (1829-1834)", -90.1885, 38.6258, '1829/1834', 'annee', 'approximative', 'joseph3',
+  "Écarté du Missouri par son contrat de 1828 avec la compagnie Pratte, Joseph Robidoux reparaît dès 1831 à Blacksnake Hills. Entre 1829 et 1834, avec sa femme Angélique Vaudry, il vend l'essentiel de ses biens immobiliers de Saint-Louis ; en 1834, le couple hypothèque ce qui reste à Pratte, Chouteau & Cie contre un prêt de 16 500 dollars, qui finance sans doute ses entreprises du Missouri et du Nouveau-Mexique et son poste de Blacksnake Hills. En 1833, il assure à Pierre Chouteau fils avoir « horreur » du whisky et en rejette l'usage sur son ancien associé Jean-Baptiste Roy ; un agent indien l'avait accusé en 1832 de vendre de jeunes Indiennes aux traiteurs.",
+  f"{GIT}, p. 103, 107-108 (d'après Lewis, Robidoux Chronicles, et la correspondance Chouteau).",
+  "Point placé au vieux Saint-Louis ; l'emplacement des biens hypothéqués n'est pas précisé.")
 
 EXTRA = {
   'L128': [{"src": "images/documents/clark-1827-07-23-licence-antoine-robidoux-and-company.jpg", "legende": "Licence de William Clark à « Antoine Robidoux and Company », Saint-Louis, 23 juillet 1827 (dossier de l'auteur)"}],

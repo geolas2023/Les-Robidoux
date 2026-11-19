@@ -4387,6 +4387,31 @@
     "type": "lieu",
     "images": []
    }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -90.1885,
+     38.6258
+    ]
+   },
+   "properties": {
+    "id": "L165",
+    "nom": "Saint-Louis : Joseph hypothèque ses biens pour bâtir Blacksnake Hills (1829-1834)",
+    "debut": 1829.5,
+    "fin": 1834.5,
+    "date_edtf": "1829/1834",
+    "precision": "annee",
+    "certitude": "approximative",
+    "categorie": "joseph3",
+    "description": "Écarté du Missouri par son contrat de 1828 avec la compagnie Pratte, Joseph Robidoux reparaît dès 1831 à Blacksnake Hills. Entre 1829 et 1834, avec sa femme Angélique Vaudry, il vend l'essentiel de ses biens immobiliers de Saint-Louis ; en 1834, le couple hypothèque ce qui reste à Pratte, Chouteau & Cie contre un prêt de 16 500 dollars, qui finance sans doute ses entreprises du Missouri et du Nouveau-Mexique et son poste de Blacksnake Hills. En 1833, il assure à Pierre Chouteau fils avoir « horreur » du whisky et en rejette l'usage sur son ancien associé Jean-Baptiste Roy ; un agent indien l'avait accusé en 1832 de vendre de jeunes Indiennes aux traiteurs.",
+    "sources": "J. Gitlin, The Bourgeois Frontier: French Towns, French Traders, and American Expansion (New Haven, Yale University Press, 2010), p. 103, 107-108 (d'après Lewis, Robidoux Chronicles, et la correspondance Chouteau).",
+    "note": "Point placé au vieux Saint-Louis ; l'emplacement des biens hypothéqués n'est pas précisé.",
+    "type": "lieu",
+    "images": []
+   }
   }
  ]
 }
