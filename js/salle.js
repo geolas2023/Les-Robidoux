@@ -57,7 +57,7 @@ Joseph était, dit-on, généreux, caustique et joueur : le peintre Kurz raconte
   sources: `${WIL}, p. 3, 20-45, 47-62, 88-119, 133-144, 178-204, 210 ; Tassé, Les Canadiens de l'Ouest (1878), t. II, p. 119-127 ; Chittenden (1902).`,
   images: [{ src: 'images/photos/joseph-robidoux-portrait-v1860.jpg', legende: 'Joseph Robidoux, portrait assis, vers 1860 (photographie ancienne ; arbre public d\'un membre d\'Ancestry)' },
            { src: 'images/photos/maison-joseph-robidoux.jpg', legende: 'La maison de rondins de Joseph Robidoux (photographie ancienne ; arbre public d\'un membre d\'Ancestry)' }],
-  lieux: ['L04', 'L10', 'L75', 'L14', 'L76', 'L12', 'L41', 'L43', 'L44', 'L15', 'L46', 'L78', 'L79', 'L16', 'L47'] },
+  lieux: ['L04', 'L10', 'L75', 'L14', 'L76', 'L12', 'L41', 'L43', 'L44', 'L15', 'L173', 'L46', 'L78', 'L79', 'L16', 'L47'] },
 
 { id: 'francois', type: 'portrait', statut: 'biographie', ordre: 5, date: '1788 – 1856 ?', titre: 'François Robidoux, le marchand de Saint-Louis',
   personnes: ['François'],

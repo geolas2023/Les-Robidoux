@@ -43,6 +43,7 @@ NRHP = "National Register of Historic Places, n° 73001037 (Robidoux Row)"
 DRO = "Collection Drouin, baptême de Joseph Marie Robidoux, La Visitation du Sault-au-Récollet (Ancestry, coll. 1091, notice 14650221)"
 KEL = "C. Kelly, « Antoine Robidoux » [inscription de Westwater], Utah Historical Quarterly, vol. 6, n° 4 (oct. 1933), p. 115-116"
 WEB71 = "D. J. Weber, The Taos Trappers: The Fur Trade in the Far Southwest, 1540-1846 (Norman, University of Oklahoma Press, 1971)"
+ROT28 = "J. Rothensteiner, History of the Archdiocese of St. Louis, vol. II (Saint-Louis, Blackwell Wielandy, 1928)"
 HAR15 = "J. Hardee, « \"Taos Trappers\" and the Demise of the Rocky Mountain Rendezvous », dans Proceedings of the 2015 Fur Trade Symposium: Bent's Fort and the Southern Fur Trade (La Junta, 2016)"
 WEB72 = "D. J. Weber (éd.), « Louis Robidoux: Two Letters from California, 1848 », Southern California Quarterly, vol. 54, n° 2 (1972)"
 CEN = "Recensements fédéraux des États-Unis (Ancestry)"
@@ -897,6 +898,11 @@ L('L171', "Embouchure de l'Uintah : Antoine perd tout au jeu de mains (printemps
 L('L172', "Santa Fe : les chefs utes, le gouverneur Martínez et les trappeurs de « Portelance » (septembre 1844)", -105.9378, 35.6870, '1844-09', 'mois', 'certaine', 'antoine',
   "En 1844, des chefs utes viennent à Santa Fe demander des présents en compensation de morts causées, selon une version, par « un groupe de trappeurs espagnols sous PORTELANCE », un Français. Mécontents des cadeaux du gouverneur Mariano Martínez, ils l'attaquent ; ses gardes tuent huit Indiens. C'est en rentrant chez eux que les Utes s'en prennent au fort Uncompahgre d'Antoine Robidoux. Les autorités de Santa Fe soupçonnent d'ailleurs l'un des forts de Robidoux d'avoir fourni des armes aux Utes.",
   f"{WEB71}, ch. XIII (d'après le Missouri Democrat, 17 sept. 1845, et la thèse de W. A. Minge, 1965).")
+
+L('L173', "Robidoux's Landing : les missionnaires jésuites, puis la première église de Saint-Joseph (1838-1847)", -94.8500, 39.7660, '1838/1847-06-17', 'annee', 'approximative', 'joseph3',
+  "L'historien de l'archidiocèse décrit le site, cent ans plus tôt, comme des collines boisées avec la cabane du traiteur Joseph Robidoux (le troisième du nom) et un débarcadère ; Robidoux, qui y acquiert la terre en 1830, la fait lotir et la ville compte 20 000 habitants en 1864. Les jésuites de la mission kickapoue y passent les premiers : De Smet en mai 1838, puis Eysvogels, qui baptise en 1842 « aux Black Snake Hills (Robidoux's Landing) ». Le premier curé résident, Thomas Scanlon, arrive le 25 octobre 1845 ; De Smet, de passage le 23 novembre 1846, compte 350 maisons et une population d'Américains, de Créoles français, d'Irlandais et d'Allemands. L'église, au coin des rues Fifth et Felix, est dédiée le 17 juin 1847.",
+  f"{ROT28}, ch. 8, p. 99-101.",
+  "Rothensteiner place l'achat de la terre en 1830, avant la ratification du Platte Purchase (1836) : à recouper avec les lettres patentes de 1843 (L15).")
 
 # ------------------------------------------------------------------ Recensements (ménages relevés sur Ancestry)
 import sys as _sys; _sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))

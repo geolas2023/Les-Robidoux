@@ -4610,6 +4610,31 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     -94.85,
+     39.766
+    ]
+   },
+   "properties": {
+    "id": "L173",
+    "nom": "Robidoux's Landing : les missionnaires jésuites, puis la première église de Saint-Joseph (1838-1847)",
+    "debut": 1838.5,
+    "fin": 1847.4589,
+    "date_edtf": "1838/1847-06-17",
+    "precision": "annee",
+    "certitude": "approximative",
+    "categorie": "joseph3",
+    "description": "L'historien de l'archidiocèse décrit le site, cent ans plus tôt, comme des collines boisées avec la cabane du traiteur Joseph Robidoux (le troisième du nom) et un débarcadère ; Robidoux, qui y acquiert la terre en 1830, la fait lotir et la ville compte 20 000 habitants en 1864. Les jésuites de la mission kickapoue y passent les premiers : De Smet en mai 1838, puis Eysvogels, qui baptise en 1842 « aux Black Snake Hills (Robidoux's Landing) ». Le premier curé résident, Thomas Scanlon, arrive le 25 octobre 1845 ; De Smet, de passage le 23 novembre 1846, compte 350 maisons et une population d'Américains, de Créoles français, d'Irlandais et d'Allemands. L'église, au coin des rues Fifth et Felix, est dédiée le 17 juin 1847.",
+    "sources": "J. Rothensteiner, History of the Archdiocese of St. Louis, vol. II (Saint-Louis, Blackwell Wielandy, 1928), ch. 8, p. 99-101.",
+    "note": "Rothensteiner place l'achat de la terre en 1830, avant la ratification du Platte Purchase (1836) : à recouper avec les lettres patentes de 1843 (L15).",
+    "type": "lieu",
+    "images": []
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      -94.846,
      39.768
     ]
