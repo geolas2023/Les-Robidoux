@@ -5,8 +5,9 @@ Atlas géohistorique de la famille Robidoux, traiteurs canadiens-français de Mo
 Membre du réseau [Atlas de l'Amérique française](https://geolas2023.github.io/Atlas-Les-Canadiens-Fran-ais-de-l-Ouest/). En ligne : https://geolas2023.github.io/Les-Robidoux/
 
 ## Contenu
-- 145 lieux et 10 routes, chacun avec une date (EDTF), une certitude de localisation, une description et ses sources paginées.
+- 154 lieux et 10 routes, chacun avec une date (EDTF), une certitude de localisation, une description et ses sources paginées.
 - Une salle de lecture (`salle-de-lecture.html`) : 17 portraits (le père, la mère, les six frères, les sœurs, Joseph E., Jules, Carmel Benavides, Martina Anaya, Amanda Barada, Mary Many Days, Jeffrey Deroine), 18 documents transcrits, traduits ou résumés (baptême de 1750, annonces de 1809, vol de 1842, lettres d'Antoine de 1846 et 1857, rapport de pension de 1856, nécrologie de 1860, proclamation de 1868, inscriptions, recensements, récits de Carmel, généalogie de 1924, journal de Christian Stollsteimer) et 7 fiches d'études (dont le Memorial de 1924 et Tassé).
+- Une page thématique « Les inscriptions » (`inscriptions.html`) : carte et fiches des noms gravés par Antoine (Westwater, 1837), Louis (Willow Creek, 1841) et Denis Julien, l'homme du fort Uintah (9 inscriptions, 1830-1844), avec la certitude de chaque position et les sources.
 - 38 photos et documents et documents, en vignettes cliquables dans les fiches (comme l'Atlas Aubry) : images locales dans `images/photos/`, images de Wikimedia Commons liées avec leur page de licence.
 - La couleur des pastilles indique le membre de la famille : Joseph Ier, Joseph II, Joseph III, Antoine, Louis, François et Michel, Jules ; une couleur à part pour les proches (épouses, alliés autochtones, descendants : Carmel Benavides, Martina Anaya, Amanda Barada Stollsteimer, Mary Many Days et White Cloud).
 - La timeline va par année de 1720 à 1821, puis par mois de 1822 à 1875. Les liens directs `#lieu=L12` et `#trajet=T03` ouvrent une fiche.

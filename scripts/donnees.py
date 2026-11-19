@@ -54,6 +54,11 @@ NPR = "DAR, Collection of Nebraska Pioneer Reminiscences (1916), archive.org col
 TWI = "R. E. Twitchell, The Spanish Archives of New Mexico (1914), vol. I, archive.org spanisharchiveso01twituoft"
 READ = "B. M. Read, Illustrated History of New Mexico (1912), archive.org illustratedhisto00readrich"
 DALE = "H. C. Dale, The Ashley-Smith Explorations (1918), archive.org ashleysmithexplo00daleuoft"
+JWK = "« Denis Julien », Wikipédia (d'après J. H. Knipmeyer, The Life and Times of Denis Julien, Fur Trader, 2018)"
+KNI = "J. H. Knipmeyer, « The Denis Julien Inscriptions », Utah Historical Quarterly, vol. 64, n° 1 (1996)"
+KNB = "J. H. Knipmeyer, Butch Cassidy Was Here: Historic Inscriptions of the Colorado Plateau (University of Utah Press, 2002)"
+ADV = "adventr.co, « Denis Julien Inscriptions » (photographies de terrain)"
+NRH = "National Register of Historic Places"
 
 def dec(edtf):
     d = edtf.replace('~', '').replace('?', '')
@@ -332,10 +337,10 @@ L('L49', "Santa Fe : le moulin de Louis sur la rivière", -105.9445, 35.6842, '1
   "En avril 1839, Louis Robidoux obtient de l'ayuntamiento le droit d'installer un moulin à grain sur la rivière Santa Fe ; un voisin et rival, Antonio Ortiz, s'en plaint, mais le conseil juge le moulin utile. Premier alcalde jusqu'au 1er janvier 1840, Louis vend le 20 mars 1841 sa maison, son magasin et son moulin à Roque Tudesqui, devant la montée de l'hostilité envers les Américains.",
   f"{WIL}, p. 149, 153.",
   "Emplacement du moulin sur la rivière non précisé.")
-L('L50', "Westwater : l'inscription d'Antoine", -109.16, 39.28, '1837-11-13', 'jour', 'approximative', 'antoine',
+L('L50', "Westwater : l'inscription d'Antoine", -109.2874, 39.2763, '1837-11-13', 'jour', 'certaine', 'antoine',
   "Sur la paroi de grès de la rive ouest du ruisseau Westwater, à huit kilomètres environ à l'ouest de la frontière Utah-Colorado, Antoine grave : « Antoine Robidoux passé ici le 13 Novembre 1837 pour etablire maison traitte a la Rv. vert ou wiyte ». « Wiyte » se lit Uinta ou White ; le 7 de 1837 pourrait être un 1. L'inscription surmonte un bouclier peint préhistorique et a été criblée de balles.",
   f"{WIL}, p. 126-128 ; {KEL} ; {UTB}.",
-  "Charles Kelly, qui la photographie en 1933, la situe près de l'embouchure du canyon de Westwater, au ranch Larsen (section 5, canton 18 sud, rang 24 est, comté de Grand), à 15 milles au nord-ouest de la gare de Westwater : Robidoux campait dans un abri sous roche et grava juste au sud de l'entrée. Point placé en conséquence.",
+  "Charles Kelly, qui la photographie en 1933, la situe près de l'embouchure du canyon de Westwater, au ranch Larsen (section 5, canton 18 sud, rang 24 est, comté de Grand), à 15 milles au nord-ouest de la gare de Westwater : Robidoux campait dans un abri sous roche et grava juste au sud de l'entrée. Point repris du repère de l'auteur (ROBIDOUX.kml), qui tombe dans la section 5 décrite par Kelly et par la fiche NRHP n° 82004124.",
   images=[LOC("westwater-inscription-antoine-robidoux-2001.jpg", "L'inscription d'Antoine Robidoux, ruisseau Westwater (Utah), photographiée en 2001 (dossier de l'auteur)")])
 L('L51', "Willow Creek : l'inscription de Louis", -109.70, 39.65, '1841-05-05', 'jour', 'hypothetique', 'louis',
   "Au printemps 1841, Louis Robidoux monte vérifier le fort Uintah, dont il est copropriétaire avec Antoine. Dans le bassin du Willow Creek, sur le plateau Tavaputs, il grave en espagnol qu'il est passé là le 5 mai 1841. Le Missouri Historical Society conserve une photographie de l'inscription prise le 22 septembre 1968.",
@@ -711,6 +716,47 @@ L('L144', "Parc Krug : la cabane de Joseph", -94.8235, 39.7925, '1915-01', 'mois
 L('L145', "Kansas City : Louis, le petit-fils", -94.5925, 39.0640, '1883/1923-02-06', 'annee', 'certaine', 'jules',
   "Louis Robidoux, fils de Jules et d'Elizabeth Barada, né à Saint-Joseph le 26 août 1855, débute dans les journaux de son père (Daily Commercial) puis s'installe en 1883 à Kansas City, où il fait fortune dans le commerce des vins puis l'immobilier. Avec sa femme Orral Messmore, il suit les pompiers de Kansas City à l'Exposition universelle de Paris (1900), visite La Havane (1911), Panama (1912), Riverside (1915) et Honolulu (1920). Il meurt le 6 février 1923 au 3518 Wyandotte Street et est inhumé à Morrill (Kansas) ; sa veuve publie l'année suivante le Memorial to the Robidoux Brothers.",
   f"{ROB}, p. 243-271.")
+
+# ------------------------------------------------------------------ Denis Julien, l'homme du fort Uintah : ses inscriptions
+# Julien, traiteur créole de Saint-Louis, est associé au poste des Reed sur l'Uinta, vendu à Antoine en 1832,
+# et reste au fort Robidoux jusqu'en 1836. Ses inscriptions jalonnent les routes du réseau d'Antoine.
+JUL = "Denis Julien, traiteur de Saint-Louis lié au poste des Reed sur l'Uinta (vendu à Antoine Robidoux en 1832), reste au fort Robidoux jusqu'en 1836."
+L('L146', "Hay Canyon : « D Julien, 1830 »", -109.33, 39.42, '1830', 'annee', 'hypothetique', 'antoine',
+  f"{JUL} Dans le Hay Canyon des Book Cliffs, sur la vieille piste des trappeurs qui relie la Grand Valley au bassin de l'Uinta, il grave « D Julien, 1830 » : la plus ancienne de ses inscriptions connues, sur le chemin même qu'Antoine prend en 1837 par Westwater. Signalée par Steve Allen en 2009.",
+  f"{ADV} ; {KNB}.",
+  "Emplacement exact non publié : point placé dans le Hay Canyon, sur la route de Westwater au Willow Creek.")
+L('L147', "Rivière Uinta : « Denis Julien 1831 »", -109.90, 40.33, '1831', 'annee', 'hypothetique', 'antoine',
+  f"{JUL} Sur une corniche de grès de la rive de l'Uinta, à une dizaine de milles en aval de l'ancien poste des Reed, il grave « Denis Julien 1831 ». Charles Kelly la photographie en 1931, près du confluent de l'Uinta et de la Duchesne.",
+  f"{KNI} ; {JWK}.",
+  "Point approximatif entre le site du fort Uintah et le confluent de la Duchesne.")
+L('L148', "Hell Roaring Canyon : le bateau à voile de Julien", -109.98389, 38.56361, '1836-05-03', 'jour', 'approximative', 'antoine',
+  f"{JUL} Le 3 mai 1836, au-dessus de l'embouchure du Hell Roaring Canyon (Green River), il grave « D. Julien, 1836, 3 Mai » avec le dessin d'un bateau à mât : la preuve qu'il remontait la Green à la voile, mode de transport qu'aucun autre document ne mentionne. À environ cinq milles au nord du parc de Canyonlands.",
+  f"{NRH}, n° 91000617 (1991) ; {KNI} ; {ADV}.",
+  "Coordonnées de la fiche NRHP, souvent arrondies pour protéger les sites.")
+L('L149', "Labyrinth Canyon : « D. Julien 16 Mai 1836 »", -110.08, 38.73, '1836-05-16', 'jour', 'hypothetique', 'antoine',
+  f"{JUL} Treize jours après Hell Roaring, plus en amont dans le Labyrinth Canyon, entre les canyons Hey Joe et Spring, il grave « D. Julien 16 Mai 1836 », encore bien conservée.",
+  f"{ADV}.",
+  "Emplacement exact non publié : point placé dans le Labyrinth Canyon, entre Hey Joe et Spring Canyon.")
+L('L150', "Lower Red Lake Canyon : « Denis Julien, 1836 »", -109.92556, 38.15444, '1836', 'annee', 'approximative', 'antoine',
+  f"{JUL} Sur la rive est du Colorado, sous l'embouchure du Lower Red Lake Canyon (Cataract Canyon, parc de Canyonlands), un « Denis Julien, 1836 » est taillé haut au-dessus de la rivière, sur un bloc qui porte aussi des pétroglyphes. Son authenticité est discutée.",
+  f"{NRH}, n° 88001248 (1988) ; {JWK} ; {ADV}.",
+  "Coordonnées NRHP, souvent arrondies. Attribution contestée.")
+L('L151', "Bas du Cataract Canyon : l'inscription noyée", -110.25, 37.97, '1836', 'annee', 'hypothetique', 'antoine',
+  f"{JUL} Une autre inscription de 1836, dans le bas du Cataract Canyon, a été retrouvée par Otis R. Marston en 1964, peu avant que le réservoir du barrage de Glen Canyon (lac Powell) ne la recouvre.",
+  f"{JWK}.",
+  "Aujourd'hui sous les eaux du lac Powell ; point très approximatif.")
+L('L152', "Whirlpool Canyon : « DJ 1838 »", -109.01528, 40.54528, '1838', 'annee', 'approximative', 'antoine',
+  f"{JUL} En 1838, deux ans après avoir quitté le fort, il laisse ses initiales et l'année, « DJ 1838 », sur la Green, quelques milles en aval d'Echo Park (Dinosaur National Monument, Colorado), près de la frontière de l'Utah.",
+  f"{NRH}, n° 86003395 (1986) ; {ADV}.",
+  "Coordonnées NRHP, souvent arrondies.")
+L('L153', "Arches : « Denis Julien, 1844 »", -109.65, 38.82306, '1844-06-09', 'jour', 'approximative', 'antoine',
+  f"{JUL} Le 9 juin 1844, l'année où Antoine perd le fort Uintah, un « Denis Julien » est gravé au pied d'une lame de grès du Devils Garden (parc des Arches), à plus de quinze milles de la rivière la plus proche. Découverte par Jim Stiles en 1977, l'inscription est discutée, mais son écriture concorde avec deux signatures de Julien sur des documents.",
+  f"{NRH}, n° 88001184 (1988) ; {JWK} ; {ADV}.",
+  "Coordonnées NRHP, souvent arrondies. Attribution discutée.")
+L('L154', "Desolation Canyon : les initiales « DJ »", -110.05, 39.78, '1831/1844', 'annee', 'hypothetique', 'antoine',
+  f"{JUL} Sur un gros bloc à l'embouchure du Chandler Creek, dans le Desolation Canyon de la Green, les initiales « DJ » lui sont attribuées, sans date.",
+  f"{JWK}.",
+  "Inscription non datée, attribuée sur les seules initiales ; dates encadrées par les autres inscriptions de Julien ; point approximatif.")
 
 EXTRA = {
   'L128': [{"src": "images/documents/clark-1827-07-23-licence-antoine-robidoux-and-company.jpg", "legende": "Licence de William Clark à « Antoine Robidoux and Company », Saint-Louis, 23 juillet 1827 (dossier de l'auteur)"}],

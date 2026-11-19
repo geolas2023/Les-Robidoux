@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Les inscriptions — Atlas Robidoux</title>
+<meta name="author" content="Olivier J. Caron, Département de géographie, UQAM">
+<link rel="icon" href="images/coureur-des-bois.svg" type="image/svg+xml">
+<link rel="stylesheet" href="https://unpkg.com/maplibre-gl@5/dist/maplibre-gl.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&family=IM+Fell+English+SC&display=swap">
+<style>
+* { box-sizing: border-box; }
+html, body { margin: 0; font-family: Georgia, "Times New Roman", serif; color: #2b2620; background: #f4efe6; }
+.barre { display: flex; align-items: center; gap: 1rem; padding: .5rem 1rem; background: #3b3328; color: #f4efe6; flex-wrap: wrap; position: sticky; top: 0; z-index: 10; }
+.barre img { height: 40px; }
+.barre h1 { font-family: "IM Fell English", Georgia, serif; font-size: 1.25rem; margin: 0; font-weight: normal; letter-spacing: .02em; }
+.barre h1 span { opacity: .7; }
+.barre a { color: #f0d9a8; font-size: .9rem; }
+.barre .esp { flex: 1; }
+main { max-width: 72rem; margin: 0 auto; padding: 1.2rem 1.4rem 3rem; }
+h2 { font-family: "IM Fell English", Georgia, serif; font-weight: normal; font-size: 1.7rem; margin: 1.6rem 0 .4rem; }
+h2:first-child { margin-top: .4rem; }
+h3 { font-family: "IM Fell English SC", Georgia, serif; font-weight: normal; font-size: 1.15rem; margin: 0 0 .2rem; }
+p { line-height: 1.6; }
+.chapo { font-size: 1.08rem; font-style: italic; border-left: 3px solid #c8903e; padding: .2rem 0 .2rem .9rem; max-width: 56rem; }
+.chiffres { display: flex; gap: 2rem; flex-wrap: wrap; margin: 1rem 0; }
+.chiffres div { font-size: .85rem; color: #6b604f; }
+.chiffres b { display: block; font-size: 1.7rem; color: #3b3328; font-family: "IM Fell English", Georgia, serif; font-weight: normal; }
+#carte { height: 520px; border: 1px solid #c9bba3; box-shadow: 0 2px 8px rgba(0,0,0,.12); background: #e8e0cf; }
+.legende { display: flex; gap: 1.2rem; flex-wrap: wrap; font-size: .85rem; color: #4d4436; margin: .5rem 0 0; align-items: center; }
+.legende i { display: inline-block; width: 12px; height: 12px; border-radius: 50%; vertical-align: -1px; margin-right: .3rem; border: 2px solid; }
+.i-rob { background: #9a3322; border-color: #9a3322; }
+.i-louis { background: #7a4f1d; border-color: #7a4f1d; }
+.i-jul { background: #2f4d63; border-color: #2f4d63; }
+.i-approx { background: #f4efe6; border-color: #6b604f; }
+.fiches { display: grid; gap: 1rem; margin-top: 1rem; }
+.fiche { display: grid; grid-template-columns: 180px 1fr; gap: 1.1rem; background: #fffdf8; border: 1px solid #e0d5c2; padding: .9rem 1rem; scroll-margin-top: 70px; }
+.fiche.sans-image { grid-template-columns: 1fr; }
+.fiche.active { outline: 2px solid #c8903e; }
+.fiche img { width: 100%; border: 1px solid #c9bba3; cursor: zoom-in; display: block; margin-bottom: .4rem; }
+.fiche .date { font-size: .85rem; color: #6b604f; display: flex; gap: .5rem; flex-wrap: wrap; align-items: center; }
+.badge { font-size: .7rem; padding: .05rem .4rem; border-radius: 3px; background: #e6dccb; white-space: nowrap; }
+.b-certaine { background: #cfe3c8; } .b-approximative { background: #f3e3c3; } .b-hypothetique { background: #e8d3cf; }
+.fiche .texte { margin: .35rem 0; line-height: 1.55; }
+.fiche .note { font-size: .85rem; background: #efe9dd; border-left: 3px solid #c8903e; padding: .35rem .6rem; }
+.fiche .src { font-size: .8rem; color: #6b604f; margin-top: .4rem; }
+p.photos { font-size: .85rem; margin: .5rem 0 .1rem; color: #4d4436; }
+ul.photos { font-size: .85rem; margin: 0 0 .3rem; padding-left: 1.2rem; line-height: 1.5; }
+ul.photos a { color: #2f4d63; }
+.fiche .actions { margin-top: .4rem; font-size: .85rem; display: flex; gap: .8rem; flex-wrap: wrap; }
+.fiche .actions a { color: #7a4f1d; }
+.encart { background: #efe9dd; border-left: 3px solid #c8903e; padding: .6rem .9rem; max-width: 60rem; }
+ul.biblio { line-height: 1.55; padding-left: 1.2rem; }
+ul.biblio li { margin-bottom: .3rem; }
+table { border-collapse: collapse; width: 100%; font-size: .9rem; background: #fffdf8; }
+th, td { border-bottom: 1px solid #e0d5c2; padding: .35rem .5rem; text-align: left; vertical-align: top; }
+th { background: #e6dccb; font-weight: normal; font-family: "IM Fell English SC", Georgia, serif; }
+.lightbox { position: fixed; inset: 0; z-index: 1100; background: rgba(25, 18, 10, .88); display: flex; align-items: center; justify-content: center; padding: 1rem; }
+.lightbox[hidden] { display: none; }
+.lightbox img { max-width: 94vw; max-height: 86vh; background: #fff; border: 4px double #c8b48c; }
+.lightbox figcaption { color: #f1e4c4; font-style: italic; text-align: center; margin-top: .5rem; max-width: 80ch; }
+.lightbox figure { margin: 0; display: flex; flex-direction: column; align-items: center; }
+.lightbox button { position: absolute; top: .6rem; right: .9rem; background: transparent; border: 0; color: #f1e4c4; font-size: 1.6rem; cursor: pointer; }
+.maplibregl-popup-content { font-family: Georgia, serif; font-size: .85rem; background: #fffdf8; }
+footer { font-size: .8rem; color: #6b604f; text-align: center; padding: 1rem; border-top: 1px solid #d6cbb8; }
+@media (max-width: 700px) { .fiche { grid-template-columns: 1fr; } #carte { height: 380px; } }
+</style>
+</head>
+<body>
+<header class="barre">
+  <img src="images/coureur-des-bois-clair.svg" alt="" width="29" height="40">
+  <h1>Atlas Robidoux <span>· Les inscriptions</span></h1>
+  <span class="esp"></span>
+  <a href="index.html">🗺 Carte de l'atlas</a>
+  <a href="salle-de-lecture.html">📜 Salle de lecture</a>
+  <a href="https://geolas2023.github.io/Atlas-Les-Canadiens-Fran-ais-de-l-Ouest/">⚜ Atlas de l'Amérique française</a>
+</header>
+
+<main>
+  <h2>« Passé ici » : les noms gravés dans la pierre</h2>
+  <p class="chapo">Entre 1830 et 1844, sur le plateau du Colorado, quelques traiteurs francophones taillent leur nom et une date dans le grès. Antoine et Louis Robidoux, et Denis Julien, l'homme du fort Uintah, laissent ainsi les seules traces datées de routes qu'aucun journal ne décrit.</p>
+  <div class="chiffres" id="chiffres"></div>
+
+  <div id="carte" aria-label="Carte des inscriptions"></div>
+  <p class="legende">
+    <span><i class="i-rob"></i>Antoine Robidoux</span>
+    <span><i class="i-louis"></i>Louis Robidoux</span>
+    <span><i class="i-jul"></i>Denis Julien</span>
+    <span><i class="i-approx"></i>contour seul : position approximative ou hypothétique</span>
+    <span>— route d'Antoine par Westwater (1837)</span>
+  </p>
+
+  <h2>Pourquoi Julien est dans un atlas des Robidoux</h2>
+  <p>Denis Julien, traiteur créole de Saint-Louis, est associé au poste des frères Reed sur l'Uinta. Antoine Robidoux le rachète en 1832 et bâtit son propre fort juste à côté. Julien y reste jusqu'en 1836. Ses inscriptions suivent les routes du réseau d'Antoine : la vieille piste des trappeurs du Hay Canyon, que prend Antoine en 1837, la vallée de l'Uinta, puis la Green et le Colorado. Les Robidoux, leurs engagés et leurs convois sont forcément passés par ces lieux, ou tout près. En 1933, Charles Kelly suppose qu'Antoine cherchait un nouveau poste sur la Green ou la White à la suite des explorations de Julien.</p>
+
+  <h2>Les inscriptions, de la plus ancienne à la plus récente</h2>
+  <div class="fiches" id="fiches"></div>
+
+  <h2>Inscriptions connues mais non placées sur la carte</h2>
+  <table>
+    <thead><tr><th>Inscription</th><th>Date</th><th>Ce qu'on en sait</th></tr></thead>
+    <tbody>
+      <tr><td>« M. Robidoux, trapper »</td><td>1841</td><td>Planche du dossier familial, attribuée à Michel. Emplacement non précisé ; attribution et lien avec le Pony Express à vérifier (voir la <a href="salle-de-lecture.html">salle de lecture</a>, « Trois frères, trois inscriptions »).</td></tr>
+      <tr><td>Denis Julien</td><td>1832</td><td>Comptée parmi ses huit inscriptions généralement admises ; lieu non publié.</td></tr>
+      <tr><td>Antoine Leroux ; F. R. B. Chalifou</td><td>?</td><td>Photographiées en septembre-octobre 1968 avec celle de Louis Robidoux (Missouri Historical Society, Western Travel Collection, A1734-00001). Deux autres traiteurs francophones de Taos ; emplacements non publiés.</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Pourquoi tant de positions approximatives</h2>
+  <p class="encart">Il n'existe pas de liste publique et géoréférencée de ces inscriptions. Les fiches du Registre national des lieux historiques (NRHP) donnent une localisation cadastrale, souvent marquée « not for publication », et leurs coordonnées publiques sont arrondies pour protéger les sites. Les relevés précis des bureaux de préservation de l'Utah et du Colorado sont réservés aux chercheurs accrédités. Seule l'inscription d'Antoine est placée avec précision ici, d'après le repère de l'auteur, qui tombe dans la section 5 (canton 18 sud, rang 24 est) décrite par Kelly en 1933. Les autres points sont à vérifier.</p>
+
+  <h2>Pour aller plus loin</h2>
+  <ul class="biblio">
+    <li>J. H. Knipmeyer, <i>Butch Cassidy Was Here: Historic Inscriptions of the Colorado Plateau</i>, University of Utah Press, 2002 (fruit d'environ 1 600 photographies d'inscriptions).</li>
+    <li>J. H. Knipmeyer, « The Denis Julien Inscriptions », <i>Utah Historical Quarterly</i>, vol. 64, n° 1, 1996 ; <i>The Life and Times of Denis Julien, Fur Trader</i>, 2018.</li>
+    <li>D. Woodruff, « Utah's Earliest European Inscriptions », <i>Utah Rock Art</i>, vol. XXXI, Utah Rock Art Research Association, 2012.</li>
+    <li>J. W. Nelson, <i>Forgotten Pathfinders Along the North Branch of the Old Spanish Trail, 1650-1850</i>, 2003 (cartes des inscriptions d'Antoine et de Louis, p. 31 et 35).</li>
+    <li>C. Kelly, « Antoine Robidoux », <i>Utah Historical Quarterly</i>, vol. 6, n° 4, 1933, p. 115-116.</li>
+    <li>B. Bartholomew, « Old Antoine Robidoux Left His Mark in Utah », <i>History Blazer</i>, 1996.</li>
+    <li>Fiches NRHP (NPGallery, National Park Service) : Robidoux Inscription n° 82004124 ; Denis Julien n° 86003395, 88001184, 88001248, 91000617.</li>
+  </ul>
+</main>
+
+<footer>Atlas Robidoux · Olivier J. Caron, Département de géographie, UQAM</footer>
+
+<div id="lightbox" class="lightbox" hidden role="dialog" aria-modal="true" aria-label="Photo agrandie">
+  <button type="button" id="lb-fermer" aria-label="Fermer">✕</button>
+  <figure><img id="lb-image" src="" alt=""><figcaption id="lb-legende"></figcaption></figure>
+</div>
+
+<script src="https://unpkg.com/maplibre-gl@5/dist/maplibre-gl.js"></script>
+<script src="js/inscriptions.js?v=1"></script>
+</body>
+</html>

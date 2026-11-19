@@ -1338,8 +1338,8 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
-     -109.16,
-     39.28
+     -109.2874,
+     39.2763
     ]
    },
    "properties": {
@@ -1349,11 +1349,11 @@
     "fin": 1837.8671,
     "date_edtf": "1837-11-13",
     "precision": "jour",
-    "certitude": "approximative",
+    "certitude": "certaine",
     "categorie": "antoine",
     "description": "Sur la paroi de grès de la rive ouest du ruisseau Westwater, à huit kilomètres environ à l'ouest de la frontière Utah-Colorado, Antoine grave : « Antoine Robidoux passé ici le 13 Novembre 1837 pour etablire maison traitte a la Rv. vert ou wiyte ». « Wiyte » se lit Uinta ou White ; le 7 de 1837 pourrait être un 1. L'inscription surmonte un bouclier peint préhistorique et a été criblée de balles.",
     "sources": "R. J. Willoughby, The Brothers Robidoux and the Opening of the American West (2012), p. 126-128 ; C. Kelly, « Antoine Robidoux » [inscription de Westwater], Utah Historical Quarterly, vol. 6, n° 4 (oct. 1933), p. 115-116 ; B. Bartholomew, « Old Antoine Robidoux Left His Mark in Utah », History Blazer (août 1996).",
-    "note": "Charles Kelly, qui la photographie en 1933, la situe près de l'embouchure du canyon de Westwater, au ranch Larsen (section 5, canton 18 sud, rang 24 est, comté de Grand), à 15 milles au nord-ouest de la gare de Westwater : Robidoux campait dans un abri sous roche et grava juste au sud de l'entrée. Point placé en conséquence.",
+    "note": "Charles Kelly, qui la photographie en 1933, la situe près de l'embouchure du canyon de Westwater, au ranch Larsen (section 5, canton 18 sud, rang 24 est, comté de Grand), à 15 milles au nord-ouest de la gare de Westwater : Robidoux campait dans un abri sous roche et grava juste au sud de l'entrée. Point repris du repère de l'auteur (ROBIDOUX.kml), qui tombe dans la section 5 décrite par Kelly et par la fiche NRHP n° 82004124.",
     "type": "lieu",
     "images": [
      {
@@ -3815,6 +3815,231 @@
     "description": "Louis Robidoux, fils de Jules et d'Elizabeth Barada, né à Saint-Joseph le 26 août 1855, débute dans les journaux de son père (Daily Commercial) puis s'installe en 1883 à Kansas City, où il fait fortune dans le commerce des vins puis l'immobilier. Avec sa femme Orral Messmore, il suit les pompiers de Kansas City à l'Exposition universelle de Paris (1900), visite La Havane (1911), Panama (1912), Riverside (1915) et Honolulu (1920). Il meurt le 6 février 1923 au 3518 Wyandotte Street et est inhumé à Morrill (Kansas) ; sa veuve publie l'année suivante le Memorial to the Robidoux Brothers.",
     "sources": "O. M. Robidoux, Memorial to the Robidoux Brothers: A History of the Robidouxs in America (Kansas City, 1924), archive.org memorialtorobido00robi, p. 243-271.",
     "note": "",
+    "type": "lieu",
+    "images": []
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -109.33,
+     39.42
+    ]
+   },
+   "properties": {
+    "id": "L146",
+    "nom": "Hay Canyon : « D Julien, 1830 »",
+    "debut": 1830.5,
+    "fin": 1830.5,
+    "date_edtf": "1830",
+    "precision": "annee",
+    "certitude": "hypothetique",
+    "categorie": "antoine",
+    "description": "Denis Julien, traiteur de Saint-Louis lié au poste des Reed sur l'Uinta (vendu à Antoine Robidoux en 1832), reste au fort Robidoux jusqu'en 1836. Dans le Hay Canyon des Book Cliffs, sur la vieille piste des trappeurs qui relie la Grand Valley au bassin de l'Uinta, il grave « D Julien, 1830 » : la plus ancienne de ses inscriptions connues, sur le chemin même qu'Antoine prend en 1837 par Westwater. Signalée par Steve Allen en 2009.",
+    "sources": "adventr.co, « Denis Julien Inscriptions » (photographies de terrain) ; J. H. Knipmeyer, Butch Cassidy Was Here: Historic Inscriptions of the Colorado Plateau (University of Utah Press, 2002).",
+    "note": "Emplacement exact non publié : point placé dans le Hay Canyon, sur la route de Westwater au Willow Creek.",
+    "type": "lieu",
+    "images": []
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -109.9,
+     40.33
+    ]
+   },
+   "properties": {
+    "id": "L147",
+    "nom": "Rivière Uinta : « Denis Julien 1831 »",
+    "debut": 1831.5,
+    "fin": 1831.5,
+    "date_edtf": "1831",
+    "precision": "annee",
+    "certitude": "hypothetique",
+    "categorie": "antoine",
+    "description": "Denis Julien, traiteur de Saint-Louis lié au poste des Reed sur l'Uinta (vendu à Antoine Robidoux en 1832), reste au fort Robidoux jusqu'en 1836. Sur une corniche de grès de la rive de l'Uinta, à une dizaine de milles en aval de l'ancien poste des Reed, il grave « Denis Julien 1831 ». Charles Kelly la photographie en 1931, près du confluent de l'Uinta et de la Duchesne.",
+    "sources": "J. H. Knipmeyer, « The Denis Julien Inscriptions », Utah Historical Quarterly, vol. 64, n° 1 (1996) ; « Denis Julien », Wikipédia (d'après J. H. Knipmeyer, The Life and Times of Denis Julien, Fur Trader, 2018).",
+    "note": "Point approximatif entre le site du fort Uintah et le confluent de la Duchesne.",
+    "type": "lieu",
+    "images": []
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -109.98389,
+     38.56361
+    ]
+   },
+   "properties": {
+    "id": "L148",
+    "nom": "Hell Roaring Canyon : le bateau à voile de Julien",
+    "debut": 1836.3374,
+    "fin": 1836.3374,
+    "date_edtf": "1836-05-03",
+    "precision": "jour",
+    "certitude": "approximative",
+    "categorie": "antoine",
+    "description": "Denis Julien, traiteur de Saint-Louis lié au poste des Reed sur l'Uinta (vendu à Antoine Robidoux en 1832), reste au fort Robidoux jusqu'en 1836. Le 3 mai 1836, au-dessus de l'embouchure du Hell Roaring Canyon (Green River), il grave « D. Julien, 1836, 3 Mai » avec le dessin d'un bateau à mât : la preuve qu'il remontait la Green à la voile, mode de transport qu'aucun autre document ne mentionne. À environ cinq milles au nord du parc de Canyonlands.",
+    "sources": "National Register of Historic Places, n° 91000617 (1991) ; J. H. Knipmeyer, « The Denis Julien Inscriptions », Utah Historical Quarterly, vol. 64, n° 1 (1996) ; adventr.co, « Denis Julien Inscriptions » (photographies de terrain).",
+    "note": "Coordonnées de la fiche NRHP, souvent arrondies pour protéger les sites.",
+    "type": "lieu",
+    "images": []
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -110.08,
+     38.73
+    ]
+   },
+   "properties": {
+    "id": "L149",
+    "nom": "Labyrinth Canyon : « D. Julien 16 Mai 1836 »",
+    "debut": 1836.373,
+    "fin": 1836.373,
+    "date_edtf": "1836-05-16",
+    "precision": "jour",
+    "certitude": "hypothetique",
+    "categorie": "antoine",
+    "description": "Denis Julien, traiteur de Saint-Louis lié au poste des Reed sur l'Uinta (vendu à Antoine Robidoux en 1832), reste au fort Robidoux jusqu'en 1836. Treize jours après Hell Roaring, plus en amont dans le Labyrinth Canyon, entre les canyons Hey Joe et Spring, il grave « D. Julien 16 Mai 1836 », encore bien conservée.",
+    "sources": "adventr.co, « Denis Julien Inscriptions » (photographies de terrain).",
+    "note": "Emplacement exact non publié : point placé dans le Labyrinth Canyon, entre Hey Joe et Spring Canyon.",
+    "type": "lieu",
+    "images": []
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -109.92556,
+     38.15444
+    ]
+   },
+   "properties": {
+    "id": "L150",
+    "nom": "Lower Red Lake Canyon : « Denis Julien, 1836 »",
+    "debut": 1836.5,
+    "fin": 1836.5,
+    "date_edtf": "1836",
+    "precision": "annee",
+    "certitude": "approximative",
+    "categorie": "antoine",
+    "description": "Denis Julien, traiteur de Saint-Louis lié au poste des Reed sur l'Uinta (vendu à Antoine Robidoux en 1832), reste au fort Robidoux jusqu'en 1836. Sur la rive est du Colorado, sous l'embouchure du Lower Red Lake Canyon (Cataract Canyon, parc de Canyonlands), un « Denis Julien, 1836 » est taillé haut au-dessus de la rivière, sur un bloc qui porte aussi des pétroglyphes. Son authenticité est discutée.",
+    "sources": "National Register of Historic Places, n° 88001248 (1988) ; « Denis Julien », Wikipédia (d'après J. H. Knipmeyer, The Life and Times of Denis Julien, Fur Trader, 2018) ; adventr.co, « Denis Julien Inscriptions » (photographies de terrain).",
+    "note": "Coordonnées NRHP, souvent arrondies. Attribution contestée.",
+    "type": "lieu",
+    "images": []
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -110.25,
+     37.97
+    ]
+   },
+   "properties": {
+    "id": "L151",
+    "nom": "Bas du Cataract Canyon : l'inscription noyée",
+    "debut": 1836.5,
+    "fin": 1836.5,
+    "date_edtf": "1836",
+    "precision": "annee",
+    "certitude": "hypothetique",
+    "categorie": "antoine",
+    "description": "Denis Julien, traiteur de Saint-Louis lié au poste des Reed sur l'Uinta (vendu à Antoine Robidoux en 1832), reste au fort Robidoux jusqu'en 1836. Une autre inscription de 1836, dans le bas du Cataract Canyon, a été retrouvée par Otis R. Marston en 1964, peu avant que le réservoir du barrage de Glen Canyon (lac Powell) ne la recouvre.",
+    "sources": "« Denis Julien », Wikipédia (d'après J. H. Knipmeyer, The Life and Times of Denis Julien, Fur Trader, 2018).",
+    "note": "Aujourd'hui sous les eaux du lac Powell ; point très approximatif.",
+    "type": "lieu",
+    "images": []
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -109.01528,
+     40.54528
+    ]
+   },
+   "properties": {
+    "id": "L152",
+    "nom": "Whirlpool Canyon : « DJ 1838 »",
+    "debut": 1838.5,
+    "fin": 1838.5,
+    "date_edtf": "1838",
+    "precision": "annee",
+    "certitude": "approximative",
+    "categorie": "antoine",
+    "description": "Denis Julien, traiteur de Saint-Louis lié au poste des Reed sur l'Uinta (vendu à Antoine Robidoux en 1832), reste au fort Robidoux jusqu'en 1836. En 1838, deux ans après avoir quitté le fort, il laisse ses initiales et l'année, « DJ 1838 », sur la Green, quelques milles en aval d'Echo Park (Dinosaur National Monument, Colorado), près de la frontière de l'Utah.",
+    "sources": "National Register of Historic Places, n° 86003395 (1986) ; adventr.co, « Denis Julien Inscriptions » (photographies de terrain).",
+    "note": "Coordonnées NRHP, souvent arrondies.",
+    "type": "lieu",
+    "images": []
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -109.65,
+     38.82306
+    ]
+   },
+   "properties": {
+    "id": "L153",
+    "nom": "Arches : « Denis Julien, 1844 »",
+    "debut": 1844.4385,
+    "fin": 1844.4385,
+    "date_edtf": "1844-06-09",
+    "precision": "jour",
+    "certitude": "approximative",
+    "categorie": "antoine",
+    "description": "Denis Julien, traiteur de Saint-Louis lié au poste des Reed sur l'Uinta (vendu à Antoine Robidoux en 1832), reste au fort Robidoux jusqu'en 1836. Le 9 juin 1844, l'année où Antoine perd le fort Uintah, un « Denis Julien » est gravé au pied d'une lame de grès du Devils Garden (parc des Arches), à plus de quinze milles de la rivière la plus proche. Découverte par Jim Stiles en 1977, l'inscription est discutée, mais son écriture concorde avec deux signatures de Julien sur des documents.",
+    "sources": "National Register of Historic Places, n° 88001184 (1988) ; « Denis Julien », Wikipédia (d'après J. H. Knipmeyer, The Life and Times of Denis Julien, Fur Trader, 2018) ; adventr.co, « Denis Julien Inscriptions » (photographies de terrain).",
+    "note": "Coordonnées NRHP, souvent arrondies. Attribution discutée.",
+    "type": "lieu",
+    "images": []
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -110.05,
+     39.78
+    ]
+   },
+   "properties": {
+    "id": "L154",
+    "nom": "Desolation Canyon : les initiales « DJ »",
+    "debut": 1831.5,
+    "fin": 1844.5,
+    "date_edtf": "1831/1844",
+    "precision": "annee",
+    "certitude": "hypothetique",
+    "categorie": "antoine",
+    "description": "Denis Julien, traiteur de Saint-Louis lié au poste des Reed sur l'Uinta (vendu à Antoine Robidoux en 1832), reste au fort Robidoux jusqu'en 1836. Sur un gros bloc à l'embouchure du Chandler Creek, dans le Desolation Canyon de la Green, les initiales « DJ » lui sont attribuées, sans date.",
+    "sources": "« Denis Julien », Wikipédia (d'après J. H. Knipmeyer, The Life and Times of Denis Julien, Fur Trader, 2018).",
+    "note": "Inscription non datée, attribuée sur les seules initiales ; dates encadrées par les autres inscriptions de Julien ; point approximatif.",
     "type": "lieu",
     "images": []
    }
