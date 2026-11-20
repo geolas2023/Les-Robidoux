@@ -5379,6 +5379,31 @@
     "type": "lieu",
     "images": []
    }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -105.573,
+     36.407
+    ]
+   },
+   "properties": {
+    "id": "L176",
+    "nom": "Taos : Antoine repart vers le fort Uintah avec Rufus Sage (7 octobre 1842)",
+    "debut": 1842.765,
+    "fin": 1842.8,
+    "date_edtf": "1842-10-07/1842-10-19",
+    "precision": "jour",
+    "certitude": "certaine",
+    "categorie": "antoine",
+    "description": "Le 7 octobre 1842, Antoine Robidoux quitte Taos pour le fort Uintah avec trois Français, cinq Espagnols et huit mulets chargés de 250 livres chacun ; le voyageur Rufus Sage est du convoi. Le 13 octobre, la caravane franchit la ligne de partage par un col facile au sud de la « Sierra de Anahuac » (monts La Plata) et atteint le fort six jours plus tard. Selon Wallace, elle aurait suivi une seconde piste, par la Dolores, sans passer par le fort Uncompahgre.",
+    "sources": "W. S. Wallace, « Antoine Robidoux », dans Hafen (dir.), French Fur Traders and Voyageurs in the American West (1995), p. 276-277, d'après Rufus B. Sage, Rocky Mountain Life (1846).",
+    "note": "Position à Taos, point de départ ; le col du 13 octobre est au sud des monts La Plata (Colorado).",
+    "type": "lieu",
+    "images": []
+   }
   }
  ]
 }
