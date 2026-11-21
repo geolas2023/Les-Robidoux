@@ -1947,7 +1947,12 @@
     "sources": "Fort Lewis College, Prospectus on Traditional Cultural Properties on the San Juan (Center of Southwest Studies) ; Descendants of Johannes Stollsteimer, généalogie (2025), notice d'Amanda Maria Barada ; A. Oldham, « Stollsteimer Chronik » (2000), d'après le journal de Christian F. Stollsteimer, pages photographiées dans le dossier de l'auteur, p. 52-53 ; I. Montroy, « Colonel C. T. Stollsteimer », d'après les souvenirs de Harry Stollsteimer (pages photographiées dans le dossier de l'auteur), p. 57.",
     "note": "Emplacement du lieu-dit Francé approximatif.",
     "type": "lieu",
-    "images": []
+    "images": [
+     {
+      "src": "images/documents/1896-07-06-homestead-christian-stollsteimer.jpg",
+      "legende": "Titre de homestead de Christian F. Stollsteimer pour cent soixante acres, demande déposée au bureau des terres de Durango, donné à Washington le 6 juillet 1896 sous la présidence de Grover Cleveland ; reproduit par A. Oldham, « Stollsteimer Chronik », p. 53 (dossier de l'auteur)"
+     }
+    ]
    }
   },
   {
@@ -3351,6 +3356,10 @@
      {
       "src": "images/photos/amanda-barada-stollsteimer-portrait.jpg",
       "legende": "Amanda Marie Barada (née à Saint-Joseph le 26 juin 1852), petite-fille adoptive d'Antoine et de Carmel ; portrait reproduit par A. Oldham, « Stollsteimer Chronik » (dossier de l'auteur)"
+     },
+     {
+      "src": "images/documents/1867-04-21-santa-fe-mariage-stollsteimer-barada.jpg",
+      "legende": "Acte de mariage de Christian Federico Stollsteimer et d'Amanda Barada, Santa Fe, 21 avril 1867, en espagnol, signé Eguillon, curé ; reproduit par A. Oldham, « Stollsteimer Chronik », p. 50 (dossier de l'auteur)"
      }
     ]
    }
@@ -3406,6 +3415,10 @@
      {
       "src": "images/photos/christian-f-stollsteimer-portrait.jpg",
       "legende": "Christian Friedrich Stollsteimer (1842-1906), agent des Utes du Sud ; portrait reproduit par A. Oldham, « Stollsteimer Chronik » (dossier de l'auteur)"
+     },
+     {
+      "src": "images/documents/1885-01-commission-stollsteimer-agent-utes-du-sud.jpg",
+      "legende": "Commission de C. F. Stollsteimer, de Durango, comme agent des Indiens de l'agence des Utes du Sud, au Colorado, signée Chester A. Arthur, Washington, janvier 1885 ; reproduite par A. Oldham, « Stollsteimer Chronik », p. 51 (dossier de l'auteur)"
      }
     ]
    }
